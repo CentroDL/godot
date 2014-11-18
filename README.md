@@ -42,7 +42,8 @@ In order to submit your homework to this repo and share it with your instruction
 
 | Date | Day of Week | Event |
 |:----:|:-----------:|:------|
-| **November 25** | Tuesday | **Orientation**, at 6:00-10:00pm in the 10 E 21st St. 3rd Floor Concourse |
+| **November 25** | Tuesday | **Orientation**, 6:00-10:00pm at:<br>10 E 21st St. 3rd Floor Concourse |
+| **December 1**  | Monday  | First day of class! |
 
 - **November 25** (Tuesday): Installfest/Orientation
   - 6:00-10:00pm, 10 E 21st St, 3rd Floor Concourse
