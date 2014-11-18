@@ -25,7 +25,7 @@ In order to submit your homework to this repo and share it with your instruction
 |------------------------|--------------------|:-------------:|:-------------:|:------:|
 | **Instructor**         | Phil Lamplugh      | @philco       | [philco@ga.co](mailto:philco@ga.co) | [phlco](https://github.com/phlco) (**no i!**) |
 | **Instructor**         | PJ Hughes          | @pj           | pj@ga.co      | [h4w5](https://github.com/h4w5) |
-| **Jr. Instructor**     | Travis Vander Hoop | @trav         | travis@ga.co  | [vanderhoop](https://github.com/vanderhoop) |
+| **Instructor**     | Travis Vander Hoop | @trav         | travis@ga.co  | [vanderhoop](https://github.com/vanderhoop) |
 | **Producer**           | Sarah Maibach      | @sarahmaibach | maibach@ga.co | *n/a* |
 | **Teaching Assistant** | *Unknown*          | *n/a*         | *n/a*         | *n/a* |
 
