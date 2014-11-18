@@ -45,4 +45,4 @@ In order to submit your homework to this repo and share it with your instruction
 
 see each week for a more thorough syllabus...
 
-## Classroom Code of Conduct <a link="coc"></a>
+## Classroom Code of Conduct <a id="coc"></a>
