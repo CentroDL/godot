@@ -26,7 +26,7 @@ In order to submit your homework to this repo and share it with your instruction
 
 | Role                   | Name               | HipChat       | Email         | GitHub |
 |------------------------|--------------------|:-------------:|:-------------:|:------:|
-| **Instructor**         | Phil Lamplugh      | @philco       | philco@ga.co  | [phlco](https://github.com/phlco) (**no i!**) |
+| **Instructor**         | Phil Lamplugh      | @philco       | philco@ga.co  | [phlco](https://github.com/phlco) (**no 'i'!**) |
 | **Instructor**         | PJ Hughes          | @pj           | pj@ga.co      | [h4w5](https://github.com/h4w5) |
 | **Instructor**         | Travis Vander Hoop | @trav         | travis@ga.co  | [vanderhoop](https://github.com/vanderhoop) |
 | **Producer**           | Sarah Maibach      | @sarahmaibach | maibach@ga.co | *n/a* |
@@ -39,6 +39,10 @@ In order to submit your homework to this repo and share it with your instruction
 | TBD | @tbd | tbd@roadrunner.cc.net | [GHName](https:://github.com/GHName) |
 
 ## Important Dates
+
+| Date | Day of Week | Event |
+|:----:|:-----------:|:------|
+| **November 25** | Tuesday | **Orientation**, at 6:00-10:00pm in the 10 E 21st St. 3rd Floor Concourse |
 
 - **November 25** (Tuesday): Installfest/Orientation
   - 6:00-10:00pm, 10 E 21st St, 3rd Floor Concourse
