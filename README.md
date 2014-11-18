@@ -10,10 +10,10 @@ In order to submit your homework to this repo and share it with your instruction
 
 ## Contents
 
-1. [**Contact Information**](contact-information)
-2. [**Important Dates**](important-dates)
-3. [**Course Outline**](course-outline)
-4. [**Classroom Code of Conduct**](coc)
+1. [**Contact Information**](#contact-information)
+2. [**Important Dates**](#important-dates)
+3. [**Course Outline**](#course-outline)
+4. [**Classroom Code of Conduct**](#coc)
 
 <br>
 
