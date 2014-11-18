@@ -2,7 +2,7 @@
 ![](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 </center>
 
-# WDI Godot.
+# WDI Godot
 
 Welcome to the WDI December 2014 (aka **Godot**) class repository. Here is where we will store the information you need as students. This includes important links and readings, in-class examples, prompts and solutions for exercises, labs, homework and projects.
 
@@ -78,4 +78,4 @@ Keep in mind, this is tentative. **We may (and shall) change topics and dates as
 
 ## Classroom Code of Conduct <a id="coc"></a>
 
-link and discuss
+(TODO) link and discuss
