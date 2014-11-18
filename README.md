@@ -4,7 +4,7 @@
 
 # WDI Godot
 
-Welcome to WDI December 2014 (aka **Godot**) class repository. Here is where we will store, in a central place, the information you need as students: important links and readings, in-class examples, prompts and solutions for exercises, labs, homework and projects. It's all yours!
+Welcome to the WDI December 2014 (aka **Godot**) class repository. Here is where we will store the information you need as students. This includes important links and readings, in-class examples, prompts and solutions for exercises, labs, homework and projects.
 
 In order to submit your homework to this repo and share it with your instructional team and classmates, please follow the **[Homework Submission Process](homework_submission_process.md)**.
 
