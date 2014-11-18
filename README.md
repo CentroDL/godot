@@ -42,20 +42,17 @@ In order to submit your homework to this repo and share it with your instruction
 
 | Date | Day of Week | Event |
 |:----:|:-----------:|:------|
-| **November 25** | Tuesday | **Orientation**, 6:00-10:00pm at:<br>10 E 21st St. 3rd Floor Concourse |
+| **November 25** | Tuesday | **Orientation**, 6:00-10:00pm at the<br>10 E 21st St. 3rd Floor Concourse |
 | **December 1**  | Monday  | First day of class! |
+| **December 19** | Friday | Last day of class before Winter Break |
+| **January 5** | Monday | First day of class after Winter Break |
+| **January 19** | Monday | **Martin Luther King Day, no class** |
+| **January 30** | Friday | Full Day Lab |
+| **February 16** | Monday | **Presidents Day, no class** |
+| **February 27** | Friday | Full Day Lab |
+| **March 10** | Tuesday | **Last day of class & graduation!** |
 
-- **November 25** (Tuesday): Installfest/Orientation
-  - 6:00-10:00pm, 10 E 21st St, 3rd Floor Concourse
-- **December 1** (Monday): First day of class!
-- **December 19** (Friday): Last day of class before Winter Break
-- **January 5** (Monday): First day of class after Winter Break
-- **January 19** (Monday): Martin Luther King Day, no class
-- **January 30** (Friday): Full Day Lab
-- **February 16** (Monday): Presidents Day, no class
-- **February 27** (Friday): Full Day Lab
-- **March 10** (Tuesday): Last day of class & graduation!
-  - In the weeks following your graduation, there will be a number of various job search preparation tutorials and hiring events, with dates TBD.
+Note: in the weeks following your graduation, there will be a number of various job search preparation tutorials and hiring events, with dates TBD.
 
 ## Course Outline
 
