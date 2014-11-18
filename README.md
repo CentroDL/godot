@@ -10,12 +10,16 @@ In order to submit your homework to this repo and share it with your instruction
 
 ## Contents
 
-1. [**Contact Information**]()
-2. [**Important Dates**]()
-3. [**Course Outline**]()
-4. [****]()
+1. [**Contact Information**](contact-information)
+2. [**Important Dates**](important-dates)
+3. [**Course Outline**](course-outline)
+4. [**Classroom Code of Conduct**](coc)
+
+<br>
 
 ---
+
+<br>
 
 ## Contact Information
 
@@ -23,9 +27,9 @@ In order to submit your homework to this repo and share it with your instruction
 
 | Role                   | Name               | HipChat       | Email         | GitHub |
 |------------------------|--------------------|:-------------:|:-------------:|:------:|
-| **Instructor**         | Phil Lamplugh      | @philco       | [philco@ga.co](mailto:philco@ga.co) | [phlco](https://github.com/phlco) (**no i!**) |
+| **Instructor**         | Phil Lamplugh      | @philco       | philco@ga.co  | [phlco](https://github.com/phlco) (**no i!**) |
 | **Instructor**         | PJ Hughes          | @pj           | pj@ga.co      | [h4w5](https://github.com/h4w5) |
-| **Jr. Instructor**     | Travis Vander Hoop | @trav         | travis@ga.co  | [vanderhoop](https://github.com/vanderhoop) |
+| **Instructor**         | Travis Vander Hoop | @trav         | travis@ga.co  | [vanderhoop](https://github.com/vanderhoop) |
 | **Producer**           | Sarah Maibach      | @sarahmaibach | maibach@ga.co | *n/a* |
 | **Teaching Assistant** | *Unknown*          | *n/a*         | *n/a*         | *n/a* |
 
@@ -35,4 +39,10 @@ In order to submit your homework to this repo and share it with your instruction
 |--------------------|:-------------:|:-------------:|:------:|
 | TBD | @tbd | tbd@roadrunner.cc.net | [GHName](https:://github.com/GHName) |
 
-## Class Syllabus Outline
+## Important Dates
+
+## Course Outline
+
+see each week for a more thorough syllabus...
+
+## Classroom Code of Conduct <a link="coc"></a>
