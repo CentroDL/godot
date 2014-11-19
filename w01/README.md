@@ -10,13 +10,14 @@
 
 | Monday | Tuesday | Wednesday | Thursday | Friday |
 |:------ |:------- |:--------- |:-------- |:------ |
-| Course Intro<br>Using Bash<br>Data Types & Variables | Git<br>Strings<br>Loops & Conditionals       | Data Structures<br>GitHub & Markdown   | Loading Code & Libraries<br>Methods | Debugging Code<br>Assessment & Lab |
+| Course Intro<br>Using Bash<br>Data Types & Variables | Git & GitHub<br>Strings<br>Loops & Conditionals | Data Structures | Loading Code & Libraries<br>Methods | Debugging Code<br>Assessment & Lab |
 
 ### Supplemental Materials
 
 * [Chris Pine's Learn to Program, Chapters 1-8](http://pine.fm/LearnToProgram/). Also can be found [here](http://it-ebooks.info/book/36/) if the link is broken...
 * [Why's Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/)
 * [The Pickaxe Book](http://ruby-doc.com/docs/ProgrammingRuby/)
+- Pro Git
 
 ### What are we doing [next week](/w02/README.md)?
 
