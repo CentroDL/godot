@@ -1,4 +1,4 @@
-# Week 1 - Introduction to Programming
+# Week 2 - Object-Oriented Programming
 
 ### What did we do last week?
 

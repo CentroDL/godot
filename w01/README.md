@@ -18,7 +18,7 @@
 * [Why's Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/)
 * [The Pickaxe Book](http://ruby-doc.com/docs/ProgrammingRuby/)
 
-### What are we doing [next week](w02/README.md)?
+### What are we doing [next week](/w02/README.md)?
 
 - **Object-Oriented Programming**: We are going to write our programs in an object-oriented way, with Ruby's robust "[object model](http://www.hokstad.com/ruby-object-model)" of Objects, Classes, Modules, Inheritance and Composition.
 - **Behavior-Driven Development**: We will describe the conceptual foundation of object-oriented programming (encapsulation, interfaces, and messages), and introduce ourselves to the concept of behavior-driven development (designing our software by defining interfaces first).
