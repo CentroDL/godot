@@ -49,6 +49,7 @@ In order to submit your homework to this repo and share it with your instruction
 | **January 19** | Monday | **Martin Luther King Day, no class** |
 | **January 30** | Friday | Full Day Lab |
 | **February 16** | Monday | **Presidents Day, no class** |
+| **February 17 - 20** | Tuesday &ndash; Friday | (Likely) Group Project Sprint: **do not miss as your team depends upon you!** |
 | **February 27** | Friday | Full Day Lab |
 | **March 10** | Tuesday | **Last day of class & graduation!** |
 
