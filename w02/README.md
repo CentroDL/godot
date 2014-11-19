@@ -17,6 +17,6 @@
 * [Chris Pine's Learn to Program, Chapters 9-11](http://pine.fm/LearnToProgram/). Also can be found [here](http://it-ebooks.info/book/36/) if the link is broken...
 * [The Ruby Object Model](http://www.hokstad.com/ruby-object-model)
 
-### What are we doing [next week](w03/README.md)?
+### What are we doing [next week](/w03/README.md)?
 
 -

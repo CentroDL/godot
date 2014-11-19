@@ -34,11 +34,25 @@ In order to submit your homework to this repo and share it with your instruction
 
 ### Class
 
-**Insert class listserv here...**
+If you want to email the entire class and the instructional team, please use: **wdi-nyc-december2014@ga-groups.com**, our Google Group (or listserv)!
 
 | Name               | HipChat       | Email         | GitHub |
 |--------------------|:-------------:|:-------------:|:------:|
-| TBD | @tbd | tbd@roadrunner.cc.net | [GHName](https:://github.com/GHName) |
+| Aliya Scribner     | @tbd | aliya.scribner@gmail.com | [GHName](https:://github.com/GHName) |
+| Andres Valencia    | @tbd | andresv2@mac.com | [GHName](https:://github.com/GHName) |
+| Angelina Bethoney  | @tbd | ambethoney@yahoo.com | [GHName](https:://github.com/GHName) |
+| Audrey Wong        | @tbd | audreydotwong@gmail.com | [GHName](https:://github.com/GHName) |
+| Dain Carver        | @tbd | carver403@gmail.com | [GHName](https:://github.com/GHName) |
+| Dana DeFilippo     | @tbd | dana.defilippo@gmail.com | [GHName](https:://github.com/GHName) |
+| Jerry Torrens      | @tbd | jerrytorrens@gmail.com | [GHName](https:://github.com/GHName) |
+| Kristen MacFarlane | @tbd | krismacfarlane@gmail.com | [GHName](https:://github.com/GHName) |
+| Melodie Malfa      | @tbd | melmalfa@gmail.com | [GHName](https:://github.com/GHName) |
+| Michael Campbell   | @tbd | mccool322@aol.com | [GHName](https:://github.com/GHName) |
+| Paul Clairmont     | @tbd | pcac25@gmail.com | [GHName](https:://github.com/GHName) |
+| Simons Chase       | @tbd | simons.chase@gmail.com | [GHName](https:://github.com/GHName) |
+| Sneha Shah         | @tbd | sssnehshah24@gmail.com | [GHName](https:://github.com/GHName) |
+| Zohra Asrar        | @tbd | zasrar@gmail.com | [GHName](https:://github.com/GHName) |
+
 
 ## Important Dates
 
@@ -65,10 +79,10 @@ Keep in mind, this is tentative. **We may (and shall) change topics and dates as
 
 | Week(s) | Dates | Module |
 |:-------:|:-----:|:-------|
-| **[Week 1](w01/README.md)** | 12/1 &ndash; 12/5   | Our Development Environment<br>Introduction to Programming (Ruby)<br>Version Control with Git and GitHub |
-| **[Week 2](w02/README.md)** | 12/8 &ndash; 12/12  | Object-Oriented Programming (Ruby)<br>Behavior-Driven Development<br>Persistent Stores (Redis) |
-| **[Week 3](w03/README.md)** | 12/15 &ndash; 12/19 | Understanding Networking (HTTP)<br>Introduction to the Web as an Application Platform (Sinatra) |
-| ([Winter Break](winter_break_module/README.md)) | 12/22 &ndash; 1/2 | (Self-Guided) Building Web Pages with HTML & CSS |
+| **[Week 1](/w01/README.md)** | 12/1 &ndash; 12/5   | Our Development Environment<br>Introduction to Programming (Ruby)<br>Version Control with Git and GitHub |
+| **[Week 2](/w02/README.md)** | 12/8 &ndash; 12/12  | Object-Oriented Programming (Ruby)<br>Behavior-Driven Development<br>Persistent Stores (Redis) |
+| **[Week 3](/w03/README.md)** | 12/15 &ndash; 12/19 | Understanding Networking (HTTP)<br>Introduction to the Web as an Application Platform (Sinatra) |
+| ([Winter Break](/winter_break_module/README.md)) | 12/22 &ndash; 1/2 | (Self-Guided) Building Web Pages with HTML & CSS |
 | **Week 4** | 1/5 &ndash; 1/9     | Programming in the Browser Environment (JavaScript)|
 | **Week 5** | 1/12 &ndash; 1/16   | Using JavaScript Libraries<br>jQuery |
 | **Week 6** | 1/20 &ndash; 1/23   | The Application Development Process<br>*First Project Sprint* |
