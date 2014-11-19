@@ -10,8 +10,7 @@
 
 | Monday | Tuesday | Wednesday | Thursday | Friday |
 |:------ |:------- |:--------- |:-------- |:------ |
-| Course Intro<br>Using Bash<br>Data Types & Variables | Git<br>Strings<br>Loops & Conditionals       | Data Structures<br>GitHub & Markdown   | Loading Code<br>Methods | Debugging Code |
-|      |  |  |       | Assessment & Lab |
+| Course Intro<br>Using Bash<br>Data Types & Variables | Git<br>Strings<br>Loops & Conditionals       | Data Structures<br>GitHub & Markdown   | Loading Code & Libraries<br>Methods | Debugging Code<br>Assessment & Lab |
 
 ### Supplemental Materials
 
