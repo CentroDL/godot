@@ -26,39 +26,43 @@ In order to submit your homework to this repo and share it with your instruction
 
 | Role                   | Name               | HipChat       | Email         | GitHub |
 |------------------------|--------------------|:-------------:|:-------------:|:------:|
-| **Instructor**         | Phil Lamplugh      | @philco       | philco@ga.co  | [phlco](https://github.com/phlco) (**no 'i'!**) |
-| **Instructor**         | PJ Hughes          | @pj           | pj@ga.co      | [h4w5](https://github.com/h4w5) |
-| **Instructor**         | Travis Vander Hoop | @trav         | travis@ga.co  | [vanderhoop](https://github.com/vanderhoop) |
 | **Course Producer**    | Sarah Maibach      | @sarahmaibach | maibach@ga.co | *n/a* |
+| **Instructor**         | Phil Lamplugh      | @philco       | philco@ga.co  | [phlco][phlco] (**no 'i'!**) |
+| **Instructor**         | PJ Hughes          | @pj           | pj@ga.co      | [h4w5][h4w5] |
+| **Instructor**         | Travis Vander Hoop | @trav         | travis@ga.co  | [vanderhoop][van] |
 | **Evening TA**         | *Unknown*          | *n/a*         | *n/a*         | *n/a* |
+
+[phlco]: https://github.com/phlco      "Phil's GitHub link"
+[h4w5]:  https://github.com/h4w5       "PJ's GitHub link"
+[van]:   https://github.com/vanderhoop "Travis's GitHub link"
 
 ### Class
 
 If you want to email the entire class and the instructional team, please use: **wdi-nyc-december2014@ga-groups.com**, our Google Group (or listserv)!
 
-| Name               | HipChat       | Email         | GitHub |
-|--------------------|:-------------:|:-------------:|:------:|
+| Name               | HipChat       | Email           | GitHub |
+|--------------------|:-------------:|:---------------:|:------:|
 | Aliya Scribner     | @tbd | aliya.scribner@gmail.com | [GHName](https:://github.com/GHName) |
-| Andres Valencia    | @tbd | andresv2@mac.com | [GHName](https:://github.com/GHName) |
-| Angelina Bethoney  | @tbd | ambethoney@yahoo.com | [GHName](https:://github.com/GHName) |
-| Audrey Wong        | @tbd | audreydotwong@gmail.com | [GHName](https:://github.com/GHName) |
-| Dain Carver        | @tbd | carver403@gmail.com | [GHName](https:://github.com/GHName) |
+| Andres Valencia    | @tbd | andresv2@mac.com         | [GHName](https:://github.com/GHName) |
+| Angelina Bethoney  | @tbd | ambethoney@yahoo.com     | [GHName](https:://github.com/GHName) |
+| Audrey Wong        | @tbd | audreydotwong@gmail.com  | [GHName](https:://github.com/GHName) |
+| Dain Carver        | @tbd | carver403@gmail.com      | [GHName](https:://github.com/GHName) |
 | Dana DeFilippo     | @tbd | dana.defilippo@gmail.com | [GHName](https:://github.com/GHName) |
-| Jerry Torrens      | @tbd | jerrytorrens@gmail.com | [GHName](https:://github.com/GHName) |
+| Jerry Torrens      | @tbd | jerrytorrens@gmail.com   | [GHName](https:://github.com/GHName) |
 | Kristen MacFarlane | @tbd | krismacfarlane@gmail.com | [GHName](https:://github.com/GHName) |
-| Melodie Malfa      | @tbd | melmalfa@gmail.com | [GHName](https:://github.com/GHName) |
-| Michael Campbell   | @tbd | mccool322@aol.com | [GHName](https:://github.com/GHName) |
-| Paul Clairmont     | @tbd | pcac25@gmail.com | [GHName](https:://github.com/GHName) |
-| Simons Chase       | @tbd | simons.chase@gmail.com | [GHName](https:://github.com/GHName) |
-| Sneha Shah         | @tbd | sssnehshah24@gmail.com | [GHName](https:://github.com/GHName) |
-| Zohra Asrar        | @tbd | zasrar@gmail.com | [GHName](https:://github.com/GHName) |
+| Melodie Malfa      | @tbd | melmalfa@gmail.com       | [GHName](https:://github.com/GHName) |
+| Michael Campbell   | @tbd | mccool322@aol.com        | [GHName](https:://github.com/GHName) |
+| Paul Clairmont     | @tbd | pcac25@gmail.com         | [GHName](https:://github.com/GHName) |
+| Simons Chase       | @tbd | simons.chase@gmail.com   | [GHName](https:://github.com/GHName) |
+| Sneha Shah         | @tbd | sssnehshah24@gmail.com   | [GHName](https:://github.com/GHName) |
+| Zohra Asrar        | @tbd | zasrar@gmail.com         | [GHName](https:://github.com/GHName) |
 
 
 ## Important Dates
 
 | Date | Day of Week | Event |
 |:----:|:-----------:|:------|
-| **November 25** | Tuesday | **Orientation**, 6:00-10:00pm at the<br>10 E 21st St. 3rd Floor Concourse |
+| **November 25** | Tuesday | **Orientation**, 6:00-10:00pm at the<br>10 E 21st St. 3rd Floor Conco urse |
 | **December 1**  | Monday  | **First day of class!** |
 | **December 19** | Friday | Last day of class before Winter Break |
 | **January 5** | Monday | First day of class after Winter Break |
