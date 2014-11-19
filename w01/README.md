@@ -14,7 +14,7 @@
 
 ### Supplemental Materials
 
-* [Chris Pine's Learn to Program](http://pine.fm/LearnToProgram/). Also can be found [here](http://it-ebooks.info/book/36/) if the link is broken...
+* [Chris Pine's Learn to Program, Chapters 1-8](http://pine.fm/LearnToProgram/). Also can be found [here](http://it-ebooks.info/book/36/) if the link is broken...
 * [Why's Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/)
 * [The Pickaxe Book](http://ruby-doc.com/docs/ProgrammingRuby/)
 
