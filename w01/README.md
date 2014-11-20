@@ -4,17 +4,13 @@
 
 - **Pre-work**: Practiced using our computers, became comfortable with using [*nix](http://en.wikipedia.org/wiki/Unix-like) systems, and familiarized ourselves with the tools of web development.
 - **Orientation**: Learned about WDI and set expectations and policies around our class.
-- **'Installfest'**: Created a common development environment for us all to share as we begin learning the fundamentals of programming and using our computers to create software.
+- **Installfest**: Created a common development environment for us all to share as we begin learning the fundamentals of programming and using our computers to create software.
 
 ### What are we doing this week?
 
 | Monday | Tuesday | Wednesday | Thursday | Friday |
 |:------:|:-------:|:---------:|:--------:|:------:|
 | Course Intro<br>Using BASH<br>Data Types & Variables | Git & GitHub<br>Strings<br>Loops & Conditionals | Data Structures | Loading Code Libraries<br>Methods | Debugging Code<br>Assessment & Lab |
-
-### Supplemental Materials
-
-For this course we will be assigning material when it makes sense. If you ever need supplemental material, we have a list of **[suggested books](https://gist.github.com/h4w5/5bea5c6922695fca96b1)**. You can also find freely available (open source) **[learning materials on GitHub](http://resrc.io)**.
 
 ### Suggested Readings for Class
 
@@ -29,6 +25,7 @@ Readings, tutorials, and examples:
 
 - **Course Intro**
   - [Mac OSX Shortcuts](https://gist.github.com/vanderhoop/0356c9489ccba09ffc5a)
+  - [Sublime Text 2 Keyboard Shortcuts](https://gist.github.com/vanderhoop/0356c9489ccba09ffc5a)
 - **Using Bash**
   - [Lifehacker Mac Terminal Primer](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
   - [Unix Mages, chapters 1 - 6](http://unixmages.com/ufbm.pdf)
@@ -53,3 +50,7 @@ Readings, tutorials, and examples:
 - **Object-Oriented Programming**: We are going to write our programs in an object-oriented way, with Ruby's robust "object model" of Objects, Classes, Modules, Inheritance and Composition.
 - **Behavior-Driven Development**: We will describe the conceptual foundation of object-oriented programming (encapsulation, interfaces, and messages), and introduce ourselves to the concept of behavior-driven development (designing our software by defining interfaces first).
 - **Persistent Stores**: We are also going to begin storing data in a persistent way using the Redis database.
+
+### Supplemental Materials
+
+For this course we will be assigning material when it makes sense. If you ever need supplemental material, we have a list of **[suggested books](https://gist.github.com/h4w5/5bea5c6922695fca96b1)**.
