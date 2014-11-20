@@ -9,7 +9,7 @@
 ### What are we doing this week?
 
 | Monday | Tuesday | Wednesday | Thursday | Friday |
-|:------ |:------- |:--------- |:-------- |:------ |
+|:------:|:-------:|:---------:|:--------:|:------:|
 | 1. Course Intro<br>2. Using Bash<br>3. Data Types & Variables | 1. Git & GitHub<br>2. Strings<br>3. Loops & Conditionals | 1. Data Structures | 1. Loading Code Libraries<br>2. Methods | 1. Debugging Code<br>2. Assessment & Lab |
 
 ### Supplemental Materials
