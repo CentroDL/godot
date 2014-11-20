@@ -15,7 +15,7 @@ Once the files are staged, make a commit with a message in the present tense tha
 git commit -m "adds comments to homework solution"
 ```
 
-#### Step 2: Use submit_hw to Create a Pull Request to the Class's God Repo
+#### Step 2: Use `submit_hw`
 
 To submit your homework, you will use a custom command called `submit_hw`, which will prompt you for `Completeness` and `Comfortability` ratings, which you'll enter as integers.
 
