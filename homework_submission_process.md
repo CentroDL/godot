@@ -1,7 +1,7 @@
 ## Homework Submission Process
 
 ### Step 1: Add, Commit, and Push Your Work
-Once you have completed your homework, head into the day's "Homework" directory and stage the files in the directory.
+Once you have completed your homework, head into the root directory of your class repo and stage the files via `git add .`
 
 ```bash
 cd ~/dev/wdi/godot/
