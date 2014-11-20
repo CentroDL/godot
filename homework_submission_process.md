@@ -6,14 +6,9 @@ Once you have completed your homework, head into the root directory of your clas
 ```bash
 cd ~/dev/wdi/godot/
 git add .
-```
-__Note:__ The dot in `git add .` stands for the current directory, meaning the entirety of the directory will be staged, including any and all subdirectories. 
-
-Once the files are staged, make a commit with a message in the present tense that describes what the commit accomplishes/fixes/deletes.
-
-```bash
 git commit -m "adds comments to homework solution"
 ```
+__Note:__ The dot in `git add .` stands for the current directory, meaning the entirety of the directory will be staged, including any and all subdirectories. 
 
 #### Step 2: Use `submit_hw`
 
