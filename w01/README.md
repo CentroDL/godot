@@ -28,7 +28,6 @@ Here is a list of general introductory material for this week about writing Ruby
 Readings, tutorials, and examples:
 
 - **Course Intro**
-  - ***link to the deck?***
   - [Mac OSX Shortcuts](https://gist.github.com/vanderhoop/0356c9489ccba09ffc5a)
 - **Using Bash**
   - [Lifehacker Mac Terminal Primer](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
