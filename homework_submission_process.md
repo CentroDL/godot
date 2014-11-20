@@ -21,6 +21,8 @@ To submit your homework, you will use a custom command called `submit_hw`, which
 
 ![image](./screenshots/submit_hw.png)
 
+===
+
 #### Further Reading: what does submit_hw do?
 
 When we set up your repos, we had you create what's called a GitHub __fork__, which is a personal remote copy of the class repo for you to do what you wish to it (because we can't have you changing the master repo all willy nilly). But because each student has their own fork, the instructors have no easy way of rangling all of the class's work, so the `submit_hw` command creates what's called a pull request. A __pull request__ allows you to ask another GitHub user to adopt or 'pull' the changes you've made to your forked repo into the original repo. That way we can review every student's work in one place, before approving it for inclusion in the class's official repo.
