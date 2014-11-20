@@ -1,4 +1,4 @@
-## Homework Submission Process
+## The WDI Homework Submission Process
 
 #### Step 1: Add and Commit Your Work
 Once you have completed your homework, head into the root directory of your class repo and stage the files via `git add .`
