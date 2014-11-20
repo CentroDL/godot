@@ -10,14 +10,43 @@
 
 | Monday | Tuesday | Wednesday | Thursday | Friday |
 |:------:|:-------:|:---------:|:--------:|:------:|
-| 1. Course Intro<br>2. Using Bash<br>3. Data Types & Variables | 1. Git & GitHub<br>2. Strings<br>3. Loops & Conditionals | 1. Data Structures | 1. Loading Code Libraries<br>2. Methods | 1. Debugging Code<br>2. Assessment & Lab |
+| Course Intro<br>Using Bash<br>Data Types & Variables | Git & GitHub<br>Strings<br>Loops & Conditionals | Data Structures | Loading Code Libraries<br>Methods | Debugging Code<br>Assessment & Lab |
 
 ### Supplemental Materials
 
-* [Chris Pine's Learn to Program, Chapters 1-8](http://pine.fm/LearnToProgram/). Also can be found [here](http://it-ebooks.info/book/36/) if the link is broken...
-* [Why's Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/)
-* [The Pickaxe Book](http://ruby-doc.com/docs/ProgrammingRuby/)
-- Pro Git
+For this course we will be assigning material when it makes sense. If you ever need supplemental material, we have a list of [suggested books](https://gist.github.com/h4w5/5bea5c6922695fca96b1). You can also find freely available (open source) [learning materials on GitHub](http://resrc.io).
+
+Here is a list of general introductory material for this week about writing Ruby:
+
+- [Chris Pine's Learn to Program, chapters 1-8](http://pine.fm/LearnToProgram/). Also can be found [here](http://it-ebooks.info/book/36/) if the link is broken...
+- [The Pickaxe Book](http://ruby-doc.com/docs/ProgrammingRuby/)
+- [Why's Poingnant Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/)
+  - *__Phil__ & __PJ__: This is the best computer book ever written. Have fun with it!*
+  - *__Travis__: For someone who doesn't know that Why is a character, it can be off-putting. I am uncomforatble with it.*
+
+Readings, tutorials, and examples for the week:
+
+- Course Intro
+  - link to the deck?
+  - [Mac OSX Shortcuts](https://gist.github.com/vanderhoop/0356c9489ccba09ffc5a)
+- Using Bash
+  - [Lifehacker Mac Terminal Primer](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
+  - [Unix Mages, chapters 1 - 6](http://unixmages.com/ufbm.pdf)
+- Data Types & Variables
+  - a fantastic, ridiculously in-depth examination from the [Bastard's Book of Ruby](http://ruby.bastardsbook.com/chapters/variables)
+  - a great tool for [exploring how variables work](https://github.com/mattbaker/ruby-heap-viz)!
+- Git & GitHub
+  - [Try Git interactive tutorial](https://try.github.io/levels/1/challenges/1)
+  - [setting up a repository](https://www.atlassian.com/git/tutorials/setting-up-a-repository/)
+  - [simple Git guide](http://rogerdudler.github.io/git-guide/)
+  - [*the book* on Git (Pro Git), chapters 1 & 2](http://git-scm.com/book/en/v2)
+- Loading Code Libraries
+  - [ways to load code](https://practicingruby.com/articles/ways-to-load-code)
+- Methods
+  - another ridiculously in-depth examination from the [Bastard's Book of Ruby](http://ruby.bastardsbook.com/chapters/methods/)
+- Debugging Code
+  - some last extra thing, again from the [Bastard's Book of Ruby](http://ruby.bastardsbook.com/chapters/conventions/#h-2-5)
+  - [using pry as a debugger](http://yorickpeterse.com/articles/debugging-with-pry/)
 
 ### What are we doing [next week](/w02/README.md)?
 
