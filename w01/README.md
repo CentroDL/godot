@@ -21,8 +21,7 @@ For this course we will be assigning material when it makes sense. If you ever n
 Here is a list of general introductory material for this week about writing Ruby:
 
 - [Chris Pine's Learn to Program, chapters 1-8](http://pine.fm/LearnToProgram/). Also can be found [here](http://it-ebooks.info/book/36/) if the link is broken...
-- [The Pickaxe Book](http://ruby-doc.com/docs/ProgrammingRuby/)
-- [Why's Poingnant Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/)
+- [Why's Poignant Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/)
   - *__Phil__ & __PJ__: This is the best computer book ever written. Have fun with it!*
   - *__Travis__: For someone who doesn't know that Why is a character, it can be off-putting. I'm uncomfortable with it.*
 
