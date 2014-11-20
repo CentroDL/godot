@@ -4,7 +4,7 @@
 
 - **Pre-work**: Practiced using our computers, became comfortable with using [*nix](http://en.wikipedia.org/wiki/Unix-like) systems, and familiarized ourselves with the tools of web development.
 - **Orientation**: Learned about WDI and set expectations and policies around our class.
-- **'Installfest'**: Created a common development environment for us all to share as we begin learning the fundamentals of programming and using our computers to create software.
+- **Installfest**: Created a common development environment for us all to share as we begin learning the fundamentals of programming and using our computers to create software.
 
 ### What are we doing this week?
 
@@ -29,7 +29,7 @@ Readings, tutorials, and examples:
 
 - **Course Intro**
   - ***link to the deck?***
-  - [Mac OSX Shortcuts](https://gist.github.com/vanderhoop/0356c9489ccba09ffc5a)
+  - [Sublime Text 2 Keyboard Shortcuts](https://gist.github.com/vanderhoop/0356c9489ccba09ffc5a)
 - **Using Bash**
   - [Lifehacker Mac Terminal Primer](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
   - [Unix Mages, chapters 1 - 6](http://unixmages.com/ufbm.pdf)
