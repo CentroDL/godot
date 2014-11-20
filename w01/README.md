@@ -23,7 +23,7 @@ Here is a list of general introductory material for this week about writing Ruby
 - [Chris Pine's Learn to Program, chapters 1-8](http://pine.fm/LearnToProgram/). Also can be found [here](http://it-ebooks.info/book/36/) if the link is broken...
 - [Why's Poignant Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/)
   - *__Phil__ & __PJ__: This is the best computer book ever written. Have fun with it!*
-  - *__Travis__: For someone who doesn't know that Why is a character, it can be off-putting. I'm uncomfortable with it.*
+  - *__Travis__: For someone who doesn't know that [_why is a bit of a character](http://www.slate.com/articles/technology/technology/2012/03/ruby_ruby_on_rails_and__why_the_disappearance_of_one_of_the_world_s_most_beloved_computer_programmers_.html), it can be off-putting. I'm uncomfortable with it.*
 
 Readings, tutorials, and examples:
 
