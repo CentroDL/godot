@@ -12,10 +12,6 @@
 |:------:|:-------:|:---------:|:--------:|:------:|
 | Course Intro<br>Using BASH<br>Data Types & Variables | Git & GitHub<br>Strings<br>Loops & Conditionals | Data Structures | Loading Code Libraries<br>Methods | Debugging Code<br>Assessment & Lab |
 
-### Supplemental Materials
-
-For this course we will be assigning material when it makes sense. If you ever need supplemental material, we have a list of **[suggested books](https://gist.github.com/h4w5/5bea5c6922695fca96b1)**. You can also find freely available (open source) **[learning materials on GitHub](http://resrc.io)**.
-
 ### Suggested Readings for Class
 
 Here is a list of general introductory material for this week about writing Ruby:
@@ -54,3 +50,7 @@ Readings, tutorials, and examples:
 - **Object-Oriented Programming**: We are going to write our programs in an object-oriented way, with Ruby's robust "object model" of Objects, Classes, Modules, Inheritance and Composition.
 - **Behavior-Driven Development**: We will describe the conceptual foundation of object-oriented programming (encapsulation, interfaces, and messages), and introduce ourselves to the concept of behavior-driven development (designing our software by defining interfaces first).
 - **Persistent Stores**: We are also going to begin storing data in a persistent way using the Redis database.
+
+### Supplemental Materials
+
+For this course we will be assigning material when it makes sense. If you ever need supplemental material, we have a list of **[suggested books](https://gist.github.com/h4w5/5bea5c6922695fca96b1)**.
