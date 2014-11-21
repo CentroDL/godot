@@ -10,7 +10,7 @@
 
 | Monday | Tuesday | Wednesday | Thursday | Friday |
 |:------:|:-------:|:---------:|:--------:|:------:|
-| Blocks & Enumerations | Modules<br><br>Classes<br><br>OOP (Part 1: Classical Inheritance) | OOP (Part 2: Mixins & Composition)<br><br>JSON<br><br>Regular Expressions | Redis | Assessment & Lab |
+| Blocks & Enumerations | Modules<br>Classes<br>OOP (Part 1: Classical Inheritance) | OOP (Part 2: Mixins & Composition)<br>JSON<br>Regular Expressions | Redis | Assessment & Lab |
 
 ### Suggested Readings for Class
 
@@ -31,5 +31,3 @@
 ### What are we doing [next week](/w03/README.md)?
 
 -
-
-<center>![](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png)</center>
