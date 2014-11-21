@@ -14,7 +14,7 @@
 
 ### Suggested Readings and Examples
 
-Here is a list of general introductory material for this week about writing Ruby:
+Here is a list of general introductory material for this week about writing Ruby and working with Git:
 
 - [Data Types and Variables](http://ruby.bastardsbook.com/chapters/variables)
 - [Methods](http://ruby.bastardsbook.com/chapters/methods/)
