@@ -47,7 +47,7 @@ Readings, tutorials, and examples:
 
 ### What are we doing [next week](/w02/README.md)?
 
-- **Object-Oriented Programming**: We are going to write our programs in an object-oriented way, with Ruby's robust "object model" of Objects, Classes, Modules, Inheritance and Composition.
+- **Object-Oriented Programming**: We are going to write our programs in an object-oriented way, with Ruby's robust "object model" of Objects, Classes, Modules, Inheritance and Mixins.
 - **Behavior-Driven Development**: We will describe the conceptual foundation of object-oriented programming (encapsulation, interfaces, and messages), and introduce ourselves to the concept of behavior-driven development (designing our software by defining interfaces first).
 - **Persistent Stores**: We are also going to begin storing data in a persistent way using the Redis database.
 

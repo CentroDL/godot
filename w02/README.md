@@ -10,12 +10,25 @@
 
 | Monday | Tuesday | Wednesday | Thursday | Friday |
 |:------ |:------- |:--------- |:-------- |:------ |
-| | | | | |
+| Blocks & Enumerations | Modules<br><br>Classes<br><br>OOP (Part 1: Classical Inheritance) | OOP (Part 2: Mixins & Composition)<br><br>JSON<br><br>Regular Expressions | Redis | Assessment & Lab |
 
-### Supplemental Materials
+### Suggested Readings for Class
 
-* [Chris Pine's Learn to Program, Chapters 9-11](http://pine.fm/LearnToProgram/). Also can be found [here](http://it-ebooks.info/book/36/) if the link is broken...
-* [The Ruby Object Model](http://www.hokstad.com/ruby-object-model)
+- [Chris Pine's Learn to Program, Chapters 9-11](http://pine.fm/LearnToProgram/). Also can be found [here](http://it-ebooks.info/book/36/) if the link is broken...
+
+- **Blocks**
+- **Enumeration**
+- **Object-Oriented Programming**
+  - [The Ruby Object Model](http://www.hokstad.com/ruby-object-model)
+  - the [Pragmatic Guide's in-depth intro to Classes and Objects in Ruby](http://phrogz.net/programmingruby/tut_classes.html)
+  - Inheritance
+  - Mixins
+  - Composition
+- **JSON**
+- **Regular Expressions**
+  - [Bastard's Book](http://regex.bastardsbook.com/)
+  - learn regexes thru [online games](https://devcharm.com/articles/173/regular-expression-olympics/)
+- **Redis**
 
 ### What are we doing [next week](/w03/README.md)?
 
