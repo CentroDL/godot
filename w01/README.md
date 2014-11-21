@@ -12,7 +12,7 @@
 |:------:|:-------:|:---------:|:--------:|:------:|
 | Course Intro<br>Using BASH<br>Data Types & Variables | Git & GitHub<br>Strings<br>Loops & Conditionals | Data Structures | Loading Code Libraries<br>Methods | Debugging Code<br>Assessment & Lab |
 
-### Suggested Readings and Examples
+#### Suggested Readings and Examples
 
 Here is a list of general introductory material for this week about writing Ruby and working with Git:
 
