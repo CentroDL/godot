@@ -10,27 +10,32 @@
 
 | Monday | Tuesday | Wednesday | Thursday | Friday |
 |:------:|:-------:|:---------:|:--------:|:------:|
-| Course Intro<br>Using BASH<br>Data Types & Variables | Git & GitHub<br>Strings<br>Loops & Conditionals | Data Structures | Loading Code Libraries<br>Methods | Debugging Code<br>Assessment & Lab |
+| Course Intro<br>Using Bash<br>Data Types & Variables | Git & GitHub<br>Strings<br>Loops & Conditionals | Data Structures | Loading Code Libraries<br>Methods | Debugging Code<br>Assessment & Lab |
 
 ### Suggested Readings and Examples
 
-Here is a list of general introductory material for this week about writing Ruby:
+For general introductory material about writing Ruby:
 
-- [Data Types and Variables](http://ruby.bastardsbook.com/chapters/variables)
-- [Methods](http://ruby.bastardsbook.com/chapters/methods/)
-- [Debugging](http://ruby.bastardsbook.com/chapters/conventions/#h-2-5)
-- [Debugging with Pry](http://yorickpeterse.com/articles/debugging-with-pry/)
-- [Loading Code Libraries](https://practicingruby.com/articles/ways-to-load-code)
 - [Chris Pine's Learn to Program, chapters 1-8](http://pine.fm/LearnToProgram/). Also can be found [here](http://it-ebooks.info/book/36/) if the link is broken...
-- [Sublime Text 2 Keyboard Shortcuts](https://gist.github.com/vanderhoop/0356c9489ccba09ffc5a)
-- [Lifehacker Mac Terminal Primer](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
-- [Unix Mages, chapters 1 - 6](http://unixmages.com/ufbm.pdf)
+
+Here is a list of readings, tutorials, and examples for this week's lessons:
+
+- **Course Intro & Using Bash**
+  - [Sublime Text 2 Keyboard Shortcuts](https://gist.github.com/vanderhoop/0356c9489ccba09ffc5a)
+  - [Lifehacker Mac Terminal Primer](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
+  - [Unix Mages, chapters 1 - 6](http://unixmages.com/ufbm.pdf)
+- **[Data Types and Variables](http://ruby.bastardsbook.com/chapters/variables)**
   - a great tool for [exploring how variables work](https://github.com/mattbaker/ruby-heap-viz)!
 - **Git & GitHub**
   - [Try Git interactive tutorial](https://try.github.io/levels/1/challenges/1)
   - [setting up a repository](https://www.atlassian.com/git/tutorials/setting-up-a-repository/)
   - [simple Git guide](http://rogerdudler.github.io/git-guide/)
   - [*the book* on Git (Pro Git), chapters 1 & 2](http://git-scm.com/book/en/v2)
+- **[Methods](http://ruby.bastardsbook.com/chapters/methods/)**
+- **[Loading Code Libraries](https://practicingruby.com/articles/ways-to-load-code)**
+- **Debugging**
+  - [Debugging Ruby](http://ruby.bastardsbook.com/chapters/conventions/#h-2-5)
+  - [Using Pry as a Debugger](http://yorickpeterse.com/articles/debugging-with-pry/)
 
 ### What are we doing [next week](/w02/README.md)?
 
@@ -40,4 +45,4 @@ Here is a list of general introductory material for this week about writing Ruby
 
 ### Supplemental Materials
 
-For this course we will be assigning material when it makes sense. If you ever need supplemental material, we have a list of **[suggested books](https://gist.github.com/h4w5/5bea5c6922695fca96b1)**.
+For this course we will be assigning material when it makes sense. If you ever need supplemental material, we have a list of **[suggested books](https://gist.github.com/h4w5/5bea5c6922695fca96b1)**. You can also find freely available (open source) **[learning materials on GitHub](http://resrc.io/)**.

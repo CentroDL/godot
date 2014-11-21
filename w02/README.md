@@ -21,9 +21,7 @@
 - **Object-Oriented Programming**
   - [The Ruby Object Model](http://www.hokstad.com/ruby-object-model)
   - the [Pragmatic Guide's in-depth intro to Classes and Objects in Ruby](http://phrogz.net/programmingruby/tut_classes.html)
-  - Inheritance
-  - Mixins
-  - Composition
+  - [Inheritance (Classical and Mixin), and Composition](http://naildrivin5.com/blog/2012/12/19/re-use-in-oo-inheritance.html)
 - **JSON**
 - **Regular Expressions**
   - [Bastard's Book](http://regex.bastardsbook.com/)
