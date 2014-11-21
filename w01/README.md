@@ -20,7 +20,7 @@ For general introductory material about writing Ruby:
 
 Here is a list of readings, tutorials, and examples for this week's lessons:
 
-- **Course Intro & Using Bash**
+- **Course Intro** and **Using Bash**
   - [Sublime Text 2 Keyboard Shortcuts](https://gist.github.com/vanderhoop/0356c9489ccba09ffc5a)
   - [Lifehacker Mac Terminal Primer](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
   - [Unix Mages, chapters 1 - 6](http://unixmages.com/ufbm.pdf)
@@ -28,7 +28,7 @@ Here is a list of readings, tutorials, and examples for this week's lessons:
   - a great tool for [exploring how variables work](https://github.com/mattbaker/ruby-heap-viz)!
 - **Git & GitHub**
   - [Try Git interactive tutorial](https://try.github.io/levels/1/challenges/1)
-  - [setting up a repository](https://www.atlassian.com/git/tutorials/setting-up-a-repository/)
+  - [Setting Up a Repository](https://www.atlassian.com/git/tutorials/setting-up-a-repository/)
   - [simple Git guide](http://rogerdudler.github.io/git-guide/)
   - [*the book* on Git (Pro Git), chapters 1 & 2](http://git-scm.com/book/en/v2)
 - **[Methods](http://ruby.bastardsbook.com/chapters/methods/)**
