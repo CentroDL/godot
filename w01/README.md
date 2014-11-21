@@ -33,6 +33,7 @@ Here is a list of general introductory material for this week about writing Ruby
 - __Workflow__
   - [Sublime Text 2 Keyboard Shortcuts](https://gist.github.com/vanderhoop/0356c9489ccba09ffc5a)
   - [Lifehacker Mac Terminal Primer](http://lifehacker.com/5633909/who-needs-a-mouse-learn-to-use-the-command-line-for-almost-anything)
+
 ### What are we doing [next week](/w02/README.md)?
 
 - **Object-Oriented Programming**: We are going to write our programs in an object-oriented way, with Ruby's robust "object model" of Objects, Classes, Modules, Inheritance and Mixins.
