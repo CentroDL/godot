@@ -31,3 +31,5 @@
 ### What are we doing [next week](/w03/README.md)?
 
 -
+
+<center>![](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png)</center>
