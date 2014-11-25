@@ -26,11 +26,11 @@ In order to submit your homework to this repo and share it with your instruction
 
 | Role                   | Name               | HipChat       | Email         | GitHub |
 |------------------------|--------------------|:-------------:|:-------------:|:------:|
-| **Course Producer**    | Sarah Maibach      | @sarahmaibach | maibach@ga.co | *n/a* |
+| **Course Producer**    | Sarah Maibach      | @sarahmaibach | maibach@ga.co | [smaib](https://github.com/smaib) |
 | **Instructor**         | Phil Lamplugh      | @philco       | philco@ga.co  | [phlco][phlco] (**no 'i'!**) |
 | **Instructor**         | PJ Hughes          | @pj           | pj@ga.co      | [h4w5][h4w5] |
 | **Instructor**         | Travis Vander Hoop | @trav         | travis@ga.co  | [vanderhoop][van] |
-| **Evening TA**         | *Unknown*          | *n/a*         | *n/a*         | *n/a* |
+| **Evening TA**         | Robert Silverblatt | @robertsilverblatt   |rsilverblatt88@gmail.com   | [rsilverblatt88](https://github.com/rsilverblatt88) |
 
 [phlco]: https://github.com/phlco      "Phil's GitHub link"
 [h4w5]:  https://github.com/h4w5       "PJ's GitHub link"
