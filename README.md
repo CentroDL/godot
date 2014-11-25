@@ -36,7 +36,7 @@ In order to submit your homework to this repo and share it with your instruction
 [h4w5]:  https://github.com/h4w5       "PJ's GitHub link"
 [van]:   https://github.com/vanderhoop "Travis's GitHub link"
 
-### Class
+<!-- ### Class
 
 If you want to email the entire class and the instructional team, please use: **wdi-nyc-december2014@ga-groups.com**, our Google Group (or listserv)!
 
@@ -56,7 +56,7 @@ If you want to email the entire class and the instructional team, please use: **
 | Simons Chase       | @tbd | simons.chase@gmail.com   | [GHName](https:://github.com/GHName) |
 | Sneha Shah         | @tbd | sssnehshah24@gmail.com   | [GHName](https:://github.com/GHName) |
 | Zohra Asrar        | @tbd | zasrar@gmail.com         | [GHName](https:://github.com/GHName) |
-
+-->
 
 ## Important Dates
 
