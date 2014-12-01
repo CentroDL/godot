@@ -14,9 +14,9 @@ If you haven't already, do the following:
 
 ### Lab Structure
 
-Lab (homework) prompts will always be slit in to **parts.**
+Lab (homework) prompts will always be split in to **parts.**
 
-***There will almost always be more work than you could ever complete in a given night!*** We write them so that they are in a way, overwhelming. That is part of the course! You need to always be pushing and challenging yourself, and also failing. The labs are written so you can return to them and continue to work throughout (and after) the course.
+***There will almost always be more work than you could ever complete in one night!*** We write them so that they are overwhelming -- that is part of the course! You need to always be pushing and challenging yourself, and also failing. The labs are written so you can return to them and continue to work throughout (and after) the course.
 
 Follow the directions for each part, starting at the first and going down.
 
