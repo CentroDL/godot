@@ -1,6 +1,6 @@
 # Intro to Ruby Lab
 
-Hello there! This is your first extended lab, also known as *homework*. It is homework in that you have to "turn it in" to us, and you'll usually have to work on it after class is over. It is not homework in that we'll work on it in class and in groups, not necessarily at home. :)
+Hello there! This is your first extended lab, also known as *homework*. It is homework in that you have to "turn it in" to us, and you'll usually have to work on it after class is over. It is more appropriately called a lab because we'll work on it in class and in groups, and not just at home.
 
 ## Instructions
 
@@ -36,6 +36,7 @@ Only do the bonus if you have completed every single part. Do not expect to get 
 
 1. Read in a weight from Standard Input (in pounds).
 1. Print to Standard Output the weight converted to kilograms, only to the second decimal place.
+  - To limit the number of decimal places, look into the Ruby [`.round()`](http://www.ruby-doc.org/core-2.1.2/Float.html#method-i-round) method
 
 Example:
 
