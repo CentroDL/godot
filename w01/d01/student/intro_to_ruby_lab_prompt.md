@@ -22,7 +22,7 @@ Follow the directions for each part, starting at the first and going down.
 
 ### Completion
 
-**Finish at least 3 parts.** Do as many as you can, but don't work until you are exhausted -- this is a marathon, not a sprint.
+**Finish at least the first 2 parts.** Do as many as you can, but don't work until you are exhausted -- this is a marathon, not a sprint.
 
 Only do the bonus if you have completed every single part. Do not expect to get the bonus finished EVER.
 
@@ -195,22 +195,41 @@ Write a program to calculate the following math problem. It should take a file s
 
 **File name:** `road_music.rb`
 
-Write a program to calculate the following math problem. It should take an album length in 
+Write a program to calculate the following math problem. It should take an album length in hours, minutes and seconds; a driving distance in miles, and an average speed in miles per hour.
 
 > The total running time of the Beatles White Album is 1 hour 33 minutes 35 seconds.
 > It's 3,187.1 miles from Portland, Maine to Portland Oregon via I-80 E and I-90 E.
 > If you drove from Portland to Portland at an average rate of 55 miles per hour, how many times could you listen to the White Album in full?
 
-## Part 6: How much would it cost to drive around the world at the equator?
-Assuming gas costs $2.512 and you drive at a steady 55 mph.
+## Part 6: What Would OPEC do?
 
-## Part 7: How long would it take to drive from the Earth to the Sun?
-Assuming gas costs $2.512 and you drive at a steady 55 mph.
+**File name:** `drive_cost.rb`
 
-## Part 8: We can't be late
-If you left today and wanted to reach the Sun by March 10, 2015, how fast would you have to drive?
+Write a program to calculate the following math problem.
 
-## Part 9: Bowie can you hear me?
+> Assuming gas costs $2.781 per gallon, your car gets 32.4 miles to the gallon, you drive at a steady 55 mph, and the Earth is 24,902 miles in circumference at the equator: how much would it cost to drive around the world at the equator?
+
+## Part 7: George Jetson Has Had Enough
+
+**File name:** `drive_time.rb`
+
+Write a program to calculate the following math problem.
+
+>Assuming you drive at a steady 55 mph, how long would it take you to drive into the fiery core of the sun? We can assume that the sun is [one astronomical unit](https://www.google.com/search?q=astronomical+unit&oq=astronima&aqs=chrome.1.69i57j0l5.3668j0j4&sourceid=chrome&es_sm=119&ie=UTF-8) away: ie 149,597,871,700 meters.
+
+&nbsp;...
+
+> Also: How much would it cost?
+
+## Part 8: Space Oddity
+
+Using the above calculators and converters, figure out:
+
+1. If you left today and wanted to reach Mars by March 10, 2015, how fast would you have to drive? Consider that the average distance to Mars from Earth is 140 million miles.
+1. How far could [Carlos Slim](https://www.google.com/search?q=carlos+slim+net+worth&oq=carlos+slim+net+worth&aqs=chrome..69i57j0l5.377j0j9&sourceid=chrome&es_sm=119&ie=UTF-8) drive before he ran out of gas? Would he make it past the [Kuiper Belt](https://www.google.com/search?q=distance+to+the+kuiper+belt&oq=distance+to+the+kuiper+belt&aqs=chrome..69i57j0l2.276j0j9&sourceid=chrome&es_sm=119&ie=UTF-8)?
+1. If the Voyager probe wanted to listen to Fleetwood Mac's seminal album [Rumours](http://en.wikipedia.org/wiki/Rumours_%28album%29), how many times would she have listened to it when she [left the solar system](http://en.wikipedia.org/wiki/Heliosphere#Heliopause)?
+
+## Part 9: This is ground control...
 
 Radio signals are electromagnetic waves. The speed of electromagnetic waves in a vacuum, is approximately 300,000 km/s
 
