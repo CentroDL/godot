@@ -10,7 +10,9 @@
 
 | Monday | Tuesday | Wednesday | Thursday | Friday |
 |:------:|:-------:|:---------:|:--------:|:------:|
-| Blocks & Enumerations | Modules<br>Classes<br>OOP (Part 1: Classical Inheritance) | OOP (Part 2: Mixins & Composition)<br>JSON<br>Regular Expressions | Redis | Assessment & Lab |
+| Blocks & Enumerations | Classes<br>OOP (Part 1: Classical Inheritance) | Modules<br>OOP (Part 2: Mixins & Composition) | Redis | Assessment & Lab |
+
+JSON<br>Regular Expressions
 
 ### Suggested Readings for Class
 
