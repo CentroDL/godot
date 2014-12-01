@@ -8,13 +8,13 @@ Hello there! This is your first extended lab, also known as *homework*. It is ho
 
 If you haven't already, do the following:
 
-- From the command line create a folder inside ``~/dev/wdi` called `exercises`. Work inside that folder.
+- From the command line create a folder inside `~/dev/wdi` called `exercises`. Work inside that folder.
 - For each part below, create a *new* ruby file ***from the command line!***.
 - Your file names should be `snake_cased` and end in `.rb`
 
 ### Lab Structure
 
-Lab (homework) prompts will always come as a list of **parts** to do.
+Lab (homework) prompts will always be slit in to **parts.**
 
 ***There will almost always be more work than you could ever complete in a given night!*** We write them so that they are in a way, overwhelming. That is part of the course! You need to always be pushing and challenging yourself, and also failing. The labs are written so you can return to them and continue to work throughout (and after) the course.
 
@@ -178,25 +178,28 @@ You have a BMI of 26.
 
 **File name:** `caffeine.rb`
 
-Write a program to calculate the following math problem.
+Write a program to calculate the following math problem. It should take weight in pounds as input.
 
-> It's estimated that 6 grams per hundred pounds of body weight can cause death!
-Given an 8oz cup of coffee has 95mg of caffeine, calculate how many cups it takes to kill you.
+> It's estimated that 6 grams per hundred pounds of body weight can cause death! Given an 8oz cup of coffee has 95mg of caffeine, calculate how many cups it takes to kill you.
 
 ## Part 4: Old Modems
 
 **File name:** `old_modems.rb`
 
-How long would it take to download a 25GB ripped copy of the Blade Runner laserdisc over a $200 56k/s (56,000 bits per second) modem from 1995?
-A Gigabyte is 1,073,741,824 bytes. A byte is 8 bits.
+Write a program to calculate the following math problem. It should take a file size (in megabytes or gigabytes) and a bandwidth (in kilobits) as input.
 
-## Part 5: A Long Long Long time.
+> How long would it take to download a 25GB (25000MB) ripped copy of the Blade Runner laser disc over a $200 56Kb/s (56,000 bits per second) modem from 1995?
+> Note: a gigabyte (GB) is 1,073,741,824 bytes. A gigabyte is 1000 megabytes (MB). A byte is 8 bits.
 
-**File name:** `beatles.rb`
+## Part 5: *A long long long time...*
 
-The total running time of the Beatles White Album is 1 hour 33 minutes 35 seconds.
-It's 3,187.1 miles from Portland, Maine to Portland Oregon via I-80 E and I-90 E.
-If you drove from Portland to Portland at a steady 55 miles per hour, how many times could you listen to the White Album in full?
+**File name:** `road_music.rb`
+
+Write a program to calculate the following math problem. It should take an album length in 
+
+> The total running time of the Beatles White Album is 1 hour 33 minutes 35 seconds.
+> It's 3,187.1 miles from Portland, Maine to Portland Oregon via I-80 E and I-90 E.
+> If you drove from Portland to Portland at an average rate of 55 miles per hour, how many times could you listen to the White Album in full?
 
 ## Part 6: How much would it cost to drive around the world at the equator?
 Assuming gas costs $2.512 and you drive at a steady 55 mph.
@@ -229,3 +232,7 @@ Pluto   | 39.5
 
 ## Part 11: Vacation to Pluto
 Your parents are vacationing on Pluto. They want to wish you a Happy Years right as the ball drops at Midnight. When should they send their message?
+
+## Bonus
+
+Check the input for all of the above programs, and print to Standard Error helpful information about the bad input (like writing `pj` when it's expecting pounds), and then exit the program without Ruby breaking and giving an error message.
