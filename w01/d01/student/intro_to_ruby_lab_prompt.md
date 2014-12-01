@@ -231,7 +231,7 @@ Using the above calculators and converters, figure out:
 
 ## Bonus 1: This is ground control...
 
-Radio signals are electromagnetic waves. The speed of electromagnetic waves in a vacuum, is approximately 300,000 km/s
+Radio signals are electromagnetic waves. The speed of electromagnetic waves in a vacuum, is approximately 300,000 km/s.
 
 Planet  | Distance from Sun in AU*
 :--     | :--
@@ -250,7 +250,7 @@ Pluto   | 39.5
 1. Calculate how long, in minutes and seconds, it takes to receive a radio signal from Mars.
 2. Say your parents are vacationing on Pluto. They want to wish you a Happy New Years right as the ball drops at midnight in Times Square. When should they send their message?
 
-> What do we need to know to solve this problem? How would we structure a program to solve it? What kinds of input and output do we use? What algorithms are involved?
+> What do we need to know to solve this problem? How would we structure a program to solve it? What kinds of input and output do we use? What assumptions will we make to make the problem *solvable*? What algorithms are involved?
 
 ## Bonus 2: Purity of Essence / Peace on Earth
 
