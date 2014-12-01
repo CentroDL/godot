@@ -1,6 +1,6 @@
 # Intro to Ruby Lab
 
-Hello there! This is your first extended lab, also known as *homework*. It is homework in that you have to "turn it in" to us, and you'll usually have to work on it after class is over. It is more appropriately called a lab because we'll work on it in class and in groups, and not just at home.
+Hello there! This is your first extended lab, also known as *homework*. It is homework in that you have to turn it in to us, and you'll usually have to work on it after class is over. It is more appropriately called a lab because we'll work on it in class and in groups, and not just at home.
 
 ## Instructions
 
