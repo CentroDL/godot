@@ -9,7 +9,7 @@
 ### What are we doing this week?
 
 | | Monday | Tuesday | Wednesday | Thursday | Friday |
-|-|:------:|:-------:|:---------:|:--------:|:------:|
+|---|:------:|:-------:|:---------:|:--------:|:------:|
 | **Lessons** | Course Intro<br>Using Bash<br>Data Types & Variables | Git & GitHub<br>Strings<br>Loops & Conditionals | Data Structures | Loading Code Libraries<br>Methods | Debugging Code<br>Assessment & Lab |
 | **Events &amp; Panels** | | | | Outcomes Introduction | Lunch Panel:<br/>Welcome to General Assembly |
 ### Suggested Readings and Examples
