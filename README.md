@@ -14,7 +14,8 @@ In order to submit your homework to this repo and share it with your instruction
 - [**Contact Information**](#contact-information)
 - [**Important Dates**](#important-dates)
 - [**Course Outline**](#course-outline)
-<!-- - [**Classroom Code of Conduct**](#coc) -->
+
+<!-- [**Classroom Code of Conduct**](#coc) -->
 
 ---
 
@@ -40,32 +41,30 @@ In order to submit your homework to this repo and share it with your instruction
 
 ### Class
 
-If you want to email the entire class and the instructional team, please use: **wdi-nyc-december2014@ga-groups.com**, our Google Group (aka listserv)!
+If you want to email the entire class and the instructional team, please use:<br/>**wdi-nyc-december2014@ga-groups.com**, our Google Group (aka listserv)!
 
 | Name               | HipChat       | Email           | GitHub |
 |--------------------|:-------------:|:---------------:|:------:|
-| Aliya Scribner     | @tbd | aliya.scribner@gmail.com | [Dev814](https://github.com/Dev814) |
-| Andres Valencia    | @tbd | andresv2@mac.com         | [andresv2](https://github.com/andresv2) |
-| Angelina Bethoney  | @tbd | ambethoney@yahoo.com     | [ambethoney](https://github.com/ambethoney) |
-| Audrey Wong        | @tbd | audreydotwong@gmail.com  | tbd |
-| Brian Rucker       | @tbd | rucker.b@gmail.com       | [Brucker1](https://github.com/Brucker1) |
-| Dain Carver        | @tbd | carver403@gmail.com      | [rugger403](https://github.com/rugger403) |
-| Dana DeFilippo     | @tbd | dana.defilippo@gmail.com | [danadflip](https://github.com/danadflip) |
-| Dennis Liaw        | @tbd | dennis.liaw@gmail.com    | [CentroDL](https://github.com/CentroDL) |
-| Jerry Torrens      | @tbd | jerrytorrens@gmail.com   | tbd |
-| Kamari Aykes       | @tbd | aykeskc@gmail.com        | [brainyandbrown](https://github.com/brainyandbrown) |
-| Kristen MacFarlane | @tbd | krismacfarlane@gmail.com | [krismacfarlane](https://github.com/krismacfarlane) |
-| Melodie Malfa      | @tbd | melmalfa@gmail.com       | [melmalfa](https://github.com/melmalfa) |
-| Michael Campbell   | @tbd | mccool322@aol.com        | [hammer7402](https://github.com/hammer7402) |
-| Naya Moss          | @tbd | naya.moss@gmail.com      | [nayamoss](https://github.com/nayamoss) |
-| Patricio Calderon  | @tbd | ourobor@gmail.com        | [Patdel](https://github.com/Patdel)
-| Chadd Clairmont    | @tbd | pcac25@gmail.com         | [chaddpaul](https://github.com/chaddpaul) |
-| Sade Stevens       | @tbd | sadestevens.hc@gmail.com | tbd |
-| Sarah McAlear      | @tbd | sarah.mcalear@gmail.com  | [sarahmcalear](https://github.com/sarahmcalear) |
-| Simons Chase       | @tbd | simons.chase@gmail.com   | [slchase](https://github.com/slchase) |
-| Sneha Shah         | @tbd | sssnehshah24@gmail.com   | [snehshah10](https://github.com/snehshah10) |
-| Zachary Fine       | @tbd | zfine416@gmail.com       | tbd |
-| Zohra Asrar        | @tbd | zasrar@gmail.com         | tbd |
+| Aliya Scribner     | @AliyaScribner     | aliya.scribner@gmail.com | [Dev814](https://github.com/Dev814)       |
+| Andres Valencia    | @AndresValencia    | andresv2@mac.com         | [andresv2](https://github.com/andresv2)   |
+| Angelina Bethoney  | @AngelinaBethoney  | ambethoney@yahoo.com     | [ambethoney](https://github.com/ambethoney) |
+| Brian Rucker       | @BrianRucker       | rucker.b@gmail.com       | [Brucker1](https://github.com/Brucker1)   |
+| Dain Carver        | @DainCarver        | carver403@gmail.com      | [rugger403](https://github.com/rugger403) |
+| Dana DeFilippo     | tbd                | dana.defilippo@gmail.com | [danadflip](https://github.com/danadflip) |
+| Dennis Liaw        | @DennisLiaw        | dennis.liaw@gmail.com    | [CentroDL](https://github.com/CentroDL)   |
+| Kamari Aykes       | @KamariAykes       | aykeskc@gmail.com        | [brainyandbrown](https://github.com/brainyandbrown) |
+| Kristen MacFarlane | @KristenMacFarlane | krismacfarlane@gmail.com | [krismacfarlane](https://github.com/krismacfarlane) |
+| Melodie Malfa      | @MelodieMalfa      | melmalfa@gmail.com       | [melmalfa](https://github.com/melmalfa)   |
+| Michael Campbell   | @MichaelCampbell   | mccool322@aol.com        | [hammer7402](https://github.com/hammer7402) |
+| Naya Moss          | @NayaMoss          | naya.moss@gmail.com      | [nayamoss](https://github.com/nayamoss)   |
+| Patricio Calderon  | @PatricioCalderon  | ourobor@gmail.com        | [Patdel](https://github.com/Patdel)       |
+| Chadd Clairmont    | @PaulClairmont     | pcac25@gmail.com         | [chaddpaul](https://github.com/chaddpaul) |
+| Ryan Laszlo        | tbd                | ryan.laszlo@gmail.com    | [ryanlaszlo](https://github.com/ryanlaszlo) |
+| Sade Stevens       | @SadeStevens       | sadestevens.hc@gmail.com | [sadestevens](https://github.com/sadestevens) |
+| Sarah McAlear      | @SarahMcAlear      | sarah.mcalear@gmail.com  | [sarahmcalear](https://github.com/sarahmcalear) |
+| Simons Chase       | @SimonsChase       | simons.chase@gmail.com   | [slchase](https://github.com/slchase)     |
+| Sneha Shah         | @SnehaShah         | sssnehshah24@gmail.com   | [snehshah10](https://github.com/snehshah10) |
+| Zachary Fine       | tbd                | zfine416@gmail.com       | tbd |
 
 ## Important Dates
 
@@ -73,14 +72,14 @@ If you want to email the entire class and the instructional team, please use: **
 |:----:|:-----------:|:------|
 | **November 25** | Tuesday | **Orientation**, 6:00-10:00pm at the<br>10 E 21st St. 3rd Floor Conco urse |
 | **December 1**  | Monday  | **First day of class!** |
-| **December 19** | Friday | Last day of class before Winter Break |
-| **January 5** | Monday | First day of class after Winter Break |
-| **January 19** | Monday | **Martin Luther King Day, no class** |
-| **January 30** | Friday | Full Day Lab |
-| **February 16** | Monday | **Presidents Day, no class** |
+| **December 19** | Friday  | Last day of class before Winter Break |
+| **January 5**   | Monday  | First day of class after Winter Break |
+| **January 19**  | Monday  | **Martin Luther King Day, no class** |
+| **January 30**  | Friday  | Full Day Lab |
+| **February 16** | Monday  | **Presidents Day, no class** |
 | **February 17-20** | Tuesday &ndash; Friday | (Likely) Group Project Sprint: **do not miss<br>as your team depends upon you!** |
-| **February 27** | Friday | Full Day Lab |
-| **March 10** | Tuesday | **Last day of class & graduation!** |
+| **February 27** | Friday  | Full Day Lab |
+| **March 10**    | Tuesday | **Last day of class & graduation!** |
 
 Note: in the weeks following your graduation, there will be a number of various job search preparation tutorials and hiring events, with dates TBD.
 
