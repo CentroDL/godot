@@ -59,7 +59,7 @@ If you want to email the entire class and the instructional team, please use: **
 | Michael Campbell   | @tbd | mccool322@aol.com        | [hammer7402](https://github.com/hammer7402) |
 | Naya Moss          | @tbd | naya.moss@gmail.com      | [nayamoss](https://github.com/nayamoss) |
 | Patricio Calderon  | @tbd | ourobor@gmail.com        | [Patdel](https://github.com/Patdel)
-| Paul Clairmont     | @tbd | pcac25@gmail.com         | [chaddpaul](https://github.com/chaddpaul) |
+| Chadd Clairmont    | @tbd | pcac25@gmail.com         | [chaddpaul](https://github.com/chaddpaul) |
 | Sade Stevens       | @tbd | sadestevens.hc@gmail.com | tbd |
 | Sarah McAlear      | @tbd | sarah.mcalear@gmail.com  | [sarahmcalear](https://github.com/sarahmcalear) |
 | Simons Chase       | @tbd | simons.chase@gmail.com   | [slchase](https://github.com/slchase) |
@@ -93,7 +93,7 @@ Keep in mind, this is tentative. **We may (and shall) change topics and dates as
 | Week(s) | Dates | Module |
 |:-------:|:-----:|:-------|
 | **[Week 1](/w01/README.md)** | 12/1 &ndash; 12/5   | Our Development Environment<br>Introduction to Programming (Ruby)<br>Version Control with Git and GitHub |
-| **[Week 2](/w02/README.md)** | 12/8 &ndash; 12/12  | Object-Oriented Programming (Ruby)<br>Persistent Stores (Redis) |
+| **Week 2** | 12/8 &ndash; 12/12  | Object-Oriented Programming (Ruby)<br>Persistent Stores (Redis) |
 | **Week 3** | 12/15 &ndash; 12/19 | Understanding Networking (HTTP)<br>Introduction to the Web as an Application Platform (Sinatra) |
 | (Winter Break) | 12/22 &ndash; 1/2 | Building Web Pages with HTML & CSS |
 | **Week 4** | 1/5 &ndash; 1/9     | Programming in the Browser Environment (JavaScript)|
