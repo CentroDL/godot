@@ -14,7 +14,7 @@ In order to submit your homework to this repo and share it with your instruction
 - [**Contact Information**](#contact-information)
 - [**Important Dates**](#important-dates)
 - [**Course Outline**](#course-outline)
-- [**Classroom Code of Conduct**](#coc)
+<!-- - [**Classroom Code of Conduct**](#coc) -->
 
 ---
 
@@ -26,37 +26,46 @@ In order to submit your homework to this repo and share it with your instruction
 
 | Role                   | Name               | HipChat       | Email         | GitHub |
 |------------------------|--------------------|:-------------:|:-------------:|:------:|
-| **Course Producer**    | Sarah Maibach      | @sarahmaibach | maibach@ga.co | [smaib](https://github.com/smaib) |
+| **Course Producer**    | Sarah Maibach      | @sarahmaibach | maibach@ga.co | [smaib][smaib] |
 | **Instructor**         | Phil Lamplugh      | @philco       | philco@ga.co  | [phlco][phlco] (**no 'i'!**) |
 | **Instructor**         | PJ Hughes          | @pj           | pj@ga.co      | [h4w5][h4w5] |
 | **Instructor**         | Travis Vander Hoop | @trav         | travis@ga.co  | [vanderhoop][van] |
-| **Evening TA**         | Robert Silverblatt | @robertsilverblatt   |rsilverblatt88@gmail.com   | [rsilverblatt88](https://github.com/rsilverblatt88) |
+| **Evening TA**         | Robert Silverblatt | @splat   |rsilverblatt88@gmail.com   | [rsilverblatt88][splat] |
 
+[smaib]: https://github.com/smaib      "Sarah's GitHub link"
 [phlco]: https://github.com/phlco      "Phil's GitHub link"
 [h4w5]:  https://github.com/h4w5       "PJ's GitHub link"
 [van]:   https://github.com/vanderhoop "Travis's GitHub link"
+[splat]: https://github.com/rsilverblatt88 "Splat's GitHub Link"
 
-<!-- ### Class
+### Class
 
-If you want to email the entire class and the instructional team, please use: **wdi-nyc-december2014@ga-groups.com**, our Google Group (or listserv)!
+If you want to email the entire class and the instructional team, please use: **wdi-nyc-december2014@ga-groups.com**, our Google Group (aka listserv)!
 
 | Name               | HipChat       | Email           | GitHub |
 |--------------------|:-------------:|:---------------:|:------:|
-| Aliya Scribner     | @tbd | aliya.scribner@gmail.com | [GHName](https:://github.com/GHName) |
-| Andres Valencia    | @tbd | andresv2@mac.com         | [GHName](https:://github.com/GHName) |
-| Angelina Bethoney  | @tbd | ambethoney@yahoo.com     | [GHName](https:://github.com/GHName) |
-| Audrey Wong        | @tbd | audreydotwong@gmail.com  | [GHName](https:://github.com/GHName) |
-| Dain Carver        | @tbd | carver403@gmail.com      | [GHName](https:://github.com/GHName) |
-| Dana DeFilippo     | @tbd | dana.defilippo@gmail.com | [GHName](https:://github.com/GHName) |
-| Jerry Torrens      | @tbd | jerrytorrens@gmail.com   | [GHName](https:://github.com/GHName) |
-| Kristen MacFarlane | @tbd | krismacfarlane@gmail.com | [GHName](https:://github.com/GHName) |
-| Melodie Malfa      | @tbd | melmalfa@gmail.com       | [GHName](https:://github.com/GHName) |
-| Michael Campbell   | @tbd | mccool322@aol.com        | [GHName](https:://github.com/GHName) |
-| Paul Clairmont     | @tbd | pcac25@gmail.com         | [GHName](https:://github.com/GHName) |
-| Simons Chase       | @tbd | simons.chase@gmail.com   | [GHName](https:://github.com/GHName) |
-| Sneha Shah         | @tbd | sssnehshah24@gmail.com   | [GHName](https:://github.com/GHName) |
-| Zohra Asrar        | @tbd | zasrar@gmail.com         | [GHName](https:://github.com/GHName) |
--->
+| Aliya Scribner     | @tbd | aliya.scribner@gmail.com | [Dev814](https://github.com/Dev814) |
+| Andres Valencia    | @tbd | andresv2@mac.com         | [andresv2](https://github.com/andresv2) |
+| Angelina Bethoney  | @tbd | ambethoney@yahoo.com     | [ambethoney](https://github.com/ambethoney) |
+| Audrey Wong        | @tbd | audreydotwong@gmail.com  | tbd |
+| Brian Rucker       | @tbd | rucker.b@gmail.com       | [Brucker1](https://github.com/Brucker1) |
+| Dain Carver        | @tbd | carver403@gmail.com      | [rugger403](https://github.com/rugger403) |
+| Dana DeFilippo     | @tbd | dana.defilippo@gmail.com | [danadflip](https://github.com/danadflip) |
+| Dennis Liaw        | @tbd | dennis.liaw@gmail.com    | [CentroDL](https://github.com/CentroDL) |
+| Jerry Torrens      | @tbd | jerrytorrens@gmail.com   | tbd |
+| Kamari Aykes       | @tbd | aykeskc@gmail.com        | [brainyandbrown](https://github.com/brainyandbrown) |
+| Kristen MacFarlane | @tbd | krismacfarlane@gmail.com | [krismacfarlane](https://github.com/krismacfarlane) |
+| Melodie Malfa      | @tbd | melmalfa@gmail.com       | [melmalfa](https://github.com/melmalfa) |
+| Michael Campbell   | @tbd | mccool322@aol.com        | [hammer7402](https://github.com/hammer7402) |
+| Naya Moss          | @tbd | naya.moss@gmail.com      | [nayamoss](https://github.com/nayamoss) |
+| Patricio Calderon  | @tbd | ourobor@gmail.com        | [Patdel](https://github.com/Patdel)
+| Paul Clairmont     | @tbd | pcac25@gmail.com         | [chaddpaul](https://github.com/chaddpaul) |
+| Sade Stevens       | @tbd | sadestevens.hc@gmail.com | tbd |
+| Sarah McAlear      | @tbd | sarah.mcalear@gmail.com  | [sarahmcalear](https://github.com/sarahmcalear) |
+| Simons Chase       | @tbd | simons.chase@gmail.com   | [slchase](https://github.com/slchase) |
+| Sneha Shah         | @tbd | sssnehshah24@gmail.com   | [snehshah10](https://github.com/snehshah10) |
+| Zachary Fine       | @tbd | zfine416@gmail.com       | tbd |
+| Zohra Asrar        | @tbd | zasrar@gmail.com         | tbd |
 
 ## Important Dates
 
@@ -97,6 +106,8 @@ Keep in mind, this is tentative. **We may (and shall) change topics and dates as
 | **Week 11** | 2/23 &ndash; 2/27 | Client-side Application Development (JavaScript) |
 | **Weeks 12 & 13** | 3/2 &ndash; 3/10 | *Final Project Sprint* |
 
+<!--
 ## Classroom Code of Conduct <a id="coc"></a>
 
 (TODO) link and discuss
+-->
