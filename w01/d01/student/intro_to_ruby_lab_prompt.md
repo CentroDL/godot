@@ -229,7 +229,7 @@ Using the above calculators and converters, figure out:
 1. How far could [Carlos Slim](https://www.google.com/search?q=carlos+slim+net+worth&oq=carlos+slim+net+worth&aqs=chrome..69i57j0l5.377j0j9&sourceid=chrome&es_sm=119&ie=UTF-8) drive before he ran out of gas? Would he make it past the [Kuiper Belt](https://www.google.com/search?q=distance+to+the+kuiper+belt&oq=distance+to+the+kuiper+belt&aqs=chrome..69i57j0l2.276j0j9&sourceid=chrome&es_sm=119&ie=UTF-8)?
 1. If the Voyager probe wanted to listen to Fleetwood Mac's seminal album [Rumours](http://en.wikipedia.org/wiki/Rumours_%28album%29), how many times would she have listened to it when she [left the solar system](http://en.wikipedia.org/wiki/Heliosphere#Heliopause)?
 
-## Part 9: This is ground control...
+## Bonus 1: This is ground control...
 
 Radio signals are electromagnetic waves. The speed of electromagnetic waves in a vacuum, is approximately 300,000 km/s
 
@@ -247,11 +247,11 @@ Pluto   | 39.5
 
 *An AU is defined as 149,597,870,700 meters*
 
-## Part 10: Calculate how long, in minutes and seconds, it takes to receive a radio signal from Mars.
+1. Calculate how long, in minutes and seconds, it takes to receive a radio signal from Mars.
+2. Say your parents are vacationing on Pluto. They want to wish you a Happy New Years right as the ball drops at midnight in Times Square. When should they send their message?
 
-## Part 11: Vacation to Pluto
-Your parents are vacationing on Pluto. They want to wish you a Happy Years right as the ball drops at Midnight. When should they send their message?
+> What do we need to know to solve this problem? How would we structure a program to solve it? What kinds of input and output do we use? What algorithms are involved?
 
-## Bonus
+## Bonus 2: Purity of Essence / Peace on Earth
 
 Check the input for all of the above programs, and print to Standard Error helpful information about the bad input (like writing `pj` when it's expecting pounds), and then exit the program without Ruby breaking and giving an error message.
