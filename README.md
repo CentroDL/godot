@@ -33,10 +33,10 @@ In order to submit your homework to this repo and share it with your instruction
 | **Instructor**         | Travis Vander Hoop | @trav         | travis@ga.co  | [vanderhoop][van] |
 | **Evening TA**         | Robert Silverblatt | @splat   |rsilverblatt88@gmail.com   | [rsilverblatt88][splat] |
 
-[smaib]: https://github.com/smaib      "Sarah's GitHub link"
-[phlco]: https://github.com/phlco      "Phil's GitHub link"
-[h4w5]:  https://github.com/h4w5       "PJ's GitHub link"
-[van]:   https://github.com/vanderhoop "Travis's GitHub link"
+[smaib]: https://github.com/smaib          "Sarah's GitHub link"
+[phlco]: https://github.com/phlco          "Phil's GitHub link"
+[h4w5]:  https://github.com/h4w5           "PJ's GitHub link"
+[van]:   https://github.com/vanderhoop     "Travis's GitHub link"
 [splat]: https://github.com/rsilverblatt88 "Splat's GitHub Link"
 
 ### Class
@@ -45,24 +45,24 @@ If you want to email the entire class and the instructional team, please use:<br
 
 | Name               | [HipChat](https://ga-immersives.hipchat.com/home) | Email | GitHub |
 |--------------------|:-------------:|:---------------:|:------:|
-| Aliya Scribner     | @AliyaScribner     | aliya.scribner@gmail.com | [Dev814](https://github.com/Dev814)       |
-| Andres Valencia    | @AndresValencia    | andresv2@mac.com         | [andresv2](https://github.com/andresv2)   |
+| Aliya Scribner     | @AliyaScribner     | aliya.scribner@gmail.com | [Dev814](https://github.com/Dev814)         |
+| Andres Valencia    | @AndresValencia    | andresv2@mac.com         | [andresv2](https://github.com/andresv2)     |
 | Angelina Bethoney  | @AngelinaBethoney  | ambethoney@yahoo.com     | [ambethoney](https://github.com/ambethoney) |
-| Brian Rucker       | @BrianRucker       | rucker.b@gmail.com       | [Brucker1](https://github.com/Brucker1)   |
-| Dain Carver        | @DainCarver        | carver403@gmail.com      | [rugger403](https://github.com/rugger403) |
-| Dana DeFilippo     | tbd                | dana.defilippo@gmail.com | [danadflip](https://github.com/danadflip) |
-| Dennis Liaw        | @DennisLiaw        | dennis.liaw@gmail.com    | [CentroDL](https://github.com/CentroDL)   |
+| Brian Rucker       | @BrianRucker       | rucker.b@gmail.com       | [Brucker1](https://github.com/Brucker1)     |
+| Dain Carver        | @DainCarver        | carver403@gmail.com      | [rugger403](https://github.com/rugger403)   |
+| Dana DeFilippo     | tbd                | dana.defilippo@gmail.com | [danadflip](https://github.com/danadflip)   |
+| Dennis Liaw        | @DennisLiaw        | dennis.liaw@gmail.com    | [CentroDL](https://github.com/CentroDL)     |
 | Kamari Aykes       | @KamariAykes       | aykeskc@gmail.com        | [brainyandbrown](https://github.com/brainyandbrown) |
 | Kristen MacFarlane | @KristenMacFarlane | krismacfarlane@gmail.com | tbd |
-| Melodie Malfa      | @MelodieMalfa      | melmalfa@gmail.com       | [melmalfa](https://github.com/melmalfa)   |
+| Melodie Malfa      | @MelodieMalfa      | melmalfa@gmail.com       | [melmalfa](https://github.com/melmalfa)     |
 | Michael Campbell   | @MichaelCampbell   | mccool322@aol.com        | [hammer7402](https://github.com/hammer7402) |
-| Naya Moss          | @NayaMoss          | naya.moss@gmail.com      | [nayamoss](https://github.com/nayamoss)   |
-| Patricio Calderon  | @PatricioCalderon  | ourobor@gmail.com        | [Patdel](https://github.com/Patdel)       |
-| Chadd Clairmont    | @PaulClairmont     | pcac25@gmail.com         | [chaddpaul](https://github.com/chaddpaul) |
+| Naya Moss          | @NayaMoss          | naya.moss@gmail.com      | [nayamoss](https://github.com/nayamoss)     |
+| Patricio Calderon  | @PatricioCalderon  | ourobor@gmail.com        | [Patdel](https://github.com/Patdel)         |
+| Chadd Clairmont    | @PaulClairmont     | pcac25@gmail.com         | [chaddpaul](https://github.com/chaddpaul)   |
 | Ryan Laszlo        | tbd                | ryan.laszlo@gmail.com    | [ryanlaszlo](https://github.com/ryanlaszlo) |
 | Sade Stevens       | @SadeStevens       | sadestevens.hc@gmail.com | [Sadestevens](https://github.com/Sadestevens) |
 | Sarah McAlear      | @SarahMcAlear      | sarah.mcalear@gmail.com  | [sarahmcalear](https://github.com/sarahmcalear) |
-| Simons Chase       | @SimonsChase       | simons.chase@gmail.com   | [slchase](https://github.com/slchase)     |
+| Simons Chase       | @SimonsChase       | simons.chase@gmail.com   | [slchase](https://github.com/slchase)       |
 | Sneha Shah         | @SnehaShah         | sssnehshah24@gmail.com   | [snehshah10](https://github.com/snehshah10) |
 | Zachary Fine       | tbd                | zfine416@gmail.com       | tbd |
 
@@ -92,17 +92,17 @@ Keep in mind, this is tentative. **We may (and shall) change topics and dates as
 | Week(s) | Dates | Module |
 |:-------:|:-----:|:-------|
 | **[Week 1](/w01/README.md)** | 12/1 &ndash; 12/5   | Our Development Environment<br>Introduction to Programming (Ruby)<br>Version Control with Git and GitHub |
-| **Week 2** | 12/8 &ndash; 12/12  | Object-Oriented Programming (Ruby)<br>Persistent Stores (Redis) |
-| **Week 3** | 12/15 &ndash; 12/19 | Understanding Networking (HTTP)<br>Introduction to the Web as an Application Platform (Sinatra) |
-| (Winter Break) | 12/22 &ndash; 1/2 | Building Web Pages with HTML & CSS |
-| **Week 4** | 1/5 &ndash; 1/9     | Programming in the Browser Environment (JavaScript)|
-| **Week 5** | 1/12 &ndash; 1/16   | Using JavaScript Libraries<br>jQuery |
-| **Week 6** | 1/20 &ndash; 1/23   | The Application Development Process<br>*First Project Sprint* |
-| **Week 7** | 1/26 &ndash; 1/30 | Modeling Domains and Data<br>Using SQL and ORMs (ActiveRecord)|
-| **Week 8** | 2/2 &ndash; 2/5 | Producing and Consuming Universal APIs with REST |
-| **Weeks 8 & 9** | 2/5 &ndash; 2/13 | The Rails Web Application Framework |
-| **Week 10** | 2/16 &ndash; 2/20 | *Second (Group) Project Sprint* |
-| **Week 11** | 2/23 &ndash; 2/27 | Client-side Application Development (JavaScript) |
+| **Week 2**     | 12/8 &ndash; 12/12  | Object-Oriented Programming (Ruby)<br>Persistent Stores (Redis) |
+| **Week 3**     | 12/15 &ndash; 12/19 | Understanding Networking (HTTP)<br>Introduction to the Web as an Application Platform (Sinatra) |
+| (Winter Break) | 12/22 &ndash; 1/2   | Building Web Pages with HTML & CSS |
+| **Week 4**     | 1/5 &ndash; 1/9     | Programming in the Browser Environment (JavaScript)|
+| **Week 5**     | 1/12 &ndash; 1/16   | Using JavaScript Libraries<br>jQuery |
+| **Week 6**     | 1/20 &ndash; 1/23   | The Application Development Process<br>*First Project Sprint* |
+| **Week 7**     | 1/26 &ndash; 1/30   | Modeling Domains and Data<br>Using SQL and ORMs (ActiveRecord)|
+| **Week 8**     | 2/2 &ndash; 2/5     | Producing and Consuming Universal APIs with REST |
+| **Weeks 8 & 9** | 2/5 &ndash; 2/13   | The Rails Web Application Framework |
+| **Week 10**    | 2/16 &ndash; 2/20   | *Second (Group) Project Sprint* |
+| **Week 11**    | 2/23 &ndash; 2/27   | Client-side Application Development (JavaScript) |
 | **Weeks 12 & 13** | 3/2 &ndash; 3/10 | *Final Project Sprint* |
 
 <!--
