@@ -53,14 +53,14 @@ If you want to email the entire class and the instructional team, please use:<br
 | Dana DeFilippo     | tbd                | dana.defilippo@gmail.com | [danadflip](https://github.com/danadflip) |
 | Dennis Liaw        | @DennisLiaw        | dennis.liaw@gmail.com    | [CentroDL](https://github.com/CentroDL)   |
 | Kamari Aykes       | @KamariAykes       | aykeskc@gmail.com        | [brainyandbrown](https://github.com/brainyandbrown) |
-| Kristen MacFarlane | @KristenMacFarlane | krismacfarlane@gmail.com | [krismacfarlane](https://github.com/krismacfarlane) |
+| Kristen MacFarlane | @KristenMacFarlane | krismacfarlane@gmail.com | tbd |
 | Melodie Malfa      | @MelodieMalfa      | melmalfa@gmail.com       | [melmalfa](https://github.com/melmalfa)   |
 | Michael Campbell   | @MichaelCampbell   | mccool322@aol.com        | [hammer7402](https://github.com/hammer7402) |
 | Naya Moss          | @NayaMoss          | naya.moss@gmail.com      | [nayamoss](https://github.com/nayamoss)   |
 | Patricio Calderon  | @PatricioCalderon  | ourobor@gmail.com        | [Patdel](https://github.com/Patdel)       |
 | Chadd Clairmont    | @PaulClairmont     | pcac25@gmail.com         | [chaddpaul](https://github.com/chaddpaul) |
 | Ryan Laszlo        | tbd                | ryan.laszlo@gmail.com    | [ryanlaszlo](https://github.com/ryanlaszlo) |
-| Sade Stevens       | @SadeStevens       | sadestevens.hc@gmail.com | [sadestevens](https://github.com/sadestevens) |
+| Sade Stevens       | @SadeStevens       | sadestevens.hc@gmail.com | [Sadestevens](https://github.com/Sadestevens) |
 | Sarah McAlear      | @SarahMcAlear      | sarah.mcalear@gmail.com  | [sarahmcalear](https://github.com/sarahmcalear) |
 | Simons Chase       | @SimonsChase       | simons.chase@gmail.com   | [slchase](https://github.com/slchase)     |
 | Sneha Shah         | @SnehaShah         | sssnehshah24@gmail.com   | [snehshah10](https://github.com/snehshah10) |
