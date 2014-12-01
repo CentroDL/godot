@@ -1,5 +1,5 @@
 <center>
-![](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
+![GA Logo](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 </center>
 
 # WDI Godot
@@ -43,7 +43,7 @@ In order to submit your homework to this repo and share it with your instruction
 
 If you want to email the entire class and the instructional team, please use:<br/>**wdi-nyc-december2014@ga-groups.com**, our Google Group (aka listserv)!
 
-| Name               | HipChat       | Email           | GitHub |
+| Name               | [HipChat](https://ga-immersives.hipchat.com/home) | Email | GitHub |
 |--------------------|:-------------:|:---------------:|:------:|
 | Aliya Scribner     | @AliyaScribner     | aliya.scribner@gmail.com | [Dev814](https://github.com/Dev814)       |
 | Andres Valencia    | @AndresValencia    | andresv2@mac.com         | [andresv2](https://github.com/andresv2)   |
