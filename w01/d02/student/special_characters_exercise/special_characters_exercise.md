@@ -11,8 +11,8 @@ You just learned how to add special characters to strings. You've been tasked wi
 
 1. Open the `winters_dream_excerpt.rb` file found in `w01/d02/student`
 1. Make your terminal full screen and run the ruby file via `ruby winter_dreams_excerpt.rb`
-1. Add special characters (indentation, linebreaks, and double quotes) to the string so that it prints like the mockup below.
+1. Add special characters (indentation, linebreaks, and double quotes) to the string so that when you run the Ruby file, it prints like the mockup below.
 
 #### Mockup
 
-![image](../../../screenshots/winter_dreams.JPG)
+![image](../../../../screenshots/winter_dreams.JPG)
