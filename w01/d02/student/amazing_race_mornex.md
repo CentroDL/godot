@@ -103,18 +103,22 @@ cat
 
 ### Leg 7: Iguazu to Patagonia
 
+all together
 > patagonia
 
 ### Leg 8: Patagonia to Valparaíso
 
+cp -R 'ing'
 > valparaiso Ascensors (funiculars)
 
 ### Leg 9: Valparaíso to the Atacama
 
+rm -r 'ing'
 > drive up to atacama and mine salt
 
 ### Leg 10: The Atacama to La Paz
 
+mv folders
 > go to a market in La Paz and buy a whole chola dress
 
 ### Leg 11: La Paz to Quito
