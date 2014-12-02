@@ -32,6 +32,7 @@ Here is a list of readings, tutorials, and examples for this week's lessons:
   - [Setting Up a Repository](https://www.atlassian.com/git/tutorials/setting-up-a-repository/)
   - [simple Git guide](http://rogerdudler.github.io/git-guide/)
   - [*the book* on Git (Pro Git), chapters 1 & 2](http://git-scm.com/book/en/v2)
+  - [a Git Diagram](https://greenido.files.wordpress.com/2013/07/git-local-remote.png?w=696&h=570)
 - **[Methods](http://ruby.bastardsbook.com/chapters/methods/)**
 - **[Loading Code Libraries](https://practicingruby.com/articles/ways-to-load-code)**
 - **Debugging**
