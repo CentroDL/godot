@@ -12,7 +12,7 @@ Today we continue our exploration of the Ruby programming language. The assignme
 
 1. Go to the class repo (`~/dev/wdi/godot`).
 1. Do your work in the folder `w01/d02/student`.
-1. Save your changes in git often! At the very least, make a `git commit` after you finish each part. This means that whenever you submit your homework, you will send us your most updated work!
+1. Save your changes using `git` often! At the very least, use `git add ...` and `git commit -m "..."` after you finish each part. This means that whenever you submit your homework, you will send us your most updated work!
 1. Work for each part should be done in the files named in the part below.
 
 ### Completion
@@ -46,12 +46,12 @@ Then it will, in order:
 1. **if** the user's answer **is** `Obi-Wan Kenobi` then:
   1. print: `Oh, marvelous! Simply marvelous! Say hello to R2-D2; he's been looking all over for you!`
 1. **otherwise**,
-  1. print: `It is a pleasure to meet you, **name** (your name!). I'm terribly sorry for prying, but you don't by any chance go by the alias of Obi-Wan Kenobi, do you?`
+  1. print: `It is a pleasure to meet you, [insert name here]. I'm terribly sorry for prying, but you don't by any chance go by the alias of Obi-Wan Kenobi, do you?`
   1. take the user's answer as input (any string),
   1. **if** the user's answer **is** one of `yes`, `Yes`, `YES`, `y`, or `Y` then:
     1. print: `Oh, marvelous! Simply marvelous! Say hello to R2-D2; he's been looking all over for you!`
   1. **if** the user's answer **is** one of `no`, `No`, `NO`, `n`, or `N` then:
-    1. print: `I've really enjoyed speaking with you, **name**, but if you'll please excuse me, I have to help my friend find someone named Obi-Wan Kenobi.`
+    1. print: `I've really enjoyed speaking with you, [insert name here], but if you'll please excuse me, I have to help my friend find someone named Obi-Wan Kenobi.`
     1. print: `Well R2, I suppose we'll just have to keep looking. R2-D2: (Agreeable droid noises)`
   1. **otherwise**, **if** the user's answer **is not** one of the above, then:
     1. print: `I'm sorry, I didn't hear you correctly. I only respond to "yes" or "no"...`
@@ -62,7 +62,7 @@ Then it will, in order:
 
 **File name:** `artoo.rb`
 
-> R2D2, the astromech droid sidekick of C-3P0, is another famous character in Star Wars. Where C-3P0 is famously grating and cowardly, R2D2 is a true hero. Sadly, R2D2's finer qualities are often ignored, and he is treated as little better than a serving tray or calculator. In the following exercise, we will treat him as a calculator.
+> R2D2, the astromech droid sidekick of C-3P0, is another fun character in Star Wars. Where C-3P0 is famously grating and cowardly, R2D2 is a true hero. Sadly, R2D2's finer qualities are often ignored, and he is treated as little better than a serving tray or calculator. In the following exercise, we will treat him as a calculator.
 
 Write a program that you run with the command:
 
@@ -100,7 +100,7 @@ Inside the loop, it will do the following, in order:
 
 **File name:** `ig_88a.rb`
 
-> [IG-88A](http://img4.wikia.nocookie.net/__cb20131108204000/starwars/images/f/f7/DengarIG88Fett-TESB30.png) is a lesser-known droid from the Star Wars: the Empire Strikes Back. He is an assassin, and completely ruthless. You don't want to come across him in the [expanded universe](http://starwars.wikia.com/wiki/IG-88A)!
+> [IG-88A](http://img4.wikia.nocookie.net/__cb20131108204000/starwars/images/f/f7/DengarIG88Fett-TESB30.png) is a lesser-known droid from Star Wars: the Empire Strikes Back. He is an assassin, and completely ruthless. You don't want to come across him in the [expanded universe](http://starwars.wikia.com/wiki/IG-88A)!
 
 IG-88A has gone on a rampage, destroying everything in his path!
 
@@ -110,17 +110,17 @@ Write a program that you run with the command:
 $ ruby ig_88a.rb
 ```
 
-The program will go in to a loop.
+The program should immediately go in to a loop.
 
 On each iteration of the loop, the program will ask the user: `Freeze! Who are you?`.
 
-If the user writes anything other than `Han Solo`, the cold-hearted machine will gun them down, printing: `You must die! (zap zap kaboom)`.
+If the user writes anything other than `Han Solo`, the cold-hearted machine will gun them down, printing: `You must die! (zap zap kaboom)`. It will then loop back to the beginning, and ask who you are again.
 
 The one exception is when the user doesn't type their name, but instead types in `(zap)` and shoots at the machine! If they do this, a gunfight will ensue: `(zap)` will print 20 times, and at the end the user will escape and exit the program.
 
 If the user enters `Han Solo`, then the program will print: `You are mine at last, Solo!`. Then the program will go in to a gunfight: `(zap)` will print 20 times.
 
-At the end of the gunfight there is a %50 percent random chance that the machine catches Solo and prints: `Solo is caught! Jabba the Hutt will pay handsomely...` and end the program. The rest of the time Han will escape, and the machine will print `I'll get you next time, Solo!`, and begin the loop over.
+At the end of the gunfight there is a %50 random chance that the machine catches Solo and prints: `Solo is caught! Jabba the Hutt will pay handsomely...` and end the program. The other %50 of the time Han will escape, and the machine will print `I'll get you next time, Solo!`, and begin the loop over.
 
 ## Bonus
 
