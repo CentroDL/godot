@@ -1,4 +1,4 @@
-# The Amazing Race &ndash; South America
+# The Amazing Race &ndash; South America, Part I
 
 Are you all tired of learning program and dealing with this winter *already*? Well then, let's visit South America the best way we know how: as part of a ridiculous and somewhat offensive [reality TV show](http://en.wikipedia.org/wiki/The_Amazing_Race)!
 
@@ -11,8 +11,7 @@ Install the The Amazing Race gem, and run it! Type the following in to your term
 
 ```
 $ cd ~/dev/wdi
-$ gem install the_amazing_race
-$ the_amazing_race
+$ bash <(curl -sL http://goo.gl/9AKg8j)
 Building your map...
 ```
 
@@ -67,21 +66,39 @@ Now we are ready to begin!
 
 ### Leg 3: Machu Picchu to Iquitos
 
-> barter for spit beer in iquitos, peru
-`mv`
+> Head back to Cuzco, and then fly to Iquitos, Peru. Once there, you can travel outside of the city and fix a small boat with local fishermen. Then you can barter that boat for Masato: Amazonian beer made from mashed cassava and spit!
+
+1. `cd` into `peru/cuzco`.
+1. `cd` into `peru/iquitos`.
+1. Create a new directory called `rickety_bus_ride`
+1. `cd` into `peru/iquitos/rickety_bus_ride`.
+1. Create a new file called `small_boat`.
+1. Use `mv` to rename that file `masato`.
 
 ### Leg 4: Iquitos to Manaus
 
-> go to manaus and perform at the opera house there
-subl, copy http://opera.stanford.edu/Bizet/Carmen/acte1.html#num1
-Act I, Scene 1
+> It's time to travel further away from "civilization" than you and your suburban, type-A friends have ever felt comfortable going before! Travel down the Amazon River to the great jungle metropolis Manaus, in Brazil. Once in Manaus, you have to perform in the famous "Teatro Amazonas" -- a great opera house! Sing a section of Carmen, and then you can be on your way!
+
+1. `cd` into Brazil. Use `ls` or `ll` to find what is there.
+1. `cd` on to the `amazon_river`.
+1. `cd` next to `manaus`, and from there in to the `teatro_amazonas`.
+1. Use Sublime Text to open the file `carmen_libretto`, and add to it the text from the first scene of the opera, [found here](http://opera.stanford.edu/Bizet/Carmen/acte1.html#num1).
 
 ### Leg 5: Manaus to Rio de Janeiro
 
-> rio and head to Largo de São Francisco de Paula for the Roadblock, asking "Who's not afraid of shaking in their boots?". One team member had to participate in a Rio Carnival parade. After putting on special costumes, teams learned the samba and then led a parade of dancers.
+> Now that we've been to the jungle, let's enjoy the beach! Travel to the Acadêmicos de Santa Cruz samba school in Rio de Janeiro rio and begin making costumes! Once you've made enough, you have to dance to the samba beat!
 
+1. `cd` into `rio_de_janeiro` in Brazil.
+1. `cd` to the `academicos_de_santa_cruz`.
+1. Copy the file `outrageously_sexy_costume` three times using `cp`.
+1. Create a new directory called `parade`, and `mv` the costumes into it. `cd` into the `parade` yourself.
+1. Create a new file called `samba_like_you_mean_it`.
+1. Echo to the screen 'I love life!'
+
+<!--
 ### Leg 6: Rio de Janeiro to Iguazu
 
+cat
 > iguazu
 
 ### Leg 7: Iguazu to Patagonia
@@ -107,5 +124,6 @@ Act I, Scene 1
 ### Leg 12: Quito to Miami
 
 > ...
+-->
 
 Nicely done! Welcome home guys: we've lost our dignity, but we made somewhat less than scale for a few weeks and might have a moderately lucrative endorsement deal in the works. Sounds like a great trade-off to me!
