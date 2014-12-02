@@ -26,6 +26,8 @@ power = $stdin.gets.downcase.chomp
 
 if (curr_temp > des_temp) && (power == "false")
   $stdout.puts("Please turn on the A/C. It's stifling in here.")
+elsif (curr_temp < des_temp) && (power == "false")
+  $stdout.puts("Why is it sooooo cold!!")
 elsif (curr_temp < des_temp) && (power == "true")
   $stdout.puts("Please turn off the air conditioner. I'm cooler than cool.")
 elsif (curr_temp == des_temp)
