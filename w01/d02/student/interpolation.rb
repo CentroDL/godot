@@ -1,8 +1,8 @@
-
-# first_name = 'SOME_NAME'
-# second_name = 'SOME_OTHER_NAME'
-# third_name = 'YET_ANOTHER_NAME'
-# other_likes_count = 'SOME INTEGER VALUE'
+first_name = 'jesse_james'
+second_name = 'peter_wentz'
+third_name = 'janet_reno'
+other_likes_count = '13'
+$stdout.puts("#{first_name}, #{second_name}, #{third_name} and #{other_likes_count} like this.")
 
 # Directions
 
