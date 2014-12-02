@@ -141,7 +141,7 @@ How much did your meal cost?
 $ 180.00
 How much do you want to tip (%)?
 $ 18
-You should tip $27.00
+You should tip $32.40
 ```
 
 > PJ is arguing with his fiancee over how much an appropriate service charge is for catering a wedding. Do you believe that tip jars for open bars are tacky or useful?
