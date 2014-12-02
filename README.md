@@ -1,5 +1,5 @@
 <center>
-![](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
+![GA Logo](https://github.com/generalassembly/ga-ruby-on-rails-for-devs/raw/master/images/ga.png "GeneralAssemb.ly")
 </center>
 
 # WDI Godot
@@ -14,7 +14,8 @@ In order to submit your homework to this repo and share it with your instruction
 - [**Contact Information**](#contact-information)
 - [**Important Dates**](#important-dates)
 - [**Course Outline**](#course-outline)
-- [**Classroom Code of Conduct**](#coc)
+
+<!-- [**Classroom Code of Conduct**](#coc) -->
 
 ---
 
@@ -26,37 +27,44 @@ In order to submit your homework to this repo and share it with your instruction
 
 | Role                   | Name               | HipChat       | Email         | GitHub |
 |------------------------|--------------------|:-------------:|:-------------:|:------:|
-| **Course Producer**    | Sarah Maibach      | @sarahmaibach | maibach@ga.co | *n/a* |
+| **Course Producer**    | Sarah Maibach      | @sarahmaibach | maibach@ga.co | [smaib][smaib] |
 | **Instructor**         | Phil Lamplugh      | @philco       | philco@ga.co  | [phlco][phlco] (**no 'i'!**) |
 | **Instructor**         | PJ Hughes          | @pj           | pj@ga.co      | [h4w5][h4w5] |
 | **Instructor**         | Travis Vander Hoop | @trav         | travis@ga.co  | [vanderhoop][van] |
-| **Evening TA**         | *Unknown*          | *n/a*         | *n/a*         | *n/a* |
+| **Evening TA**         | Robert Silverblatt | @splat   |rsilverblatt88@gmail.com   | [rsilverblatt88][splat] |
 
-[phlco]: https://github.com/phlco      "Phil's GitHub link"
-[h4w5]:  https://github.com/h4w5       "PJ's GitHub link"
-[van]:   https://github.com/vanderhoop "Travis's GitHub link"
+[smaib]: https://github.com/smaib          "Sarah's GitHub link"
+[phlco]: https://github.com/phlco          "Phil's GitHub link"
+[h4w5]:  https://github.com/h4w5           "PJ's GitHub link"
+[van]:   https://github.com/vanderhoop     "Travis's GitHub link"
+[splat]: https://github.com/rsilverblatt88 "Splat's GitHub Link"
 
 ### Class
 
-If you want to email the entire class and the instructional team, please use: **wdi-nyc-december2014@ga-groups.com**, our Google Group (or listserv)!
+If you want to email the entire class and the instructional team, please use:<br/>**wdi-nyc-december2014@ga-groups.com**, our Google Group (aka listserv)!
 
-| Name               | HipChat       | Email           | GitHub |
+| Name               | [HipChat](https://ga-immersives.hipchat.com/home) | Email | GitHub |
 |--------------------|:-------------:|:---------------:|:------:|
-| Aliya Scribner     | @tbd | aliya.scribner@gmail.com | [GHName](https:://github.com/GHName) |
-| Andres Valencia    | @tbd | andresv2@mac.com         | [GHName](https:://github.com/GHName) |
-| Angelina Bethoney  | @tbd | ambethoney@yahoo.com     | [GHName](https:://github.com/GHName) |
-| Audrey Wong        | @tbd | audreydotwong@gmail.com  | [GHName](https:://github.com/GHName) |
-| Dain Carver        | @tbd | carver403@gmail.com      | [GHName](https:://github.com/GHName) |
-| Dana DeFilippo     | @tbd | dana.defilippo@gmail.com | [GHName](https:://github.com/GHName) |
-| Jerry Torrens      | @tbd | jerrytorrens@gmail.com   | [GHName](https:://github.com/GHName) |
-| Kristen MacFarlane | @tbd | krismacfarlane@gmail.com | [GHName](https:://github.com/GHName) |
-| Melodie Malfa      | @tbd | melmalfa@gmail.com       | [GHName](https:://github.com/GHName) |
-| Michael Campbell   | @tbd | mccool322@aol.com        | [GHName](https:://github.com/GHName) |
-| Paul Clairmont     | @tbd | pcac25@gmail.com         | [GHName](https:://github.com/GHName) |
-| Simons Chase       | @tbd | simons.chase@gmail.com   | [GHName](https:://github.com/GHName) |
-| Sneha Shah         | @tbd | sssnehshah24@gmail.com   | [GHName](https:://github.com/GHName) |
-| Zohra Asrar        | @tbd | zasrar@gmail.com         | [GHName](https:://github.com/GHName) |
-
+| Aliya Scribner     | @AliyaScribner     | aliya.scribner@gmail.com | [Dev814](https://github.com/Dev814)         |
+| Andres Valencia    | @AndresValencia    | andresv2@mac.com         | [andresv2](https://github.com/andresv2)     |
+| Angelina Bethoney  | @AngelinaBethoney  | ambethoney@yahoo.com     | [ambethoney](https://github.com/ambethoney) |
+| Brian Rucker       | @BrianRucker       | rucker.b@gmail.com       | [Brucker1](https://github.com/Brucker1)     |
+| Dain Carver        | @DainCarver        | carver403@gmail.com      | [rugger403](https://github.com/rugger403)   |
+| Dana DeFilippo     | tbd                | dana.defilippo@gmail.com | [danadflip](https://github.com/danadflip)   |
+| Dennis Liaw        | @DennisLiaw        | dennis.liaw@gmail.com    | [CentroDL](https://github.com/CentroDL)     |
+| Kamari Aykes       | @KamariAykes       | aykeskc@gmail.com        | [brainyandbrown](https://github.com/brainyandbrown) |
+| Kristen MacFarlane | @KristenMacFarlane | krismacfarlane@gmail.com | tbd |
+| Melodie Malfa      | @MelodieMalfa      | melmalfa@gmail.com       | [melmalfa](https://github.com/melmalfa)     |
+| Michael Campbell   | @MichaelCampbell   | mccool322@aol.com        | [hammer7402](https://github.com/hammer7402) |
+| Naya Moss          | @NayaMoss          | naya.moss@gmail.com      | [nayamoss](https://github.com/nayamoss)     |
+| Patricio Calderon  | @PatricioCalderon  | ourobor@gmail.com        | [Patdel](https://github.com/Patdel)         |
+| Chadd Clairmont    | @PaulClairmont     | pcac25@gmail.com         | [chaddpaul](https://github.com/chaddpaul)   |
+| Ryan Laszlo        | tbd                | ryan.laszlo@gmail.com    | [ryanlaszlo](https://github.com/ryanlaszlo) |
+| Sade Stevens       | @SadeStevens       | sadestevens.hc@gmail.com | [Sadestevens](https://github.com/Sadestevens) |
+| Sarah McAlear      | @SarahMcAlear      | sarah.mcalear@gmail.com  | [sarahmcalear](https://github.com/sarahmcalear) |
+| Simons Chase       | @SimonsChase       | simons.chase@gmail.com   | [slchase](https://github.com/slchase)       |
+| Sneha Shah         | @SnehaShah         | sssnehshah24@gmail.com   | [snehshah10](https://github.com/snehshah10) |
+| Zachary Fine       | tbd                | zfine416@gmail.com       | tbd |
 
 ## Important Dates
 
@@ -64,14 +72,14 @@ If you want to email the entire class and the instructional team, please use: **
 |:----:|:-----------:|:------|
 | **November 25** | Tuesday | **Orientation**, 6:00-10:00pm at the<br>10 E 21st St. 3rd Floor Conco urse |
 | **December 1**  | Monday  | **First day of class!** |
-| **December 19** | Friday | Last day of class before Winter Break |
-| **January 5** | Monday | First day of class after Winter Break |
-| **January 19** | Monday | **Martin Luther King Day, no class** |
-| **January 30** | Friday | Full Day Lab |
-| **February 16** | Monday | **Presidents Day, no class** |
+| **December 19** | Friday  | Last day of class before Winter Break |
+| **January 5**   | Monday  | First day of class after Winter Break |
+| **January 19**  | Monday  | **Martin Luther King Day, no class** |
+| **January 30**  | Friday  | Full Day Lab |
+| **February 16** | Monday  | **Presidents Day, no class** |
 | **February 17-20** | Tuesday &ndash; Friday | (Likely) Group Project Sprint: **do not miss<br>as your team depends upon you!** |
-| **February 27** | Friday | Full Day Lab |
-| **March 10** | Tuesday | **Last day of class & graduation!** |
+| **February 27** | Friday  | Full Day Lab |
+| **March 10**    | Tuesday | **Last day of class & graduation!** |
 
 Note: in the weeks following your graduation, there will be a number of various job search preparation tutorials and hiring events, with dates TBD.
 
@@ -84,19 +92,21 @@ Keep in mind, this is tentative. **We may (and shall) change topics and dates as
 | Week(s) | Dates | Module |
 |:-------:|:-----:|:-------|
 | **[Week 1](/w01/README.md)** | 12/1 &ndash; 12/5   | Our Development Environment<br>Introduction to Programming (Ruby)<br>Version Control with Git and GitHub |
-| **[Week 2](/w02/README.md)** | 12/8 &ndash; 12/12  | Object-Oriented Programming (Ruby)<br>Behavior-Driven Development<br>Persistent Stores (Redis) |
-| **[Week 3](/w03/README.md)** | 12/15 &ndash; 12/19 | Understanding Networking (HTTP)<br>Introduction to the Web as an Application Platform (Sinatra) |
-| ([Winter Break](/winter_break_module/README.md)) | 12/22 &ndash; 1/2 | Building Web Pages with HTML & CSS |
-| **Week 4** | 1/5 &ndash; 1/9     | Programming in the Browser Environment (JavaScript)|
-| **Week 5** | 1/12 &ndash; 1/16   | Using JavaScript Libraries<br>jQuery |
-| **Week 6** | 1/20 &ndash; 1/23   | The Application Development Process<br>*First Project Sprint* |
-| **Week 7** | 1/26 &ndash; 1/30 | Modeling Domains and Data<br>Using SQL and ORMs (ActiveRecord)|
-| **Week 8** | 2/2 &ndash; 2/5 | Producing and Consuming Universal APIs with REST |
-| **Weeks 8 & 9** | 2/5 &ndash; 2/13 | The Rails Web Application Framework |
-| **Week 10** | 2/16 &ndash; 2/20 | *Second (Group) Project Sprint* |
-| **Week 11** | 2/23 &ndash; 2/27 | Client-side Application Development (JavaScript) |
+| **Week 2**     | 12/8 &ndash; 12/12  | Object-Oriented Programming (Ruby)<br>Persistent Stores (Redis) |
+| **Week 3**     | 12/15 &ndash; 12/19 | Understanding Networking (HTTP)<br>Introduction to the Web as an Application Platform (Sinatra) |
+| (Winter Break) | 12/22 &ndash; 1/2   | Building Web Pages with HTML & CSS |
+| **Week 4**     | 1/5 &ndash; 1/9     | Programming in the Browser Environment (JavaScript)|
+| **Week 5**     | 1/12 &ndash; 1/16   | Using JavaScript Libraries<br>jQuery |
+| **Week 6**     | 1/20 &ndash; 1/23   | The Application Development Process<br>*First Project Sprint* |
+| **Week 7**     | 1/26 &ndash; 1/30   | Modeling Domains and Data<br>Using SQL and ORMs (ActiveRecord)|
+| **Week 8**     | 2/2 &ndash; 2/5     | Producing and Consuming Universal APIs with REST |
+| **Weeks 8 & 9** | 2/5 &ndash; 2/13   | The Rails Web Application Framework |
+| **Week 10**    | 2/16 &ndash; 2/20   | *Second (Group) Project Sprint* |
+| **Week 11**    | 2/23 &ndash; 2/27   | Client-side Application Development (JavaScript) |
 | **Weeks 12 & 13** | 3/2 &ndash; 3/10 | *Final Project Sprint* |
 
+<!--
 ## Classroom Code of Conduct <a id="coc"></a>
 
 (TODO) link and discuss
+-->
