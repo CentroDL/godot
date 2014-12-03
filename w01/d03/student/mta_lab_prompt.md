@@ -129,6 +129,6 @@ Average time for a train stop in a station: **0:15**.
 
 The `S` shuttle line has two stops: `Times Square` and `Grand Central`. This means that there are now transfers at the 6 Line's Grand Central station and the N Line's Times Square station. The average times for these are:
 
-S line trip (only two stops): **1:55**.
-Average transfer time at Times Square station: **2:10**.  
+S line trip (only two stops): **1:55**.   
+Average transfer time at Times Square station: **2:10**.   
 Average transfer time at Grand Central station: **3:25**.  
