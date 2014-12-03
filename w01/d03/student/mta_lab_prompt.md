@@ -11,6 +11,7 @@ You will be creating a program that models a simplified version of the New York 
 1. Do the work in your student folder for today (`~/dev/wdi/godot/w01/d03/student`).
 1. Save your changes using `git` often! At the very least, use `git add .` and `git commit -m "..."` after you finish each part. This means that whenever you submit your homework, you will send us your most updated work!
 1. Work for each part should be done in the files named below.
+1. **Timeboxing**: limiting how much time you will devote to a problem before you move on. This is the first lab with *timeboxed* parts!
 
 ### The Problem
 
@@ -29,7 +30,8 @@ We want to build a program that will take the line and stop at which the user is
 
 ## Part 1 &ndash; Diagram the data (or domain)
 
-**File name:** `mta_data. ...` (the extension is not important)
+**File name:** `mta_data. ...` (the extension is not important)   
+**Timebox:** Maximum 10 minutes.
 
 Before you start coding away, close your laptops and make a diagram of the subway lines with their stops and how they intersect.
 
@@ -37,7 +39,8 @@ If you drew this out, then take a picture and add it to the repo with the file n
 
 ## Part 2 &ndash; Diagram the problem
 
-**File name:** `mta_problem. ...` (the extension is not important)
+**File name:** `mta_problem. ...` (the extension is not important)   
+**Timebox:** Maximum 15 minutes.
 
 Write out &ndash; step by step, in plain English &ndash; how you would find the number of stops between the Times Square stop on the N line and the Astor Place stop on the 6 line. What values do you need, and how will you use them?
 
