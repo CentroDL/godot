@@ -30,6 +30,18 @@ six_line_stops = {
   "Astor Place" => 1
 }
 
-$stdout.puts(n_line_stops)
-$stdout.puts(l_line_stops)
-$stdout.puts(six_line_stops)
+$stdout.puts("What Line would you like to take?(6/L/N)")
+line_choice = $stdin.gets.chomp
+
+if line_choice.upcase == "N"
+  $stdout.puts(n_line_stops.keys)
+  $stdout.puts("Which stop would you like to get on at?")
+elsif line_choice.upcase == "L"
+  $stdout.puts(l_line_stops.keys)
+  $stdout.puts("Which stop would you like to get on at?")
+else
+  $stdout.puts(six_line_stops.keys)
+  $stdout.puts("Which stop would you like to get on at?")
+end
+
+
