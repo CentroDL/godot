@@ -123,8 +123,6 @@ Roll credits.
 
 ![ALF flowchart][alf_flow]
 
-<!--
-
 ## ScriptBot 4 &ndash; [Full House][full_house_show]
 
 **File name:** `full_house.rb`
@@ -136,8 +134,6 @@ Roll credits.
 **File name:** `quantum_leap.rb`
 
 ![Quantum Leap flowchart][quantum_leap_flow]
-
--->
 
 <!-- Links -->
 
