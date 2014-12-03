@@ -129,12 +129,6 @@ Roll credits.
 
 ![Full House flowchart][full_house_flow]
 
-## ScriptBot 5 &ndash; [Quantum Leap][quantum_leap_show]
-
-**File name:** `quantum_leap.rb`
-
-![Quantum Leap flowchart][quantum_leap_flow]
-
 <!-- Links -->
 
 [execubots]:         img/execubots.jpg
@@ -147,7 +141,6 @@ Roll credits.
 [alf_show]:          http://en.wikipedia.org/wiki/ALF_%28TV_series%29
 [threes_co_show]:    http://en.wikipedia.org/wiki/Three%27s_Company
 [full_house_show]:   http://en.wikipedia.org/wiki/Full_House
-[quantum_leap_show]: http://en.wikipedia.org/wiki/Quantum_Leap
 
 [married_flow]:      img/married.jpg
 [dallas_flow]:       img/dallas.jpg
@@ -155,4 +148,3 @@ Roll credits.
 [alf_flow]:          img/alf.jpg
 [threes_co_flow]:    img/threes_company.jpg
 [full_house_flow]:   img/full_house.jpg
-[quantum_leap_flow]: img/quantum_leap.jpg
