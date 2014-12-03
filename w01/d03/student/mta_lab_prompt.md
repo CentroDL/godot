@@ -2,14 +2,14 @@
 
 ### A Ruby Data Structures Lab
 
-You will be creating a program that models a simplified version of the New York City subway system. You know your in WDI when you've done the MTA lab!
+You will be creating a program that models a simplified version of the New York City subway system. You know you're in WDI when you've done the MTA lab!
 
 ## Instructions
 
 ### Setup
 
 1. Do the work in your student folder for today (`~/dev/wdi/godot/w01/d03/student`).
-1. Save your changes using `git` often! At the very least, use `git add ...` and `git commit -m "..."` after you finish each part. This means that whenever you submit your homework, you will send us your most updated work!
+1. Save your changes using `git` often! At the very least, use `git add .` and `git commit -m "..."` after you finish each part. This means that whenever you submit your homework, you will send us your most updated work!
 1. Work for each part should be done in the files named below.
 
 ### The Problem
