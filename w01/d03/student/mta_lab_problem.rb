@@ -30,18 +30,40 @@ six_line_stops = {
   "Astor Place" => 1
 }
 
-$stdout.puts("What Line would you like to take?(6/L/N)")
+$stdout.puts("What Line would you like to take?(6/L/N)?")
 line_choice = $stdin.gets.chomp
-
 if line_choice.upcase == "N"
   $stdout.puts(n_line_stops.keys)
-  $stdout.puts("Which stop would you like to get on at?")
+  train1 = n_line_stops
 elsif line_choice.upcase == "L"
   $stdout.puts(l_line_stops.keys)
-  $stdout.puts("Which stop would you like to get on at?")
+  train1 = l_line_stops
 else
   $stdout.puts(six_line_stops.keys)
-  $stdout.puts("Which stop would you like to get on at?")
+  train1 = six_line_stops
 end
+
+$stdout.puts("Which stop would you like to get on at?")
+station_choice = $stdin.gets.chomp
+stop_value1 = train1[station_choice]
+$stdout.puts(stop_value1)
+
+$stdout.puts("What Line would you like to get off on?(6/L/N)?")
+off_line_choice = $stdin.gets.chomp
+if off_line_choice.upcase == "N"
+  $stdout.puts(n_line_stops.keys)
+  train2 = n_line_stops
+elsif off_line_choice.upcase == "L"
+  $stdout.puts(l_line_stops.keys)
+  train2 = l_line_stops
+else
+  $stdout.puts(six_line_stops.keys)
+  train2 = six_line_stops
+end
+
+$stdout.puts("Which stop would you like to get on at?")
+station_choice = $stdin.gets.chomp
+stop_value2 = train2[station_choice]
+$stdout.puts(stop_value2)
 
 
