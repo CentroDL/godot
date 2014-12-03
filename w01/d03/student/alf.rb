@@ -6,7 +6,7 @@ pretend_human = $stdin.gets.chomp.downcase
 
 if pretend_human == "yes"
   script += "ALF puts on a trench coat and wanders around.\n"
-  script += "ALF narrowly avoids beingdiscovered.\n"
+  script += "ALF narrowly avoids being discovered.\n"
 else
   script += "ALF makes a new friend.\n"
 end
