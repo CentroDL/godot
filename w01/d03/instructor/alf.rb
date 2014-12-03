@@ -13,14 +13,14 @@ else
   script += "ALF makes a new friend.\n"
 end
 
-$stdout.puts("Does ALF try to eat the cat?")
-eat_cat = $stdin.gets.chomp
-
-while (eat_cat == "yes")
-  script += "ALF tries to eat the cat. His family catches him.\n"
-
+while (true)
   $stdout.puts("Does ALF try to eat the cat?")
   eat_cat = $stdin.gets.chomp
+  if(eat_cat == "yes")
+    script += "ALF tries to eat the cat. His family catches him.\n"
+  else
+    break
+  end
 end
 
 script += "ALF learns a lesson about trust, and everyone laughs.\n"
