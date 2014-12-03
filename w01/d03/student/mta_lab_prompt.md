@@ -106,25 +106,29 @@ You will have to make 1 transfer at Union Square to the L line.
 
 ## Bonus
 
-#### Bonus 2 &ndash; Calculate time
+#### Bonus 1 &ndash; Calculate time
 
 Given the following lengths of time (in minutes:seconds) for the average trip between stations, print out the likely travel time for the user's trip.
 
 | **N Line** | Times Square - 34th | 34th - 28th | 28th - 23rd | 23rd - US | US - 8th |
 |:----------:|:---:|:---:|:---:|:---:|:---:|
-|  Avg Time  | 0:40 | 0:18 | 0:22 | 0:40 | 0:38 |
+|  Avg Time  | 1:20 | 0:36 | 0:44 | 1:15 | 1:06 |
 
 | **L Line** | 8th Ave - 6th Ave | 6th Ave - US | US - 3rd Ave | 3rd Ave - 1st Ave |
 |:----------:|:---:|:---:|:---:|:---:|
-|  Avg Time  | 0:32 | 0:20 | 0:50 | 0:18 |
+|  Avg Time  | 1:04 | 0:40 | 1:40 | 0:39 |
 
 | **6 Line** | Grand Central - 33rd | 33rd - 28th | 28th - 23rd | 23rd - US | US - Astor Place |
 |:----------:|:---:|:---:|:---:|:---:|:---:|
-|  Avg Time  | 0:15 | 0:18 | 0:24 | 0:50 | 1:01 |
+|  Avg Time  | 0:30 | 0:27 | 0:48 | 1:38 | 2:02 |
 
 Average transfer time at Union Square station: **4:00**.  
-Average time for a train stop in a station: **0:20**.
+Average time for a train stop in a station: **0:15**.
 
-#### Bonus 1 &ndash; Add a new line and more transfers
+#### Bonus 2 &ndash; Add a new line and more transfers
 
+The `S` shuttle line has two stops: `Times Square` and `Grand Central`. This means that there are now transfers at the 6 Line's Grand Central station and the N Line's Times Square station. The average times for these are:
 
+S line trip (only two stops): **1:55**.
+Average transfer time at Times Square station: **2:10**.  
+Average transfer time at Grand Central station: **3:25**.  
