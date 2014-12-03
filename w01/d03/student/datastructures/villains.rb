@@ -11,6 +11,15 @@ sidekick_3_f_name = "Tim"
 sidekick_3_l_name = "Drake"
 sidekick_3_alter_ego = "Robin"
 
+villiains = ["The Penguin", "The Joker", "The Riddler"]
+
+sidekicks = [
+  {:name => "Dick"},
+  {:name => "Tim"},
+  {:name => "Drake"}
+]
+
+sidekicks[1][:name]
 origin = "Having witnessed the murder of his parents as a child, he swore revenge on #{villain_2}, an oath tempered with a sense of justice with his best friend #{sidekick_1_f_name} #{sidekick_2_l_name} otherwise known as #{sidekick_2_alter_ego}"
 
 $stdout.puts(origin)

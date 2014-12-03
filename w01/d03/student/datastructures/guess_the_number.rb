@@ -1,4 +1,4 @@
-# Assigns the secret_number to the value "7"
+# Assigns the secret_number to the integer value "7"
 SECRET_NUMBER = 7
 # assigns a boolean value to the "guessed" variable
 guessed = false

@@ -12,4 +12,4 @@ vladimir_putins_brain = {:name => "vladamir putin", "launch_code" => "a5Mjp257GH
 - Use pry to add the key-value pair :torture_count => 931
 
 
-$stdout.puts("#hash[:name] loves #hash[:fav_hobby]")
+$stdout.puts("#{vladimir_putins_brain[:name]} loves #{vladimir_putins_brain[:fav_hobby]}")
