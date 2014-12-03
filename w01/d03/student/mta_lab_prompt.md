@@ -1,5 +1,7 @@
 # The Metropolitan Transportation Authority
 
+![Union Square signage](img/union_square.jpg)
+
 ### A Ruby Data Structures Lab
 
 You will be creating a program that models a simplified version of the New York City subway system's midtown local trains. You know you're in WDI when you've done the MTA lab!
