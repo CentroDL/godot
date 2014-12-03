@@ -2,7 +2,7 @@
 
 ### A Ruby Data Structures Lab
 
-You will be creating a program that models a simplified version of the New York City subway system. You know you're in WDI when you've done the MTA lab!
+You will be creating a program that models a simplified version of the New York City subway system's midtown local trains. You know you're in WDI when you've done the MTA lab!
 
 ## Instructions
 
@@ -11,7 +11,7 @@ You will be creating a program that models a simplified version of the New York 
 1. Do the work in your student folder for today (`~/dev/wdi/godot/w01/d03/student`).
 1. Save your changes using `git` often! At the very least, use `git add .` and `git commit -m "..."` after you finish each part. This means that whenever you submit your homework, you will send us your most updated work!
 1. Work for each part should be done in the files named below.
-1. **Timeboxing**: limiting how much time you will devote to a problem before you move on. This is the first lab with *timeboxed* parts!
+1. **[Timeboxing](http://en.wikipedia.org/wiki/Timeboxing)**: limiting how much time you will devote to a problem before you move on. This is the first lab with *timeboxed* parts!
 
 ### The Problem
 
@@ -94,3 +94,37 @@ Now move on to two-line functionality (N and L).
 Now move on to three-line functionality (N, L, and 6).
 
 - Make your program work with all three lines
+
+## Part 7 &ndash; Give simple directions about transfers
+
+- If the trip involves a transfer, make sure that you print that out (where the transfer is and what line you transfer to). For example:
+
+```
+Your trip from the 23rd St N station to the 3rd Ave station is 2 stops long.
+You will have to make 1 transfer at Union Square to the L line.
+```
+
+## Bonus
+
+#### Bonus 2 &ndash; Calculate time
+
+Given the following lengths of time (in minutes:seconds) for the average trip between stations, print out the likely travel time for the user's trip.
+
+| **N Line** | Times Square - 34th | 34th - 28th | 28th - 23rd | 23rd - US | US - 8th |
+|:----------:|:---:|:---:|:---:|:---:|:---:|
+|  Avg Time  | 0:40 | 0:18 | 0:22 | 0:40 | 0:38 |
+
+| **L Line** | 8th Ave - 6th Ave | 6th Ave - US | US - 3rd Ave | 3rd Ave - 1st Ave |
+|:----------:|:---:|:---:|:---:|:---:|
+|  Avg Time  | 0:32 | 0:20 | 0:50 | 0:18 |
+
+| **6 Line** | Grand Central - 33rd | 33rd - 28th | 28th - 23rd | 23rd - US | US - Astor Place |
+|:----------:|:---:|:---:|:---:|:---:|:---:|
+|  Avg Time  | 0:15 | 0:18 | 0:24 | 0:50 | 1:01 |
+
+Average transfer time at Union Square station: **4:00**.  
+Average time for a train stop in a station: **0:20**.
+
+#### Bonus 1 &ndash; Add a new line and more transfers
+
+
