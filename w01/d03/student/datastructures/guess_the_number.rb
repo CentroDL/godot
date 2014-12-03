@@ -2,8 +2,10 @@
 SECRET_NUMBER = 7
 # assigns a boolean value to the "guessed" variable
 guessed = false
+guesses = []
 #  prompts user for a number
 $stdout.puts('I\'m thinking of a number between 1 and 10. Can you guess it?')
+
 # runs loop until correct number is given
 while !guessed
   guess = $stdin.gets.to_i
@@ -14,4 +16,4 @@ while !guessed
   end
 end
 
-$stdout.puts('Great job!')
+$stdout.puts("Great job! It took you #{guesses.length} tries")
