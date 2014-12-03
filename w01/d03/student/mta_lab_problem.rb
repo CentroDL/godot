@@ -10,24 +10,24 @@ n_line_stops = {
   "28th" => 2,
   "23rd" => 1,
   "Union Square" => 0,
-  "8th" => 1
+  "8th" => -1
 }
 
 l_line_stops = {
   "8th Ave" => 2,
   "6th Ave" => 1,
   "Union Square" => 0,
-  "3rd Ave" => 1,
-  "1st Ave" => 2
+  "3rd Ave" => -1,
+  "1st Ave" => -2
 }
 
 six_line_stops = {
-  "Grand Central" =>4,
+  "Grand Central" => 4,
   "33rd" => 3,
   "28th-six" => 2,
   "23rd-six" => 1,
   "Union Square" => 0,
-  "Astor Place" => 1
+  "Astor Place" => -1
 }
 
 $stdout.puts("What Line would you like to take?(6/L/N)?")
@@ -61,9 +61,17 @@ else
   train2 = six_line_stops
 end
 
-$stdout.puts("Which stop would you like to get on at?")
+
+
+$stdout.puts("Which stop would you like to get off at?")
 station_choice = $stdin.gets.chomp
 stop_value2 = train2[station_choice]
 $stdout.puts(stop_value2)
 
+if train1 != train2
+  -(stop_value2.abs)
+end
+
+distance = (stop_value1 - stop_value2).abs
+$stdout.puts("You must travel #{distance}")
 
