@@ -16,6 +16,7 @@ number_of_starks = THE_FORCES_OF_HOUSE_STARK    +
                    THE_FORCES_OF_HOUSE_KARSTARK +
                    THE_FORCES_OF_HOUSE_BOLTON   +
                    THE_FORCES_OF_HOUSE_TULLY    +
+                   THE_FORCES_OF_HOUSE_FREY     +
                    THE_FORCES_OF_HOUSE_REED     +
                    THE_FORCES_OF_HOUSE_MARSH   
 
