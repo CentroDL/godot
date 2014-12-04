@@ -50,16 +50,16 @@ If you want to email the entire class and the instructional team, please use:<br
 | Angelina Bethoney  | @AngelinaBethoney  | ambethoney@yahoo.com     | [ambethoney](https://github.com/ambethoney) |
 | Brian Rucker       | @BrianRucker       | rucker.b@gmail.com       | [Brucker1](https://github.com/Brucker1)     |
 | Dain Carver        | @DainCarver        | carver403@gmail.com      | [rugger403](https://github.com/rugger403)   |
-| Dana DeFilippo     | tbd                | dana.defilippo@gmail.com | [danadflip](https://github.com/danadflip)   |
+| Dana DeFilippo     | @DanaDeFilippo     | dana.defilippo@gmail.com | [danadflip](https://github.com/danadflip)   |
 | Dennis Liaw        | @DennisLiaw        | dennis.liaw@gmail.com    | [CentroDL](https://github.com/CentroDL)     |
 | Kamari Aykes       | @KamariAykes       | aykeskc@gmail.com        | [brainyandbrown](https://github.com/brainyandbrown) |
-| Kristen MacFarlane | @KristenMacFarlane | krismacfarlane@gmail.com | tbd |
+| Kristen MacFarlane | @KristenMacFarlane | krismacfarlane@gmail.com | [krismacfarlane](ttps://github.com/krismacfarlane) |
 | Melodie Malfa      | @MelodieMalfa      | melmalfa@gmail.com       | [melmalfa](https://github.com/melmalfa)     |
 | Michael Campbell   | @MichaelCampbell   | mccool322@aol.com        | [hammer7402](https://github.com/hammer7402) |
 | Naya Moss          | @NayaMoss          | naya.moss@gmail.com      | [nayamoss](https://github.com/nayamoss)     |
 | Patricio Calderon  | @PatricioCalderon  | ourobor@gmail.com        | [Patdel](https://github.com/Patdel)         |
 | Chadd Clairmont    | @PaulClairmont     | pcac25@gmail.com         | [chaddpaul](https://github.com/chaddpaul)   |
-| Ryan Laszlo        | tbd                | ryan.laszlo@gmail.com    | [ryanlaszlo](https://github.com/ryanlaszlo) |
+| Ryan Laszlo        | @RyanLaszlo        | ryan.laszlo@gmail.com    | [ryanlaszlo](https://github.com/ryanlaszlo) |
 | Sade Stevens       | @SadeStevens       | sadestevens.hc@gmail.com | [Sadestevens](https://github.com/Sadestevens) |
 | Sarah McAlear      | @SarahMcAlear      | sarah.mcalear@gmail.com  | [sarahmcalear](https://github.com/sarahmcalear) |
 | Simons Chase       | @SimonsChase       | simons.chase@gmail.com   | [slchase](https://github.com/slchase)       |
@@ -90,7 +90,7 @@ Keep in mind, this is tentative. **We may (and shall) change topics and dates as
 | Week(s) | Dates | Module |
 |:-------:|:-----:|:-------|
 | **[Week 1](/w01/README.md)** | 12/1 &ndash; 12/5   | Our Development Environment<br>Introduction to Programming (Ruby)<br>Version Control with Git and GitHub |
-| **Week 2**     | 12/8 &ndash; 12/12  | Object-Oriented Programming (Ruby)<br>Persistent Stores (Redis) |
+| **[Week 2](/w02/README.md)** | 12/8 &ndash; 12/12  | Object-Oriented Programming (Ruby)<br>Persistent Stores (Redis) |
 | **Week 3**     | 12/15 &ndash; 12/19 | Understanding Networking (HTTP)<br>Introduction to the Web as an Application Platform (Sinatra) |
 | (Winter Break) | 12/22 &ndash; 1/2   | Building Web Pages with HTML & CSS |
 | **Week 4**     | 1/5 &ndash; 1/9     | Programming in the Browser Environment (JavaScript)|
