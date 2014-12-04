@@ -17,16 +17,16 @@
 - [Chris Pine's Learn to Program, Chapters 9-11](http://pine.fm/LearnToProgram/). Also can be found [here](http://it-ebooks.info/book/36/) if the link is broken...
 
 - **Blocks**
-  - Read [the section called Blocks](http://mislav.uniqpath.com/poignant-guide/book/chapter-3.html) in Why's Poignant Guide for the best short explanation
-  - In-depth explanation, maybe too in-depth, about [blocks, Procs, and Lambdas in Ruby](http://www.reactive.io/tips/2008/12/21/understanding-ruby-blocks-procs-and-lambdas/)
+  - [the section called Blocks in Why's Poignant Guide for the best short explanation](http://mislav.uniqpath.com/poignant-guide/book/chapter-3.html)
+  - [a maybe too in-depth explanation about blocks, procs, and lambdas in Ruby](http://www.reactive.io/tips/2008/12/21/understanding-ruby-blocks-procs-and-lambdas/)
 - **Enumeration Methods**
   - [Using these methods](http://www.eriktrautman.com/posts/ruby-explained-map-select-and-other-enumerable-methods)
   - more practice with [Ruby Monk](http://rubymonk.com/learning/books/4-ruby-primer-ascent/chapters/44-collections/lessons/98-iterate-filtrate-and-transform)
 - **Object-Oriented Programming**
   - [The Ruby Object Model](http://www.hokstad.com/ruby-object-model)
-  - the [Pragmatic Guide's in-depth intro to Classes and Objects in Ruby](http://phrogz.net/programmingruby/tut_classes.html)
+  - [the Pragmatic Guide's in-depth intro to Classes and Objects in Ruby](http://phrogz.net/programmingruby/tut_classes.html)
   - [Inheritance (Classical and Mixin), and Composition](http://naildrivin5.com/blog/2012/12/19/re-use-in-oo-inheritance.html)
-- [Redis](http://try.redis.io/)
+- **[Redis](http://try.redis.io/)**
 
 ### What are we doing [next week](/w03/README.md)?
 
