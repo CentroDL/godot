@@ -47,11 +47,11 @@
 # patricios_prison_chamber_square_footage = calculate_area(35, 40)
 # $stdout.puts(patricios_prison_chamber_square_footage)
 
-# def sing(song)
-#   $stdout.puts(song)
-#   lyric = $stdin.gets.chomp.upcase + "!!!!!!!!!"
-#   return lyric
-# end
+def sing(song)
+  $stdout.puts(song)
+  lyric = $stdin.gets.chomp.upcase + "!!!!!!!!!"
+  return lyric
+end
 
 # fav_lyric = sing("What's your favorite song lyric?")
 # $stdout.puts("Your favorite song lyric is #{fav_lyric}.")
@@ -76,9 +76,9 @@
 #   fav_temp_in_celcius = convert_kelvin_to_celcius(50)
 #   $stdout.puts("Brrr, it's #{fav_temp_in_celcius} degrees today!!")
 
-def calculate_volume(length, width, height)
-  return(length * width * height)
-end
+# def calculate_volume(length, width, height)
+#   return(length * width * height)
+# end
 
-  volume_of_heaven_in_cubic_feet = calculate_volume(500, 700, 200)
-  $stdout.puts("The throne room of Heaven is #{volume_of_heaven_in_cubic_feet}")
+#   volume_of_heaven_in_cubic_feet = calculate_volume(500, 700, 200)
+#   $stdout.puts("The throne room of Heaven is #{volume_of_heaven_in_cubic_feet}")
