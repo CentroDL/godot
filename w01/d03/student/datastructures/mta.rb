@@ -14,4 +14,6 @@ $stdout.puts("#{mta[:n_line]}")
   $stdout.puts("At which stop would you like to get off the N line?")
     answer_destination = [$stdin.gets.chomp]
 
-$stdout.puts("#{:n_line[answer_destination]} - #{:n_line[answer_origin]}")
+n_line_stops.index("answer_origin")
+
+$stdout.puts("#{:n_line[answer_destination] - :n_line[answer_origin]}")
