@@ -1,6 +1,6 @@
 # Week 2 - Object-Oriented Programming
 
-### What did we do last week?
+### What did we do [last week](/w01/README.md)?
 
 - **Our Development Environment**: We used the terminal (or *command-line interface*, CLI) to navigate and manipulate our filesystem, run programs, edit text files, work with I/O (input and output) and configure and interact with our operating system. We also introduced important tools in the terminal like REPLs (`irb` & `pry`), interpreters (`ruby`) and editors (`nano`), as well as in our GUI: window managers (*Spectacle*, eg) and text editors (*Sublime*).
 - **Introduction to Programming**: We began the process of solving problems with software, and learning the fundamental structures of procedural programming:  I/O, conditionals, loops, procedures, data types and data structures.
@@ -14,7 +14,11 @@
 
 ### Suggested Readings for Class
 
+For general introductory material about writing Ruby:
+
 - [Chris Pine's Learn to Program, Chapters 9-11](http://pine.fm/LearnToProgram/). Also can be found [here](http://it-ebooks.info/book/36/) if the link is broken...
+
+Here is a list of readings, tutorials, and examples for this week's lessons:
 
 - **Blocks**
   - [the section called Blocks in Why's Poignant Guide for the best short explanation](http://mislav.uniqpath.com/poignant-guide/book/chapter-3.html)
