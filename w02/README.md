@@ -11,7 +11,7 @@
 |    | Monday | Tuesday | Wednesday | Thursday | Friday |
 |---:|:------:|:-------:|:---------:|:--------:|:------:|
 | **Lessons** | Blocks & Enumerations | Classes<br>OOP (Part 1: Classical Inheritance) | Modules<br>OOP (Part 2: Mixins & Composition) | Redis | Assessment & Lab |
-| **Events &amp; Panels** | Lunch Event:<br/>Meet the October cohort | Outcomes<br/>(4pm - 5pm) | Lunch Event:<br/>Talk to WDI Alumni | | |
+| **Events &amp; Panels** | Lunch Event:<br/>Meet the October Cohort | Outcomes<br/>(4pm - 5pm) | Lunch Event:<br/>Talk to WDI Alumni | | |
 
 ### Suggested Readings for Class
 
