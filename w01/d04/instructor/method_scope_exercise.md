@@ -1,1 +1,0 @@
-I want you to imagine you are in an average sized white room. This room has no windows and is totally enclosed. The floor is white, the walls around you are white, the ceilings is white. There are objects around
