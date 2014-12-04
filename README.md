@@ -63,8 +63,6 @@ If you want to email the entire class and the instructional team, please use:<br
 | Sade Stevens       | @SadeStevens       | sadestevens.hc@gmail.com | [Sadestevens](https://github.com/Sadestevens) |
 | Sarah McAlear      | @SarahMcAlear      | sarah.mcalear@gmail.com  | [sarahmcalear](https://github.com/sarahmcalear) |
 | Simons Chase       | @SimonsChase       | simons.chase@gmail.com   | [slchase](https://github.com/slchase)       |
-| Sneha Shah         | @SnehaShah         | sssnehshah24@gmail.com   | [snehshah10](https://github.com/snehshah10) |
-| Zachary Fine       | tbd                | zfine416@gmail.com       | tbd |
 
 ## Important Dates
 
