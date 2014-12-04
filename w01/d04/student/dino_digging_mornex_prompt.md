@@ -19,7 +19,7 @@ hammonds_mines = {
       :annual_budget => 850_000,
       :specimens => [
         "Brachiosaurus",
-        "Triceratops", 
+        "Triceratops",
         "Gallimimus",
         "Compsognathus"
       ]
@@ -29,8 +29,8 @@ hammonds_mines = {
       :depth         => "200 meters",
       :annual_budget => 1_500_000,
       :specimens => [
-        "Tyrannosaurus Rex", 
-        "Stegosaurous", 
+        "Tyrannosaurus Rex",
+        "Stegosaurous",
         "Triceratops"
       ]
     },
@@ -39,12 +39,12 @@ hammonds_mines = {
       :depth         => "400 meters",
       :annual_budget => 1_200_000,
       :specimens => [
-        "Dilophosaurus", 
+        "Dilophosaurus",
         "Brachiosaurus",
         "Triceratops",
         "Velociraptor"
       ]
-    }, 
+    },
     {
       :location      => "Mexico",
       :depth         => "350 meters",
@@ -66,10 +66,27 @@ hammonds_mines = {
 ## Part 1 &ndash; Access information in the data structure
 
 1. What kind of data structure is `hammonds_mines`?
+    hammonds_mines.class => Hash
+    hammonds_mines is a hash table
+
 1. How many "working" mines does he have? How many are "planned"? Save each to appropriately named variables.
+    working_mines = hammonds_mines[:working].length
+    There are 4 working mines
+    planned_mines = hammonds_mines[:planned].length
+    There are 2 planned mines
+
 1. Access the depth of John Hammond's mine in Mexico. Save the depth to an appropriately named variable.
+    mex_mine_depth = working_mines[3][:depth]
+    the depthe is "350 meters"
+
   - What is the data type of the depth?
-  - Can you write a Ruby statement that will tell us if it under the limit for unregulated mines in Mexico, which is 200 meters? What would that statement be?
+      working_mines[3][:depth].class
+      the class type is a string
+
+  - Can you write a Ruby statement that will tell us if its under the limit for unregulated mines in Mexico, which is 200 meters? What would that statement be?
+      mex_mine_depth.to_i > 200
+      this gives back "true" which is boolean
+
 1. Access the annual budget for Hammond's mine in Patagonia. Save the budget to an appropriately named variable.
   - If there are 50 workers there, how much is the maximum each can be payed every month (in US dollars)?
 1. Access the list of dinosaur specimens found in Nicaragua.
