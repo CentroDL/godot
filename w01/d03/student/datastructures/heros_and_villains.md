@@ -1,6 +1,6 @@
-# Heroes and Villains 
+# Heroes and Villains
 
-Create a new file called `heroes_and_villains.md`
+Create a new file called `heroes_and_villains.rb`
 
 Rewrite the following code using a hash called `vladamir_putins_brain`
 
@@ -48,7 +48,7 @@ sidekick_3_f_name = "Tim"
 sidekick_3_l_name = "Drake"
 sidekick_3_alter_ego = "Robin"
 
-origin = "Having witnessed the murder of his parents as a child, he swore revenge on #{villain_2}, an oath tempered with a sense of justice with his best friend #{sidekick_1_f_name} #{sidekick_2_l_name} otherwise known as #{sidekick_2_alter_ego}" 
+origin = "Having witnessed the murder of his parents as a child, he swore revenge on #{villain_2}, an oath tempered with a sense of justice with his best friend #{sidekick_1_f_name} #{sidekick_2_l_name} otherwise known as #{sidekick_2_alter_ego}"
 
 $stdout.puts(origin)
 ```
