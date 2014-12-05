@@ -28,6 +28,12 @@ while playing_game
 # if you guess correctly...
     if secret_number == guess
       guessed = true
+    elsif secret_number > guess
+      guessed = false
+      $stdout.puts("#{guess}? Too low, try again!".red)
+    elsif secret_number < guess
+      guessed = false
+      $stdout.puts("#{guess}? Too high, try again!".red)
     else
       $stdout.puts("#{guess}? Try again!".red)
     end
