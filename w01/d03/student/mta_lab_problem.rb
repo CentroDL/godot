@@ -69,7 +69,7 @@ stop_value2 = train2[station_choice]
 $stdout.puts(stop_value2)
 
 if train1 != train2
-  -(stop_value2.abs)
+  stop_value2 = -(stop_value2.abs)
 end
 
 distance = (stop_value1 - stop_value2).abs

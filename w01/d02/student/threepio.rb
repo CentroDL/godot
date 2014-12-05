@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $stdout.puts("Hello, I am C-3P0, human-cyborg relations.")
 
 $stdout.puts("And your name is?")
@@ -18,3 +19,16 @@ else
     $stdout.puts("Well R2, I suppose we'll just have to keep looking. R2-D2: (Agreeable droid noises)")
   end
 end
+=======
+
+#greetings ftom the cyborg
+$stdout.puts("Hello, I am C-3P0, human cyborg relations.")
+#request user's name
+$stdout.puts("And your name is?")
+  if name == "Obi-Wan Kenobi"
+      $stdout.puts("Oh, marvelous! Simply marvelous! Say hello to R2-D2; he's been looking all over for you!")
+  else name != "Obi-Wan Kenobi"
+      $stdout.puts("It is a pleasure to meet you #{name}. I'm terribly sorry for prying, but you don't by any chance go by the alias of Obi-Wan Kenobi, do you?")
+
+  end
+>>>>>>> d35bc6cb2e83a0ee4ea5b0136e1ee826c094bec5

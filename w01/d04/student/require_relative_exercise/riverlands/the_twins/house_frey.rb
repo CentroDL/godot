@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 THE_FORCES_OF_HOUSE_FREY = 0
+=======
+THE_FORCES_OF_HOUSE_FREY = 200
+>>>>>>> d35bc6cb2e83a0ee4ea5b0136e1ee826c094bec5

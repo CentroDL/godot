@@ -1,8 +1,16 @@
 require 'pry'
+<<<<<<< HEAD
 require_relative './riverlands/house_tully'
 require_relative './riverlands/the_twins/house_frey'
 require_relative './riverlands/the_neck/house_reed'
 require_relative './riverlands/the_neck/house_marsh'
+=======
+require_relative './riverlands/house_tully.rb'
+require_relative 'riverlands/the_neck/house_marsh.rb'
+require_relative 'riverlands/the_neck/house_reed.rb'
+require_relative 'riverlands/the_twins/house_frey.rb'
+
+>>>>>>> d35bc6cb2e83a0ee4ea5b0136e1ee826c094bec5
 require_relative './lannister_forces'
 require_relative './stark_forces'
 
@@ -31,4 +39,7 @@ if number_of_lannisters > number_of_starks
 else
   $stdout.puts("There are more Starks than Lannisters: the Starks win!")
 end
+<<<<<<< HEAD
 
+=======
+>>>>>>> d35bc6cb2e83a0ee4ea5b0136e1ee826c094bec5

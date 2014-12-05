@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 Hello World
 
 So this is how we are going to have to submit
 Our Homework
 
 Interesting
+=======
+Hello world!
+>>>>>>> d35bc6cb2e83a0ee4ea5b0136e1ee826c094bec5
