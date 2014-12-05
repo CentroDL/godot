@@ -59,4 +59,3 @@ while willing_participant
     willing_participant = false
   end
 end
-
