@@ -56,7 +56,6 @@ If you want to email the entire class and the instructional team, please use:<br
 | Kristen MacFarlane | @KristenMacFarlane | krismacfarlane@gmail.com | [krismacfarlane](ttps://github.com/krismacfarlane) |
 | Melodie Malfa      | @MelodieMalfa      | melmalfa@gmail.com       | [melmalfa](https://github.com/melmalfa)     |
 | Michael Campbell   | @MichaelCampbell   | mccool322@aol.com        | [hammer7402](https://github.com/hammer7402) |
-| Naya Moss          | @NayaMoss          | naya.moss@gmail.com      | [nayamoss](https://github.com/nayamoss)     |
 | Patricio Calderon  | @PatricioCalderon  | ourobor@gmail.com        | [Patdel](https://github.com/Patdel)         |
 | Chadd Clairmont    | @PaulClairmont     | pcac25@gmail.com         | [chaddpaul](https://github.com/chaddpaul)   |
 | Ryan Laszlo        | @RyanLaszlo        | ryan.laszlo@gmail.com    | [ryanlaszlo](https://github.com/ryanlaszlo) |

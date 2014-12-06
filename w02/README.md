@@ -13,6 +13,15 @@
 | **Lessons** | Blocks & Enumerations | Classes<br>OOP (Part 1: Classical Inheritance) | Modules<br>OOP (Part 2: Mixins & Composition) | Redis | Assessment & Lab |
 | **Events &amp; Panels** | Lunch Event:<br/>Meet the October Cohort | Outcomes<br/>(4pm - 5pm) | Lunch Event:<br/>Talk to WDI Alumni | | |
 
+
+### One-on-One Schedule
+
+|            | Monday | Tuesday | Wednesday | Thursday | Friday |
+|:----------:|:------:|:-------:|:---------:|:--------:|:------:|
+|   **PJ**   | 4:00pm: Aliya<br/>4:45pm: Brian   | (none) | 4:00pm: Dennis<br/>4:45pm: Melodie   | 4:00pm: Chadd<br/>4:45pm: Sarah |  |
+|  **Phil**  | 4:00pm: Andres<br/>4:45pm: Dain   | (none) | 4:00pm: Kamari<br/>4:45pm: Michael   | 4:00pm: Ryan<br/>4:45pm: Simons |  |
+| **Travis** | 4:00pm: Angelina<br/>4:45pm: Dana | (none) | 4:00pm: Kristen<br/>4:45pm: Patricio | 4:00pm: Sade |  |
+
 ### Suggested Readings for Class
 
 For general introductory material about writing Ruby:
