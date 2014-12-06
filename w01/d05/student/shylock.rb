@@ -64,6 +64,7 @@ loop do
       deduction = command.split[1].to_f
       name = command.split[4].capitalize
       ledger[name] -= deduction
+      ducats += deduction
       respond("ShylockBot opens his purse")
       $stdout.puts("+ #{deduction}".colorize(:green))
 
