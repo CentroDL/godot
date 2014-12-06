@@ -53,7 +53,7 @@ If you want to email the entire class and the instructional team, please use:<br
 | Dana DeFilippo     | @DanaDeFilippo     | dana.defilippo@gmail.com | [danadflip](https://github.com/danadflip)   |
 | Dennis Liaw        | @DennisLiaw        | dennis.liaw@gmail.com    | [CentroDL](https://github.com/CentroDL)     |
 | Kamari Aykes       | @KamariAykes       | aykeskc@gmail.com        | [brainyandbrown](https://github.com/brainyandbrown) |
-| Kristen MacFarlane | @KristenMacFarlane | krismacfarlane@gmail.com | [krismacfarlane](ttps://github.com/krismacfarlane) |
+| Kristen MacFarlane | @KristenMacFarlane | krismacfarlane@gmail.com | [krismacfarlane](https://github.com/krismacfarlane) |
 | Melodie Malfa      | @MelodieMalfa      | melmalfa@gmail.com       | [melmalfa](https://github.com/melmalfa)     |
 | Michael Campbell   | @MichaelCampbell   | mccool322@aol.com        | [hammer7402](https://github.com/hammer7402) |
 | Patricio Calderon  | @PatricioCalderon  | ourobor@gmail.com        | [Patdel](https://github.com/Patdel)         |
