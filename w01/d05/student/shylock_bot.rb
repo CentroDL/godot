@@ -23,11 +23,14 @@ return_statement = {
   :loan => "ShylockBot loans money"
 }
 
-if check_for_loan(user_response)
+if check_for_purse(user_response)
+  $stdout.puts("#{return_statement[:purse]}")
+  $stdout.puts("#{ducat_bank} ducats")
+elsif check_for_loan(user_response)
   response_array = user_response.split
   $stdout.puts("::ShylockBot #{response_array[1]} #{response_array[2]} ducats::")
+end
 
-elsif check_for_purse
 $stdout.puts("::#{return_statement[:confused]}::")
 $stdout.puts("::#{return_statement[:purse]}::")
 $stdout.puts("::#{return_statement[:ledger]}::")
