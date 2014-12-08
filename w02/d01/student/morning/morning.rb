@@ -5,34 +5,61 @@
 ################################################################################
 
 # Step 1
-# Require the file taylors.rb
-
-# Require the file boneyard/exes.rb
+require_relative './taylors.rb'
+require_relative './boneyard/exes.rb'
+require 'pry'
 
 # Step 2
 # Methods
 
 def sing(lyric)
-  # missing code
+  changed_lyric = "♬#{lyric}♬"
+  return changed_lyric
 end
+
+$stdout.puts(sing("I stay out too late"))
 
 def mmm_mmm(lyric)
-  # missing code
+  return "#{lyric}, mmm-mmm"
 end
 
+$stdout.puts(mmm_mmm("That's what people say"))
 
 def back_up(lyric, number_of_words)
-  # missing code
+  lyric_array = lyric.split
+  num = lyric_array.count - number_of_words
+  return_lyrics_array = []
+  while(num < lyric_array.count)
+    return_lyrics_array.push(lyric_array[num])
+    num = num + 1
+  end
+  return "#{lyric} (#{return_lyrics_array.join(" ")})"
 end
 
-# Step 3
-# Create the additional methods
+$stdout.puts(back_up("I'm dancing on my own",4))
 
-# repeat
+def repeat(lyric)
+  repeated_lyric = lyric.split.last
+  return "#{lyric}, #{repeated_lyric}, #{repeated_lyric}, #{repeated_lyric}, #{repeated_lyric}"
+end
 
-# double
+$stdout.puts(repeat("'Cause the players gonna play"))
 
-# stutter
+def double(lyric)
+  return "#{lyric}, #{lyric}"
+end
+
+$stdout.puts(double("I shake it off"))
+
+def stutter (lyric)
+  stutter_lyric = lyric.split.first
+  return "#{stutter_lyric}, #{stutter_lyric}, #{lyric}"
+end
+
+$stdout.puts(stutter("I shake it off, I shake it off"))
+
+# ////////////////////////DONE////////////////////////////////
+# ////////////////////WITH METHODS////////////////////////////
 
 $stdout.puts(TAYLORS[0][:head])
 
@@ -54,15 +81,16 @@ exit unless repeat("And the haters gonna hate").include?("hate, hate, hate, hate
 exit unless repeat("Baby, I'm just gonna shake").include?("shake, shake, shake, shake, shake")
 exit unless double("I shake it off") == "I shake it off, I shake it off"
 
-# Puts Taylor's neck
+$stdout.puts(TAYLORS[0][:neck])
 
 exit unless repeat("Baby, I'm just gonna shake").include?("shake, shake, shake, shake, shake")
 exit unless repeat("Heart-breakers gonna break").include?("break, break, break, break, break")
 
-
 exit unless repeat("And the fakers gonna fake").include?("fake, fake, fake, fake, fake")
 exit unless double("I shake it off") == "I shake it off, I shake it off"
 
-# Puts Taylor's shoulders
+$stdout.puts(TAYLORS[0][:shoulder])
 
 exit unless stutter("I shake it off, I shake it off") == ("I, I, I shake it off, I shake it off")
+
+$stdout.puts("You made it to the end of the file")
