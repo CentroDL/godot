@@ -16,46 +16,40 @@ def sing(lyric)
   changed_lyric = "♬#{lyric}♬"
   return changed_lyric
 end
-
+# TEST
 $stdout.puts(sing("I stay out too late"))
 
 def mmm_mmm(lyric)
   return "#{lyric}, mmm-mmm"
 end
-
+# TEST
 $stdout.puts(mmm_mmm("That's what people say"))
 
 def back_up(lyric, number_of_words)
-  lyric_array = lyric.split
-  num = lyric_array.count - number_of_words
-  return_lyrics_array = []
-  while(num < lyric_array.count)
-    return_lyrics_array.push(lyric_array[num])
-    num = num + 1
-  end
-  return "#{lyric} (#{return_lyrics_array.join(" ")})"
+  return_lyrics = lyric.split.last(number_of_words).join(" ")
+  return "#{lyric} (#{return_lyrics})"
 end
-
+# TEST
 $stdout.puts(back_up("I'm dancing on my own",4))
 
 def repeat(lyric)
   repeated_lyric = lyric.split.last
   return "#{lyric}, #{repeated_lyric}, #{repeated_lyric}, #{repeated_lyric}, #{repeated_lyric}"
 end
-
+# TEST
 $stdout.puts(repeat("'Cause the players gonna play"))
 
 def double(lyric)
   return "#{lyric}, #{lyric}"
 end
-
+# TEST
 $stdout.puts(double("I shake it off"))
 
 def stutter (lyric)
   stutter_lyric = lyric.split.first
   return "#{stutter_lyric}, #{stutter_lyric}, #{lyric}"
 end
-
+# TEST
 $stdout.puts(stutter("I shake it off, I shake it off"))
 
 # ////////////////////////DONE////////////////////////////////
