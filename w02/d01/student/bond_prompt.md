@@ -47,9 +47,7 @@ One of GA's core principals is to "bring data to the conversation." Our problem 
 
 **Finish at least up to Number 6.** As always: more is better; healthy living is best. Only do the bonus if you have completed every single part. Do not expect to get the bonus finished EVER.
 
-1. Write a method, `get_gross_for`, that takes a movie title ( a `string`) and the `array` of `BOND_DATA` as inputs and returns the gross of that movie as an `integer`. Use it on several films to ensure that it works as intended.
-
-1. Combine your knowledge of iteration and arithmetic to determine the total cumulative gross of the Bond franchise. Save it to a sensibly-named variable.
+1. Combine your knowledge of iteration and arithmetic to determine the cumulative gross of all the Bond films. Save it to a sensibly-named variable.
 
 1. Create a new array with the names of the all actors who have ever played Bond, but with no duplicates. (One Roger Moore is more than enough.) Assign it to a sensibly-named variable.
 
@@ -64,6 +62,8 @@ One of GA's core principals is to "bring data to the conversation." Our problem 
 1. Create a new array, `movies_per_actor`, where each value in the array is a hash where the key is the Bond actor's name and the value is their total number of films.  For example `{ "Daniel Craig" => 3 }`
 
 1. Sort the `BOND_DATA` array by year of release, with the earliest films first. Store it in a variable called `sorted_by_release`
+
+1. Write a method, `get_gross_for`, that takes a movie title ( a `string`) and the `array` of `BOND_DATA` as inputs and returns the gross of that movie as an `integer`. Use it on several films to ensure that it works as intended.
 
 #### Bonus
 1. Find a method to use on your `movies_per_actor` array that identifies __and returns__ the hash of the actor who starred in the least number of films.
