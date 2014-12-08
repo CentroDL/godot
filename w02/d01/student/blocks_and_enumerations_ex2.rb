@@ -9,6 +9,26 @@
 # on the inside of the block?
 #
 
+#energy = 100
+
+def jumping_jacks(number, energy)
+ count = 0
+ while count < number
+    if energy >= 15
+      count += 1
+      energy -= 15
+      puts "Did #{count} jumping jacks, you have #{energy} energy left."
+    else
+      puts "Waiting, #{energy} energy left."
+      energy += 5
+    end
+ end
+end
+
+puts "Part 1: Jumping Jacks"
+
+
+jumping_jacks(10, 100)
 #
 # Stop and do not continue! If you are done, make the print out prettier!
 #
