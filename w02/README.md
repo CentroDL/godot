@@ -11,16 +11,16 @@
 |    | Monday | Tuesday | Wednesday | Thursday | Friday |
 |---:|:------:|:-------:|:---------:|:--------:|:------:|
 | **Lessons** | Blocks & Enumerations | Classes<br>OOP (Part 1: Classical Inheritance) | Modules<br>OOP (Part 2: Mixins & Composition) | Redis | Assessment & Lab |
-| **Events &amp; Panels** | Lunch Event:<br/>Meet the October Cohort | Outcomes<br/>(4pm - 5pm) | Lunch Event:<br/>Talk to WDI Alumni | | |
+| **Events &amp; Panels** | Lunch Event:<br/>Meet the October Cohort | | Lunch Event:<br/>Talk to WDI Alumni | Outcomes<br/>(4pm - 5pm) | |
 
 
 ### One-on-One Schedule
 
 |            | Monday | Tuesday | Wednesday | Thursday | Friday |
 |:----------:|:------:|:-------:|:---------:|:--------:|:------:|
-|   **PJ**   | 4:00pm: Aliya<br/>4:45pm: Brian   | (none) | 4:00pm: Dennis<br/>4:45pm: Melodie   | 4:00pm: Chadd<br/>4:45pm: Sarah | (none) |
-|  **Phil**  | 4:00pm: Andres<br/>4:45pm: Dain   | (none) | 4:00pm: Kamari<br/>4:45pm: Michael   | 4:00pm: Ryan<br/>4:45pm: Simons | (none) |
-| **Travis** | 4:00pm: Angelina<br/>4:45pm: Dana | (none) | 4:00pm: Kristen<br/>4:45pm: Patricio | 4:00pm: Sade | (none) |
+|   **PJ**   | First: Aliya<br/>Second: Brian   | First: Dennis<br/>Second: Melodie   | First: Chadd<br/>Second: Sarah | (none) | (none) |
+|  **Phil**  | First: Andres<br/>Second: Dain   | First: Kamari<br/>Second: Michael   | First: Ryan<br/>Second: Simons | (none) | (none) |
+| **Travis** | First: Angelina<br/>Second: Dana | First: Kristen<br/>Second: Patricio | First: Sade | (none) | (none) |
 
 ### Suggested Readings for Class
 
