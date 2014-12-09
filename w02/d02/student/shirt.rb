@@ -13,7 +13,7 @@ class Shirt
   end
 
   def output
-    puts "The size of this shirt is #{@size}"
+    puts "The size of this shirt is #{size}"
   end
 
 end

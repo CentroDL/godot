@@ -13,3 +13,5 @@ travs_new_playlist.add_song(nothing_compares_to_you)
 travs_new_playlist.add_song(i_know_its_over)
 travs_new_playlist.add_song(call_your_girlfriend)
 travs_new_playlist.add_song(take_it_on_the_run)
+
+travs_new_playlist.play

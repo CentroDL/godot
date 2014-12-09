@@ -11,4 +11,8 @@ class Playlist
     self.songs << song_to_add
   end
 
+  def play
+    @songs.each { |song| song.play }
+  end
+
 end
