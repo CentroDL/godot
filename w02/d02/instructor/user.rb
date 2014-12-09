@@ -47,28 +47,24 @@ class User
 end
 
 first_user = User.new(
-  "Travos Vander Hoop",
+  "Travis Vander Hoop",
   "travis@yourfriendtravis.com",
   1009,
   "male with a sprinkle of female"
 )
 
+second_user = User.new("Chadd Paul Clairmont", "pcac25@gmail.com", 24, "male")
+
+
+puts "user's name is #{first_user.retrieve_name}"
+
+first_user.set_name=("Travos")
+
+puts "user's name is now #{first_user.retrieve_name}."
 puts first_user.tweets
-# first_user.set_name=("Travis")
-# first_user.email=("travis@yourfriendtravis.com")
-# first_user.age = 1009
-# first_user.gender="male with a sprinkle of female"
 
 
 puts "The first user's name is #{first_user.retrieve_name}. His/her email is #{first_user.email}. His/her age is #{first_user.age}."
 
 puts "The first user's gender is #{first_user.gender}."
 
-# second_user = User.new
-# second_user.set_name="Dain"
-# second_user.email=("carver403@gmail.com")
-# second_user.age=(20017)
-# second_user.gender=("male")
-# puts "The seconds user's name is #{second_user.retrieve_name}. His/her email is #{second_user.email}, and he/she is #{second_user.age}."
-
-# puts "The second user's gender is #{second_user.gender}."
