@@ -13,5 +13,4 @@ elsif ac_on == "yes" && temperature < desired
   $stdout.puts "It's really cold in here. Turn off the AC"
 elsif ac_on != "yes" && temperature > desired
   $stdout.puts "Turn the AC on!"
-
 end

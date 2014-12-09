@@ -9,15 +9,15 @@ cd ~/dev/wdi/godot
 export origin_url=$(git config --get remote.origin.url)
 
 # moves obsolete repo to desktop and renames it
-mv ~/dev/wdi/godot ~/Desktop/
-mv ~/Desktop/godot ~/Desktop/wdi_godot_week_one
+mv ~/dev/wdi/godot ~/Desktop/wdi_godot_week_one
 
 # clones the user's fork down
 cd ~/dev/wdi
-git clone $(echo $origin_url)
+git clone $origin_url
 
 cd ~/dev/wdi/godot/
 git remote add upstream git@github.com:ga-students/godot.git
+git pull upstream master
 
 
 
