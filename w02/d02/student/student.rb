@@ -8,7 +8,7 @@ class Student
 
   end
 
-  def first_name=(x)
+  def first_name= (x)
     @first_name=x
   end
 
@@ -35,7 +35,7 @@ class Student
 end
 
 newGuy = Student.new
-newGuy.first_name=("Patricio")
+newGuy.first_name = "Patricio"
 newGuy.last_name=("Calderon")
 newGuy.prior_occupation=("Programmer")
 
