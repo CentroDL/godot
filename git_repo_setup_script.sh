@@ -1,4 +1,4 @@
-#  bash <(curl -sL https://raw.githubusercontent.com/ga-instructors/installfest_script/master/builds/mac)
+#  bash <(curl -sL https://raw.githubusercontent.com/ga-students/godot/master/git_repo_setup_script.sh)
 
 #################################################################################################################
 # Note: This script presupposes that the user has reverted to a trashed commit that has all of their week 1 work.
