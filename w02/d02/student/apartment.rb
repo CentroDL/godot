@@ -87,15 +87,15 @@ end#Apartment
 # a2.move_in(p2)
 # a2.full?  #=> true
 
-p1 = Tenant.new("Mildred", "Dreyfuss", "female", "July 18, 1942")
-p2 = Tenant.new("Jeff", "Sheldrake", "male", "November 18, 1941")
-p3 = Tenant.new("Joe", "Dobisch", "male", "May 17, 1939")
-a3 = Apartment.new("F", 2, 1)
-a3.move_in(p1)
-a3.move_in(p2)
-a3.full?        #=> true
-a3.move_in(p3)  #=> "We're full! Joe Dobisch can't move in"
-puts a3.tenants.size #=> 2
+# p1 = Tenant.new("Mildred", "Dreyfuss", "female", "July 18, 1942")
+# p2 = Tenant.new("Jeff", "Sheldrake", "male", "November 18, 1941")
+# p3 = Tenant.new("Joe", "Dobisch", "male", "May 17, 1939")
+# a3 = Apartment.new("F", 2, 1)
+# a3.move_in(p1)
+# a3.move_in(p2)
+# a3.full?        #=> true
+# a3.move_in(p3)  #=> "We're full! Joe Dobisch can't move in"
+# puts a3.tenants.size #=> 2
 
 
 
