@@ -38,4 +38,10 @@ $stdout.puts(union_square_mcd.order(1, "filet o' fish"))    # >> ...
 
 $stdout.puts(chelsea_mcd.served)      # >> 5
 $stdout.puts(union_square_mcd.served) # >> 3
+McDonalds.served
+McDonalds.mc_rib        #=> false
+chelsea_mcd.has_mc_rib?
+
+McDonalds.toggle_mc_rib
+union_square_mcd.has_mc_rib? #=> true
 binding.pry
