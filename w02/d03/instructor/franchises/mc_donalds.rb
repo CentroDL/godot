@@ -9,6 +9,7 @@ class McDonalds
     @close_at = close_at
     @yelp = yelp
     @manager = manager
+    @served = 0
   end
 
   def is_open_at?(time)
@@ -27,4 +28,13 @@ class McDonalds
     end
   end
 
+  def order(num, menu_item)
+    @served += num
+    "Here is your order of #{num} #{menu_item}. Thank you."
+  end
+
+  attr_reader :served
+  # def served
+  #   @served
+  # end
 end

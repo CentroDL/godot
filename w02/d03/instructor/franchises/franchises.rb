@@ -34,7 +34,8 @@ $stdout.puts(union_square_mcd.order(1, "big mac"))          # >> ...
 $stdout.puts(union_square_mcd.order(1, "chicken sandwich")) # >> ...
 $stdout.puts(union_square_mcd.order(1, "filet o' fish"))    # >> ...
 
+# binding.pry
+
 $stdout.puts(chelsea_mcd.served)      # >> 5
 $stdout.puts(union_square_mcd.served) # >> 3
 
-# binding.pry
