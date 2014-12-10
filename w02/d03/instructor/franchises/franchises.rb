@@ -1,3 +1,4 @@
+require 'pry'
 require_relative './mc_donalds'
 
 chelsea_mcd = McDonalds.new(
@@ -23,3 +24,17 @@ union_square_mcd.manager  = "Helina Senai"
 union_square_mcd.capacity = 65
 union_square_mcd.open_at  = "06:00"
 union_square_mcd.close_at = "23:30"
+
+$stdout.puts(chelsea_mcd.is_open_at?("23:30"))      # >> false
+$stdout.puts(union_square_mcd.is_open_at?("23:30")) # >> true
+
+$stdout.puts(chelsea_mcd.order(5, "happy meals"))
+  # >> "Here is your order of 5 happy meals. Thank you."
+$stdout.puts(union_square_mcd.order(1, "big mac"))          # >> ...
+$stdout.puts(union_square_mcd.order(1, "chicken sandwich")) # >> ...
+$stdout.puts(union_square_mcd.order(1, "filet o' fish"))    # >> ...
+
+$stdout.puts(chelsea_mcd.served)      # >> 5
+$stdout.puts(union_square_mcd.served) # >> 3
+
+# binding.pry

@@ -11,4 +11,14 @@ class McDonalds
     @manager = manager
   end
 
+  def is_open_at?(time)
+    open  = @open_at.gsub("am","").gsub("pm","").gsub(":","").to_i
+    if @close_at.include?("pm")
+      close = @close_at.gsub("am","").gsub("pm","").gsub(":","").to_i + 1200
+    else
+      close = @close_at.gsub("am","").gsub("pm","").gsub(":","").to_i
+    end
+    (open <= time.gsub(":","").to_i) && (time.gsub(":","").to_i <= close)
+  end
+
 end
