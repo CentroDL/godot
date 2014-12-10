@@ -4,10 +4,6 @@ require_relative "mc_donalds.rb"
 
 class Franchise
 
-  def initialize(ft)
-    @franchise_tage = ft
-  end
-
 end
 
 
@@ -50,7 +46,6 @@ $stdout.puts(union_square_mcd.order(1, "filet o' fish"))    # >> ...
 $stdout.puts(chelsea_mcd.served)      # >> 5
 $stdout.puts(union_square_mcd.served)
 
-binding.pry
 
 
 
