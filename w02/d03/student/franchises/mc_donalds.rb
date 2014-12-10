@@ -2,7 +2,7 @@
 class McDonalds
 
   attr_accessor:capacity,:open_time,:closing_time,:yelp_page,:manager
-  attr_reader:location
+  attr_reader:location,:served
 
   def initialize(l,c,ot,ct,yp,m)
     @location     = l
@@ -11,13 +11,12 @@ class McDonalds
     @closing_time = ct
     @yelp_page    = yp
     @manager      = m
-    @order_count  = 0
-    @order_amount = 0
+    @served       = 0
   end
 
   def order (num,menu_item)
-    @order_amount += num
-    @order_count += 1
+    @served  += num
+    @@served += num
     return "Here is your order of #{num} #{menu_item}. Thank you."
   end
 
@@ -28,8 +27,9 @@ class McDonalds
     return opens_at<=num_time && num_time<=closes_at
   end
 
-  def served
-    "We have served #{@order_amount} items to #{@order_count} people."
+  @@served = 0
+  def self.served
+    @@served
   end
 
 end
