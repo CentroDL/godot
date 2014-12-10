@@ -18,7 +18,8 @@ class Apartment
 # An apartment's price shouldrub be dynamically calculated based on the number of beds
 #($1000 per bed) and the number of bathrooms ($500 per bathroom).
   def price
-    puts "$#{(num_beds*1000) + (num_baths*500)}"
+    # puts "$#{(num_beds*1000) + (num_baths*500)}"
+    (num_beds*1000) + (num_baths*500)
   end
 
   #returns true if only one bedroom
@@ -40,7 +41,8 @@ class Apartment
   end
 
   def full?
-    puts tenants.size >= num_beds
+    # puts tenants.size >= num_beds
+    tenants.size >= num_beds
   end
 
 end#Apartment
