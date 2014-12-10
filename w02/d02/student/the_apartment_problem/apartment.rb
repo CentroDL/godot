@@ -1,13 +1,13 @@
 #Creates the Apartment Class
 class Apartment
 
-  attr_accessor :unit,:num_beds,:num_baths,:tenant
+  attr_accessor :unit,:num_beds,:num_baths,:tenants
 
-  def initialize(u,nbe,nba,t=[])
+  def initialize(u,nbe,nba)
     @unit      = u
     @num_beds  = nbe
     @num_baths = nba
-    @tenant    = t
+    @tenants   = []
   end
 
   def apt_price
@@ -15,18 +15,36 @@ class Apartment
   end
 
   def studio?
-    if @num_beds <= 0
+    if @num_beds <= 1
       return true
     else
       return false
     end
   end
 
+  def move_in (tenant)
+    if self.tenants.size < self.num_beds
+      self.tenants << tenant
+    else
+      "We're full! #{tenant.full_name} can't move in!"
+    end
+  end
+
+  def empty?
+    if self.tenants.size == 0
+      return true
+    else
+      return false
+    end
+  end
+
+  def full?
+    if self.tenants.size < self.num_beds
+      puts("There is still some room")
+      return false
+    else
+      return true
+    end
+  end
+
 end
-
-a1 = Apartment.new("B",2,1)
-puts("unit #{a1.unit} has #{a1.num_beds} bed(s) and #{a1.num_baths} bath(s).")
-puts("Apartment #{a1.unit} cost $#{a1.apt_price}")
-
-a2 = Apartment.new("A",1,2)
-puts("Apartment #{a2.unit} cost $#{a2.apt_price}")

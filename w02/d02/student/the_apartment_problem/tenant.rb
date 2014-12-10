@@ -14,16 +14,10 @@ class Tenant
 
   def full_name
     if @nickname == ""
-      return "meet #{@f_name} #{@l_name}, your neightbor."
+      return "#{@f_name} #{@l_name}"
     else
-      return "meet #{@f_name} #{@l_name}(AKA #{@nickname}), your neightbor."
+      return "#{@f_name} #{@l_name}(AKA #{@nickname})"
     end
   end
 
 end
-
-p1 = Tenant.new("Calvin","Clifford","December 21, 1929","male",)
-p1.nickname = "Bud"
-p1.occupation = "Office Drone"
-
-puts(p1.full_name)
