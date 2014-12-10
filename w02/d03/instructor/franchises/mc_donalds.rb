@@ -12,13 +12,19 @@ class McDonalds
   end
 
   def is_open_at?(time)
-    open  = @open_at.gsub("am","").gsub("pm","").gsub(":","").to_i
-    if @close_at.include?("pm")
-      close = @close_at.gsub("am","").gsub("pm","").gsub(":","").to_i + 1200
+    open  = convert_time(@open_at)
+    close = convert_time(@close_at)
+    time  = convert_time(time)
+
+    (open <= time) && (time <= close)
+  end
+
+  def convert_time(time)
+    if time.include?("pm")
+      time.gsub("am","").gsub("pm","").gsub(":","").to_i + 1200
     else
-      close = @close_at.gsub("am","").gsub("pm","").gsub(":","").to_i
+      time.gsub("am","").gsub("pm","").gsub(":","").to_i
     end
-    (open <= time.gsub(":","").to_i) && (time.gsub(":","").to_i <= close)
   end
 
 end
