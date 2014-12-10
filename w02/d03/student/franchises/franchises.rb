@@ -37,5 +37,8 @@ $stdout.puts(union_square_mcd.served)
 McDonalds.served #/8
 puts(McDonalds.served )# => 8
 
+puts(McDonalds.mc_rib)
+puts(chelsea_mcd.has_mc_rib?)
+
 
 
