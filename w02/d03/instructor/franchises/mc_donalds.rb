@@ -20,16 +20,17 @@ class McDonalds
     (open <= time) && (time <= close)
   end
 
-  def convert_time(time)
-    if time.include?("pm")
-      time.gsub("am","").gsub("pm","").gsub(":","").to_i + 1200
+  def convert_time(marpdarp)
+    if marpdarp.include?("pm")
+      marpdarp.gsub("am","").gsub("pm","").gsub(":","").to_i + 1200
     else
-      time.gsub("am","").gsub("pm","").gsub(":","").to_i
+      marpdarp.gsub("am","").gsub("pm","").gsub(":","").to_i
     end
   end
 
   def order(num, menu_item)
     @served += num
+    @@served += num
     "Here is your order of #{num} #{menu_item}. Thank you."
   end
 
@@ -37,4 +38,11 @@ class McDonalds
   # def served
   #   @served
   # end
+
+  @@served = 0
+
+  def self.served
+    @@served
+  end
+
 end
