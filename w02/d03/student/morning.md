@@ -114,6 +114,8 @@ Convert the above arrays of hashes of movie titles and scores into a single arra
 ]
 ```
 
+## Step 4
+
 Transform the above array of movie hashes. Change the value of `:scores` from a string into an array of the two strings.
 
 ```rb
@@ -168,7 +170,7 @@ Transform the above array of movie hashes. Convert the values of `:critics` and 
 }
 ```
 
-## Step 4
+## Step 5
 
 Pair down the above array to only include movies where the critics' score was above 80%.
 How many films is that?
