@@ -1,48 +1,55 @@
 class McDonalds
-  attr_accessor :capacity, :open_at, :close_at, :yelp, :manager
-  attr_reader   :location
+  attr_accessor :capacity, :open_at, :close_at, :manager
+  attr_reader   :location, :yelp, :served
 
-  def initialize(location, capacity, open_at, close_at, yelp, manager)
-    @location = location
-    @capacity = capacity
-    @open_at = open_at
-    @close_at = close_at
-    @yelp = yelp
-    @manager = manager
-    @served = 0
+  @@served = 0
+  @@mc_rib = false
+  GREETING = "Welcome to McDonalds, may I take your order?"
+
+  def self.served
+    @@served # ||= 0
   end
 
-  def is_open_at?(time)
-    open  = convert_time(@open_at)
-    close = convert_time(@close_at)
-    time  = convert_time(time)
-
-    (open <= time) && (time <= close)
-  end
-
-  def convert_time(marpdarp)
-    if marpdarp.include?("pm")
-      marpdarp.gsub("am","").gsub("pm","").gsub(":","").to_i + 1200
-    else
-      marpdarp.gsub("am","").gsub("pm","").gsub(":","").to_i
-    end
-  end
-
-  def order(num, menu_item)
-    @served += num
-    @@served += num
-    "Here is your order of #{num} #{menu_item}. Thank you."
-  end
-
-  attr_reader :served
   # def served
   #   @served
   # end
 
-  @@served = 0
-
-  def self.served
-    @@served
+  def self.mc_rib
+    @@mc_rib
   end
 
+  def self.toggle_mc_rib
+    @@mc_rib = !@@mc_rib
+  end
+
+  def initialize(location, capacity, open_at, close_at, yelp, manager)
+    @location = location
+    @capacity = capacity
+    @open_at  = open_at
+    @close_at = close_at
+    @yelp     = yelp
+    @manager  = manager
+    @served   = 0
+  end
+
+  def is_open_at?(time)
+    open  = convert(open_at)
+    close = convert(close_at)
+    time  = convert(time)
+    (open..close).cover?(time)
+  end
+
+  def order(number, item)
+    @served  += number
+    @@served += number
+    "#{GREETING}\nHere is your order of #{number} #{item}. Thank you."
+  end
+
+  def has_mc_rib?
+    @@mc_rib
+  end
+
+  def convert(time)
+    time.gsub(":","").to_i
+  end
 end

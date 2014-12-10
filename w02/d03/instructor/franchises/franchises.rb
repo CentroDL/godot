@@ -1,5 +1,5 @@
-require 'pry'
-require_relative './mc_donalds'
+require "pry"
+require_relative "mc_donalds"
 
 chelsea_mcd = McDonalds.new(
   "335 8th Ave, New York, NY  10001",
@@ -10,7 +10,7 @@ chelsea_mcd = McDonalds.new(
 chelsea_mcd.location #=> "335 8th Ave, New York, NY  10001"
 chelsea_mcd.capacity #=> 105
 chelsea_mcd.open_at  #=> "06:00"
-chelsea_mcd.close_at #=> "23:00"
+chelsea_mcd.close_at #=> "23:30"
 chelsea_mcd.yelp     #=> "http://www.yelp.com/biz/mcdonalds-new-york-136"
 chelsea_mcd.manager  #=> "Marco Diaz"
 
@@ -20,10 +20,10 @@ union_square_mcd = McDonalds.new(
   "http://www.yelp.com/biz/mcdonalds-new-york-105",
   "Terry Johnson"
 )
-union_square_mcd.manager  = "Helina Senai"
 union_square_mcd.capacity = 65
 union_square_mcd.open_at  = "06:00"
 union_square_mcd.close_at = "23:30"
+union_square_mcd.manager  = "Helina Senai"
 
 $stdout.puts(chelsea_mcd.is_open_at?("23:30"))      # >> false
 $stdout.puts(union_square_mcd.is_open_at?("23:30")) # >> true
@@ -34,11 +34,15 @@ $stdout.puts(union_square_mcd.order(1, "big mac"))          # >> ...
 $stdout.puts(union_square_mcd.order(1, "chicken sandwich")) # >> ...
 $stdout.puts(union_square_mcd.order(1, "filet o' fish"))    # >> ...
 
-# binding.pry
-
 $stdout.puts(chelsea_mcd.served)      # >> 5
 $stdout.puts(union_square_mcd.served) # >> 3
 
-$stdout.puts(McDonalds.served) #=> 8
+McDonalds.served
 
-# binding.pry
+McDonalds.mc_rib        #=> false
+chelsea_mcd.has_mc_rib? #=> false
+
+McDonalds.toggle_mc_rib
+union_square_mcd.has_mc_rib? #=> true
+
+binding.pry
