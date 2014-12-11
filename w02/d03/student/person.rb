@@ -7,4 +7,8 @@ class Person
     @birth_date = bday
   end
 
+  # def is_a?
+  #   self.class
+  # end
+
 end

@@ -22,8 +22,7 @@ class Movie
 
   #Movie#director=
   def director=(d)
-    d.is_a? Person ? @director = d : (raise ArgumentError, "INSOLENT MORTAL! Director can only be set to a Person object!")
-    #for the second result i'd just return the string its just an output statement so we can visually see the result
+    (d.is_a? Person) ? @director = d : (raise ArgumentError, "INSOLENT MORTAL! Director can only be set to a Person object!")
   end#director=
 
   def to_novelization
