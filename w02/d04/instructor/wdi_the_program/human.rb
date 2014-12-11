@@ -8,6 +8,10 @@ class Human
     puts x
   end
 
+  def shout(y)
+    puts "#{y.upcase}!"
+  end
+
   def walks_upright?
     @walks_upright
   end
