@@ -1,4 +1,6 @@
 class Turtle
+  include Teenageable
+
   attr_accessor :name
 
   def initialize

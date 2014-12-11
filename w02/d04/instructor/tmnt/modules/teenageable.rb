@@ -9,7 +9,6 @@ module Teenageable
     words.first.upcase!
     words = "#{words.join(" ")}\n::ironic eye roll::"
     $stdout.puts(words)
-    words
   end
 
   def teen_speak(words)
@@ -20,6 +19,5 @@ module Teenageable
       words = "#{words.capitalize}, #{LINGO[key].sample}"
     end
     $stdout.puts(words)
-    words
   end
 end

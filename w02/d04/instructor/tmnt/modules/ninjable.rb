@@ -19,12 +19,10 @@ module Ninjable
     action  = "#moves swiftly and silently"
     emotion = "::#{action}::"
     $stdout.puts(emotion)
-    emotion
   end
 
   def surprise_take_down!
     sneak; ninja_fight
     $stdout.puts("Hiyaaa!")
-    "Hiyaaa!"
   end
 end
