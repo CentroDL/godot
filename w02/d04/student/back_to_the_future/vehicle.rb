@@ -1,12 +1,15 @@
+require 'date'
+
 class Vehicle
 
-  attr_accessor:passengers
+  attr_accessor:passengers,:location_in_time
   attr_reader:description,:capacity,:location
 
   def initialize(d,c,l)
     @description = d
     @capacity    = c
     @location    = l
+    @location_in_time = Date.today
     @passengers  = []
   end
 

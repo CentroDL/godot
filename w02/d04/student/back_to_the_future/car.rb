@@ -1,6 +1,8 @@
+require 'date'
+
 class Car < Vehicle
 
-  attr_accessor:color
+  attr_accessor:color,:location_in_time
   attr_reader:fuel
 
   def initialize(ca,yp,ma,mo,co,l)
@@ -10,6 +12,7 @@ class Car < Vehicle
     @make = ma
     @model = mo
     @color = co
+    @location_in_time = Date.today
     @passengers = []
     @fuel = false
   end

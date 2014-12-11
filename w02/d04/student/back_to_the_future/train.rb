@@ -1,3 +1,5 @@
+require 'date'
+
 class Train < Vehicle
 
   def pull_the_rope

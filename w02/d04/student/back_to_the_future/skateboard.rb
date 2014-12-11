@@ -1,3 +1,5 @@
+require 'date'
+
 class Skateboard < Vehicle
 
   def initialize (d,l)
