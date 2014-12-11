@@ -1,4 +1,4 @@
-# Creates the Tenant Class
+su# Creates the Tenant Class
 class Tenant
 
   attr_accessor :f_name,:l_name,:born_on,:gender,:nickname,:occupation
