@@ -1,5 +1,6 @@
 require_relative 'mc_donalds'
 require 'pry'
+
 # greenpoint_ave_mcd = McDonalds.new
 # $stdout.puts(greenpoint_ave_mcd.class) #=> McDonalds
 
