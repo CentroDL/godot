@@ -8,10 +8,10 @@
 
 ### What are we doing this week?
 
-|    | Monday | Tuesday | Wednesday | Thursday | Friday |
-|---:|:------:|:-------:|:---------:|:--------:|:------:|
-| **Lessons** | Blocks & Enumerations | Classes<br>OOP (Part 1: Classical Inheritance) | Modules<br>OOP (Part 2: Mixins & Composition) | Redis | Assessment & Lab |
-| **Events &amp; Panels** | Lunch Event:<br/>Meet the October Cohort | | Lunch Event:<br/>Talk to WDI Alumni | Outcomes<br/>(4pm - 5pm) | |
+|    | Monday | Tuesday | Wednesday | Thursday | Friday | Saturday |
+|---:|:------:|:-------:|:---------:|:--------:|:------:|:--------:|
+| **Lessons** | Blocks & Enumerations | Classes<br>OOP (Part 1: Classical Inheritance) | Modules<br>OOP (Part 2: Mixins & Composition) | Redis | Assessment & Lab | |
+| **Events &amp; Panels** | Lunch Event:<br/>Meet the October Cohort | | Lunch Event:<br/>Talk to WDI Alumni | Outcomes<br/>(4pm - 5pm) | | Travis's Review Session (optional)<br/>3:15pm - 6:15pm<br>915 Broadway Room 3D |
 
 
 ### One-on-One Schedule
