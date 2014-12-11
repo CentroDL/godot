@@ -9,10 +9,14 @@ require_relative 'classes/turtle'
 leo      = Turtle.new
 leo.name = "Leonardo"
 
+
 raph      = Turtle.new
 raph.name = "Raphael"
+
 
 foot_soldier_one = Human.new
 foot_soldier_two = Human.new
 
+foot_soldier_one.extend(Ninjable)
 binding.pry
+
