@@ -18,8 +18,8 @@ mixed up models from Modules and Classes all night long. Let's get started!
 > Last night, Darth Vader came down from planet Vulcan and told me that if I
 > didn't take Lorraine out that he'd melt my brain.
 
-1. Create all of your Classes and Modules in files named after the Class or
-Module, but in `snake_case`. For example:
+Create all of your Classes and Modules in files named after the Class or Module,
+but in `snake_case`. For example:
 
 ```bash
 vehicle.rb
@@ -55,6 +55,8 @@ We need to populate our world with some objects. In particular, we need some
     - `location`, a string
     - `passengers`, *The pluralization suggests using _what type of data structure_?*
 
+**`description`,`capacity`, `location` should all be immutable.**
+
 ```ruby
 blades = Vehicle.new('roller blades', 1, 'Central Park')
 blades.description #=> "roller blades"
@@ -63,6 +65,10 @@ blades.location    #=> "Central Park"
 blades.passengers  #=> []
 blades.add_passenger("Dad")
 blades.passengers  #=> ["Dad"]
+
+blades.description = "rollah bladez" #=> NoMethodError
+blades.capacity    = 2               #=> NoMethodError
+blades.location    = "Central Perk"  #=> NoMethodError
 ```
 
 ## Part 2 – Add Behavior
@@ -71,7 +77,7 @@ blades.passengers  #=> ["Dad"]
 
 Let's add some behavior to our vehicles!
 
-1. While the attribute `capacity` often means the maximum number of
+1. You may be led to believe that `capacity` from the Latin `capere` "to hold" should be an Array
    passengers a vehicle can have, `Vehicle`s can actually have *more*
    passengers than `capacity`! Take *that* Safety School!
 1. Add the instance method `#in_danger?`, which returns `true` when there are
@@ -126,13 +132,18 @@ v2.in_danger?
 > Nobody calls me... *chicken*!
 
 **A.** Create a `Train` class that inherits from `Vehicle`.
-  - when you `#pull_the_rope` on the train, it goes: `"Woo woooo!"` (**returns
+  - When you `#pull_the_rope` on the train, it goes: `"Woo woooo!"` (**returns
     that as a string**)
 
 ```ruby
 orient_express = Train.new('passenger train', 100, 'Istanbul')
 "Woo woooo!" == orient_express.pull_the_rope #=> true
 ```
+
+  - Now create a method `#go_to(location)` that does two things:
+    - pulls the rope! *Woo woooo!*, and then
+    - uses it's super-class `#go_to` method by calling `super` with the
+     `location` argument.
 
 **B.** Create a `Skateboard` class that inherits from `Vehicle`.
   - Let's make it easy to initialize our Skateboards: all of them will have a
@@ -225,26 +236,32 @@ delorean.location_in_time == Date.today #=> true
 1. `go_back_in_time` and `go_forward_in_time` both take 3 arguments as integers:
    `years`, `months`, and `days`.
 
+```ruby
+delorean = Car.new(2, 1981, 'DeLorean', 'DMC-12', 'gray', 'Hill Valley')
+delorean.extend(TimeTravelable) # Yahoo!
+delorean.go_back_in_time(3, 3, 2)
+```
+
 ===
 
 ## Bonus – Creating Our Own Mixins
 
 > Roads? Where we're going, we don't need roads.
 
-1. Create a new module named `Flyable` (most mixins' name's are in the format
+Create a new module named `Flyable` (most mixins' names are in the format
 "-able").
 
-- Give your module the following abilities:
-    - `#fly_to`, takes a *destination* param, that calls `self.go_to` with the
-    param. When it's successful it returns:
-        - `"Look at me now, ma! I'm flying to *destination*!"`
-    - `#flies?`, no param, and always returns true!
-    - Create a new sub-class of Vehicle called `Plane` that includes `Flyable`.
-    - Extend a skateboard object, a car object, and a train object with `Flyable`
-    and become an action movie hero(ine) and 80s hearthrob!
+1. Give your module the following abilities:
+  - `#fly_to`, takes a *destination* param, that calls `self.go_to` with the
+  param. When it's successful it returns:
+    - `"Look at me now, ma! I'm flying to *destination*!"`
+  - `#flies?`, no param, and always returns true!
+1. Create a new sub-class of Vehicle called `Plane` that **includes** `Flyable`.
+1. Extend a skateboard object, a car object, and a train object with `Flyable`
+   and become an action movie hero(ine) and 80s hearthrob!
 
 > **Dr. Emmett Brown**: Marty! What in the name of Sir Isaac H. Newton happened
-> **here?
+> here?**
 
 ===
 
@@ -293,7 +310,7 @@ are *super* dangerous!
 ```ruby
 hot_ride = Bicycle.new('Huffy', 'Milwaukee, WI')
 hot_ride.add_passenger('Travis')
-hot_ride.add_passenger('Taryn' # pegs!)
+hot_ride.add_passenger('Taryn') # pegs!
 hot_ride.in_danger?                  #=> true
 hot_ride.go_to('Rich\'s Restaurant') #=> "Crash!!"
 hot_ride.passengers                  #=> []
