@@ -57,6 +57,8 @@ We need to populate our world with some objects. In particular, we need some
 
 **`description`,`capacity`, `location` should all be immutable.**
 
+1. Define an instance method called `#add_passenger` that takes a passenger name and adds it to the vechicle's list of passengers.
+
 ```ruby
 blades = Vehicle.new('roller blades', 1, 'Central Park')
 blades.description #=> "roller blades"
