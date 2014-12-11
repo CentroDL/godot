@@ -64,13 +64,14 @@ blades = Vehicle.new('roller blades', 1, 'Central Park')
 blades.description #=> "roller blades"
 blades.capacity    #=> 1
 blades.location    #=> "Central Park"
-blades.passengers  #=> []
-blades.add_passenger("Dad")
-blades.passengers  #=> ["Dad"]
 
 blades.description = "rollah bladez" #=> NoMethodError
 blades.capacity    = 2               #=> NoMethodError
 blades.location    = "Central Perk"  #=> NoMethodError
+
+blades.passengers  #=> []
+blades.add_passenger("Dad")
+blades.passengers  #=> ["Dad"]
 ```
 
 ## Part 2 – Add Behavior
