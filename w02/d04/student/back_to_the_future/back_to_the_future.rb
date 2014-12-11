@@ -11,7 +11,7 @@ puts v1.description
 
 delorean = Car.new(2, 1981, 'DeLorean', 'DMC-12', 'gray', 'Hill Valley')
 binding.pry
-delorean.extend(TimeTravelable)
+delorean.extend(Time_Travelable)
 delorean.add_passenger('Marty McFly')
 delorean.refuel             #=> true
 delorean.refuel             #=> true
