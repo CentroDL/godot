@@ -1,6 +1,8 @@
 class Human
 
-  def initialize
+  def initialize(name, a)
+    @name = name
+    @age = a
     @walks_upright = true
   end
 
