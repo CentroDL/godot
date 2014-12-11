@@ -1,22 +1,34 @@
-# Creating a Movie Class
 require 'pry'
+require_relative './person.rb'
 
 class Movie
 
-  attr_accessor:title,:director
-
-  def initialize (title, director="")
+  def initialize(title)
     @title = title
-    @director = director
+    @director = nil
+  end
+# //////////////SETTER METHODS///////////
+  def set_title=(t)
+    @title = t
   end
 
-  def director
-    if @director == Person
-      @director
-    else
-      puts "Director can only be set to a Person object!"
+  def set_director=(d)
+    if d == Person
+      @director = d
     end
+    puts "Director can only be set to a Person object!"
+  end
+# //////////////GETTER METHODS///////////
+  def get_title
+    @title
+  end
+
+  def get_director
+    @director
   end
 
 end
+
+
+
 
