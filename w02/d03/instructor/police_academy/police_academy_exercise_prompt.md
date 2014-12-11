@@ -50,13 +50,24 @@ wacky_police = Police.new(steve_guttenberg.name, "DBB001944A")
 
 ### Part III - Training
 
-1. Write a new class method called `.train` in the `Police` class. `.train`
-takes a single argument, a `Person`, and returns a police instance.
+1. Write a new class method `Police.train`. `Police.train` takes a single
+argument, a `Person`, and returns a police instance.
 
 > A fun way to generate random hex numbers, like used in the badges above, is:
 > ```ruby
 > require "securerandom"
 > SecureRandom.hex[0..9].upcase
+> ```
+
+Make sure the following code works:
+
+```ruby
+steve_guttenberg = Person.new("Carey Mahoney")
+wacky_police     = Police.train(steve_guttenberg)
+wacky_police.name         #=> "Carey Mahoney"
+wacky_police.badge.class  #=> String
+wacky_police.badge.length #=> 10
+```
 
 ### Part IV - Duty
 
@@ -70,3 +81,14 @@ DUTIES = ['traffic','beat','vice','homicide','internal affairs']
 ```
 
 > How could we give a new police instance we are training a duty by default?
+
+Make sure the following code works:
+
+```ruby
+steve_guttenberg = Person.new("Carey Mahoney")
+wacky_police     = Police.train(steve_guttenberg)
+wacky_police.name         #=> "Carey Mahoney"
+wacky_police.badge.class  #=> String
+wacky_police.badge.length #=> 10
+Police::DUTIES.include?(wacky_police.duty) #=> true
+```

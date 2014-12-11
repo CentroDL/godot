@@ -2,10 +2,21 @@
 
 ![GA Logo](http://www.maveron.com/blog/wp-content/uploads/General-Assembly-logo.jpg)
 
+Conventions for Documentation Found Herein!
+
+```
+ClassName#instance_method
+ClassName.class_method       # class or module name
+ClassName::CONSTANT          # class or module name
+
+$stdout.puts('hi') # >> "hi" # what is send to Standard Out
+                   #=> nil   # the returned value in Ruby
+```
+
 ### Part I - Setup
 
 Create an application file `ga_app.rb`. This is where you will write your test
-code, your actions, your `binding.pry` invocations.
+code, your actions, and your `binding.pry` invocations.
 
 ### Part II - The Most Important Ingredient
 
@@ -42,7 +53,7 @@ Now we are at GA. Create a file called `general_assembly.rb`: we are going to ad
 
 1. Create a `GeneralAssembly` module inside the new file.
 1. Add some behavior to the module:
-  - `GeneralAssembly.eat` takestakes two arguments, a (1) mealtime (breakfast, lunch, dinner, third meal, etc.) and a (2) food (tacos, eg), and returns a string: `"Mmmmm, #{food}. I love #{mealtime}.`
+  - `GeneralAssembly.eat` takestakes two arguments, a (1) mealtime (breakfast, lunch, dinner, third meal, etc.) and a (2) food_item (tacos, eg), and returns a string: `"Mmmmm, #{food_item}. I love #{mealtime}."`
   - `GeneralAssembly.nap` takes an integer, and returns one of two strings randomly (50% of the time): `"Sleep for #{an_int} minutes.`" or `"The pods are all full!"`
   - `GeneralAssembly.print` takes a string of what you want to print, and returns the string: `"email: print@ga.co\n Please print:\n#{a_string}"`
 1. If you call `GeneralAssembly.eat` without a food item, it sets to oatmeal by default
@@ -53,10 +64,12 @@ Add a new constant to the GA module:
 
 ```ruby
 SPACES = {
-  :902 => ["4th Floor", "3rd Floor"],
-  :915 => ["4th Floor"],
-  :USW => ["3rd Floor"]
+  :_902 => ["4th Floor", "3rd Floor"],
+  :_915 => ["4th Floor"],
+  :_USW => ["3rd Floor"]
 }
 ```
 
 Add a new behavior: `GeneralAssembly.study` that randomly picks one of the study spaces
+
+> Why can we use all of these method names without them overwriting one another?
