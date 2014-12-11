@@ -1,5 +1,6 @@
 class Turtle
 
+  # provides every instance of Turtle with the methods in these modules
   include Teenageable
   include Mutatable
   include Ninjable

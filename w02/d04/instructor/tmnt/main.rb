@@ -17,6 +17,7 @@ raph.name = "Raphael"
 foot_soldier_one = Human.new
 foot_soldier_two = Human.new
 
+# provides this specific instance with the methods from Ninjable
 foot_soldier_one.extend(Ninjable)
 binding.pry
 
