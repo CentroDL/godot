@@ -1,16 +1,22 @@
 # Creating a Movie Class
+require 'pry'
+
 class Movie
 
-  attr_accessor:title
+  attr_accessor:title,:director
 
-  def initialize (t)
-    @title = t
+  def initialize (title, director="")
+    @title = title
+    @director = director
+  end
+
+  def director
+    if @director == Person
+      @director
+    else
+      puts "Director can only be set to a Person object!"
+    end
   end
 
 end
 
-flick = Movie.new("Jaws")
-puts flick.class              #=> Movie < Object
-puts flick.is_a? Movie        #=> true
-puts flick.title              #=> "Jaws"
-puts flick.title.is_a? String #=> true
