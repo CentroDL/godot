@@ -66,7 +66,8 @@ quotes = {
 quotes_array = [
   ["To be, or not to be: that is the question", "Hamlet - (Act III, Scene I)."],
   ["A little more than kin, and less than kind", "Hamlet - (Act I, Scene II)."],
-  ["And it must follow, as the night the day, thou canst not then be false to any man", "Hamlet - (Act I, Scene III)."This is the very ecstasy of love". - (Act II, Scene I)."],
+  ["And it must follow, as the night the day, thou canst not then be false to any man", "Hamlet - (Act I, Scene III)."],
+  ["This is the very ecstasy of love", "Hamlet - (Act II, Scene I)."],
   ["Brevity is the soul of wit", "Hamlet - (Act II, Scene II)."],
   ["Do you think I am easier to be played on than a pipe?", "Hamlet - (Act III, Scene II)."],
   ["Doubt that the sun doth move, doubt truth to be a liar, but never doubt I love", "Hamlet - (Act II, Scene II)."],
