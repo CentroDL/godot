@@ -1,0 +1,3 @@
+
+class Male < Person
+end
