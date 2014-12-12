@@ -1,18 +1,5 @@
-# Good Morrow!
+require 'pry'
 
-![:image](https://i0.wp.com/www.filmscouts.com/zgifclip/cannes97/hamlet.gif)
-
-> Is it Nobler in the mind to suffer rewriting each array as a hash or to take Arms and convert them programmatically? 
-
-# Part 1
-
-## First
-
-Do your work inside of `hamlet.rb`
-
-Use `.each` to print out "O! the venerable [Actor] starred as Hamlet in [Year]"
-
-```rb
 hamlets = [
   "Laurence Olivier, 1948",
   "Grigori Kozintsev, 1964",
@@ -21,52 +8,61 @@ hamlets = [
   "Kenneth Branagh, 1996",
   "Michael Almereyda, 2000"
 ]
-```
 
-## Second
+hamlets.each do |ham_line|
+  ham_line # is the string
+  actor_and_year = ham_line.split(",") # returns an array
+  actor = actor_and_year[0]
+  year = actor_and_year[1]
+  msg = "O! the venerable #{actor} starred as Hamlet in #{year}"
+  $stdout.puts(msg)
+end
 
-Programatically convert the `hamlets` array into an array of arrays where the first element, name, is a string, and the second element, year, is an integer.
+# the new array of arrays is hamaton
+hamathon = hamlets.map do |ham_line|
+  # end goal is ["name", 1981]
+  name_and_year = ham_line.split(",")  # turns into an array
+  year = name_and_year[1].to_i #fixnum
+  name = name_and_year[0] #string
+  [name, year] # this gets returned in the new array
+end
 
-## Third
+hamtime = hamathon.map do |ham_array|
+  # ham_array = [ "name", 1950]
+  # goal = {:name => "name", :year => 1950}
+  name = ham_array[0]
+  year = ham_array[1]
+  {:name => name, :year => year}
+end
 
-Programatically convert the `hamlets` array of arrays into an array of hashes where the keys are `:name` and `:year`
+# using select to filter down what we want
+swingin_hamlets = hamtime.select do |ham|
+  # ham = {:name => "name", :year => 1950}
+  year = ham[:year]
+  # the last line should return true or false
+  # if we use strings
+  year.to_s.include?("196") #  return true or false
+  # if we use number
+  ham[:year].between?(1959, 1970) # return true or false
+end
 
-## Fourth
+future_hamlets = hamtime.select do |ham|
+  ham[:year] > 1999
+end
 
-Programatically select all the Hamlets from the 1960's and assign them to an array called `swingin_hamlets`
+future_hamlets = hamtime.reject do |ham|
+  ham[:year] < 2000
+end
 
-## Fifth
 
-Programatically select all the Hamlets from the 1960's and assign them to an array called `swingin_hamlets`
 
-Programatically select all the Hamlets from the 2000's and assign them to an array called `future_hamlets`
 
-# Part 2
 
-## One 
-Convert the following `quotes` array into an array of hashes.
-Each hash should have the keys `:quote`, `:play`, `:act` and `:scene`
 
-Example expected transformation:
-
-```rb
-quotes = [
-    ["To be, or not to be: that is the question", "Hamlet - (Act III, Scene I)."]
-]
-#=>
-quotes = {
-    :quote => "To be, or not to be: that is the question",
-    :play  => "Hamlet",
-    :act   => "III",
-    :scene => "I"
-}
-```
-
-```rb
 quotes_array = [
   ["To be, or not to be: that is the question", "Hamlet - (Act III, Scene I)."],
   ["A little more than kin, and less than kind", "Hamlet - (Act I, Scene II)."],
-  ["And it must follow, as the night the day, thou canst not then be false to any man", "Hamlet - (Act I, Scene III)."],
+  ["And it must follow, as the night the day, thou canst not then be false to any man", "Hamlet - (Act I, Scene III)"],
   ["This is the very ecstasy of love", "Hamlet - (Act II, Scene I)."],
   ["Brevity is the soul of wit", "Hamlet - (Act II, Scene II)."],
   ["Do you think I am easier to be played on than a pipe?", "Hamlet - (Act III, Scene II)."],
@@ -84,13 +80,3 @@ quotes_array = [
   ["What a piece of work is man! how noble in reason! how infinite in faculty! in form and moving how express and admirable! in action how like an angel! in apprehension how like a god! the beauty of the world, the paragon of animals! ", "Hamlet - (Act II, Scene II)."],
   ["When sorrows come, they come not single spies, but in battalions", "Hamlet - (Act IV, Scene V)."]
 ]
-```
-
-## Two
-
-With the new array of quote hashes from part four, print to Standard Out each hash in the format
-
-```bash
-$ "To be, or not to be: that is the question"
-$ "Hamlet - (Act III, Scene I)."
-```
