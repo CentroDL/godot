@@ -1,4 +1,5 @@
 require 'date'
+require_relative 'modules/time_travelable.rb'
 
 class Vehicle
 
