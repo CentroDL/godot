@@ -1,14 +1,17 @@
 require 'colorize' # need the gem!
 
 module SimpleAssert
-  def assert_that(name, object_one, object_two)
-    pass_message = "Assertion #{name} passed!".green
+  # desc: a string stating the expected behavior
+  # object_one: the actual code
+  # object_two: the expected outcome
+  def assert_that(desc, object_one, object_two)
+    pass_message = "Assertion #{desc} passed!".green
 
     # structure a well-colored failure message
-    name = name.white
+    desc = desc.white
     actual_result   = " #{object_one.nil? ? "nil" : object_one} ".white
     expected_result = " #{object_two.nil? ? "nil" : object_two} ".white
-    fail_message = "Assertion ".red + name + " failed:".red + \
+    fail_message = "Assertion ".red + desc + " failed:".red + \
                    actual_result + "!=".red + expected_result
 
     if object_one == object_two
