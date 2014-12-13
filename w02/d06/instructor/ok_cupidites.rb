@@ -1,3 +1,5 @@
+require 'pry'
+
 ok_cupidites = {
   "nicestGuy5530" => {
     :name => "Brad Ladd",
