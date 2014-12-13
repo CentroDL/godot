@@ -23,9 +23,25 @@ students = [
 # Part 1:
 #
 # 1. List the students in the array above by printing them to standard out.
+
+students.each {|name| puts name}
+
 # 2. Print out only the first initials of the students above (eg, "Dennis" --> "D.").
+
+students.each do |name|
+  initial = name[0]
+  puts initial[0]
+end
+
 # 3. Create a new array of just the students whose names start with vowels.
-#
+names_starting_with_vowels = []
+students.each do |name|
+  if name.start_with?("A"||"E"||"I"||"O"||"U")
+    names_starting_with_vowels.push(name)
+  end
+end
+puts(names_starting_with_vowels)
+
 
 klass = [
   {
@@ -135,6 +151,22 @@ klass = [
 # Part 2:
 #
 # 1. List the students in the array above by printing their names to standard out.
+
+0.upto(klass.length-1) do |i|
+  puts( klass[i][:name])
+end
+
 # 2. Print out only the students last names.
+
+0.upto(klass.length-1) do |i|
+  name = klass[i][:name]
+  name_array = name.split
+  puts(name_array[name_array.length-1])
+end
+
 # 3. Create an array of all of the students' GitHub name.
-#
+
+github_names = []
+klass.each {|member| github_names.push( member[:github] )}
+puts( github_names)
+
