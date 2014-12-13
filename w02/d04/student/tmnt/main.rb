@@ -15,5 +15,4 @@ raph.name = "Raphael"
 foot_soldier_one = Human.new
 foot_soldier_two = Human.new
 
-foot_soldier_two.extend(Ninjable)
 binding.pry
