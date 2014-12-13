@@ -52,12 +52,10 @@ assert_that("adding an interest adds a memory", p1.memories.include?({age: 4, me
 m1 = Male.new
 assert_that("a person can't learn before 4", m1.responds_to?(:learn!), false)
 4.times { m1.age! }
-#assert_that("a Schoolable module is added at 4", m1.included_modules.include?("Schoolable"), true)
+assert_that("A Schoolable module is added at 4", m1.included_modules.include?(Schoolable), true)
 assert_that("a person can learn once they turn 4",  m1.responds_to?(:learn!), true)
 m1.learn_to("read")
-
 assert_that("a person's learned abilities are stored in memory", m1.memories.include?({age: 4, memory: "learned how to read"}), true)
-
 assert_that("a person's skills can be queried", m1.knows_how_to?(:read), true)
 assert_that("...if a person doesn't know something it returns false", m1.knows_how_to?(:dance), false)
-
+binding.pry

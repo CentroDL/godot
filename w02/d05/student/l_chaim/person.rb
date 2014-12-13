@@ -63,6 +63,7 @@ class Person
   end
 
   def learn_to(thing)
+    brain[:skills].push(thing)
     remember("learned how to #{thing}")
   end
 
@@ -71,8 +72,9 @@ class Person
   end
 
 
-  def knows_how_to?(thing)
 
+  def knows_how_to?(thing)
+    brain[:skills].include? thing.to_s
   end
 
 
