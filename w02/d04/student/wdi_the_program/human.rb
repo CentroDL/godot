@@ -1,16 +1,11 @@
 class Human
 
-  def initialize(name)
-    @name = name
+  def initialize
     @walks_upright = true
   end
 
   def speak(x)
     puts x
-  end
-
-  def shout(y)
-    puts("#{y} RAWRRRRR!!!")
   end
 
   def walks_upright?
