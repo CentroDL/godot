@@ -11,7 +11,7 @@ Each section below features a different data structure representing the ingredie
 For each section write a method that takes the `smoothie_ingredients` variable as *input*
 and returns a **string** as *output*.
 
-The string should be the list of characters from all the names from the `smoothe_ingredients` shuffled up and with spaces removed. (We don't want any air bubbles in our smoothies!) 
+The string should be the list of characters from all the names from the `smoothe_ingredients` shuffled up and with spaces removed. (We don't want any air bubbles in our smoothies!)
 
 Example:
 
