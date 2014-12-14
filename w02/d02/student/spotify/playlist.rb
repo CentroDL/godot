@@ -11,12 +11,4 @@ class Playlist
     self.songs << song_to_add
   end
 
-  def play
-    self.songs.each do |song|
-      sleep(1)
-      song.play
-      sleep(1)
-    end
-  end
-
 end

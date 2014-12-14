@@ -1,4 +1,4 @@
-t# Top Box Office
+# Top Box Office
 
 ![:image](http://www.lynettelewis.com/wp-content/uploads/2013/05/Critic-Main-600x314.jpg)
 
@@ -64,7 +64,7 @@ Transform that array of movie titles so that every word in each string is capita
 
 ```rb
 # Before
-"alexander and the terrible, horrible, no good, very bad day"
+"alexander and the terrible, horrible, no good, very bad day" 
 # After
 "Alexander And The Terrible, Horrible, No Good, Very Bad Day"
 ```
@@ -93,23 +93,23 @@ Convert the above arrays of hashes of movie titles and scores into a single arra
 
 ```rb
 # Before
-[
-    {:scores => "65%, 76%"},
-    {:scores => "71%, 68%"}
+[ 
+    {:scores => "65%, 76%"}, 
+    {:scores => "71%, 68%"} 
 ]
-[
-    {:title => "The Hunger Games: Mockingjay - Part 1"},
+[ 
+    {:title => "The Hunger Games: Mockingjay - Part 1"}, 
     {:title => "Penguins Of Madagascar" }
 ]
 # After
 [
     {
-        :title  => "The Hunger Games: Mockingjay - Part 1",
+        :title  => "The Hunger Games: Mockingjay - Part 1", 
         :scores => "65%, 76%"
-    },
+    }, 
     {
         :title  => "Penguins Of Madagascar",
-        :scores => "71%, 68%"
+        :scores => "71%, 68%" 
     }
 ]
 ```
