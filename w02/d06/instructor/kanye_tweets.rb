@@ -10,6 +10,19 @@ kanye_tweets = [
   { :time => "9:05 am",  :text => "I could never do stand up cause I tell jokes better when I'm sitting" },
 ]
 
+# use map to create a new array of kanyes_tweets, but each hash should have a key of the symbol :usname that points to the string of "kanyewest"
+
+kanyes_corrected_tweets = kanye_tweets.map do |x|
+  x[:username] = "kanyewest"
+  x
+end
+
+binding.pry
+
+
+# use .select to create an array called morning_tweets that contains only the tweets from the "am"
+
+# use .each to print "At WHATEVER_TIME, Kanye West tweeted WHATEVER_HE_TWEETED" to the console
 
 
 binding.pry
