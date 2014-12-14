@@ -1,0 +1,14 @@
+AllCops:
+  Include:
+    - '**/Rakefile'
+    - '**/config.ru'
+  Exclude:
+    - 'db/**/*.rb'
+    - 'config/**/*.rb'
+    - 'script/**/*.rb'
+    - !ruby/regexp /old_and_unused\.rb$/
+Rails/DefaultScope:
+  Include:
+    - app/models/*.rb
+# other configuration
+# ...
