@@ -32,6 +32,10 @@ Work with a partner making the following assertions pass. Take turns being the
 **driver** (the programmer writing the code), switching roles after each block
 of assertions (or single assertion if it was really tough) is made to pass.
 
+### Completion
+
+**Finish at least the first 5 parts.** As always: more is better; healthy living is best. Only do the bonus if you have completed every single part. Do not expect to get the bonus finished EVER.
+
 ## Part 0 - Instantiation
 
 Run the first few assertions below. You've now begun to create an entire world,
@@ -77,7 +81,7 @@ assert_that("at the age of 3 a person has no interests", p1.interests.empty?, tr
 p1.age! #=> 4
 p1.get_interested_in("crayons")
 assert_that("a person can add interests", p1.interested_in?("crayons"), true)
-assert_that("adding an interest adds a memory", p1.memories.include?({age: 4, memory: "got interested in crayons"})
+assert_that("adding an interest adds a memory", p1.memories.include?({age: 4, memory: "got interested in crayons"}), true)
 ```
 
 ## Part 3 - New Worlds
@@ -96,10 +100,10 @@ At certain ages along a person's life we're going to extend them with additional
 m1 = Male.new
 assert_that("A person can't learn before 4", m1.responds_to?(:learn!), false)
 4.times { m1.age! }
-assert_that("A Schoolable module is added at 4", m1.included_modules.include? Schoolable, true)
+assert_that("A Schoolable module is added at 4", m1.included_modules.include?(Schoolable), true)
 assert_that("A person can learn once they turn 4",  m1.responds_to?(:learn!), true)
 m1.learn_to("read")
-assert_that("A person's learned abilities are stored in memory", m1.memories.include?({age: 4, "learned how to read"}))
+assert_that("A person's learned abilities are stored in memory", m1.memories.include?({age: 4, "learned how to read"}), true)
 assert_that("A person's skills can be queried", m1.knows_how_to?(:read), true)
 assert_that("...if a person doesn't know something it returns false", m1.knows_how_to?(:dance), false)
 ```
