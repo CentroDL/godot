@@ -17,3 +17,6 @@ StringLiterals:
 
 Style/HashSyntax:
   Enabled: false
+
+HashSyntax:
+  Enabled: false
