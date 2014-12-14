@@ -1,4 +1,5 @@
 require_relative 'modules/schoolable'
+require_relative 'modules/employable'
 
 class Person
   attr_accessor :name, :age, :brain
@@ -55,6 +56,10 @@ class Person
       extend Schoolable
       # @age
     end
+    if @age == 14
+      extend Employable
+      # @age
+    end
     @age
   end
 
@@ -75,6 +80,15 @@ class Person
 
   def knows_how_to?(thing)
     brain[:skills].include? thing.to_s
+  end
+
+   def included_modules
+    self.singleton_class.included_modules
+    #i feel like i lucked out with this one. would love to know if this was the right approach
+  end
+
+  def superclass
+    self.class.superclass
   end
 
 
