@@ -12,3 +12,8 @@ Rails/DefaultScope:
     - app/models/*.rb
 # other configuration
 # ...
+StringLiterals:
+  Enabled: true
+
+Style/HashSyntax:
+  Enabled: false
