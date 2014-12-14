@@ -1,60 +1,67 @@
+inherit_from:
+  - vendor/hound/config/style_guides/ruby.yml
+  - .rubocop_todo.yml
+
 AllCops:
   Include:
     - '**/Rakefile'
     - '**/config.ru'
   Exclude:
-    - 'db/**/*.rb'
+    - db/schema.rb
     - 'config/**/*.rb'
     - 'script/**/*.rb'
     - !ruby/regexp /old_and_unused\.rb$/
+    - Gemfile
+    - Rakefile
 Rails/DefaultScope:
   Include:
     - app/models/*.rb
 
 # other configuration
 
-Style/StringLiterals:
-  Enabled: true
-
-Style/LeadingCommentSpace:
-  Enabled: true
-
-Style/IndentationWidth:
-  Enabled: true
-
-Style/IndentationConsistency:
-  Enabled: true
-
-Style/HashSyntax:
+HashSyntax:
   Enabled: false
   EnforcedStyle: hash_rockets
 
-Style/CommentIndentation:
-  Enabled: true
+# Style/StringLiterals:
+#   Enabled: true
 
-Style/AlignArray:
-  Enabled: false
+# Style/LeadingCommentSpace:
+#   Enabled: true
 
-Style/AccessorMethodName:
-  Enabled: false
+# Style/IndentationWidth:
+#   Enabled: true
+
+# Style/IndentationConsistency:
+#   Enabled: true
+
+# Style/CommentIndentation:
+#   Enabled: true
+
+# Style/AlignArray:
+#   Enabled: true
+
+# Style/AccessorMethodName:
+#   Enabled: true
 
 Metrics/LineLength:
+  Enabled: true
   Max: 100
 
-Lint/UselessAssignment:
-  Enabled: true
+# Lint/UselessAssignment:
+#   Enabled: true
 
-Style/SpaceAfterComma:
-  Enabled: true
+# Style/SpaceAfterComma:
+#   Enabled: true
 
 Style/Documentation:
   Enabled: false
 
-Style/Tab:
-  Enabled: false
+# Style/Tab:
+#   Enabled: false
 
-Style/EmptyLineBetweenDefs:
-  Enabled: true
+# Style/EmptyLineBetweenDefs:
+#   Enabled: true
 
 Metrics/PerceivedComplexity:
   Max: 11
@@ -62,8 +69,8 @@ Metrics/PerceivedComplexity:
 Metrics/CyclomaticComplexity:
   Max: 10
 
-RedundantReturn:
-  Enabled: true
+# RedundantReturn:
+#   Enabled: true
 
-Encoding:
-  Enabled: false
+# Encoding:
+#   Enabled: false
