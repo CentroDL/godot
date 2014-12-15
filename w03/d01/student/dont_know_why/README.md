@@ -15,8 +15,9 @@ methods to figure out the answers:
 1. run the program and test its output
 1. use `pry` to open up and explore the code's parts
 1. use `binding.pry` to freeze time and explore the state of the program
-1. read the source code with `pry` or on Github
-1. check documentation or tutorials (likely the least helpful things)
+1. read source code with `pry` (`show-method`, etc.) or on
+   [Github](https://github.com/sinatra/sinatra/tree/master/lib)
+1. check the [documentation](http://www.sinatrarb.com/intro.html)
 
 ### Examples and Format
 
