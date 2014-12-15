@@ -100,6 +100,8 @@ run AppName::Server         # 7.  What is `run`?
 1.
 1.
 
+## Bonus
+
 ```bash
 rackup -p 3000 # 1.  What is `rackup`?
                # 2.  What does the -p 3000 mean?
