@@ -8,7 +8,7 @@ module AppName                    # 1.  What is `AppName` and why do we use it?
 
     enable :logging               # 5.  What is `enable`?
     get('/') do                   # 6.  What is `get`?
-                                  # 7.  What are the two inputs of `get`?
+                                  # 7.  What are the three inputs of `get`?
 
       $stderr.puts "We have an error."       # 8.  In Sinatra where does $stderr
                                              #     print to?
