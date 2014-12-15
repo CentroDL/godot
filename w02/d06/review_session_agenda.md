@@ -1,0 +1,33 @@
+## Review Session Agenda
+
+- Describe the different types in Ruby (numbers, strings, data structures, etc.)
+- Use string interpolation to bring dynamic values into a string
+- Use if/else statements to conditionally execute code
+- Use logical operators ( &&, ||, ==. >, >=, et cetera) within conditions
+- Articulate the differences between Arrays and Hashes
+- Create, access, change, and destroy elements in Arrays and Hashes
+- use binding.pry to pause execution of a program
+- define methods that take arguments
+- call methods with arguments
+- return a value from a method invocation and store it in a variable
+- Explain what a block is.
+- Use #each, #map, and #select to enumerate over a collection.
+- Articulate a scenario where it would make sense to use #select (and #reject).
+- Articulate a scenario in which it would make sense to use #map.
+- Explain the difference between #each, #select, and #map.
+- Explain what an object is.
+- write a class definition in Ruby
+- Explain the difference between a class and an instance and the relationship between them.
+- Define class and instance methods and explain the difference between the two
+- Articulate the purpose of an initialize method.
+- Write a class with an initialize method
+- Explain when and why you would use use `attr_accessor`.
+- Explain the use of `self` in Ruby.
+- Instantiate and use an object
+- Explain a use-case for class inheritance
+- Define class and instance methods and explain the difference between the two.
+- Explain the difference between local, instance and class variables.
+- explain the key benefit of inheritance
+- define a class that inherits abilities from another class
+- explain the terms "subclass" and "superclass"
+- explain the effect of the `super` keyword

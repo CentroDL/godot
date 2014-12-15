@@ -1,0 +1,72 @@
+AllCops:
+  Include:
+    - '**/Rakefile'
+    - '**/config.ru'
+  Exclude:
+    - db/schema.rb
+    - 'config/**/*.rb'
+    - 'script/**/*.rb'
+    - !ruby/regexp /old_and_unused\.rb$/
+    - Gemfile
+    - Rakefile
+Rails/DefaultScope:
+  Include:
+    - app/models/*.rb
+
+# other configuration
+
+HashSyntax:
+  Enabled: false
+  EnforcedStyle: hash_rockets
+
+# Style/StringLiterals:
+#   Enabled: true
+
+# Style/LeadingCommentSpace:
+#   Enabled: true
+
+# Style/IndentationWidth:
+#   Enabled: true
+
+# Style/IndentationConsistency:
+#   Enabled: true
+
+# Style/CommentIndentation:
+#   Enabled: true
+
+# Style/AlignArray:
+#   Enabled: true
+
+# Style/AccessorMethodName:
+#   Enabled: true
+
+LineLength:
+  Enabled: true
+  Max: 100
+
+# Lint/UselessAssignment:
+#   Enabled: true
+
+# Style/SpaceAfterComma:
+#   Enabled: true
+
+Documentation:
+  Enabled: false
+
+# Style/Tab:
+#   Enabled: false
+
+# Style/EmptyLineBetweenDefs:
+#   Enabled: true
+
+PerceivedComplexity:
+  Max: 11
+
+CyclomaticComplexity:
+  Max: 10
+
+# RedundantReturn:
+#   Enabled: true
+
+# Encoding:
+#   Enabled: false
