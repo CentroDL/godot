@@ -40,7 +40,7 @@ HashSyntax:
 # Style/AccessorMethodName:
 #   Enabled: true
 
-Metrics/LineLength:
+LineLength:
   Enabled: true
   Max: 100
 
@@ -50,7 +50,7 @@ Metrics/LineLength:
 # Style/SpaceAfterComma:
 #   Enabled: true
 
-Style/Documentation:
+Documentation:
   Enabled: false
 
 # Style/Tab:
@@ -59,10 +59,10 @@ Style/Documentation:
 # Style/EmptyLineBetweenDefs:
 #   Enabled: true
 
-Metrics/PerceivedComplexity:
+PerceivedComplexity:
   Max: 11
 
-Metrics/CyclomaticComplexity:
+CyclomaticComplexity:
   Max: 10
 
 # RedundantReturn:
