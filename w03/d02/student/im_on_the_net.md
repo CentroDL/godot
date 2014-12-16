@@ -1,14 +1,22 @@
 # I'm on the 'Net!
 
-![:octocat](https://octodex.github.com/images/total-eclipse-of-the-octocat.jpg)
+<img alt="Octocat" src="https://octodex.github.com/images/total-eclipse-of-the-octocat.jpg" height="200">
 
-# Setup
+## Setup
 
 We're going to practice writing HTML and CSS and creating a 
 [GitHub page](https://pages.github.com/) hosted (FOR FREE!) from your GitHub 
 account.
 
-# Part One
+### Completion
+
+Attempt to complete every part. As always, the bonus is bonus!s
+
+### Submission
+
+Create a file in `~/dev/wdi/godot/w03/d02/student` called `hw.md` with a link to your new page! Add, commit, push and submit it! And remember, `submit_hw` needs to be run from inside our class repo (`godot`).
+
+## Part One
 
 Outside of your WDI folder create a new project called `username.github.io`
 (replace username with YOUR username from github.)
@@ -18,7 +26,7 @@ For example, Phil's would be `~/dev/phlco.github.io` and PJ's would be
 
 > Periods in my directory name? WHAAA? 
 
-# Part Two
+## Part Two
 We're going to initailize a new git repo. Inside your new portfolio directory 
 run the following commands
 
@@ -50,29 +58,33 @@ git commit -m 'first commit'
 git push
 ```
 
-# Part Three
+## Part Three
 
 Create an `index.html` file.
 
 Take your profile page and add to it links to your Github Profile page, your 
 linkedin profile and a blog if you have one.
 
-# Part Four
+## Part Four
 
 Create an additional page called `about.html` that inclues additional 
 information about you. Make sure that your `index` and `about` pages are both 
 linked to eachother with relative links.
 
-# Part Five
+## Part Five
+
+Create and add a stylesheet for your styles. Use either CSS Reset or Normalize and your own stylesheet to softly style your information. We will return to this and make it better throughout the course!
+
+## Part Six
 
 Validate your HTML using the [W3C validator](http://validator.w3.org/).
 Make the appropriate changes until all your HTML is valid.
 
-# Part Six
+## Part Seven
 
 Validate your CSS using the [W3C validator](http://jigsaw.w3.org/css-validator/)
 Make the appropriate changes until all your CSS is valid.
 
-# Bonus
+## Bonus
 
 GO NUTS! Take ownership of your portfolio! Throughout the course as we learn more HTML, CSS and JavaScript you can add additional functionality.
