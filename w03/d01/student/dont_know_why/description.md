@@ -5,11 +5,18 @@ module AppName                    # 1.  What is `AppName` and why do we use it?
   class Server < Sinatra::Base    # 2.  What is `Server`?
                                   # 3.  What is `Sinatra`?
                                   # 4.  What is `Base`?
+# 1. AppName is a module that namespaces our Server
+# 2. Server is the class that extends the Sinatra::Base module for use
+# 3. Sinatra is a namespace that holds a bunch of server functionality including the Base class we're inheriting our Server behaviors from
+# 4. Base is I guess a module that holds the basic functionality, the minimum for a basic server
+
 
     enable :logging               # 5.  What is `enable`?
     get('/') do                   # 6.  What is `get`?
                                   # 7.  What are the three inputs of `get`?
-
+# 5. 'enable' is a command that sets the list of settings that preceed it to true
+# 6. get is a method that takes a http route as its parameter and handles corresponding get requests
+# 7. the three inputs are the route, the block, and a params hash?
       $stderr.puts "We have an error."       # 8.  In Sinatra where does $stderr
                                              #     print to?
       logger.error "We have an error."       # 9.  What is `logger`?
@@ -24,12 +31,22 @@ module AppName                    # 1.  What is `AppName` and why do we use it?
                                              # 15. What does `request`
                                              #     represent?
                                              # 16. What is `url`?
-
+# 8. stderr will point wherever logger points to, else to its default log file
+# 9. logger is an object that writes messages to specific logs
+# 10. error is a method that logs messages to the error stream or file
+# 11. logger prints to the specified error log
+# 12. stderr will output to the default ruby error stream, whereas logger can be aimed to specific places
+# 13. logger.error logs to the error log, logger.info logs to the default event log
+# 14. in this context, it is the http request route
+# 15. the specific url
+# 16. uniform resourse locator, or web address
       status 200                  # 17. What is `status`?
                                   # 18. What is `status` called on; ie, where
                                   #     are we?
                                   # 19. What does 200 represent?
-
+# 17. status is an HTTP response code
+# 18. it is called inside the get method
+# 19. 200 means success
       # Test the below with the two requests:
       #   - curl http://localhost:3000?key=value
       #   - curl http://localhost:3000
@@ -47,6 +64,12 @@ module AppName                    # 1.  What is `AppName` and why do we use it?
   end
 end
 ```
+# 20. params is a hash
+# 21. it returns a hash
+# 22. it represents a mapping
+# 23. returns a body object the the browser can handle
+# 24. an html body tag
+# 25. if there's no params we don't have data to deal with so we give an error message
 
 1.
 1.
@@ -89,16 +112,16 @@ run AppName::Server         # 7.  What is `run`?
                             # 10. Where did `run` come from?
 ```
 
-1.
-1.
-1.
-1.
-1.
-1.
-1.
-1.
-1.
-1.
+#1. loads the base code in the sinatra gem
+#2. sinatra/base refers to the specific folder in the sinatra gem
+#3. wherever the other ruby gems are
+#4. to reference another ruby file
+#5. its the path to the file we need
+#6. relative path
+#7. run is a method that runs the server
+#8. the Server class in the Appname module
+#9. from the server.rb file
+#10. run came from the sinatra base gem
 
 ## Bonus
 
