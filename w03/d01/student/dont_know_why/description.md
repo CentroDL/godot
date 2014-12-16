@@ -135,9 +135,9 @@ rackup -p 3000 # 1.  What is `rackup`?
                # 6.  What does `#!/usr/bin/env ruby` mean?
 ```
 
-1.
-1.
-1.
-1.
-1.
+# 1. rackup is a gem that handles HTTP requests
+# 2. listen on port 3000
+# 3. there isn't a manual so i cant tell
+# 4. it comes with the rack gem
+# 5.
 1.
