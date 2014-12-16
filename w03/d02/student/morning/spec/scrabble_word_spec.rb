@@ -3,15 +3,16 @@
 
 # Morning!
 
-word = ScrabbleWord.new('a')
+word = ScrabbleWord.new('b')
+score = word.score
 assert_that(
   '`Srabble#score` should return the score value of that letter based on the above scoring "hash" table.',
-  word = ScrabbleWord.new('b'),
+  score,
   3)
 
 # Uncomment the next assertion once the first passes!
 
-# word = ScrabbleWord.new('c')
+# word = ScrabbleWord.new('C')
 # assert_that(
 #   'The score should not be affected by capitalization.',
 #   word.score,
