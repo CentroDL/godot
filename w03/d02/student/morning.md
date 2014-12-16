@@ -1,5 +1,7 @@
 # Morning!
 
+![:image](http://uptownmagazine.com/files/2014/08/scrabble.jpg)
+
 We're going to practice creating classes and using simple assertions!
 
 Take a look at the following "hashlike" table of ScrabbleScores.  How would you turn this into a real hash?
