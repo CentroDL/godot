@@ -14,7 +14,12 @@ Attempt to complete every part. As always, the bonus is bonus!s
 
 ### Submission
 
-Create a file in `~/dev/wdi/godot/w03/d02/student` called `hw.md` with a link to your new page! Add, commit, push and submit it! And remember, `submit_hw` needs to be run from inside our class repo (`godot`).
+Create a file in `~/dev/wdi/godot/w03/d02/student` called `hw.md`.
+Add to that file:
+  - a link to your new page
+  - a link to the validation results from parts six and seven. below
+
+Add, commit, push and submit it! And remember, `submit_hw` needs to be run from inside our class repo (`godot`).
 
 ## Part One
 
