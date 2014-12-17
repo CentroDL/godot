@@ -10,7 +10,7 @@ Completion for tonight's assignment is to get through part 3.
 
 Within your `wdi_pick_me_up` directory, add the following files and __make sure you can start your server before moving on:__
 
-- `app.rb`
+- `server.rb`
 - `config.ru`
 - `views/index.erb`
 - `public/style.css`
@@ -46,10 +46,10 @@ Make it so that anytime the page is loaded or refreshed, the background color ch
 
 Style really hard with css.
 
-#### Part 6: User-Submitted Compliments
+#### Bonus 1: User-Submitted Compliments
    
 Allow a user to add to the list of compliments using a POST request to `"/compliments"`.
 
-#### Part 7: Share the Love
+#### Bonus 2: Share the Love
 
-Deploy this to the world on Heroku so your WDI friends all over the world can hit it in moments of profound debilitation.
+Deploy this to the world on Heroku so your WDI friends in Hong Kong and Los Angeles can hit it in moments of profound debilitation.
