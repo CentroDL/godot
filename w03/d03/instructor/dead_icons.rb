@@ -199,5 +199,8 @@ dead_icons.each do |icon|
   end
 end
 
+
+# I pushed all the musicians testaments_to_greatness arrays into an array. Array#flatten takes two-dimensional arrays one-dimensional
+# example: [["Travis", "Vander Hoop"], ["PJ", "Hughes"]].flatten # => ["Travis", "Vander Hoop", "PJ", "Hughes"]
 great_albums = array_of_testaments.flatten
 binding.pry
