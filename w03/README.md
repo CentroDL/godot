@@ -17,7 +17,7 @@
 |            | Wednesday | Thursday | Friday |
 |:----------:|:---------:|:--------:|:------:|
 |   **PJ**   | First: Simons<br/>Second: Sade    | First: MacFarlane<br/>Second: Dana | First: Brian<br/>Second: Angelina |
-|  **Phil**  | First: Patricio<br/>Second: Aliya | First: Melodie<br/>Second: Dennis  | First: Andres |
+|  **Phil**  | First: Aliya<br/>Second: Patricio | First: Melodie<br/>Second: Dennis  | First: Andres |
 | **Travis** | First: Michael<br/>Second: Sarah  | First: Kamari<br/>Second: Dain     | First: Chadd |
 
 ### Suggested Readings for Class
