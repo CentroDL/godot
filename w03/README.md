@@ -39,6 +39,7 @@ Here is a list of readings, tutorials, and examples for this week's lessons:
   + [Source](https://github.com/sinatra/sinatra)
 - **HTML**
   + [Dive in to HTML5](http://diveintohtml5.info/)
+  + [Sublime HTML Snippets (speed up your writing!)](https://github.com/joshnh/HTML-Snippets)
 - **CSS**
   + [Tutorial](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started)
   + [CSS Tricks](http://css-tricks.com/)
