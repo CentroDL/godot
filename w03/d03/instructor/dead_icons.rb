@@ -166,26 +166,38 @@ dead_icons.each do |x|
   end
 end
 
-binding.pry
-# create an array of testments to greatness that were released in the 1990s
+records_from_the_best_decade_ever = []
+dead_icons.each do |person|
+  person[:testaments_to_greatness].each do |x|
+    if x.include?("199")
+      records_from_the_best_decade_ever.push(x)
+    end
+  end
+end
+
 
 # return an array of aliases (i.e. "2pac", "Mama Cass", et cetera)
+aliases = []
+
+folks_with_aliases = dead_icons.select { |icon| icon[:name].include?("a.k.a") }
+
+folks_with_aliases.each do |person|
+  name_split_up_into_parts = person[:name].split("a.k.a. ")
+  nickname = name_split_up_into_parts.last
+  aliases.push(nickname)
+end
+
 
 # create an array of great albums, where the items are formatted as a hash, like so: { :title => "L.A. Woman", released: 1970 }
   # NOTE: Make sure TV shows and Movies are not included in your great_albums list
 
-# it would be cool if we could tell a data structure that we're only interested in actors or musicians.
-# With that in mind, make a hash, dead_icons_by_occupation that groups objects by their occupation.
-# for example, dead_icons_by_occupation["actor"] should return an array of only the dead iconic actors
+array_of_testaments = []
 
-# permanently remove any icons who is rumored to still be alive from the dead_icons array (because Jim and Tupac are seriously still alive)
+dead_icons.each do |icon|
+  if icon[:occupation]== "musician"
+    array_of_testaments.push(icon[:testaments_to_greatness])
+  end
+end
 
-#=====================
-# Additional Prompts:
-#=====================
-
-# The full release date for Ready to Die was "September 13, 1994".
-# Given a string in that format, research how would you turn it into a proper DateTime object.
-
-
-# Look up the lyrics to 'The Hyacinth House' and tell me with an honest face that Jim Morrison didn't fake his own death in a Paris bathroom
+great_albums = array_of_testaments.flatten
+binding.pry
