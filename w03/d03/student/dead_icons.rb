@@ -1,4 +1,5 @@
 require 'pry'
+require 'colorize'
 
 dead_icons = [
   {
@@ -114,18 +115,36 @@ dead_icons = [
 
 
 # make an array of only the dead actors
-
+dead_actors = dead_icons.select { |person| person[:occupation] == 'actor'}
+puts "Dead Actors:".red, dead_actors
 # make an array of only the icons who died at the age of 27
-
+died_at_27 = dead_icons.reject {|person| person[:age_at_death] != 27}
+puts "Died at 27:".red,died_at_27
 # make an array of only the icons who are rumored to still be among us
-
+disputed_deaths = dead_icons.select { |p| p[:death_disputed] == true }
+puts 'Disputed Deaths:'.red, disputed_deaths
 # dig into this data structure and remove the rumored_cause_of_death from Cass Elliot's data structure (it's rude and unnecessary)
+dead_icons.map { |h| h.delete(:rumored_cause_of_death) }
+dead_icons.each { |n| puts n.has_key? :rumored_cause_of_death }
 
 # use sweet, sweet Ruby to identify the artist with the most testaments to greatness
-
+# dead_icons.sort_by! { |n| n[:testaments_to_greatness].count }
+# puts "Most Hits".red, dead_icons.last, dead_icons.last[:testaments_to_greatness].count
+puts "Most Hits".red
+puts dead_icons.max_by { |x| x[:testaments_to_greatness].length }
 # return any testments to greatness that were released in 1967
+puts "1967 Hits".red
+dead_icons.each do |x|#gives me the hashes
+  x[:testaments_to_greatness].each do |y|#iterating through the array
+    # if y.delete("(" ")").split.last.to_i == 1967
+    if y.include?("1967")
+      puts y
+    end#if
+  end#each->y
+end#each->x
 
 # create an array of testments to greatness that were released in the 1990s
+# hits_from_90s = dead_icons.
 
 # return an array of aliases (i.e. "2pac", "Mama Cass", et cetera)
 
