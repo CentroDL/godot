@@ -1,6 +1,6 @@
 ## Star Stalker
  
-![:image](http://www.film.com/wp-content/uploads/2011/04/The-Bodyguard-Poster.jpg)
+![:image](http://thepopportunity.files.wordpress.com/2012/06/stalker1.jpg)
 
 Star Stalker is a fan site dedicated to stars of all kinds, both living and dead. 
 
