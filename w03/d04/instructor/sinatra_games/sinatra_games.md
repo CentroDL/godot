@@ -14,8 +14,8 @@ Good luck, and have fun!
 
 ## Part 1 - Parlour Games
 
-Work in the folder `sinatra_games/parlour`. Now we are going to create three
-parlour game tools: `coins`, `dice`.
+Work in the folder `sinatra_games/parlour`. Now we are going to create some
+parlour game tools: `coins` and `dice`.
 
 ### Step 1 - Pennies from Heavan
 
@@ -25,7 +25,7 @@ a class method that takes no input and returns, at random, the strings:
 - `"heads"`, or
 - `"tails"`
 
-Where do we put `Parlour::Coin`? Well, it's in a module `parlour`, and it is has
+Where do we put `Parlour::Coin`? Well, it's in a module `Parlour`, and it is has
 a class name of `Coin`, thus we should put it in a directory (or folder)
 `parlour` and a file named `coin.rb`: `sinatra_games/parlour/coin.rb`.
 
