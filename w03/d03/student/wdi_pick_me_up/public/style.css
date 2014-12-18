@@ -8,18 +8,13 @@ body{
   font-family: helvetica;
   text-align: center;
   /*background: url("http://i.stack.imgur.com/IehB7.png");*/
+  background-color: ffff00
 }
 
 img{
   width: 250px;
   border: 10px solid white;
   border-radius: 250px;
-}
-
-header{
-  background: url("http://i.imgur.com/A3LWSXa.jpg");
-  background-size: cover;
-  text-align: center;
 }
 
 li{

@@ -1,7 +1,7 @@
 module Wdi
 
   class Server < Sinatra::Base
-    COMPLIMENTS = [
+    $compliments = [
   "People behind you in class think you are the perfect height.",
   "Your instructors think you're young.",
   "Your posture during breaks effectively masks your exhaustion.",
@@ -9,13 +9,14 @@ module Wdi
   "Your fingers are magic on the keys",
   ]
     get('/') do
-      @compliment = COMPLIMENTS.sample
+      @color = ("%06x" % (rand * 0xffffff)).to_s
+      @compliment = $compliments.sample
       render( :erb, :index)
     end
 
     get('/:name') do
       @name = params[:name].upcase
-      @compliment = COMPLIMENTS.sample
+      @compliment = $compliments.sample
       render( :erb, :index)
     end
 

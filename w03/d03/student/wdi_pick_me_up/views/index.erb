@@ -2,7 +2,12 @@
 
 <html>
   <head>
-
+    <style>
+      html{
+        background-color: <% @color %>;
+      }
+    </style>
+<!--     <link rel="stylesheet" type="text/css" href="style.css"> -->
   </head>
   <body>
     <h1>HELLO <%= @name %></h1>
@@ -10,7 +15,7 @@
 
     <ul>
       <li>
-        <a href="/">I'm still emotionally vacant. Give me another compliment.</a>
+        <a href="/<%=@name%>">I'm still emotionally vacant. Give me another compliment.</a>
       </li>
       <li>
         <a href="http://www.ruby-doc.org/">I'm ready to soldier on.</a>
