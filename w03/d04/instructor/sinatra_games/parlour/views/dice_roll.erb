@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset="utf-8" />
+  <title>Parlour</title>
+
+</head>
+<body>
+  <% @result.each do |die| %>
+    <p>I got a <%= die %>!</p>
+  <% end %>
+  <p><a href="/dice_roll">Try Again!</a></p>
+</body>
+</html>
