@@ -37,7 +37,7 @@ GET requests made to the root url should welcome visitors to StarStalker.com, ho
 
 GET requests made to `"/about"` should display a heading that says "About Star Stalker", followed by some text explaining the origins of Star Stalker (who runs it, when it was established, and so on).
 
-#### Part 3: The "/stars" page
+#### Part 3: The `"/stars"` page
 
 GET requests to `"/stars"`" should display an unordered list of names for each of the stars provided in `StarPower::STARS` in [`star_power.rb`](star_power.rb). Each list item should also be a link, following the pattern below. 
 
@@ -53,7 +53,7 @@ Create a dynamic star profile page, so that GET requests to `"/stars/0"` display
 
 For each star, display their name, date of birth, and photo.
 
-Each profile page should also provide a link back to the "/stars" page. 
+Each profile page should also provide a link back to the `"/stars"` page. 
 
 #### Part 5: Filtering The Stars in Your Gallery
 
