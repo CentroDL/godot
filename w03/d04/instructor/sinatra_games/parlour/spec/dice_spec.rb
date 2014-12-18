@@ -33,50 +33,50 @@ assert_that(
   Array
 )
 
-# four_six_sided_dice = [6, 6, 6, 6]
-# roll = Parlour::Dice.new(four_six_sided_dice).roll
-# assert_that(
-#   'Parlour::Dice#roll returns an array of random Fixnums',
-#   roll.all? { |n| n.is_a? Fixnum },
-#   true
-# )
+four_six_sided_dice = [6, 6, 6, 6]
+roll = Parlour::Dice.new(four_six_sided_dice).roll
+assert_that(
+  'Parlour::Dice#roll returns an array of random Fixnums',
+  roll.all? { |n| n.is_a? Fixnum },
+  true
+)
 
-# four_six_sided_dice = [6, 6, 6, 6]
-# r1 = Parlour::Dice.new(four_six_sided_dice).roll
+four_six_sided_dice = [6, 6, 6, 6]
+r1 = Parlour::Dice.new(four_six_sided_dice).roll
 
-# assert_that(
-#   "Parlour::Dice#roll's array contains random numbers",
-#   r1.all? { |n| n.between?(1, 6) },
-#   true
-# )
+assert_that(
+  "Parlour::Dice#roll's array contains random numbers",
+  r1.all? { |n| n.between?(1, 6) },
+  true
+)
 
-# five_six_sided_dice = [6, 6, 6, 6, 6]
-# assert_that(
-#   'Parlour::Dice#roll_and_sum returns the sum of the rolled dice',
-#   Parlour::Dice.new(five_six_sided_dice).roll_and_sum.class,
-#   Fixnum
-# )
+five_six_sided_dice = [6, 6, 6, 6, 6]
+assert_that(
+  'Parlour::Dice#roll_and_sum returns the sum of the rolled dice',
+  Parlour::Dice.new(five_six_sided_dice).roll_and_sum.class,
+  Fixnum
+)
 
 # # Die don't have to be just 6 sides! You can also have irregular sided die like
 # # a dodecahedron, from the Greek δωδεκάεδρον, from δώδεκα dōdeka "twelve" +
 # # ἕδρα hédra "base", "seat" or "face")
 
-# three_twelve_sided_dice = [12, 12, 12]
-# assert_that(
-#   'Parlour::Dice#roll_and_sum returns a proper sum',
-#   Parlour::Dice.new(three_twelve_sided_dice).roll_and_sum.between?(3, 36),
-#   true
-# )
+three_twelve_sided_dice = [12, 12, 12]
+assert_that(
+  'Parlour::Dice#roll_and_sum returns a proper sum',
+  Parlour::Dice.new(three_twelve_sided_dice).roll_and_sum.between?(3, 36),
+  true
+)
 
-# assert_that(
-#   'Parlour::Dice.roll(number_of_sides) returns a random number',
-#   Parlour::Dice.roll(6).class,
-#   Fixnum
-# )
+assert_that(
+  'Parlour::Dice.roll(number_of_sides) returns a random number',
+  Parlour::Dice.roll(6).class,
+  Fixnum
+)
 
-# assert_that(
-#   "Parlour::Dice.roll(number_of_sides) returns a random number between 1 and
-#   the number_of_sides",
-#   Parlour::Dice.roll(12).between?(1, 12),
-#   true
-# )
+assert_that(
+  "Parlour::Dice.roll(number_of_sides) returns a random number between 1 and
+  the number_of_sides",
+  Parlour::Dice.roll(12).between?(1, 12),
+  true
+)

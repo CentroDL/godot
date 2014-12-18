@@ -74,6 +74,57 @@ Add to your server the route:
     list of values, you just return the number of dice rolled and the summed
     value of them!
 
+## Part 3 - Hit Me, Baby!
+
+Create a class `Parlour::Cards`. Cards have the following behavior:
+
+- `Parlour::Cards#shuffle! → array_of_cards` (shuffles the cards!)
+- `Parlour::Cards#hit_me → a_single_card` (and removes it from the deck)
+- `Parlour::Cards#deal(num_players, num_cards) → array_of_arrays`
+  - these cards are now removed from the deck!
+
+For example, if you want to deal 2 cards each to 4 players, and the
+first player says "Hit me!", you would run the code:
+
+```ruby
+deck = Parlour::Cards.new
+deck.shuffle!
+deck.deal(4,2)
+#=> [ ["2♠","K♠"], ["A♥","10♦"], ["6♥","6♣"], ["J♦","4♣"] ]
+deck.hit_me
+#=> "Q♠"
+```
+
+The deck of cards looks like:
+
+```ruby
+cards = [
+  "A♥",  "A♦",  "A♠",  "A♣",
+  "1♥",  "1♦",  "1♠",  "1♣",
+  "2♥",  "2♦",  "2♠",  "2♣",
+  "3♥",  "3♦",  "3♠",  "3♣",
+  "4♥",  "4♦",  "4♠",  "4♣",
+  "5♥",  "5♦",  "5♠",  "5♣",
+  "6♥",  "6♦",  "6♠",  "6♣",
+  "7♥",  "7♦",  "7♠",  "7♣",
+  "8♥",  "8♦",  "8♠",  "8♣",
+  "9♥",  "9♦",  "9♠",  "9♣",
+  "10♥", "10♦", "10♠", "10♣",
+  "J♥",  "J♦",  "J♠",  "J♣",
+  "Q♥",  "Q♦",  "Q♠",  "Q♣",
+  "K♥",  "K♦",  "K♠",  "K♣"
+]
+```
+
+Add to your server the route:
+
+- `GET /black_jack/deal` that looks in `params` for a query string `?players=...` for a number of players
+  - presents a page with the hands of four players (all visible)
+  - presents the "total" of the number value for the hand according to the rules of [Blackjack](http://en.wikipedia.org/wiki/Blackjack)
+  - each player has a link: "Hit Me!"
+- `GET /black_jack/hit_me`
+  - presents a page with a single card
+
 ----
 
 **Do not make changes to this file!** You will be pulling updates to it and you
