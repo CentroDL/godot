@@ -1,0 +1,61 @@
+body {
+  font-family: helvetica, arial, san-serif;
+  font-weight: normal;
+  font-size:   16px;
+  color:       white;
+  max-width:   950px;
+  letter-spacing: 0.05em;
+  margin:      0 auto; /* center */
+}
+
+header {
+  height:      60px;
+  padding:     5px 40px;
+  margin-left: 30px;
+  line-height: 60px;
+}
+
+header span {
+  font-size:   1.5em; /* 1.5 times the base size */
+  font-weight: normal;
+}
+
+header i {
+  vertical-align: middle;
+  padding:        0 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.align-right {
+  float: right; /* push inline content to the right */
+}
+
+.general-content {
+  margin-top: 200px;
+  text-align: center;
+  width:      620px;
+  margin:     0 auto;
+}
+
+.compliment {
+  font-size:   3em; 
+  font-weight: bold;
+  line-height: 1.3em;
+}
+
+.link-box {
+  width:   150px;
+  height:  66px;
+  border:  3px solid white;
+  margin:  10px;
+  display: inline-block; /* flow like text, instead of stack like blocks */
+}
+
+.link-box span {
+  line-height: 66px;
+  font-size:   1.25em;
+}
