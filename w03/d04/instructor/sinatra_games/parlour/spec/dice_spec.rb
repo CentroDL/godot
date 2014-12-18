@@ -26,11 +26,24 @@ assert_that(
   Parlour::Dice
 )
 
+set_of_dice = Parlour::Dice.new([6,6])
+assert_that( "initialize creates an array_dice instance variable",
+  set_of_dice.array_dice,
+  [6,6]
+)
+
 three_six_sided_dice = [6, 6, 6]
 assert_that(
   'Parlour::Dice#roll returns an array of rolled dice',
   Parlour::Dice.new(three_six_sided_dice).roll.class,
   Array
+)
+
+dice = Parlour::Dice.new([6,6,6])
+rolled_dice = dice.roll
+assert_that("number of rolled dice is the same as number of array_dice",
+  rolled_dice.length,
+  3
 )
 
 four_six_sided_dice = [6, 6, 6, 6]
