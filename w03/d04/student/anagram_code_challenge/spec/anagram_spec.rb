@@ -2,6 +2,18 @@ require_relative 'simple_assert'
 require_relative '../lib/anagram'
 include SimpleAssert
 
+def format(word)
+  word.downcase.split('').sort
+end
+def anagram?(word1, word2)
+  format(word1) == format(word2)
+end
+
+def find_anagrams(word, list)
+  list.select { |w| anagram?(w, word) }
+end
+
+
 assert_that("#anagram? returns true when given 2 words that are anagrams", anagram?("steven", "events"), true )
 assert_that("#anagram? returns false when given 2 words that aren't anagrams", anagram?("kamari", "kristen"), false )
 assert_that("#anagram? returns false when given 2 words that have the same letters but are different lengths", anagram?("nose", "nosey"), false )
