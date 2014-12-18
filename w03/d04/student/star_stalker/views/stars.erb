@@ -1,7 +1,8 @@
 <h1>Stars</h1>
 
+
 <ul>
-<% StarPower::STARS.each do |star| %>
-  <li><a href="/stars/<%=StarPower::STARS.index(star)%>"><%= star[:name]%></a></li>
+<% @stars.each_with_index do |star, index| %>
+  <li><a href="/stars/<%=index%>"><%= star[:name]%></a></li>
 <% end %>
 </ul>

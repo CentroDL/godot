@@ -11,12 +11,13 @@ module StarStalker
     end#/about
 
     get "/stars" do
+      @stars = StarPower::STARS
       render(:erb, :stars, {layout: :default_layout})
     end#/stars
 
     get "/stars/:index" do
       @star = StarPower::STARS[params[:index].to_i]
-      render(:erb, :profile, { layout: :default_layout})
+      render(:erb, :profile, {:layout => :default_layout})
     end
 
   end#Server
