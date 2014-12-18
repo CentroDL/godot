@@ -6,15 +6,12 @@
 
 </head>
 <body>
-  <p>
-    <%= @result.capitalize %>!
-  </p>
-  <% if @guess != nil %>
-    <p>
-      You guessed: <%= @guess %>.
-      <%= @message %>
-    </p>
+  <p><%= @result.capitalize %>!</p>
+  <% if @guess %>
+    <p>You guessed: <%= @guess %>. <%= @message %></p>
   <% end %>
-  <p><a href="/coin_toss">Try Again!</a></p>
+  <p><a href="/coin_toss<%= "?guess=#{@guess}" if @guess %>">Try Again!</a></p>
+  <p><a href="/coin_toss?guess=heads">I choose Heads!</a></p>
+  <p><a href="/coin_toss?guess=tails">I choose Tails!</a></p>
 </body>
 </html>
