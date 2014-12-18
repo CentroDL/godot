@@ -15,7 +15,8 @@ module Wdi
     end
 
     get('/:name') do
-      @name = params[:name].upcase
+      @color = ("%06x" % (rand * 0xffffff)).to_s
+      @name = params[:name].capitalize
       @compliment = $compliments.sample
       render( :erb, :index)
     end

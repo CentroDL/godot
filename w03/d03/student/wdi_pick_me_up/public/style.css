@@ -1,35 +1,12 @@
-h1{
+
+html{
   color: white;
-  background: rgba(0,0,0,0.5);
-  margin-bottom: 0;
-}
-
-body{
   font-family: helvetica;
+  text-decoration: none;
   text-align: center;
-  /*background: url("http://i.stack.imgur.com/IehB7.png");*/
-  background-color: ffff00
-}
-
-img{
-  width: 250px;
-  border: 10px solid white;
-  border-radius: 250px;
-}
-
-li{
-  display: inline;
-  padding: 5px 10px;
-  font-size: 20px;
-}
-
-ul{
-  margin-top: 0px;
-  background-color: rgba(0,0,0,0.5);
-}
-
-ul:hover{
-  background-color: rgba(0,0,0,1);
+  font-weight: bold;
+  word-spacing: 2.5px;
+  line-height: 20px
 }
 
 a{
@@ -43,28 +20,29 @@ a:hover{
   color: orange;
 }
 
-/*a:visited{
-  color: aqua;
-}*/
+a:visited{
+  text-decoration: none;
+  color: white;
+}
 
 a:active{
   color: yellow;
 }
 
-article{
-  color: white;
-  font-weight: bold;
-  word-spacing: 2.5px;
-  line-height: 20px;
-  background-color: rgba(0,0,0,0.5);
-  border-radius: 15px;
-  text-align: center;
-  padding: 20px;
+.compliment{
+  font-size: 48px;
+  width: 600px;
   margin: 0 auto;
-  max-width: 500px;
+  line-height: 1.1;
+  padding-top: 15%;
+}
+.button{}
+
+.button-row{
+  display: block;
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
   h1{
     font-size: 24px;
   }

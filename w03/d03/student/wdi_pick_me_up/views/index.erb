@@ -10,17 +10,18 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <h1>HELLO <%= @name %></h1>
-    <h1><%= @compliment %></h1>
-
-    <ul>
-      <li>
+    <div class="compliment">
+      <p>Greetings <%= @name %>
+    <%= @compliment %></p>
+  </div>
+    <div class="button-row">
+      <div class="button">
         <a href="/<%=@name%>">I'm still emotionally vacant. Give me another compliment.</a>
-      </li>
-      <li>
+      </div>
+      <div class="button">
         <a href="http://www.ruby-doc.org/">I'm ready to soldier on.</a>
-      </li>
-    </ul>
+      </div>
+    </div>
 
   </body>
 </html>
