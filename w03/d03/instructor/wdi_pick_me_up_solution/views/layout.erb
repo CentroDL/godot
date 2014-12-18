@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8' />
+    <title>WDI Compliments</title>
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+
+    <style>
+      body {
+        background-color: <%= @color %>; 
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <span><a href="/">wdi compliments</a></span>
+      <span class="align-right">
+        <a href="/about">about</a>
+        <a href="http://twitter.com"><i class="fa fa-twitter fa-lg"></i></a>
+        <a href="http://instagram.com"><i class="fa fa-instagram fa-lg"></i></a>
+        <a href="http://tumblr.com"><i class="fa fa-tumblr fa-lg"></i></a>
+      </span>
+    </header>
+    <%= yield %>
+  </body>
+</html>

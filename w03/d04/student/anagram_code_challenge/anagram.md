@@ -4,8 +4,8 @@
 
 #### Directions
 
-1. Run the specs in `anagram_spec.rb`.
-1. Make the specs for the `anagram?` method pass.
+1. Run the specs in `spec/anagram_spec.rb`.
+1. Make the specs for the `anagram?` method pass by writing your code in `lib/anagram.rb`
 1. Once your `anagram?` method cuts the mustard, use it to make the specs for `find_anagrams` pass.
 
 #### Bonus
