@@ -170,7 +170,7 @@ pretend like our application "*holds state" (has a memory) by encoding our past
 in every single request response cycle!
 
 1. Add a query param `story=` to every single link that advances your story.
-1. Make the value of the param the entire story so far..
+1. Make the value of the param the entire story so far...
   - this means we have to get the last value of story, and concatenate it to
     what the next part of the story would be for a given choice!
 1. Because URLs (and thus query params) can only use certain characters, we have
