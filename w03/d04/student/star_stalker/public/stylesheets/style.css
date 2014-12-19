@@ -1,12 +1,62 @@
 html{
-  background-color: green;
+  font-family: helvetica;
+  color: white;
 }
 
-div{
+h1{
+  font-size: 42px;
+}
+
+header{
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  border-bottom: 5px solid white;
+}
+
+header li{
+  font-size: 24px;
+  margin-left: 15px;
+  display: inline;
+}
+
+body{
+  background-color: black;
   width: 960px;
   margin: 0 auto;
+  height: 100%;
 }
 
-li {
+body li{
   text-decoration: none;
+  font-size: 32px;
+}
+div{
+  text-align: center;
+
+}
+
+div ul{
+  display: inline;
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+ }
+
+ a:hover{
+  color: red;
+ }
+
+
+li{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+img{
+  margin: 15px;
+  height: 500px;
 }
