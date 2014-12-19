@@ -1,0 +1,25 @@
+body{
+  font: helvetica;
+  width: 960px;
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+}
+
+.question{
+  font-size: 42px;
+}
+
+
+
+.yes{
+  background-color: green;
+}
+
+.no{
+  background-color: red;
+}
+
+.endpoint{
+  background-color: blue;
+}
