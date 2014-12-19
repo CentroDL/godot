@@ -1,6 +1,7 @@
 require_relative 'simple_assert'
+require_relative '../coin'
 include SimpleAssert
-
+# include Parlour
 # A traditional die is a rounded cube, with each of its six faces showing a
 # different number of dots (pips) from 1 to 6.
 
@@ -78,3 +79,4 @@ assert_that(
   Parlour::Dice.roll(12).between?(1, 12),
   true
 )
+

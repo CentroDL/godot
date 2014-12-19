@@ -1,0 +1,10 @@
+<% if params[:number_of_dice] %>
+  <h1>Your Rolls<%= dice = Parlour::Dice.new(@number_of_dice)
+      dice.roll
+      dice.outcomes%></h1>
+<% else%>
+  <h1> You rolled a <%= Parlour::Dice.roll(6) %></h1>
+<% end%>
+<a href='/dice_roll<%="?number_of_dice=#{params[:number_of_dice]}" if params[:number_of_dice]%>' >
+  Try Again!
+</a>

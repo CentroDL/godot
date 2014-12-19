@@ -1,0 +1,11 @@
+<h1><%=@roll%> <%= @guess != nil ? "your guess was #{@guess}" : nil%></h1>
+
+  <h2>
+  <% if @guess != nil %>
+    <%= @guess == @roll ? 'Your Guess was right!' : 'WRONG!' %>
+  <% else %>
+    No Guess Made
+  <% end %>
+  </h2>
+
+<a href='/coin_toss<%= "?guess=#{@guess}" if @guess %>'>Try Again!</a>

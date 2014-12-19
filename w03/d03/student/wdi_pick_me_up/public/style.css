@@ -39,7 +39,8 @@ a:active{
 .button{}
 
 .button-row{
-  display: block;
+  font-size: 24px;
+  display: inline-table;
 }
 
 @media (max-width: 600px){

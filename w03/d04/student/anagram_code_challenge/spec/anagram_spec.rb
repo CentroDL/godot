@@ -3,8 +3,9 @@ require_relative '../lib/anagram'
 include SimpleAssert
 
 def format(word)
-  word.downcase.split('').sort
+  word.delete(' ').downcase.split('').sort
 end
+
 def anagram?(word1, word2)
   format(word1) == format(word2)
 end
@@ -30,3 +31,5 @@ assert_that("#find_anagrams returns one match when given a list that contains on
 
 returned_anagrams = find_anagrams("listen", ["enlists", "google", "inlets", "banana", "enlist"])
 assert_that("#find_anagrams returns multiples matches when given a list that contains multiple anagrams", returned_anagrams == ["inlets", "enlist"], true )
+
+assert_that("works with multiple words in a single string", anagram?("Mr Mojo Risin", "Jim Morrison"), true)
