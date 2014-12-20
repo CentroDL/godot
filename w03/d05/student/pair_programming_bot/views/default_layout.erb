@@ -12,9 +12,9 @@
 
     <div class="button-div">
     <% if @yn %>
-      <button class="yes"> <a href=<%= @yes%>>YES </a> </button>
-
+      <button class="yes"> <a href=<%= @yes %>>YES </a> </button>
       <button class="no"> <a href=<%= @no %>> NO </a> </button>
+
     <% else %>
       <button class="endpoint"><a href=<%= @target %>> <%= @btntext %> </a> </button>
     <% end %>
