@@ -1,14 +1,21 @@
-<% @stuff[:actions].each do |action| %>
-  <h1><%= action %></h1>
-<% end %>
+<div class="actions">
+  <% @stuff[:actions].each do |action| %>
+    <h1><%= action %></h1>
+  <% end %>
+</div>
 
+<div class="question">
+  <h2><%= @stuff[:question] %></h2>
+</div>
 
-
-<h2><%= @stuff[:question] %></h2>
-
-
-<% @stuff[:options].each do |text,link| %>
-  <a href="/<%= link unless link == '/' %>"><%= text.to_s.split('_').map { |x| x.capitalize }.join(' ') %></a>
-<% end %>
+<div class="queries">
+  <% @stuff[:options].each do |text,link| %>
+    <button>
+      <a href="/<%= link unless link == '/' %>">
+        <%= text.to_s.split('_').map { |x| x.capitalize }.join(' ') %>
+      </a>
+    </button>
+  <% end %>
+</div>
 
 

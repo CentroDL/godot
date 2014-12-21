@@ -25,7 +25,7 @@ ROUTES = {
     actions: [],
     question: "Which kids having the problem?",
     options: { stephanie: 'credits', dJ: 'credits', michelle: '/'}
-  },
+  },#problem
 
   :parents => {
     actions: [ 'The Parents' ],
@@ -37,12 +37,12 @@ ROUTES = {
     actions: [],
     question: "Is there a misunderstanding?",
     options: { no: '/', yes: 'credits'}
-    },
+    },#cute
 
   :credits => {
     actions: ["Family hugs, dog barks.","Roll Credits"],
     question: nil,
     options: { try_again: '/'}
-  }
+  }#credits
 
 }#routes

@@ -1,0 +1,40 @@
+html{
+  font-family: "Comic Sans MS";
+}
+
+header{
+  display: inline-block;
+}
+
+body{
+  background-color: #9900FF;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.script{
+  color: white;
+  padding: 20px;
+  background-color: #00FF00;
+  text-align: center;
+  border-radius: 10px;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.actions{
+  text-shadow: 4px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.question{
+  color: black;
+}
+
+button{
+  padding: 5px;
+  margin-left: 10px;
+}
