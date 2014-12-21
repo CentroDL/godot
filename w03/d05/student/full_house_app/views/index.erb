@@ -1,0 +1,13 @@
+<h1><%= @stuff[:actions].shift %></h1>
+
+<% unless @stuff[:actions].empty? %>
+  <% @stuff[:actions].each do |action| %>
+    <h1><%= action %></h1>
+  <% end %>
+<% end %>
+
+<h2><%= @stuff[:question] %></h2>
+
+<% @stuff[:options].each do |option| %>
+  <a href="/<%= option.delete(' ').downcase %>"><%= option %></a>
+<% end %>
