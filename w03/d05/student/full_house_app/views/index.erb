@@ -1,11 +1,17 @@
 <div class="actions">
-  <% @stuff[:actions].each do |action| %>
-    <h1><%= action %></h1>
-  <% end %>
+<% @stuff[:actions].each do |action| %>
+  <h1><%= action %></h1>
+<% end %>
 </div>
 
 <div class="question">
   <h2><%= @stuff[:question] %></h2>
+</div>
+
+<div class="images">
+  <% @stuff[:images].each do |image| %>
+    <img src="/img/<%= image %>">
+  <% end %>
 </div>
 
 <div class="queries">

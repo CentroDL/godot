@@ -12,7 +12,7 @@ body{
   margin: 0 auto;
 }
 
-.script{
+.content{
   color: white;
   padding: 20px;
   background-color: #00FF00;
@@ -36,5 +36,10 @@ a{
 
 button{
   padding: 5px;
-  margin-left: 10px;
+  margin-left: 50px;
+  margin-right: 50px
+}
+
+img{
+  width: 200px;
 }
