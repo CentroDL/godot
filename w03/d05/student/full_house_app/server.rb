@@ -3,15 +3,17 @@ require_relative 'episode_info'
 module FullHouseApp
 
   class Server < Sinatra::Base
+    #based on our optional parameter we pull data from ROUTES
+    get '/?:decision?' do
 
-    get '/?:path?' do
-      if params[:path] == nil
+      if params[:decision] == nil
         @stuff = ROUTES[:root]
       else
-        @stuff = ROUTES[params[:path].to_sym]
+        @stuff = ROUTES[params[:decision].to_sym]
       end
+
       render(:erb, :index, { layout: :template} )
-      # binding.pry
+
     end
 
   end#Server

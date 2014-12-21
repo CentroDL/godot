@@ -1,40 +1,48 @@
+#holds all of the information to populate each page
+#structure of each entry is
+#  :path_name => {
+#   actions: [aray of text to be displayed]
+#   question: the question being asked on page
+#   options: { a hash of :button_text => target_paths }
+#             each button_text key is cleaned up in the index.erb page
+# }
 ROUTES = {
-  root: {
+  :root => {
     actions: ["Opening theme and titles",
     "Establishing shot of San Francisco row Houses"
     ],
     question: "Do we cut to the kids or parents?",
-    options: ['kids', 'parents']
+    options: {kids: 'kids', parents: 'parents'}
   },#root
 
-  kids: {
+  :kids => {
     actions: ['The Kids', 'Cut to one of the kids.'],
     question: "Are they cute or having a problem?",
-    options: ['cute', 'problem']
+    options: {cute: 'cute', problem: 'problem'}
   },#kids
 
-  parents: {
-    actions: [ 'The Parents' ],
-    question: "Which Parent?",
-    options:[ 'Danny Tanner', 'Uncle Jesse', 'Uncle Joey']
-  },#parents
-
-  dannytanner: {
-    actions: [ 'Danny Tanner', 'A child explains a problem while Danny makes pancakes.' ],
+  :problem => {
+    actions: [],
     question: "Which kids having the problem?",
-    options:[ 'Stephanie', 'DJ', 'Michelle']
+    options: { stephanie: 'credits', dJ: 'credits', michelle: '/'}
   },
 
-  unclejesse: {
-    actions: ["Uncle Jesse", "Uncle Jesse acts cool, but is interrupted by Michelle.", "Michelle says: \"You got it dude!\"", "Establishing shot of San Francisco row Houses"],
-    question: "Do we cut to the kids or parents?",
-    options: ['kids','parents']
+  :parents => {
+    actions: [ 'The Parents' ],
+    question: "Which Parent?",
+    options: { danny_tanner: 'problem', uncle_jesse: '/', uncle_joey: '/' }
+  },#parents
+
+  :cute => {
+    actions: [],
+    question: "Is there a misunderstanding?",
+    options: { no: '/', yes: 'credits'}
     },
 
-  unclejoey: {
-    actions: ['Uncle Joey', 'Uncle Joey does a funny voice.', 'Establishing shot of San Francisco row houses.'],
-    question: "Do we cut to the kids or parents?",
-    options: ['kids','parents']
-    },
+  :credits => {
+    actions: ["Family hugs, dog barks.","Roll Credits"],
+    question: nil,
+    options: { try_again: '/'}
+  }
 
 }#routes
