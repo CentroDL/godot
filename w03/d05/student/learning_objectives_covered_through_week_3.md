@@ -1,0 +1,122 @@
+## Learning Objectives Covered Through Week 3
+
+- Define "web applications" and "web developer," and list other types of programs and programming.
+- Explain what the command line is and why we use it.
+- List the Advantages of a Command Line Interface.
+- List the Disadvantages of a Command Line Interface.
+- Access the Unix Shell via the Terminal.
+- Alter or update a Unix Shell via the .bash_profile or .bashrc files.
+- Explain the difference between and Absolute path and a Relative path.
+- Recall where to find additional information on a command.
+- Identify the following characters and explain their meaning in relation to your filesystem: '.', '..', '~', '/'.
+- List some visual cues for orientating yourself in the terminal.
+- Exit an ongoing process in the terminal.
+- List the three standard streams that exist between a computer and its environment.
+- Navigate and search your OS via hotkeys (Mac's Spotlight or Ubuntu's Dash)
+- Use a window manager with hotkeys (Spectacle on Mac or by default in Ubuntu)
+- Use Sublime Text to open and edit files and folders
+- Use Sublime Text to create or delete files and folders
+- Manage settings and packages in Sublime Text
+- See the path of the current directory
+- See the contents in the current directory (including hidden files)
+- Create new files and directories
+- Change directories
+- Copy files and directories
+- Move files and directories
+- Delete files and directories
+- Describe the different types in Ruby (numbers, strings, collections, etc.)
+- define version control
+- Explain the purpose and value of Git
+- Initialize a local git repository
+- Add and commit changes to a Git repository
+- Explain the difference between Git and GitHub
+- Explain what common problem GitHub solves
+- Fork an existing repository from GitHub
+- Clone a repository from GitHub
+- Explain the difference between a fork and a clone
+- Push changes from a local git repository to GitHub
+- Pull changes from a repository on GitHub
+- Use string interpolation to insert dynamic values into a string
+- Use if/else statements to conditionally execute code
+- Use logical operators ( &&, ||, ==. >, >=, et cetera) within conditions
+- Use mutator methods like #downcase! and #gsub! to reassign the value associated with a particular variable
+- Use while loop to repeatedly execute code
+- Explain the difference between a datatype and data structure
+- Explain the difference between a string and a symbol
+- Articulate the differences between Arrays and Hashes
+- Create, access, change, and destroy elements in Arrays and Hashes
+- Explain what a hashing function is
+- debug a simple ruby program using binding.pry
+- load a Ruby code library (ie, a "gem") into a program
+- use binding.pry to pause execution of a program
+- use 'require_relative' to bring the code from one Ruby file into another
+- explain the principle of DRY
+- explain what a method is and why it is useful
+- define methods that take arguments
+- explain the terms **call** and **invoke** as they relate to methods
+- call methods with arguments
+- return a value from a method invocation and store it in a variable
+- Explain and diagram Ruby's "dot notation."
+- Reference the Ruby docs, and explain the style used to describe a method.
+- Explain and diagram Ruby's "dot notation."
+- Reference the Ruby docs, and explain the style used to describe a method.
+- Explain what a block is.
+- Explain what an object is.
+- Explain what an object-oriented programming language allows.
+- write a class definition in Ruby
+- Explain the difference between a class and an instance and the relationship between them.
+- Define class and instance methods and explain the difference between the two
+- Write setter methods and getter methods for a Ruby class
+- Write a class with an initialize method
+- Articulate the purpose of an initialize method.
+- Explain when and why you would use use `attr_accessor`.
+- Explain the use of `self` in Ruby.
+- Instantiate and use an object
+- Explain a use-case for class inheritance
+- Define class and instance methods and explain the difference between the two.
+- Explain the difference between local, instance and class variables.
+- Define what "behavior" and "state" mean in programming, and how they are represented in OOP.
+- Define "introspection"
+- Use introspection in Ruby with ::instance_methods, ::methods, ::instance_variables.instance_of and type_of
+- Use ls, cd, and show-method in Pry to examine a class.
+- Describe how scope works for constants in Ruby modules and classes.
+- Explain what the purpose of a "namespace" is in programming, and how they are used.
+- Explain what a module is. How does it differ from a class?
+- Define "mixin"
+- List the main purposes of modules in Ruby (namespaces, mixins).
+- Namespace a method in Ruby with a module
+- Package methods with related behavior in Ruby using a module
+- Include behavior in a class using a module.
+- Extend behavior to an instance using a module.
+- explain inheritance
+- explain the key benefit of inheritance
+- define a class that inherits abilities from another class
+- explain the terms subclass and superclass
+- explain the effect of the `super` keyword
+- mixin the methods from a module into a class using the `include` keyword
+- give a single object all the methods from a module using the `extend` method
+- Use #each, #map, and #select to enumerate over a collection.
+- Explain the difference between #each, #select, and #map.
+- Articulate a scenario where it would make sense to use #select (and #reject).
+- Articulate a scenario in which it would make sense to use #map.
+- Write an Route handler in Sinatra to handle a GET request
+- Identify the parts of a UR
+- Explain the meanings of status codes 200, 302, 404 and 500
+- Define middleware
+- Define Sinatra's "params" hash and explain how data is put in it.
+-  Explain what an HTTP request is, and what an HTTP response is
+- Explain the different roles of HTML, CSS, and JavaScript
+- Create an HTML page and use common tags
+- Use the Chrome Web Inspector to view HTML & CSS
+- Explain how to use CSS selectors and declaration to alter the style of an element
+- Explain the difference between an id and a class and when you should use each
+- Explain what CSS reset and normalize are used for and how they differ
+- Link a CSS stylesheet to an HTML page.
+- Select elements using tag, class and id selectors and change their styles.
+- Use the web inspector to view the styles applied to a web page and make temporary changes.
+- Define a static file or asset
+- Define ERB
+- Use erb files to serve templated content
+- Explain the difference between the two "modes" or "flavors" of ERB <% %> and <%= %> (the clownhats and crying clown hats)
+- Use .each in an erb file to dynamically generate HTML for each item in an array
+- Use conditional logic in an .erb file to conditionally render HTML

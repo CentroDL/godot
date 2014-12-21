@@ -1,0 +1,26 @@
+body {
+  color:            #FFF;
+  text-align:       center;
+  font-family:      Helvetica, Arial, san-serif;
+  letter-spacing:   0.04em;
+  font-size:        24px;
+  background-color: #111;
+}
+
+h1 { margin: 150px 100px 30px; }
+
+a.button {
+  color:           #DDD;
+  text-decoration: none;
+  margin:          20px;
+  padding:         15px 0;
+  border-radius:   7px;
+  width:           4em;
+  display:         inline-block;
+}
+
+a:hover { color: #fff; }
+
+.done { background: #00B; }
+.yes  { background: #080; }
+.no   { background: #A00; }
