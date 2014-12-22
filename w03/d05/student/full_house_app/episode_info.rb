@@ -29,7 +29,7 @@ ROUTES = {
     actions: [],
     question: "Which kids having the problem?",
     images: ['fh-stephanie.jpg','fh-dj.jpg','fh-michelle.jpg'],
-    options: { stephanie: 'credits?info=Everyone ignores Stephanie and she cries in frustration. Stephanie say%3A How Rude!', dJ: 'credits?info=DJ gets nutty until Uncle Jesse has a heart to heart.', michelle: '?info=It\'s not a real problem. Uncle Joey does a funny voice. Michelle says%3A You got it dude!'}
+    options: { stephanie: 'credits?info=Everyone ignores Stephanie and she cries in frustration. Stephanie say%3A How Rude!', dJ: 'credits?info=DJ gets nutty until Uncle Jesse has a heart to heart.', michelle: '?info=It\'s not a real problem Uncle Joey does a funny voice. Michelle says%3A You got it dude!'}
   },#problem
 
   :parents => {
