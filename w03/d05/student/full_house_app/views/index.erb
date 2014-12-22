@@ -1,7 +1,11 @@
 <div class="actions">
-<% @stuff[:actions].each do |action| %>
-  <h1><%= action %></h1>
-<% end %>
+  <h1><%= @opening if @opening != nil%></h1>
+  <h1><%= params[:info] if params[:info] %></h1>
+
+  <% @stuff[:actions].each do |action| %>
+    <h1><%= action %></h1>
+  <% end %>
+
 </div>
 
 <div class="question">
@@ -17,7 +21,7 @@
 <div class="queries">
   <% @stuff[:options].each do |text,link| %>
     <button>
-      <a href="/<%= link unless link == '/' %>">
+      <a href="/<%= link %>">
         <%= text.to_s.split('_').map { |x| x.capitalize }.join(' ') %>
       </a>
     </button>
