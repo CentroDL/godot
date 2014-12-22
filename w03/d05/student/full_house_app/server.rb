@@ -1,4 +1,4 @@
-
+#heroku deployed on https://fathomless-forest-9568.herokuapp.com/
 require_relative 'episode_info'
 module FullHouseApp
 
