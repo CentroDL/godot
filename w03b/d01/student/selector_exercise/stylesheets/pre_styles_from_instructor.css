@@ -1,0 +1,117 @@
+/* Dear student,                      */
+/* DON'T ALTER THIS FILE!             */
+/* WRITE YOUR STYLES IN style.css     */
+/*          Love,                     */
+/*          Travis                    */
+
+html, body {
+  background-color: #facade;
+  text-align: center;
+}
+
+div {
+  border: 1px solid black;
+  margin: 25px;
+  width: 150px;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+li {
+  display: inline-block;
+  width: 30%;
+}
+
+div.container {
+  margin: 2em auto;
+  width: 600px;
+  background-color: white;
+}
+
+.container div {
+  display: inline-block;
+}
+
+.red {
+  background-color: rgb(202, 23, 23);
+}
+
+.blue {
+  background-color: rgb(153, 210, 255);
+}
+
+.yellow {
+  background-color: rgb(235, 235, 87);
+}
+
+.target {
+  position: relative;
+  height: 8em;
+}
+
+.centered {
+  margin: 0 auto;
+  width: 33%;
+  height: 100%;
+}
+
+.wrapper {
+  background-color: #facade;
+  position: relative;
+}
+
+.target div.centered.wrapper {
+  height: 8em;
+  width: 8em;
+  border: none;
+  background-color: #facade;
+}
+
+.ring {
+  background-color: #E5E7E7;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 75%;
+  height: 75%;
+}
+
+.ring:not(.outermost) {
+  margin-top: 12%;
+}
+
+.ring .ring .ring {
+  /* blue */
+  background-color: #7BA3C5;
+  height: 65%;
+  margin-top: 17%;
+  width: 65%;
+}
+
+.ring .ring .ring .ring {
+  /* grey */
+  background-color: #E5E7E7;
+  height: 50%;
+  margin-top: 23%;
+  width: 50%;
+}
+
+.ring .ring .ring .ring .ring {
+  height: 25%;
+  margin-top: 35%;
+  width: 25%;
+}
+
+.outermost {
+  background-color: #7BA3C5;
+  height: 98%;
+  width: 98%;
+}
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>specificity_training</title>
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.css">
+  <link rel="stylesheet" href="stylesheets/pre_styles_from_instructor.css">
+  <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+  <h1>Get Selective</h1>
+
+  <div class="container">
+    <ul>
+      <li><a href="http://css-tricks.com/how-css-selectors-work/">Home</a></li>
+      <li><a href="http://css-tricks.com/how-css-selectors-work/">About CSS Selectors</a></li>
+      <li><a href="http://css-tricks.com/how-css-selectors-work/">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <div class="red">
+      <p>Red</p>
+      <p class="example">... like a rose</p>
+    </div>
+    <div class="blue">
+      <p>Blue</p>
+      <p class="example">... like the sea</p>
+    </div>
+    <div class="yellow">
+      <p>Yellow</p>
+      <p class="example">... like pee</p>
+    </div>
+    <div class="green">
+      <p>Green</p>
+      <p class="example">... like a frog</p>
+    </div>
+  </div>
+
+
+  <h2>Le Target</h2>
+  <div class="target container">
+    <div class="centered wrapper">
+      <div class="ring outermost">
+        <div class="ring">
+          <div class="ring">
+            <div class="ring">
+              <div class="ring innermost" id="bullseye"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
