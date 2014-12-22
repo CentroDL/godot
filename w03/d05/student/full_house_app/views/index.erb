@@ -19,13 +19,15 @@
 </div>
 
 <div class="queries">
-  <% @stuff[:options].each do |text,link| %>
-    <button>
-      <a href="/<%= link %>">
-        <%= text.to_s.split('_').map { |x| x.capitalize }.join(' ') %>
-      </a>
-    </button>
-  <% end %>
+  <ul>
+    <% @stuff[:options].each do |text,link| %>
+      <li>
+        <a href="/<%= link %>">
+          <%= text.to_s.split('_').map { |x| x.capitalize }.join(' ') %>
+        </a>
+      </li>
+    <% end %>
+  </ul>
 </div>
 
 
