@@ -1,4 +1,80 @@
 /*==================================*/
 /* Write Your Styles below!!! */
 /*==================================*/
+/*Select any and all heading level 1 (<h1>) tags that might be on the page.
+set the h1's text-transform property to uppercase*/
+h1{
+  text-transform: uppercase;
+}
+
+/*Select any and all anchor (<a>) tags on the page
+remove the underline from the anchor tags by setting their text-decoration to none*/
+a{
+  text-decoration: none;
+}
+
+/*Select any and all paragraph (<p>) tags on the page
+set the paragraphs' font-weight attribute to bold*/
+p{
+  font-weight: bold;
+}
+
+/*Select the div with the class of green
+set its background-color attribute to a nice shade of green: rgb(148, 179, 148)
+set its border attribute to 5px dashed green*/
+.green{
+  background-color: rgb(148,179,148);
+  border: 5px dashed green;
+}
+
+/*Select all the elements that have a class of ring
+set the rings' border-color property to gray*/
+.ring {
+  border-color: gray;
+}
+
+/*Select all the elements that have a class of example
+set the example text's font-style attribute to italic*/
+.example {
+  font-style: italic;
+}
+/*Select the div with the id of "bullseye"
+set its background-color to a deep shade of red: #D04A41*/
+#bullseye{
+  background-color: #D04A41
+}
+
+/*Use the :hover pseudo-selector to make the bullseye's opacity shoot down to 0.5 when hovered over.*/
+#bullseye:hover{
+  opacity: 0.5;
+}
+
+/*Simultaneously select the h1 and h2 tags
+set the pair's font-size to 3em
+*/
+h1, h2 {
+  font-size: 3em;
+}
+/*Select the div that has the two following classes: target & container
+set its background-color to #facade*/
+.target.container{
+  background-color: #facade;
+}
+
+/*Someone put an inappropriate example for the color yellow into the HTML. We're going to use CSS to make this inappropriate text invisible
+select the second paragraph tag within the div of class yellow
+set its opacity to 0.0*/
+.yellow p:nth-child(2){
+  opacity: 0.0;
+}
+/*
+Each of the colored boxes has two paragraph tags. Select all of the first paragraphs within the colored boxes
+set all of the first paragraphs' text-decoration to underline*/
+.container div :nth-child(1){
+  text-decoration: underline;
+}
+
+
+
+
 
