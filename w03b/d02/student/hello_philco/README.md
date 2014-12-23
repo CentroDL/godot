@@ -16,7 +16,7 @@ Phil Lamplugh's homepage is rather barebones, and thus makes an excellent starte
 
 #### Potential Hiccups
 
-- The `top`, `right`, `bottom` and `left` properties won't have any effect on statically positioned elements, and all elements have a position of `static` by default. So for them to have any effect, you'll first have to change the element's `position`.
+- The `top`/`right`/`bottom`/`left` properties won't have any effect on statically positioned elements, and all elements have a position of `static` by default. So for them to have any effect, you'll first have to change the element's `position`.
 
 #### Mockup
 
