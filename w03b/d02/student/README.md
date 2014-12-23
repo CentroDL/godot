@@ -1,6 +1,6 @@
 ## CSS Day 2: `position`
 
-Welcome to Day 2 of your Holiday Work. The exercises below assume you know how to use the various CSS selector patterns. Please make sure you have done [the selector work from Day 1.](../../d01/student/README.md)
+Welcome to Day 2 of your Holiday Work. The exercises below assume you know how to use the various CSS selector patterns. Please make sure you have done [the selector work from Day 1.](../../d01/student)
 
 #### Part 1: A Reading On The `position` Property
 
