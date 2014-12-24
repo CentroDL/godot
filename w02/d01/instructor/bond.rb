@@ -26,11 +26,6 @@ bond_films = [
   { title: "Licence to Kill", year: 1989, actor: "Timothy Dalton", gross: "$285,157,191" }
 ]
 
-
-
-
-
-
 # 1. Combine your knowledge of iteration and arithmetic to determine the total culumative gross
 #    of the Bond franchise. Save it to a sensibly-named variable.
 
