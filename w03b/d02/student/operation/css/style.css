@@ -23,6 +23,7 @@ body {
 .gutter {
   display: inline-block;
   width: 5%;
+  position: relative;
 }
 
 .main {
@@ -37,3 +38,27 @@ img {
 /*==================================*/
 /* Write Your Styles below!!! */
 /*==================================*/
+
+.heart{
+  position: absolute;
+  top: 60px;
+  left: -165px;
+}
+
+.butterflies{
+  position: absolute;
+  top: 174px;
+  left: -187px;
+}
+
+.wishbone{
+  position: absolute;
+  left: 224px;
+  top: 36px;
+}
+
+.breadbasket{
+  position: absolute;
+  top: 283px;
+  left: 244px;
+}
