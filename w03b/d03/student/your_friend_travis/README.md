@@ -13,7 +13,7 @@ Your teacher's portfolio was built with a heavy dose of JavaScript, but that doe
 
 #### Potential Headaches!
 
-1. Chrome inexplicably adds 8 pixels of margin to the `<ul>` and `<ol>` elements. Welcome to your newfound frustrating-but-dopamine-heavy life as a web developer! To thwart Chrome's attempts to thwart you, set `ul` element's `margin` property to `0px`.
+1. Chrome inexplicably adds 8 pixels of margin to the `<ul>` and `<ol>` elements. Welcome to your frustrating-but-dopamine-heavy life as a web developer! To thwart Chrome's attempts to thwart you, set `ul` element's `margin` property to `0px`.
 1. For the `z-index` property to manipulate-able, you'll have to first set the `position` property to 
 
 #### Layout
