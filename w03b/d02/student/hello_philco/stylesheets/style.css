@@ -16,3 +16,27 @@ html {
 /* ======================================= */
 /*    Students: Write Your Styles Below!   */
 /* ======================================= */
+
+.container{
+  width: 700px;
+  margin: 0 auto;
+}
+
+.face{
+  width: 300px;
+  float: left;
+  margin-top: 50px;
+}
+
+h1{
+  color: rgb(16, 118, 221);
+  font-size: 110px;
+  margin-top: 200px;
+  text-align: right;
+  float: right;
+}
+
+h1 span{
+  color: rgb(249, 68, 30);
+}
+
