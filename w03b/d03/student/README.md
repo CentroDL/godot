@@ -25,7 +25,7 @@ Complete [the following exercise](display_sandbox), following the directions exp
 
 #### Part 4: Using Positioning to Create a Simple Layout
 
-Recreate [The Layout of Travis Vander Hoop Homepage](your_friend_travis) using CSS positioning and `display: inline-block`
+Recreate [the layout of Travis Vander Hoop's homepage](your_friend_travis), combining your knowledge of CSS positioning and `display: inline-block`
 
 
 
