@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Abel';
+  src: url("../fonts/abel.woff") format('woff');
+}
+
+html, body {
+  font-family: 'Abel';
+  color: #323232;
+}
+
+/* background color in header & footer: #323232 */
+/* text color code for the header/footer: #DBDBDB       */
