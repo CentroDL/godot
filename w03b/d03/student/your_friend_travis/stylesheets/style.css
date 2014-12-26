@@ -33,6 +33,11 @@ header a {
   transform: translateY(-50%);
 }
 
+.headerlinks a, span{
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
 a {
   text-decoration: none;
 }
@@ -64,17 +69,19 @@ footer{
   background-color: #323232;
   color: #DBDBDB;
   height: 112px;
-  text-align: center;
 }
 
 ul{
   padding-top: 20px;
   vertical-align: middle;
+  margin-left: 0px
 }
 
 li{
   display: inline;
   vertical-align: middle;
+  margin: 0 5px;
+  text-align: center;
 }
 
 li img{
