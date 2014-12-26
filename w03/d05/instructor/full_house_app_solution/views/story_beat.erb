@@ -1,0 +1,44 @@
+<div class="content">
+
+  <%# show a 'back' button, if it exists %>
+  <% if @last_route %>
+    <span class="back-arrow"><a href="/<%= @last_route %>">←</a></span>
+  <% end %>
+  <h1><%= @story_beat[:title] %></h1>
+
+  <%# show an image, if it exists %>
+  <% if @story_beat[:image] %>
+    <img src="<%= @images[@story_beat[:image]] %>" width="200px" />
+  <% end %>
+
+  <%# show script lines, if they exist %>
+  <% if @story_beat[:lines] %>
+    <div class="script">
+      <%# use the beat crafted in the route handler %>
+      <pre><%= @beat %></pre>
+    </div>
+  <% end %>
+
+  <%# show some options to move forward %>
+  <div class="options">
+    <%# ask a question, if there is more than one option %>
+    <p><%= @story_beat[:query] %></p>
+
+    <%# display each of the options to move forward %>
+    <% @story_beat[:options].each do |option| %>
+      <div class="option">
+        <% unless @this_route == "ending" %>
+          <%# use the first option item as the key for the images list %>
+          <img src="<%= @images[option[0]] %>" width="200px" />
+        <% end %>
+
+        <%# use the first option item as the route, and append a param for the last route and the script %>
+        <a href="/<%= option[0].to_s + "?last_route=" + @this_route + @script_param %>">
+          <%# use the second option item as the text of the button %>
+          <button><%= option[1].to_s.capitalize.gsub('_', ' ') %></button>
+        </a>
+      </div>
+    <% end %>
+  </div>
+
+</div>

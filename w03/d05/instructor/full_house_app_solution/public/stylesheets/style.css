@@ -1,0 +1,89 @@
+body {
+  background: #FF00FF;
+  font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
+}
+
+header { padding: 15px; }
+
+nav {
+  color:       floralwhite;
+  font-size:   1.2em;
+  text-shadow: 2px 2px black;
+  text-align:  center;
+}
+
+button {
+  display: block;
+  margin:  10px auto;
+}
+
+a { text-decoration: none; }
+
+a, a:visited { color: inherit; } /* take parent's color */
+
+a button { color: black; }
+
+/* http://stackoverflow.com/questions/1634203/pre-tag-in-html-with-fixed-width */
+pre {
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.content {
+  position:      relative; /* anchors absolute positions below */
+  width:         450px;
+  margin:        10px auto 30px;
+  padding:       30px;
+  background:    #00FF00;
+  border-radius: 2em;
+  text-align:    center;
+}
+
+.content h1, .content h2 {
+  margin-top:  0;
+  font-size:   2em;
+  text-shadow: 2px 2px floralwhite;
+}
+
+.back-arrow {
+  position:    absolute;
+  left:        0.75em;
+  top:         0.27em;
+  color:       floralwhite;
+  font-size:   3em;
+  font-weight: 600;
+  text-shadow: 2px 2px black;
+}
+
+.script {
+  width:            90%;
+  margin:           10px auto;
+  padding:          20px;
+  color:            steel;
+  background-color: floralwhite;
+  border:           1px solid black;
+  text-align:       left;
+}
+
+.content p { font-size: 1.25em; }
+
+.content img {
+  border:        1px solid floralwhite;
+  border-radius: 1em;
+}
+
+.option button { min-width: 100px; }
+
+.option {
+  display:        inline-block;
+  width:          210px;
+  vertical-align: top;
+}
