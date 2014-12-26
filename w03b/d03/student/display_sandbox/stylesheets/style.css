@@ -1,0 +1,24 @@
+html, body {
+  background-color: #facade;
+}
+
+h1 {
+  text-align: center;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+div {
+  height: 200px;
+  width: 200px;
+}

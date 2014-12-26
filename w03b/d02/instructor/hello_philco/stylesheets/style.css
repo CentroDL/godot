@@ -1,0 +1,42 @@
+/* ===== Color Values ===== */
+/* yellow: rgb(246, 240, 102) */
+/* blue: rgb(16, 118, 221) */
+/* red: rgb(249, 68, 30) */
+
+/* Brings in the "Futura" Font */
+@font-face {
+  font-family: "Futura";
+  src: url(../fonts/futura-medium-webfont.woff);
+}
+
+/* Sets the documents default font to futura */
+html {
+  font-family: Futura;
+  background-color: rgb(246, 240, 102);
+}
+
+/* ======================================= */
+/*    Students: Write Your Styles Below!   */
+/* ======================================= */
+
+.red {
+  color: rgb(249, 68, 30);
+}
+
+.blue {
+  color: rgb(16, 118, 221);
+}
+
+img {
+  position: relative;
+  top: 4em;
+  left: 20em;
+}
+
+p {
+  font-size: 5em;
+  margin: 0;
+  position: relative;
+  top: -4em;
+  left: 8.5em;
+}
