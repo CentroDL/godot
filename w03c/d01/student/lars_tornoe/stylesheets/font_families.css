@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Recta-Bold';
+  src: url(../fonts/recta_bold.woff);
+}
+
+@font-face {
+  font-family: 'Recta-Regular';
+  src: url(../fonts/recta_regular.woff);
+}
+
+@font-face {
+  font-family: 'Aldine-Light';
+  src: url(../fonts/aldine_light.woff);
+}
