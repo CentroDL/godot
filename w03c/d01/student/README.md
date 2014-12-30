@@ -13,10 +13,8 @@ Often, a designer will hand you a photoshop (psd) file with countless layers, an
 1. Code the outermost elements first, and work your way in.
   - Examine your layout and code the *outermost* element first.
     - For example, if all of the design's content resides in a centered container, make sure you *have* a centered container before moving inward.
-  - Move inward, coding the first nested element that your layout requires. 
-  - Methodically repeat this process until you have your layout in order.
-1. Prioritize *layout* of elements over *style* of elements.
-  - avoid the urge to add text and color stylings (they prematurely clutter your stylesheets and thus your mind)
+1. Get the *layout* of elements in place before moving on to the actual styling of elements.
+  - Why? Because font, shadow, and color declarations can prematurely clutter your stylesheets and thus make layout a more frustrating process.
 
 
   #### Part 2: Lars Tornoe
