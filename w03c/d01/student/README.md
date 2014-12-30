@@ -17,9 +17,9 @@ Often, a designer will hand you a photoshop (psd) file with countless layers, an
   - Why? Because font, shadow, and color declarations can prematurely clutter your stylesheets and thus make layout a more frustrating process.
 
 
-  #### Part 2: Lars Tornoe
+#### Part 2: Lars Tornoe
 
-  Complete [the Lars Tornoe exercise](lars_tornoe), which requires you to mindfully nest divs in an arrangement of rows and columns. Pay special attention to the [layout breakdown](lars_tornoe/layout_breakdown.png) provided.
+Complete [the Lars Tornoe exercise](lars_tornoe), which requires you to mindfully nest divs in an arrangement of rows and columns. Pay special attention to the [layout breakdown](lars_tornoe/layout_breakdown.png) provided.
 
 
 
