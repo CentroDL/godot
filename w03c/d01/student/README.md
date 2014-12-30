@@ -4,7 +4,7 @@ Welcome to Day 6 of your Holiday Work. Today's work focuses on breaking down a d
 
 #### Part 1: Thinking About Layout
 
-Often, a designer will hand you a photoshop (psd) file with countless layers, and you'll be expected to recreate it with HTML/CSS. But where to start? Different developers have different approaches, but you can't go wrong by combining the two guideless below:
+Often, a designer will hand you a photoshop (psd) file with countless layers, and you'll be expected to recreate it with HTML/CSS. But where to start? Different developers have different approaches, but you can't go wrong by combining the two guidelines below:
 
 1. Before coding a thing, break the layout down into its component parts.
   - Where are the *rows* in the layout?
