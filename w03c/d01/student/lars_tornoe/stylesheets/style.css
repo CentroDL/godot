@@ -6,9 +6,47 @@
 body {
   border: 8px solid rgb(255, 250, 185);
   min-height: 100%; /* ensures that body element will expand to the size of the window */
+  margin: 0;
 }
 
 /* ensures that any divs set to display: inline-block will align along the top of their respective containers */
 div {
   vertical-align: top;
+}
+
+.main{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.half{
+  display: inline-block;
+}
+
+.nav li{
+  display: inline;
+}
+
+.product-wrapper{
+  display: inline-block;
+}
+
+.two-thirds{
+  width: 66%;
+}
+
+.one-third{
+  width: 33%;
+}
+
+.image-wrapper{
+
+}
+
+.footer{
+  margin: 0 auto;
+}
+
+.bold{
+
 }
