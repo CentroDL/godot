@@ -3,14 +3,16 @@
   /* Recta-Bold    (for bold text)  */
   /* Recta-Regular (for paragraphs) */
 
+
 body {
+  padding-top: 50px;
   border: 8px solid rgb(255, 250, 185);
   min-height: 100%; /* ensures that body element will expand to the size of the window */
   margin: 0;
 }
 
-a{
-  font-family: "Aldine-Light";
+p{
+  font-family: "Recta-Regular";
 }
 
 /* ensures that any divs set to display: inline-block will align along the top of their respective containers */
@@ -23,12 +25,37 @@ div {
   margin: 0 auto;
 }
 
+.logo-wrapper p{
+  text-align: center
+}
+
 .half{
   display: inline-block;
+  vertical-align: middle;
+  /*width: 50%;
+  padding-left: 0;*/
+}
+
+.nav{
+  text-align: right;
+  /*this is in place of width 50% not working*/
+  padding-left: 38%;
+  font-size: 18px;
 }
 
 .nav li{
   display: inline;
+}
+
+a{
+  font-family: "Aldine-Light";
+  text-decoration: none;
+  margin-left: 50px;
+  color: black;
+}
+
+a:hover{
+  border-bottom: 3px solid #fffab9;
 }
 
 .product-wrapper{
@@ -48,7 +75,7 @@ div {
 }
 
 .footer{
-  margin: 0 auto;
+  text-align: center;
 }
 
 .bold{
@@ -57,14 +84,14 @@ div {
 
 .overlay{
   position: relative;
-  left: 50%;
-  top: -100px;
+  bottom: 40px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .underline{
   border-bottom: 3px solid #fffab9;
   font-family: "Recta-Bold";
-  /*text-decoration: underline;*/
 }
+
 
