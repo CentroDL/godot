@@ -17,9 +17,3 @@ Here's [a clean, beautiful website](http://www.erikiggmark.se/). You've been tas
 1. Code up the layout.
 1. Read up on how to bring in a [Google Web Font](https://developers.google.com/fonts/docs/getting_started). Then bring it in.
 1. Use just the subtlest trace of `border-radius` around `img` tags.
-
-===
-
-#### Mockup
-
-![image](mockup.png)
