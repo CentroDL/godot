@@ -9,6 +9,10 @@ body {
   margin: 0;
 }
 
+a{
+  font-family: "Aldine-Light";
+}
+
 /* ensures that any divs set to display: inline-block will align along the top of their respective containers */
 div {
   vertical-align: top;
@@ -40,7 +44,7 @@ div {
 }
 
 .image-wrapper{
-
+  position: relative;
 }
 
 .footer{
@@ -48,5 +52,19 @@ div {
 }
 
 .bold{
-
+  font-family: "Recta-Bold";
 }
+
+.overlay{
+  position: relative;
+  left: 50%;
+  top: -100px;
+  margin: 0 auto;
+}
+
+.underline{
+  border-bottom: 3px solid #fffab9;
+  font-family: "Recta-Bold";
+  /*text-decoration: underline;*/
+}
+
