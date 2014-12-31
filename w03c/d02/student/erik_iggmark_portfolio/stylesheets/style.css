@@ -1,0 +1,9 @@
+body {
+  border: 8px solid rgb(255, 250, 185);
+  min-height: 100%; /* ensures that body element will expand to the size of the window */
+}
+
+/* ensures that any divs set to display: inline-block will align along the top of their respective containers */
+div {
+  vertical-align: top;
+}
