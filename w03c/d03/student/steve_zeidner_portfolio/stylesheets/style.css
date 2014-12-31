@@ -1,0 +1,28 @@
+/* The fixed header's hex color is #333333 */
+
+/* Brings in the font for the header text */
+@font-face {
+  font-family: "lato";
+  src: url(../fonts/lato_light.woff);
+}
+
+/* brings in the font for the nav links */
+@font-face {
+  font-family: "ostrich";
+  src: url(../fonts/ostrich.woff);
+}
+
+/* brings in the font for the basic text */
+@font-face {
+  font-family: "droid-sans";
+  src: url(../fonts/droid_sans.woff);
+}
+
+html, body {
+  min-height: 100%;
+}
+
+div {
+  vertical-align: top;
+}
+
