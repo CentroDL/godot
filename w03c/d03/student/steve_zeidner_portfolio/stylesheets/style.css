@@ -22,7 +22,75 @@ html, body {
   min-height: 100%;
 }
 
+
+#plus{
+  color: #37b0d4;
+}
+.content{
+  width: 960px;
+  margin: 0 auto;
+}
+
 div {
   vertical-align: top;
 }
 
+.header{
+  background-color: #333333;
+  position: fixed;
+  width: 100%;
+
+}
+.logo{
+   margin-left: 150px;
+}
+.header div{
+  margin-top: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.nav{
+  margin-left: 400px;
+}
+.nav li{
+  margin: 0 15px;
+}
+li{
+  display: inline;
+}
+
+.header li:hover{
+  background-color: #FFF;
+}
+
+ #face{
+  width: 74px;
+  border-radius: 37px;
+}
+
+.header a{
+  text-decoration: none;
+  color: #FFF;
+}
+
+.linkage img{
+  width: 30%;
+}
+
+.linkage div{
+  width: 30%;
+  display: inline;
+}
+
+.tweet li{
+  display: block;
+}
+
+.footer{
+  text-align: center;
+}
+
+.footer img{
+  width: 48px;
+  margin: 10px;
+}
