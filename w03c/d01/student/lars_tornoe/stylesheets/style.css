@@ -6,9 +6,94 @@
 body {
   border: 8px solid rgb(255, 250, 185);
   min-height: 100%; /* ensures that body element will expand to the size of the window */
+  font-family: 'Recta-Regular';
 }
 
 /* ensures that any divs set to display: inline-block will align along the top of their respective containers */
 div {
   vertical-align: top;
 }
+
+div.main {
+  padding: 3em;
+}
+
+header {
+  padding-bottom: 7em;
+}
+
+div.logo-wrapper{
+  float: left;
+  text-align: center;
+  padding-right: 19em;
+}
+
+ul.nav .half, li{
+  display: inline-block;
+  padding-left: 5em;
+}
+
+ul.nav, li, a{
+color: black;
+background: transparent;
+text-decoration: none;
+}
+
+ul.nav, li, a:hover{
+  text-decoration: underline;
+}
+
+div.two-thirds.product-wrapper{
+  width: 65%;
+  float: left;
+  margin-right: -6.5em;
+}
+
+div.one-third.product-wrapper.right{
+  width: 32%;
+  float: left;
+}
+
+p.overlay{
+  text-align: center;
+  position: relative;
+  bottom: 2.5em;
+  margin-bottom: -1.5em;
+  right: 60px;
+}
+
+p.overlay1{
+  position: relative;
+  text-align: center;
+  bottom: 2.5em;
+  right: 30px;
+  margin-bottom: -1.25em;
+}
+
+div.one-third.product-wrapper{
+  float: left;
+  margin-right: 2em;
+}
+
+.overlay2{
+  text-align: center;
+  position: relative;
+  top: -3em;
+}
+
+.overlay3{
+  text-align: center;
+  position: relative;
+  top: -3em;
+  left: -17em;
+}
+
+.footer{
+  text-align: center;
+}
+
+/*div.middle{
+  display: inline-flex;
+
+}
+*/
