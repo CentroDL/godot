@@ -1,9 +1,91 @@
+
 body {
-  border: 8px solid rgb(255, 250, 185);
   min-height: 100%; /* ensures that body element will expand to the size of the window */
+  background-color: #EFEFEF;
+  width: 960px;
+  margin: 0 auto;
+
 }
 
 /* ensures that any divs set to display: inline-block will align along the top of their respective containers */
 div {
   vertical-align: top;
+}
+
+header div{
+  display: inline-block;
+  margin-left: 5%;
+  margin-top: 2%;
+  vertical-align: middle;
+}
+
+
+.links li{
+  display: inline;
+}
+
+.links img{
+
+  width: 22%;
+}
+.links{
+  width: 20%;
+
+}
+.threecol{
+  width: 22.9282%;
+  margin-left: 20%;
+}
+
+.threecol a{
+  color: black;
+  text-decoration: none;
+}
+
+.threecol li:nth-child(1){
+  font-weight: bold;
+}
+
+.logo img {
+  width: 200px;
+}
+
+li{
+  list-style-type: none;
+}
+
+.page-container{
+  width: 100%;
+  background-color: #FFF;
+  height: 100%;
+}
+
+.content-container img{
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.content-container{
+  text-align: center;
+}
+
+footer{
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+footer div{
+  display: inline-block;
+}
+
+footer p{
+  margin-left: 650px;
+}
+
+footer img{
+  width: 50px;
 }
