@@ -91,7 +91,7 @@ Keep in mind, this is tentative. **We may (and shall) change topics and dates as
 | **[Week 2](/w02/README.md)** | 12/8 &ndash; 12/12  | Object-Oriented Programming (Ruby) |
 | **[Week 3](/w03/README.md)**     | 12/15 &ndash; 12/19 | Understanding Networking (HTTP)<br>Introduction to the Web as an Application Platform (Sinatra) |
 | (Winter Break) | 12/22 &ndash; 1/2   | Building Web Pages with HTML & CSS |
-| **Week 4**     | 1/5 &ndash; 1/9     | Creating Web Applications (Sinatra)<br/>Persistent Stores (Redis) |
+| **[Week 4](/w04/README.md)**     | 1/5 &ndash; 1/9     | Creating Web Applications (Sinatra)<br/>Persistent Stores (Redis) |
 | **Week 5**     | 1/12 &ndash; 1/16   | Programming in the Browser Environment (JavaScript)<br>Using JavaScript Libraries<br>jQuery |
 | **Week 6**     | 1/20 &ndash; 1/23   | The Application Development Process<br>*First Project Sprint* |
 | **Week 7**     | 1/26 &ndash; 1/30   | Modeling Domains and Data<br>Using SQL and ORMs (ActiveRecord)|
