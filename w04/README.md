@@ -12,7 +12,7 @@ It was **Winter "_Break_"**! We worked on HTML and CSS, creating real-world page
 |    | Monday | Tuesday | Wednesday | Thursday | Friday |
 |---:|:------:|:-------:|:---------:|:--------:|:------:|
 | **Lessons** | Heroku & Deployment<br>Params & Routes | Simple Persistence w/ Redis | POST and HTML Forms | JSON<br>Consuming Web-based APIs | Assessment & Lab |
-| **Events &amp; Panels** | | Outcomes<br/>(4:30pm - 5:30pm) | | | |
+| **Events &amp; Panels** | | GA Engineering Team Lunch <br/>(12:30 - 1:30)Outcomes<br/>(4:30pm - 5:30pm) |  | | |
 
 ### Suggested Readings and Examples
 
