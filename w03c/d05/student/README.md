@@ -8,7 +8,7 @@ Today's work brings us to CSS code quality. By now, you've probably struggled wi
 
 #### Part 2: Organizing Your Declarations
 
-Different dev teams have different rules for how they want their stylesheets organized. This is so that a team member who starts working on something you worked on months ago can quickly acclimate to the file and do what he needs to do. One of the most popular means of doing so is to separate delcarations. [Take a look at the example code found here](http://css-tricks.com/new-poll-how-order-css-properties/), and choose the method that you think best suits your needs. __Note:__ Our personal preference here at GA is a mixture of __Grouped By Type__ and __Alphabetical__. 
+Different dev teams have different rules for how they want their stylesheets organized. This is so that a team member who starts working on something you worked on months ago can quickly acclimate to the file and do what he needs to do. [Take a look at some of the most common means of organizing stylesheets](http://css-tricks.com/new-poll-how-order-css-properties/), and choose the method that you think best suits your needs. __Note:__ Our personal preference here at GA is a mixture of __Grouped By Type__ and __Alphabetical__. 
 
 #### Part 3: ecard.ly
 
