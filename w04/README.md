@@ -21,6 +21,7 @@ Here is a list of readings, tutorials, and examples for this week's lessons:
 - **Heroku**
   + [How Heroku Works](https://devcenter.heroku.com/articles/how-heroku-works)
   + [Deploying Sinatra apps on Heroku](https://devcenter.heroku.com/articles/rack#frameworks)
+  + [Managing gem dependencies with Bundler](http://bundler.io)
 - **Routes**
   + [GET vs POST](http://blog.teamtreehouse.com/the-definitive-guide-to-get-vs-post)
   + [Sinatra Routes](http://www.sinatrarb.com/intro.html#Routes)
