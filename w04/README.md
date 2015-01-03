@@ -19,18 +19,18 @@ It was **Winter "_Break_"**! We worked on HTML and CSS, creating real-world page
 Here is a list of readings, tutorials, and examples for this week's lessons:
 
 - **Heroku**
-  - [How Heroku Works](https://devcenter.heroku.com/articles/how-heroku-works)
-  - [Deploying Sinatra apps on Heroku](https://devcenter.heroku.com/articles/rack#frameworks)
+  + [How Heroku Works](https://devcenter.heroku.com/articles/how-heroku-works)
+  + [Deploying Sinatra apps on Heroku](https://devcenter.heroku.com/articles/rack#frameworks)
 - **Routes**
-  - [GET vs POST](http://blog.teamtreehouse.com/the-definitive-guide-to-get-vs-post)
-  - [Sinatra Routes](http://www.sinatrarb.com/intro.html#Routes)
+  + [GET vs POST](http://blog.teamtreehouse.com/the-definitive-guide-to-get-vs-post)
+  + [Sinatra Routes](http://www.sinatrarb.com/intro.html#Routes)
 - **Redis**
-  - [Interactive Redis tutorial](http://try.redis.io/)
-  - [Intro to Redis (note: you already have Redis installed)](http://redistogo.com/documentation/introduction_to_redis)
+  + [Interactive Redis tutorial](http://try.redis.io/)
+  + [Intro to Redis (note: you already have Redis installed)](http://redistogo.com/documentation/introduction_to_redis)
 - [**POST and HTML Forms**](https://gist.github.com/h4w5/8848398)
 - **JSON**
-  - [JSON Introduction](http://en.wikipedia.org/wiki/JSON)
-  - [Ruby JSON Library](http://www.ruby-doc.org/stdlib-2.1.2/libdoc/json/rdoc/JSON.html)
+  + [JSON Introduction](http://en.wikipedia.org/wiki/JSON)
+  + [Ruby JSON Library](http://www.ruby-doc.org/stdlib-2.1.2/libdoc/json/rdoc/JSON.html)
 - [**Web-based APIs**](http://en.wikipedia.org/wiki/Web_API)
 
 <!-- ### What are we doing [next week](/w05/README.md)? -->
