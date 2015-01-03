@@ -45,7 +45,7 @@ div {
    margin-left: 150px;
 }
 .header div{
-  margin-top: 20px;
+  margin-top: 10px;
   display: inline-block;
   vertical-align: middle;
 }
@@ -74,12 +74,12 @@ li{
 }
 
 .linkage img{
-  width: 30%;
+  width: 100%;
 }
 
 .linkage div{
   width: 30%;
-  display: inline;
+  display: inline-block;
 }
 
 .tweet li{
@@ -93,4 +93,23 @@ li{
 .footer img{
   width: 48px;
   margin: 10px;
+}
+
+.bigass-pic{
+ padding-top: 50px;
+}
+
+#overlay{
+  position: absolute;
+  top: 50%;
+  left: 340px;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  letter-spacing: 5px;
+}
+
+#subtext{
+  font-size: 20px;
+  letter-spacing: normal;
 }
