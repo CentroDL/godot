@@ -129,6 +129,21 @@ Create the following _class methods_ on the class `PingPong::Game`:
 
 At this point we should have a working game model!
 
+The following should all work:
+
+```ruby
+PingPong::Game.serve!
+#=> true
+PingPong::Game.hit!
+#=> :ping
+PingPong::Game.ping!
+#=> true
+PingPong::Game.hit!
+#=> :ping
+PingPong::Game.pong!
+#=> false
+```
+
 ## Part 4 - A Terminal Front-end
 
 Now we can play the game via a terminal interface. Create a new file called:
