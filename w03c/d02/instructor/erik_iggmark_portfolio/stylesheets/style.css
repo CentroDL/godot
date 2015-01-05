@@ -1,0 +1,99 @@
+/* Development Helpers */
+
+div {
+  /*border: 1px solid black;*/
+}
+
+/* Styles */
+html, body {
+  background-color: #EFEFEF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: light;
+  min-height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+body {
+  background-color: white;
+  height: 100%;
+  margin: 0 auto;
+  width: 98%;
+}
+
+.half {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+
+/* the element needs to have an explicit width for this class to work */
+.horizontally-centered {
+  margin: 0 auto;
+}
+
+.half.social {
+  display: inline-block;
+  top: 2em;
+  margin-top: 2.3em;
+}
+
+.vertically-centered {
+  display:table-cell;
+}
+
+header, footer {
+  -webkit-align-items: center;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+}
+
+footer {
+  height: 20%;
+}
+
+footer p {
+  margin-left: 1.3em;
+}
+
+header p {
+  margin-left: 1.3em;
+}
+
+.iggmark-logo {
+  margin-left: 3.5em;
+  width: 39%;
+}
+
+.social-icons-wrapper {
+  width: 85%;
+}
+
+.portfolio-row {
+  position: relative;
+  width: 95%;
+  padding-top: 1.5%
+}
+
+.portfolio-item {
+  width: 22%;
+  display: inline-block;
+  padding-left: 2%;
+}
+
+.social-icon {
+  width: 22%;
+}
+
+.portfolio-item img {
+  width: 100%;
+}
+
+footer img {
+  width: 8%;
+  margin-left: 9%;
+}
+
+
+

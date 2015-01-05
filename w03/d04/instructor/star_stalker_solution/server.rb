@@ -8,6 +8,10 @@ module StarStalker
       render(:erb, :index, { :layout => :default_layout })
     end
 
+    get("/about") do
+      render(:erb, :about, { :layout => :default_layout})
+    end
+
     get("/stars") do
       if params["alive"] == "true"
         @stars = STARS.select { |x| x[:alive] == true }
@@ -25,8 +29,5 @@ module StarStalker
       render(:erb, :profile, { :layout => :default_layout })
     end
 
-    get("/about") do
-      render(:erb, :about, { :layout => :default_layout})
-    end
   end
 end

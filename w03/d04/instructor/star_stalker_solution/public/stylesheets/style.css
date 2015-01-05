@@ -7,9 +7,9 @@ div {
 }
 
 h1, h2, h3 {
-  text-align: center;
   margin: 0 0 0 0;
   padding: 1em 0 1em 0;
+  text-align: center;
 }
 
 .main {
@@ -52,8 +52,8 @@ header .nav {
 
 img {
   display: block;
-  width: 400px;
   margin: 0 auto;
+  width: 400px;
 }
 
 .main a {
@@ -62,8 +62,8 @@ img {
 
 .main ul.nav {
   display: block;
-  width: 200px;
   margin: 0 auto;
+  width: 200px;
 }
 
 /* ================ */
