@@ -1,0 +1,82 @@
+/* ================ */
+/* global styles*/
+/* ================ */
+
+div {
+  vertical-align: top;
+}
+
+h1, h2, h3 {
+  margin: 0 0 0 0;
+  padding: 1em 0 1em 0;
+  text-align: center;
+}
+
+.main {
+  margin: 0 auto;
+  width: 960px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ================ */
+/* header styles */
+/* ================ */
+
+header {
+  border-bottom: 1px solid #000;
+  line-height: 3em;
+}
+
+.logo, ul.nav, .nav li {
+  display: inline-block;
+}
+
+.logo {
+  margin-left: 2.5em;
+}
+
+header .nav {
+  margin-left: 900px
+}
+
+.nav li {
+  margin-left: 2em;
+}
+
+/* ================ */
+/* index page styles*/
+/* ================ */
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.main a {
+  margin-left: 1em;
+}
+
+.main ul.nav {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+
+/* ================ */
+/* shrine styles*/
+/* ================ */
+
+.shrine {
+  background-color: #000;
+  color: white;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+
