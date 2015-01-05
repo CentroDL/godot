@@ -27,7 +27,7 @@ Here is a list of readings, tutorials, and examples for this week's lessons:
   + [Sinatra Routes](http://www.sinatrarb.com/intro.html#Routes)
 - **Redis**
   + [Interactive Redis tutorial](http://try.redis.io/)
-  + [Intro to Redis (note: you already have Redis installed)](http://redistogo.com/documentation/introduction_to_redis)
+  + [Intro to Redis (note: you may already have Redis installed -- check first)](http://redistogo.com/documentation/introduction_to_redis)
 - [**POST and HTML Forms**](https://gist.github.com/h4w5/8848398)
 - **JSON**
   + [JSON Introduction](http://en.wikipedia.org/wiki/JSON)
