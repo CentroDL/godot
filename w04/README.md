@@ -21,12 +21,13 @@ Here is a list of readings, tutorials, and examples for this week's lessons:
 - **Heroku**
   + [How Heroku Works](https://devcenter.heroku.com/articles/how-heroku-works)
   + [Deploying Sinatra apps on Heroku](https://devcenter.heroku.com/articles/rack#frameworks)
+  + [Managing gem dependencies with Bundler](http://bundler.io)
 - **Routes**
   + [GET vs POST](http://blog.teamtreehouse.com/the-definitive-guide-to-get-vs-post)
   + [Sinatra Routes](http://www.sinatrarb.com/intro.html#Routes)
 - **Redis**
   + [Interactive Redis tutorial](http://try.redis.io/)
-  + [Intro to Redis (note: you already have Redis installed)](http://redistogo.com/documentation/introduction_to_redis)
+  + [Intro to Redis (note: you may already have Redis installed -- check first)](http://redistogo.com/documentation/introduction_to_redis)
   + [Example Redis Ruby Code from Groupon](https://github.com/redsquirrel/redis-at-groupon)
 - [**POST and HTML Forms**](https://gist.github.com/h4w5/8848398)
 - **JSON**
