@@ -12,7 +12,7 @@ This is a layout exercise. Use all that you've learned to recreate the mockup se
   - Where are the rows in the layout?
   - Where are the columns?
   - How are they nested?
-1. Code it up, using the [raw text that has been provided]()
+1. Code it up.
 
 ===
 
