@@ -8,11 +8,15 @@ body {
   padding-top: 50px;
   border: 8px solid rgb(255, 250, 185);
   min-height: 100%; /* ensures that body element will expand to the size of the window */
+<<<<<<< HEAD
   margin: 0;
 }
 
 p{
   font-family: "Recta-Regular";
+=======
+  font-family: 'Recta-Regular';
+>>>>>>> 9b73ce8e0dbf32f6554f3eb2e3a59a3512b02893
 }
 
 /* ensures that any divs set to display: inline-block will align along the top of their respective containers */
@@ -20,6 +24,7 @@ div {
   vertical-align: top;
 }
 
+<<<<<<< HEAD
 .main{
   width: 960px;
   margin: 0 auto;
@@ -95,3 +100,5 @@ a:hover{
 }
 
 
+=======
+>>>>>>> 9b73ce8e0dbf32f6554f3eb2e3a59a3512b02893

@@ -1,0 +1,168 @@
+* { margin: 0; padding: 0;}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* The fixed header's hex color is #333333 */
+
+/* Brings in the font for the header text */
+@font-face {
+  font-family: "lato";
+  src: url(../fonts/lato_light.woff);
+}
+
+/* brings in the font for the nav links */
+@font-face {
+  font-family: "ostrich";
+  src: url(../fonts/ostrich.woff);
+}
+
+/* brings in the font for the basic text */
+@font-face {
+  font-family: "droid-sans";
+  src: url(../fonts/droid_sans.woff);
+}
+
+html, body {
+  min-height: 100%;
+}
+
+div {
+  vertical-align: top;
+}
+
+p {
+  font-family: droid-sans;
+}
+
+.half {
+  display: inline-block;
+  width: 49%;
+}
+
+/* Header styles */
+header {
+  background-color: #333333;
+  height: 3em;
+  /* ========================= */
+  /* for the fixed header to work, we have to set width to 100% */
+  /* ========================= */
+  position: fixed;
+  width: 100%;
+}
+
+header img {
+  display: inline-block;
+  width: 37%;
+  margin-top: 0.6em;
+  margin-left: 6em;
+}
+
+header ul {
+  margin-left: 24em;
+  margin-top: 1em;
+}
+
+header li {
+  color: white;
+  display: inline-block;
+  margin-right: 1em;
+  vertical-align: top;
+  font-family: 'ostrich';
+  font-size: 1.4em;
+}
+
+/* Hero Shot Styles */
+.hero-wrapper {
+  position: relative;
+  z-index: -1;
+}
+
+.hero-shot {
+  margin-top: 3em;
+}
+
+.title {
+  font-family: lato, sans-serif;
+  text-align: center;
+  color: white;
+  position: absolute;
+  margin: 0 auto;
+  bottom: 3.8em;
+  font-size: 5em;
+  width: 100%;
+}
+
+.blue {
+  color: #37B0D4
+}
+
+/* Triptych Styles */
+.centered {
+  margin: 0 auto;
+}
+
+.triptych {
+  width: 87%;
+  margin-top: 3em;
+}
+
+.triptych img {
+  width: 100%;
+}
+
+.triptych p {
+  color: white;
+  font-size: 0.8em;
+  padding: 0.6em;
+  line-height: 0.3em;
+}
+
+.one-third {
+  display: inline-block;
+  width: 32.9%;
+  padding: 0.5em;
+}
+
+.gray {
+  background-color: #B4B4B4;
+  padding: 0.5em;
+}
+
+.circular {
+  border-radius: 50%;
+}
+
+img.circular {
+  height: 5em;
+  width: 5em;
+}
+
+/* Footer Styles */
+
+footer .triptych {
+  margin: 0 auto;
+  width: 17.5%;
+}
+
+footer .triptych img {
+  display: inline-block;
+  margin-top: 3em;
+  width: 71px;
+  height: 71px;
+
+}
+
+
+footer p {
+  text-align: center;
+  margin-bottom: 2em;
+  font-size: 0.8em;
+  color: #B4B4B4;
+}
+

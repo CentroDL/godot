@@ -38,6 +38,8 @@ Here is a list of readings, tutorials, and examples for this week's lessons:
   + [Documentation](http://www.sinatrarb.com/intro.html)
   + [Source](https://github.com/sinatra/sinatra)
 - **HTML**
+  + [Learn HTML](https://developer.mozilla.org/en-US/learn/html)
+  + [Intro to Webmaster Academy](https://support.google.com/webmasters/answer/6001102)
   + [Dive in to HTML5](http://diveintohtml5.info/)
   + [Sublime HTML Snippets (speed up your writing!)](https://github.com/joshnh/HTML-Snippets)
 - **CSS**
