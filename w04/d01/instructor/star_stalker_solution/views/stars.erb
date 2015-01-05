@@ -1,6 +1,8 @@
 <h1>List of Stars</h1>
 <ul>
   <% @stars.each_with_index do |x, i| %>
-    <li><a href="/stars/<%= i %>"><%= x[:name] %></a></li>
+    <li>
+      <a href="/stars/<%= i %>"><%= x[:name] %></a>
+    </li>
   <% end %>
 </ul>
