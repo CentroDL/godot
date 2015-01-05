@@ -1,5 +1,5 @@
 require 'sinatra/base'
-require './server'
-require './star_power'
+require_relative 'server'
+require_relative 'star_power'
 
 run StarStalker::Server
