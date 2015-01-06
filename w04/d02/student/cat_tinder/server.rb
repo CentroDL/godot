@@ -1,4 +1,5 @@
 module CatTinder
+
   class Server < Sinatra::Base
 
     ########################
@@ -16,9 +17,12 @@ module CatTinder
     ########################
     # Routes
     ########################
+    get '/' do
 
+    end
 
   end
+
 end
 
 
