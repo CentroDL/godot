@@ -211,7 +211,7 @@ Note: see [Array#to_h][arraytoh] for a simple method.
 
 **10) Write a method `median_sell_amount` that returns the
       [median](http://simple.wikipedia.org/wiki/Median) sell amount of all of
-      the items.
+      the items.**
 
 **11) Create an Array of every descriptive in the item list; make sure that the
       Array is unique, or only has each value once.**
