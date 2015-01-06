@@ -14,7 +14,7 @@ Hash has the keys:
 - **quantity**
 - (overwrought) **descriptives**
 - **manufacturer cost** (the cost QVC paid for the item)
-- **sell amount** (the amount that QVC sels the item for)
+- **sell amount** (the amount that QVC sells the item for)
 
 You can calculate the (gross) **margin** by taking the percentage of the sale
 value of an item that is profit. Ie:
@@ -211,7 +211,7 @@ Note: see [Array#to_h][arraytoh] for a simple method.
 
 **10) Write a method `median_sell_amount` that returns the
       [median](http://simple.wikipedia.org/wiki/Median) sell amount of all of
-      the items.
+      the items.**
 
 **11) Create an Array of every descriptive in the item list; make sure that the
       Array is unique, or only has each value once.**
