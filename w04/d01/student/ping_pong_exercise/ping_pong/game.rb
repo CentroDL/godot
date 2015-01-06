@@ -1,30 +1,32 @@
 module PingPong
+
   class Game
 
-    @@state=nil
+    @@state = nil
+    @@difficulty = :medium
 
     def self.state
         @@state
     end
 
-    def self.difficulty=(diff=:medium)
-      @difficulty=diff
+    def self.difficulty=(diff)
+      @@difficulty=diff
     end
 
     def self.difficulty
-      @difficulty
+      @@difficulty
     end
 #     player_has_served? that returns true if the state is not nil (ie, a game has begun)
     def self.player_has_served?
-      true if @@state
+      @@state != nil
     end
 # is_ping? and is_pong?, that return true when the state is, respectively, :ping or :pong
     def self.is_pong?
-      @@state == :ping
+      @@state == :pong
     end
 
     def self.is_ping?
-      @@state == :pong
+      @@state == :ping
     end
 # computer_has_hit? that returns true if the state is :ping or :pong
     def self.computer_has_hit?
@@ -38,9 +40,9 @@ module PingPong
 
     def self.miss? #true == missed shot
       roll = rand(100) + 1 #+1 to offset 0-99 roll
-      if difficulty == :easy
+      if @@difficulty == :easy
         roll <= 50 #50% chance to miss
-      elsif difficulty == :medium
+      elsif @@difficulty == :medium
         roll <= 33 #33% chance to miss
       else #hard
         roll <= 25 #25% chance to miss
@@ -48,16 +50,15 @@ module PingPong
     end
 
     def self.hit!
-      if !computer_has_hit?
+      hits = [:ping, :pong].sample
+
+      if miss?
         @@state = nil
         false
-      elsif computer_has_hit? && is_ping?
-        @@state = :ping
-        "ping"
-      elsif computer_has_hit? && is_pong?
-        @@state = :pong
-        "pong"
+      else
+        @@state = hits
       end
+
     end
 
     def self.end!
@@ -88,8 +89,8 @@ module PingPong
   end#Game
 end#PingPong
 
-# puts PingPong::Game.serve!
-# puts PingPong::Game.hit!
-# puts PingPong::Game.ping!
-# puts PingPong::Game.hit!
-# puts PingPong::Game.pong!
+puts PingPong::Game.serve!
+puts PingPong::Game.hit!
+puts PingPong::Game.ping!
+puts PingPong::Game.hit!
+puts PingPong::Game.pong!
