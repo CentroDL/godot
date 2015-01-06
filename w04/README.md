@@ -29,6 +29,7 @@ Here is a list of readings, tutorials, and examples for this week's lessons:
   + [Interactive Redis tutorial](http://try.redis.io/)
   + [Intro to Redis (note: you may already have Redis installed -- check first)](http://redistogo.com/documentation/introduction_to_redis)
   + [Example Redis Ruby Code from Groupon](https://github.com/redsquirrel/redis-at-groupon)
+  + [`redis-rb` Docs](http://www.rubydoc.info/github/redis/redis-rb/)
 - [**POST and HTML Forms**](https://gist.github.com/h4w5/8848398)
 - **JSON**
   + [JSON Introduction](http://en.wikipedia.org/wiki/JSON)
