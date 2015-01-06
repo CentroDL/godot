@@ -1,88 +1,102 @@
-# Strings
-Create
+# Redis Cheatsheet
+
+## Data Structures
+
+- String - Simple key value pairs
+- Hash - Like a mini-redis, a key with multiple fields and values
+- List - a collection of strings sorted by insertion order
+- Set - a unique unordered collection of strings
+- Sorted Set - similar to sets but with a score for each value to set a order
+
+## CRUD Operations for different Data Structures
+
+### Strings
+
+- Create `set name godo`
+- Update `append t`
+
+- Create `set class_size 15`
+- Update `incr class_size`
+
+- Destroy `del name`
+
+### Lists
+
+- Create `lpush students Dain` `rpush students Dflip`
+- Read `lrange students 0 -1`
+- Destroy `rpop` `lpop`
+
+### Hashes
+
+- Create `hset student name Ernie`
+- Read `hget student name`
+- Destroy `hdel student name`
+
+### Set
+
+- Create `sadd cities Boston`
+- Read `smembers cities`
+- Destroy `srem cities Boston`
+
+### Sorted Set
+
+- Create `zadd top_cities 0.1 'New York'`
+- Create `zadd top_cities 0.2 London`
+- Create `zadd top_cities 0.3 Shanghai`
+
+- Read `rangebyscore top_cities 0 1`
+
+- Destroy `zrem top_cities 'New York'`
+
+## Translating Redis documentation to Ruby library
+
 ```
-set user_id 1
-set user_fname phil
-set user_age 50
+redis> SADD key1 "a"
+(integer) 1
+redis> SADD key1 "b"
+(integer) 1
+redis> SADD key1 "c"
+(integer) 1
+redis> SADD key2 "c"
+(integer) 1
+redis> SADD key2 "d"
+(integer) 1
+redis> SADD key2 "e"
+(integer) 1
+redis> SINTERSTORE key key1 key2
+(integer) 1
+redis> SMEMBERS key
+1) "c"
 ```
 
-Read
 ```
-get user_id
-get user_fname
-get user_age
-```
-
-Update
-```
-append user_fname lippe
-incr user_age
-```
-
-Destroy
-```
-del user_id
-```
-
-Lists
-
-Lists
-Creating or Inserting
-```
-lpush lunchmeals pizza
-lpush lunchmeals falafel
-rpush lunchmeals wrap
-rpush lunchmeals "turkey leg"
-```
-Reading
-```
-lrange lunchmeals 0 -1
-```
-Updating
-
-Destroying
-```
-lpop lunchmeals
-rpop lunchmeals
-ltrim lunchmeals 0 2
+require 'redis'
+$redis = Redis.new({ :host => "127.0.0.1", :port => 6379 })
+$redis.sadd("key1", "a")
+#=> 1
+$redis.sadd("key1", "b")
+#=> 1
+$redis.sadd("key1", "c")
+#=> 1
+$redis.sadd("key2", "c")
+#=> 1
+$redis.sadd("key2", "d")
+#=> 1
+$redis.sadd("key2", "e")
+#=> 1
+$redis.sinterstore("key", "key1", "key2")
+#=> 1
+$redis.smembers "key"
+#=> "c"
 ```
 
+## Expiring keys
 
-Hashes
-Create
 ```
-hset user:1 id 1
-hset user:1 fname phil
-hset user:1 age 47 interests none
-
-hmset user:2 id 2 fname bill
+set ice "I'm melting"
+expire ice 10
 ```
-
-Read
-```
-hget user:1 fname
-hgetall user:2
-```
-Update
-```
-hincrby user:2 age 1
-```
-Delete
-```
-hdel user:2 fname
-```
-
-Create
-```
-sadd cities wilmington
-sadd cities 'new york'
-sadd cities 'new york'
-```
-Read
-```
-scard cities
-smembers cities
-sismember cities wilmington
-```
+one second later `ttl ice` will return 9
 
 
+10 seconds later `get ice` will return nil
