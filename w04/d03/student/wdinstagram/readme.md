@@ -1,8 +1,8 @@
 # WDInstagram!
 
-![A picture of nice food taken by a distant friend.](public/images/instagramming-food.jpg)
+<img alt="A picture of nice food taken by a distant friend." src="public/images/instagramming-food.jpg" width="700px"/>
 
-Here we go, guys, we're making a platform for sharing images!
+> Here we go, guys, we're making a platform for sharing images!
 
 ## Setup
 
