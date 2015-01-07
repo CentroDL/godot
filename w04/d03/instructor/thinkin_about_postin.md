@@ -5,12 +5,10 @@ As a user of the interweb, you probably change data server-side *all the time*, 
 #### Directions
 
 1. Partner up.
-1. Make a list of 10 different ways in which you or your partner use web applications to change information on a server:
+1. Make a list of 6 different ways in which you or your partner use web applications to change information on a server:
    - Way 1:
    - Way 2:
    - Way 3:
    - Way 4:
    - Way 5:
    - Way 6:
-   - Way 7:
-   - Way 8:
