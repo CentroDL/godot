@@ -30,5 +30,21 @@ module Diary
       redirect to("/entries")
     end
 
+    get('/sketches') do
+      # but how do we
+      render(:erb, :sketches)
+    end
+
+    get('/sketches/new') do
+      render(:erb, :new_sketch)
+    end
+
+    post('/sketches') do
+      id = redis.incr("sketch_id")
+      url = params["sketch_url"]
+      date = params["sketch_date"]
+      $redis.hmset("sketch:#{id}", "sketch_url", url, "sketch_date", date)
+    end
+
   end
 end
