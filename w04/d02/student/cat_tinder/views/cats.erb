@@ -1,0 +1,6 @@
+<h1>Cats</h1>
+
+<% @cats.each do |cat| %>
+  <img src="<%= image_url_for(cat.delete "cat:") %>">
+  <p>Votes: <%= votes_for( cat.delete "cat:")%></p>
+<% end %>
