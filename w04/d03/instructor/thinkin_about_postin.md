@@ -11,4 +11,4 @@ As a user of the interweb, you probably change data server-side *all the time*, 
    - Way 3: adding a photo
    - Way 4: buying a domain
    - Way 5: editing a wiki page 
-   - Way 6: sending an email from a web email app
+   - Way 6: sending an email from a web email appg
