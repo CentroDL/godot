@@ -31,7 +31,9 @@ module Diary
     end
 
     get('/sketches') do
-      # but how do we
+      binding.pry
+      sketch_ids = $redis.lrange("sketches", 0, -1)
+      @sketches = sketch_ids.map { |id| $redis.hgetall("sketch:#{id}") }
       render(:erb, :sketches)
     end
 
@@ -40,10 +42,12 @@ module Diary
     end
 
     post('/sketches') do
-      id = redis.incr("sketch_id")
+      id = $redis.incr("sketch_id")
       url = params["sketch_url"]
       date = params["sketch_date"]
       $redis.hmset("sketch:#{id}", "sketch_url", url, "sketch_date", date)
+      $redis.lpush("sketches", id)
+      redirect '/sketches'
     end
 
   end
