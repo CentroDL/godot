@@ -6,6 +6,7 @@ module Goggle
     end
 
     get("/") do
+      # binding.pry
       render(:erb, :index)
     end
 
