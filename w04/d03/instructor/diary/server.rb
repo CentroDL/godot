@@ -24,5 +24,11 @@ module Diary
       render(:erb, :new_entry)
     end
 
+    post('/entries') do
+      entry = params["entry_date"] + " " + params["entry_text"]
+      $redis.rpush("entries", entry)
+      redirect to("/entries")
+    end
+
   end
 end
