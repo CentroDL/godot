@@ -1,0 +1,9 @@
+<h1>Posts</h1>
+
+<% @entries.each do |entry| %>
+  <div>
+    <span><%=entry["author"]%></span>
+    <img src="<%= entry["url"]%>">
+    <span><%=entry["date"]%><span>
+  </div>
+<% end %>
