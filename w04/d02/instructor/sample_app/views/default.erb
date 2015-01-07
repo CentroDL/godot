@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <%= yield %>
+  <footer>
+    <p>Recently Viewed Departments
+      <% @pages_viewed.each do |page| %>
+        <%= page %>
+      <% end %>
+    </p>
+  </footer>
+</body>
+</html>
