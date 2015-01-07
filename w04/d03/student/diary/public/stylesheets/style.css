@@ -1,0 +1,43 @@
+/* ================ */
+/* global styles*/
+/* ================ */
+
+html, body {
+  text-align: center;
+}
+
+.main {
+  margin: 0 auto;
+  width: 960px;
+}
+
+img {
+  width: 200px;
+  margin: 5em auto 0 auto;
+  display: block;
+}
+
+/* ================ */
+/* Form Styles    */
+/* ================ */
+
+form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+label {
+  padding: 1em 0.25em 1em 0;
+}
+
+input, label {
+  display: block;
+}
+
+input[type='submit'] {
+  margin: 0 auto;
+}
+
+
+
+
