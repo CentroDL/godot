@@ -4,4 +4,4 @@ require 'sinatra/reloader'
 
 require_relative 'server'
 
-run GravatarApp::Server
+run RandomApp::Server
