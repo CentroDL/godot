@@ -1,0 +1,20 @@
+<div class="box">
+  <form action="/entries" method="POST">
+    <label>
+      Author
+      <input type="text" name="author" />
+    </label>
+
+    <label>
+      Photo Url
+      <input type="url" name="photo_url" />
+    </label>
+
+    <label>
+      Date Taken
+      <input type="date" name="date_taken" value="<%= Date.today %>"/>
+    </label>
+
+    <button>Save!</button>
+  </form>
+</div>
