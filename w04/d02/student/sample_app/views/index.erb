@@ -1,1 +1,9 @@
 <h1>Hello from Index</h1>
+
+<small>You're Visitor Number <%= @visitor_count %></small>
+
+<footer>Recently Viewed Departments
+  <% @last_viewed.each do |page| %>
+    <p><%= page %></page>
+  <% end %>
+</footer>

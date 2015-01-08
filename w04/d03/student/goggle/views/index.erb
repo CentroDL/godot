@@ -1,4 +1,44 @@
 <h1>
   <span class="blue">G</span><span class="red">o</span><span class="goldenrod">g</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span>
 </h1>
+<!-- 'method' really means what HTTP request type to use?-->
+<!-- 'action' really means 'to what path does this form fire a request to?' -->
+  <form method="" action="">
+
+    <label>Search:
+      <input type="text" name="search_term">
+    </label>
+
+    <label>Safe Search?
+      <input type="checkbox" name="safe_search">
+    </label>
+
+    <label>Results per page:
+      <select name="results_per_page">
+        <option value="25">MarpDarp</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+      </select>
+    </label>
+
+    <input type="hidden" value="travis.vanderhoop@gmail.com" name="user_email" required>
+
+    <!-- An input of the date type. -->
+    <label> Date: <input type="date" name="departure"></label>
+    <!-- An input of the file type. -->
+    <label>File: <input type="file" name="file"></label>
+    <!-- A textarea tag. -->
+    <label>Text Area:
+      <textarea type="rant_text" cols="20" rows="10">Text Here</textarea>
+    </label>
+    <!-- An input of the password type. -->
+    <label>Password:<input type="password" name="password"></label>
+
+    <label>Color:
+      <input type="color" name="color">
+    </label>
+
+    <input type="submit" value="Search!">
+
+  </form>
 

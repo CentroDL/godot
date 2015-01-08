@@ -1,0 +1,35 @@
+body{
+  font-family: helvetica, sans-serif;
+  background: #fff url("../images/bgtile.png") repeat-x;
+}
+
+a{
+  text-decoration: none;
+}
+
+footer{
+  display: inline;
+  text-align: center;
+}
+footer li{
+  list-style-type: none;
+  display: inline;
+}
+
+
+
+.main-content{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.phones, .bubble{
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+}
+
+.bubble span{
+  vertical-align: top;
+}
+

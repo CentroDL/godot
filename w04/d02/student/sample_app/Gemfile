@@ -3,6 +3,10 @@ source "https://rubygems.org"
 
 gem 'sinatra'
 gem 'sinatra-contrib'
+gem 'redis'
 
 # TODO add Redis
 # TODO add pry to the development group
+group :development do
+  gem 'pry'
+end
