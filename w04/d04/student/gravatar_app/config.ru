@@ -4,4 +4,4 @@ require 'sinatra/reloader'
 
 require_relative 'server'
 
-run RandomApp::Server
+run Random::Server
