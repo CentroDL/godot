@@ -1,0 +1,154 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'Billabong';
+    src: url('../fonts/billabong-webfont.eot');
+    src: url('../fonts/billabong-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/billabong-webfont.woff2') format('woff2'),
+         url('../fonts/billabong-webfont.woff') format('woff'),
+         url('../fonts/billabong-webfont.ttf') format('truetype'),
+         url('../fonts/billabong-webfont.svg#billabongregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+/* STYLES */
+
+/* basic styles for the website */
+body {
+  background:  #3f729b;
+  color:       #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.script {
+  font-family: Billabong;
+
+  display: inline-block; /* allows us to scale without breaking spacing */
+  -webkit-transform: scale(1.15, 1.0);
+  -moz-transform:    scale(1.15, 1.0);
+  -ms-transform:     scale(1.15, 1.0);
+  -o-transform:      scale(1.15, 1.0);
+  transform:         scale(1.15, 1.0);
+
+  letter-spacing: 0.05em;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* styling for the nav header */
+nav {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  position: fixed;
+  width: 1200px;
+  margin-left: -600px;
+  left: 50%;
+  top: 0;
+
+  background: #3f729b;
+}
+nav ul {
+  display: inline-block;
+  vertical-align: baseline;
+}
+nav li {
+  display: inline-block;
+  list-style: none;
+  padding: 0 20px;
+}
+h1 {
+  font-size: 3em;
+  margin: 0 auto;
+}
+
+/* the styling for the content box */
+.box {
+  width: 95%;
+  max-width: 800px;
+  min-width: 400px;
+
+  margin: 115px auto 40px;
+  padding: 1px 20px;
+
+  background: #fff;
+  -webkit-box-shadow: inset 0px 0px 20px 2px rgba(0,0,0,0.35);
+  -moz-box-shadow:    inset 0px 0px 20px 2px rgba(0,0,0,0.35);
+  box-shadow:         inset 0px 0px 20px 2px rgba(0,0,0,0.35);
+
+  border-radius: 5px;
+}
+
+/* overwrite the box's max-width for the feed */
+.feed { max-width: 600px; }
+
+/* the entry content box styling */
+.entry {
+  width: 80%;
+  -webkit-box-shadow: 0px 0px 0px 12px rgba(204,204,204,0.6);
+  -moz-box-shadow:    0px 0px 0px 12px rgba(204,204,204,0.6);
+  box-shadow:         0px 0px 0px 12px rgba(204,204,204,0.6);
+  border: 1px solid #999;
+
+  margin: 60px auto;
+  padding: 18px 10px;
+
+  color: #AAA;
+  font-weight: 800;
+
+  vertical-align: bottom;
+}
+
+/* the image itself */
+.entry img {
+  width: 100%;
+  display: block;
+  margin: 5px auto;
+  border-radius: 5px;
+}
+
+/* the horizontal line before and after images */
+.entry hr {
+  border: 0;
+  height: 0;
+  border-bottom: 1px solid #DDD;
+}
+.before { margin: 20px 0 15px; }
+.after  { margin: 15px 0 20px; }
+
+/* text spans within an entry */
+.entry span { font-size: 1.25em; }
+
+.author-text {
+  color: #3f729b;
+  padding-left: 15px;
+}
+.likes-text {
+  padding-left: 15px;
+}
+.date-text {
+  float: right;
+  padding-right: 15px;
+}
+
+/* form styles */
+form {
+  color: #3f729b;
+  text-align: center;
+  font-size: 2em;
+  margin: 30px;
+}
+label {
+  display: block;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+input {
+  display: block;
+  font-weight: normal;
+  color: black;
+  margin: 5px auto;
+}

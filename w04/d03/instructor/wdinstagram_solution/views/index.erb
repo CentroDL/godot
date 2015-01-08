@@ -1,0 +1,14 @@
+<div class="feed box">
+  <% @entries.each do |entry| %>
+    <div class="entry">
+      <span class="author-text"><%= entry["author"] %></span>
+      <span class="date-text"><%= entry["date_taken"] %></span>
+      <hr class="before"/>
+      <a href="/entries/<%= entry["id"] %>">
+        <img alt="Entry Image" src="<%= entry["photo_url"] %>"/>
+      </a>
+      <hr class="after"/>
+      <span class="likes-text"><i class="fa fa-heart"></i> 0 likes</span>
+    </div>
+  <% end %>
+</div>
