@@ -39,7 +39,7 @@ module Wdinstagram
     post '/entries' do
       id = $redis.incr "entry_id"
       $redis.hmset "entries:#{id}", "author", params["author"], "url", params["photo_url"], "date", params["date_taken"]
-      $redis.lpush "entries", id
+      $redis.rpush "entries", id
       redirect '/entries'
     end
 

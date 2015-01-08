@@ -1,9 +1,9 @@
 <h1>Posts</h1>
 
-<% @entries.each do |entry| %>
+<% @entries.each_with_index do |entry, id| %>
   <div>
     <span><%=entry["author"]%></span>
-    <img src="<%= entry["url"]%>">
+    <a href="/entries/<%= id+1 %>"><img src="<%= entry["url"]%>"></a>
     <span><%=entry["date"]%><span>
   </div>
 <% end %>
