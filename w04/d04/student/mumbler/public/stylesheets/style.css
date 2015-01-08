@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Bookman Old Style Regular';
+  src: url('../fonts/bookman.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*       COLORS
+  tumblr blue: #35465C
+  gray:        #95A0AD
+*/
+
+h1 {
+  font-family: "Bookman Old Style Regular", Bookman, "Times New Roman", serif;
+
+  color: #95A0AD;
+    /*-webkit-text-fill-color: #95A0AD;*/
+    /*-webkit-text-stroke:     0.05em #35465C;*/
+
+  font-size:      3em;
+  font-weight:    bold;
+  letter-spacing: 0.05em;
+  text-shadow:    0 2px 2px #35465c;
+}
