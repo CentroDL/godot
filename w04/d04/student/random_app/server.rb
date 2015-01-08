@@ -26,4 +26,4 @@ module RandomApp
     end
 
   end # Server
-end # GravatarApp
+end # RandomApp
