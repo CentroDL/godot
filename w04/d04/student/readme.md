@@ -11,7 +11,7 @@ We're going to use your Chrome Developer Tools Network tab to do some investigat
 
 We're interested in the "Type" column.  
 
-![:image](public/img/network_tab.png)
+![:image](gravatar_app/public/img/network_tab.png)
 
 Visit https://randomuser.me/
 
