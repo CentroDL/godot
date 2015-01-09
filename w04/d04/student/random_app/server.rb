@@ -23,8 +23,9 @@ module RandomApp
     end
 
     get('/random/name.json') do
+      contet_type 'application/json'
       name = ["Bert", "Ernie", "Horatio"].sample
-      {name: name}.to_json}
+      {name: name}.to_json
     end
 
 

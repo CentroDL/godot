@@ -1,0 +1,17 @@
+<style>
+  html{
+    width: 960px;
+    margin: 0 auto;
+    background-color: #f200f2;
+  }
+</style>
+<h1>Students</h1>
+
+<ul>
+  <% @gravatars.each_with_index do |gravatar, id| %>
+    <li>
+      <p><%=  @student_list[id] %></p>
+      <a href="/students/<%= gravatar %>"><img src="http://www.gravatar.com/avatar/<%= gravatar %>"></a>
+    </li>
+  <% end %>
+</ul>
