@@ -1,5 +1,7 @@
 # Weather API
 
+![Seasonally appropriate weather image.](http://kathykieferblog.files.wordpress.com/2013/12/snow-covered-trees-central-park-new-york.jpg)
+
 You've been tasked with creating a Ruby program that has among its features the
 requirement of retrieving the current weather conditions in any given US city.
 For example, your program will be asked to display the weather in
