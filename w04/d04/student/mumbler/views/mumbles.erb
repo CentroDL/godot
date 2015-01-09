@@ -1,0 +1,10 @@
+<h1>Mumbles</h1>
+
+<ul>
+  <% @mumbles.each do |mumble| %>
+    <li>
+      <p><%= mumble["tags"] %></p>
+      <img src="<%= mumble["image"]%>">
+    </li>
+  <% end %>
+</ul>
