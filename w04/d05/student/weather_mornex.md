@@ -5,7 +5,7 @@
 You've been tasked with creating a Ruby program that has among its features the
 requirement of retrieving the current weather conditions in any given US city.
 For example, your program will be asked to display the weather in
-`"New York, NY"`, and should output: `"THE CURRENT TEMPERATURE IS: 12° F"`.
+`"New York, NY"`, and should output: `"THE CURRENT TEMPERATURE IN NEW YORK IS: 12° F"`.
 
 #### Step 1 (10 minutes)
 
