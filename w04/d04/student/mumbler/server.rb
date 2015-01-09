@@ -21,27 +21,24 @@ module Mumbler
     end
 
     get '/mumbles/:id' do
-
+      @post = $db.hgetall "mumble:#{params[:id]}"
+      render :erb, :mumble, layout: :default
     end
 
 
     post '/mumbles' do
-      mpost = {}
-      mpost["image"] = params["image"]
-      mpost["date"] = params["date"]
-      mpost["tags"] =  params["tags"]
-      mpost["author_email"] = params["email"]
-      mpost["author_handle"] =  params["author_handle"]
-      mpost["author_thumbnail"] = params["author_thumbnail"]
-      mpost["likes"] = 0
+      params["date"]= Time.new.strftime("%Y-%m-%d") if params["date"]== ""
+      params["author_handle"] = "anonymous" if params["author_handle"] == ""
+      params["author_thumbnail"] = "http://goo.gl/KQUfGE" if params["author_thumbnail"] == ""
+      params["likes"] = 0
       id = $db.incr "mumble_id"
-
-      mpost.each do |field, value|
+      # binding.pry
+      params.each do |field, value|
         $db.hset "mumble:#{id}", field, value
       end
 
       $db.rpush "mumbles", id
-      redirect '/mumbles'
+      redirect "/mumbles/#{id}"
     end
 
   end#Server
