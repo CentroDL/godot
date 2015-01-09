@@ -1,0 +1,22 @@
+body {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.btn {
+  border: none;
+  background: red;
+  color: white;
+}
+
+.billboard {
+  font-size: 2em;
+  margin: 10px 0;
+  display: block;
+}
