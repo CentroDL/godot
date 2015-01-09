@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <style>
   html{
     width: 960px;
@@ -14,4 +15,14 @@
       <a href="/students/<%= gravatar %>"><img src="http://www.gravatar.com/avatar/<%= gravatar %>"></a>
     </li>
   <% end %>
+=======
+<ul>
+<% @students.each do |student| %>
+  <li>
+    <a href="/students/<%= student %>">
+      <img src="http://www.gravatar.com/avatar/<%= student %>" alt="picture">
+    </a>
+  </li>
+<% end %>
+>>>>>>> c099948064a933f64ac72e44335b76ee75f37f5c
 </ul>

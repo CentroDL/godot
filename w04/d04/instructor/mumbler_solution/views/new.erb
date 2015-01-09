@@ -1,0 +1,40 @@
+<div class="feed">
+  <form method="POST" action="/mumbles">
+    <label>
+      <strong>Text</strong>
+      <textarea name="text" cols="50" rows="8"></textarea>
+    </label>
+
+    <label>
+      Image Link (optional)
+      <input type="url" name="image" size="50"/>
+    </label>
+
+    <label>
+      Tags (optional)
+      <input type="text" name="tags" size="50"/>
+    </label>
+
+    <label>
+      <strong>Author's Email</strong>
+      <input type="email" name="author_email" size="50"/>
+    </label>
+
+    <label>
+      Author's Handle
+      <input type="text" name="author_handle" size="50"/>
+    </label>
+
+    <label>
+      Author's Thumbnail Image
+      <input type="url" name="author_thumbnail" size="50"/>
+    </label>
+
+    <label>
+      Date Taken
+      <input type="date" name="date" value="<%= Date.today %>" style="text-align:center;"/>
+    </label>
+
+    <button>Save!</button>
+  </form>
+</div>

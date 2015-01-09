@@ -1,0 +1,22 @@
+<br/>
+<a href="/mumbles/new"><h2>new mumble</h2></a>
+
+<div class="feed">
+  <% @mumbles.each do |mumble| %>
+    <div class="mumble">
+      <img class="author-thumb" src="<%= mumble["author_thumbnail"] %>" width="40"/>
+      <span class="author-text"><%= mumble["author_handle"] %></span>
+      <span class="date-text"><%= mumble["date"] %></span>
+      <a href="/mumbles/<%= mumble["id"] %>">
+        <hr class="before"/>
+        <img src="<%= mumble["image"] %>" />
+        <p><%= mumble["text"] %>
+        <% if mumble["tags"] %>
+          <br/><%= mumble["tags"] %>
+        <% end %></p>
+        <hr class="after"/>
+      </a>
+      <span class="likes-text"><i class="fa fa-heart"></i> <%= mumble["likes"] %> likes</span>
+    </div>
+  <% end %>
+</div>
