@@ -1,0 +1,167 @@
+@font-face {
+  font-family: 'Bookman Old Style Regular';
+  src: url('../fonts/bookman.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*       COLORS
+  tumblr blue: #35465C
+  gray:        #95A0AD
+*/
+
+body {
+  text-align:  center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  display: inline;
+
+  font-family: "Bookman Old Style Regular", Bookman, "Times New Roman", serif;
+
+  color: #95A0AD;
+    /*-webkit-text-fill-color: #95A0AD;*/
+    /*-webkit-text-stroke:     0.05em #35465C;*/
+
+  font-size:      3em;
+  font-weight:    bold;
+  letter-spacing: 0.05em;
+  text-shadow:    0 2px 2px #35465c;
+
+  line-height: 2em;
+}
+
+h2 {
+  display: inline;
+
+  font-family: "Bookman Old Style Regular", Bookman, "Times New Roman", serif;
+
+  color: #95A0AD;
+    /*-webkit-text-fill-color: #95A0AD;*/
+    /*-webkit-text-stroke:     0.05em #35465C;*/
+
+  font-size:      1.75em;
+  font-weight:    bold;
+
+  line-height: 3em;
+
+  padding: 4px 20px 8px;
+  border-radius: 1em;
+}
+
+a h2 {
+  border: 4px solid rgba(53, 70, 92, 0.45);
+  transition: 0.5s;
+}
+
+a:hover h2 {
+  border: 4px solid rgba(53, 70, 92, 1);
+  transition: 0.5s;
+}
+
+/* the entry content box styling */
+.mumble {
+  width: 550px;
+
+  -webkit-box-shadow: 0px 0px 0px 12px rgba(204,204,204,0.6);
+  -moz-box-shadow:    0px 0px 0px 12px rgba(204,204,204,0.6);
+  box-shadow:         0px 0px 0px 12px rgba(204,204,204,0.6);
+  border: 1px solid #999;
+
+  margin: 40px auto 60px;
+  padding: 18px 10px;
+
+  color: #AAA;
+  font-weight: 800;
+
+  position: relative;
+
+  text-align: left;
+}
+
+/* the image itself */
+.mumble img {
+  display: block;
+  width: 100%;
+
+  margin: 5px auto;
+  border-radius: 5px;
+}
+
+.mumble img.author-thumb {
+  display:  inline;
+  position: absolute;
+
+  width:  40px;
+  height: 40px;
+
+  border-radius: 40px;
+}
+
+/* the horizontal line before and after images */
+.mumble hr {
+  border: 0;
+  height: 0;
+  border-bottom: 1px solid #DDD;
+}
+.before { margin: 20px 0 15px; }
+.after  { margin: 15px 0 20px; }
+
+/* text spans within an entry */
+.mumble span { font-size: 1.25em; }
+
+.author-text {
+  color: #35465C;
+  margin-left: 55px;
+  line-height: 40px;
+}
+.date-text {
+  float: right;
+  padding-right: 15px;
+  line-height: 40px;
+}
+
+.likes-text {
+  padding-left: 15px;
+}
+
+.mumble p {
+  color:          #888;
+  font-weight:    normal;
+  font-size:      1.25em;
+  letter-spacing: 0.01em;
+  line-height:    160%;
+  margin-left:    0.25em;
+}
+
+/* form styles */
+form {
+  width: 550px;
+
+  -webkit-box-shadow: 0px 0px 0px 12px rgba(204,204,204,0.6);
+  -moz-box-shadow:    0px 0px 0px 12px rgba(204,204,204,0.6);
+  box-shadow:         0px 0px 0px 12px rgba(204,204,204,0.6);
+  border: 1px solid #999;
+
+  color: #35465C;
+  text-align: center;
+  margin: 30px auto;
+  padding: 30px 0;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+input, textarea {
+  display: block;
+  font-weight: normal;
+  color: black;
+  margin: 5px auto;
+}
