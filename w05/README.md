@@ -9,7 +9,7 @@
 
 |    | Monday | Tuesday | Wednesday | Thursday | Friday |
 |---:|:------:|:-------:|:---------:|:--------:|:------:|
-| **Lessons** | Authentication and Authorization<br>OmniAuth (OAuth) 2| CRUD Part II: Deletion | Project Sprint | Project Sprint | Project Sprint |
+| **Lessons** | Authentication and Authorization<br>OmniAuth (OAuth) 2| CRUD Part II: Deletion | **Project Sprint** | **Project Sprint** | **Project Sprint** |
 | **Events &amp; Panels** | | Outcomes<br/>(4:30pm - 5:30pm) | Lunch Panel: Betaworks | | Code Reviews (2:30pm - 5:00pm) |
 
 ### Pair Programming Schedule
