@@ -36,6 +36,7 @@ Here is a list of readings, tutorials, and examples for this week's lessons:
   + [Ruby JSON Library](http://www.ruby-doc.org/stdlib-2.1.2/libdoc/json/rdoc/JSON.html)
 - [**Web-based APIs**](http://en.wikipedia.org/wiki/Web_API)
 
-<!-- ### What are we doing [next week](/w05/README.md)? -->
+### What are we doing [next week](/w05/README.md)?
 
-<!-- - **Module name**: description... -->
+- **Authorization**: We will introduce the concept of Authorization and Authentication in public-facing applications. Special attention will be paid to the *stateless* nature of HTTP, and methods for overcoming that.
+- **First Project Sprint**: We will have unstructured time devoted to creating a web application!
