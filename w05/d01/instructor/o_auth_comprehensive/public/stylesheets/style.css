@@ -1,0 +1,30 @@
+div.wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+div.content {
+  display: inline-block;
+
+  text-align: left;
+
+  margin: 1em auto;
+  padding: 2em 5em;
+
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 3em;
+
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+}
+
+div.directions {
+  font-size: 55%;
+}
+
+div.directions ul, div.directions ol {
+  -webkit-padding-start: 2em;
+}

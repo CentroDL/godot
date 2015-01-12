@@ -1,0 +1,35 @@
+<h1>OAuth 2 Tester</h1>
+
+<% if session[:current_user] %>
+  <p>Well done, <%= session[:current_user][:name] %>!
+     You are now verified with <%= session[:current_user][:provider] %>.</p>
+  <p><a href="/logout">Click here to logout.</a></p>
+<% else %>
+  <h3>Login Options</h3>
+  <ul>
+    <% @providers.each do |provider, auth_uri| %>
+      <% if can_link_to?(provider) %>
+        <li><a href="<%= auth_uri %>">Login with <%= provider %></a></li>
+      <% else %>
+        <li><%= provider %>: set env vars.</li>
+      <% end %>
+    <% end %>
+  </ul>
+<% end %>
+
+<% if session[:handshake_failed] %>
+  <p><strong>Handshake failed: CSRF state token not equal.</strong></p>
+  <% session[:handshake_failed] = nil %>
+<% end %>
+
+<hr>
+<h3>Documentation and Providers</h3>
+<div class="documentation">
+  <%= render(:markdown, :"providers/index") %>
+</div>
+
+<hr>
+<h3>Directions</h3>
+<div class="directions">
+  <%= render(:markdown, :"providers/directions") %>
+</div>
