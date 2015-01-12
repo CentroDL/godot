@@ -34,3 +34,7 @@ input {
   font-size: 1em;
   margin: 10px auto;
 }
+
+.box p, .box li {
+  font-size: 1.75em;
+}

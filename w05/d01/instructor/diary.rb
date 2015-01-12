@@ -9,7 +9,7 @@ class Diary
   end
 
   def tell_secret(person, secret)
-    @redis.lpush "diary_app:#{person}", secret
+    @redis.lpush "diary:#{person}", secret
     # if @persons_secrets[person].nil?
     #   @persons_secrets[person] = []
     # end
@@ -17,7 +17,7 @@ class Diary
   end
 
   def get_secrets(person)
-    @redis.lrange "diary_app:#{person}", 0, -1
+    @redis.lrange "diary:#{person}", 0, -1
     # @persons_secrets[person]
   end
 end
