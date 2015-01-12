@@ -3,6 +3,8 @@
 <div class="box">
   <p>Here are your diary entries:</p>
   <ul>
-    <li>I went to space camp and won't stop talking about it maybe because i never became an astronaut like i wanted.</li>
+    <% @secrets.each do |secret| %>
+      <li><%= secret %></li>
+    <% end %>
   </ul>
 </div>
