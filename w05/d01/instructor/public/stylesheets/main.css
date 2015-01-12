@@ -1,0 +1,36 @@
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 6em;
+  margin: 0;
+}
+
+.box {
+  border: 1px solid black;
+  width: 30em;
+  margin: 10px auto;
+  border-radius: 2em;
+}
+
+.box a {
+  float: right;
+  font-size: 1.75em;
+  margin-right: 30px;
+}
+
+form {
+  clear: both;
+  margin-top: 60px;
+  font-size: 2em;
+  text-align: center;
+}
+
+label {
+  display: block;
+  text-align: center;
+}
+
+input {
+  font-size: 1em;
+  margin: 10px auto;
+}
