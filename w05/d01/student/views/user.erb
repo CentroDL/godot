@@ -1,0 +1,11 @@
+<h1>Welcome, <%= @name %></h1>
+
+
+<div class="box">
+  <p>Here are your entries:</p>
+  <ul>
+    <% @secrets.each do |secret| %>
+    <li><%= secret %></li>
+    <% end %>
+  </ul>
+</div>

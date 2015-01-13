@@ -4,7 +4,6 @@ GEM
     awesome_print (1.2.0)
     backports (3.6.0)
     coderay (1.1.0)
-    diff-lcs (1.2.5)
     method_source (0.8.2)
     mime-types (2.3)
     multi_json (1.10.1)
@@ -22,18 +21,6 @@ GEM
     rest-client (1.7.2)
       mime-types (>= 1.16, < 3.0)
       netrc (~> 0.7)
-    rspec (3.1.0)
-      rspec-core (~> 3.1.0)
-      rspec-expectations (~> 3.1.0)
-      rspec-mocks (~> 3.1.0)
-    rspec-core (3.1.1)
-      rspec-support (~> 3.1.0)
-    rspec-expectations (3.1.0)
-      diff-lcs (>= 1.2.0, < 2.0)
-      rspec-support (~> 3.1.0)
-    rspec-mocks (3.1.0)
-      rspec-support (~> 3.1.0)
-    rspec-support (3.1.0)
     sinatra (1.4.5)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -56,6 +43,5 @@ DEPENDENCIES
   pry
   redcarpet
   rest-client
-  rspec
   sinatra (= 1.4.5)
   sinatra-contrib

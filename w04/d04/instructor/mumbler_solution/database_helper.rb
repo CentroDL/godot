@@ -36,9 +36,7 @@ module Mumbler
       if params["date"]
         params["date"] = Date.parse(params["date"]).strftime("%b %-d, %Y")
       end
-
       data = set_defaults_for(params)
-
       REDIS.mapped_hmset("mumble:#{id}", data)
       REDIS.lpush("mumble_ids", id)
       id
