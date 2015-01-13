@@ -4,5 +4,8 @@
 <img src="<%= @cast_member["image_url"] %>" alt="Image of <%= @cast_member["name"] %>">
 
 <% if @cast_member["eliminatable"] == "true" %>
-
+  <form method="POST" action="/bachelorettes/<%=@cast_member["name"].downcase%>">
+    <input type="hidden" name="_method" value="delete">
+    <input type="submit" value="Eliminate from Contention">
+  </form>
 <% end %>

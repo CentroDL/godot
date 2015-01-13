@@ -19,6 +19,7 @@ module GithubOauth
     end
 
     get("/oauth_callback") do
+
       response = HTTParty.post(
         "https://github.com/login/oauth/access_token",
         :body => {
@@ -30,6 +31,7 @@ module GithubOauth
           "Accept" => "application/json"
         }
       )
+      # binding.pry
       session[:access_token] = response["access_token"]
       get_user_info
       redirect to('/')
@@ -53,6 +55,7 @@ module GithubOauth
           "User-Agent"    => "OAuth Test App"
         }
       )
+      binding.pry
       session[:email]      = response["email"]
       session[:name]       = response["name"]
       session[:user_image] = response["avatar_url"]
