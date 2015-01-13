@@ -1,0 +1,11 @@
+<h1 class="centered"><%= @cast_member["name"] %></h1>
+<p>Occupation: <%= @cast_member["occupation"] %></p>
+<p>Age: <%= @cast_member["age"] %></p>
+<img src="<%= @cast_member["image_url"] %>" alt="Image of <%= @cast_member["name"] %>">
+
+<% if @cast_member["eliminatable"] == "true" %>
+  <form method="post" action="/bachelorettes/<%= @cast_member["name"].downcase %>">
+    <input type="hidden" name="_method" value="delete">
+    <input type="submit" value="Eliminate from Contention">
+  </form>
+<% end %>

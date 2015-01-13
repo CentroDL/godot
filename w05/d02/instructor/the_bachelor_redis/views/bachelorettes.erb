@@ -1,0 +1,8 @@
+<h1 class="centered">Bachelorettes</h1>
+<ul class="centered">
+  <% @bachelorettes.each do |b| %>
+    <li>
+      <a href="/bachelorettes/<%= b["name"].downcase %>"> <%= b["name"] %></a>
+    </li>
+  <% end %>
+</ul>
