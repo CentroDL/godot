@@ -17,7 +17,7 @@
 |            | Wednesday<br>Morning | Wednesday<br>Afternoon | Thursday<br>Morning | Thursday<br>Afternoon | Friday<br>Morning |
 |:----------:|:-------:|:--------:|:-------:|:--------:|:-------:|
 |  **Phil**  | Andreus | Dana     | Melodie | Angelina | Kristen |
-| **Travis** | Sadé    | Brian    | Kamari  | Sarah    | Michael |
+| **Travis** | Kamari    | Brian    | Sadé   | Sarah    | Michael |
 |   **PJ**   | Simons  | Patricio | Dain    | Chadd    | Dennis  |
 
 ### Suggested Readings and Examples
