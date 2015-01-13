@@ -1,0 +1,9 @@
+<% if session[:name] %>
+  <p>Well done, <%= session[:name] %>!
+     You are now verified with GitHub!</p>
+     <p>Here is your picture:</p>
+     <img src="<%= session[:user_image] %>" alt="">
+  <p><a href="/logout">Click here to logout.</a></p>
+<% else %>
+  <a href="<%= @github_auth_url %>">Login with Github!</a>
+<% end %>
