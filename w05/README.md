@@ -14,6 +14,8 @@
 
 # Paired Programming Schedule
 
+Paired programming sessions are time-boxed at [45 minutes][timer]. Please come prepared with a User Story so that the time can be best utilized. 
+
 |            | Wednesday<br>Afternon | Thursday<br>Morning | Thursday<br>Afternoon | Friday<br>Morning | Friday<br> Afternoon |
 |:----------:|:-------:|:--------:|:-------:|:--------:|:-------:|
 |  **Phil**  | [Andreus][andreus] | [Dana][dana]     | [Melodie][melodie] | [Angelina][angelina] | [Kristen][kristen] |
@@ -34,6 +36,8 @@
 [dennis]: https://github.com/CentroDL/karnak
 [angelina]: https://github.com/ambethoney/linkedin_oauth
 [andreus]: https://github.com/andresv2/futbook
+
+[timer]: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=45%20minute%20timer
 
 ### Suggested Readings and Examples
 
