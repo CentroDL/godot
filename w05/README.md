@@ -12,13 +12,28 @@
 | **Lessons** | Authentication and Authorization<br>OmniAuth (OAuth) 2| CRUD Part II: Deletion | **Project Sprint** | **Project Sprint** | **Project Sprint** |
 | **Events &amp; Panels** | | Outcomes<br/>(4:30pm - 5:30pm) | Lunch Panel: Betaworks<br>*Extended Hours @ GA* | | Code Reviews (2:30pm - 5:30pm) |
 
-### Pair Programming Schedule
+# Paired Programming Schedule
 
 |            | Wednesday<br>Afternon | Thursday<br>Morning | Thursday<br>Afternoon | Friday<br>Morning | Friday<br> Afternoon |
 |:----------:|:-------:|:--------:|:-------:|:--------:|:-------:|
-|  **Phil**  | Andreus | Dana     | Melodie | Angelina | Kristen |
-| **Travis** | Kamari  | Brian    | Sadé    | Sarah    | Michael |
-|   **PJ**   | Simons  | Patricio | Dain    | Chadd    | Dennis  |
+|  **Phil**  | [Andreus][andreus] | [Dana][dana]     | [Melodie][melodie] | [Angelina][angelina] | [Kristen][kristen] |
+| **Travis** | [Kamari][kamari]  | [Brian][brian]    | [Sadé][sade]    | [Sarah][sarah]    | [Michael][michael] |
+|   **PJ**   | Simons  | [Patricio][patricio] | [Dain][dain]    | [Chadd][chadd]    | [Dennis][dennis]  |
+
+[sade]: https://github.com/Sadestevens/sexy_project
+[sarah]: https://github.com/sarahmcalear/project_one
+[chadd]: https://github.com/chaddpaul/elabarate_project
+[melodie]: https://github.com/melmalfa/hitch_hikely_app
+[patricio]: https://github.com/Patdel/perdito
+[kristen]: https://github.com/krismacfarlane/betweenlines
+[kamari]: https://github.com/brainyandbrown/forum_app
+[dana]: https://github.com/danadflip/first_project
+[michael]: https://github.com/hammer7402/gamer_input
+[dain]: https://github.com/rugger403/WDI_Project_1
+[brian]: https://github.com/Brucker1/ga_boards
+[dennis]: https://github.com/CentroDL/karnak
+[angelina]: https://github.com/ambethoney/linkedin_oauth
+[andreus]: https://github.com/andresv2/futbook
 
 ### Suggested Readings and Examples
 
