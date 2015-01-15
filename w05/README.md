@@ -19,7 +19,7 @@ Paired programming sessions will consist of two [Pomodoro][pomodoro] cycles of [
 |            | Wednesday<br>Afternon | Thursday<br>Morning | Thursday<br>Afternoon | Friday<br>Morning | Friday<br> Afternoon |
 |:----------:|:-------:|:--------:|:-------:|:--------:|:-------:|
 |  **Phil**  | [Andreus][andreus] | [Dana][dana]     | [Melodie][melodie] | [Angelina][angelina] | [Kristen][kristen] |
-| **Travis** | [Kamari][kamari]  | [Dane][dane]    | [Sadé][sade]    | [Sarah][sarah]    | [Michael][michael] |
+| **Travis** | [Kamari][kamari]  | [Dain][dain] | [Sadé][sade]    | [Sarah][sarah]    | [Michael][michael] |
 |   **PJ**   | Simons  | [Patricio][patricio] | [Brian][brian]   | [Chadd][chadd]    | [Dennis][dennis]  |
 
 [sade]: https://github.com/Sadestevens/sexy_project
