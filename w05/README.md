@@ -15,7 +15,7 @@
 ### Pair Programming Schedule
 
 |            | Wednesday<br>Afternon | Thursday<br>Morning | Thursday<br>Afternoon | Friday<br>Morning | Friday<br>
-Afternoon|
+Afternoon |
 |:----------:|:-------:|:--------:|:-------:|:--------:|:-------:|
 |  **Phil**  | Andreus | Dana     | Melodie | Angelina | Kristen |
 | **Travis** | Kamari  | Brian    | Sadé    | Sarah    | Michael |
