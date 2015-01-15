@@ -14,7 +14,7 @@
 
 # Paired Programming Schedule
 
-Paired programming sessions are time-boxed at [45 minutes][timer]. Please come prepared with a User Story so that the time can be best utilized. 
+Paired programming sessions will consist of two [Pomodoro][pomodoro] cycles of [25 minutes][timer] each with a 5 minute break. Please come prepared with a User Story so that the time can be best utilized. 
 
 |            | Wednesday<br>Afternon | Thursday<br>Morning | Thursday<br>Afternoon | Friday<br>Morning | Friday<br> Afternoon |
 |:----------:|:-------:|:--------:|:-------:|:--------:|:-------:|
@@ -37,7 +37,8 @@ Paired programming sessions are time-boxed at [45 minutes][timer]. Please come p
 [angelina]: https://github.com/ambethoney/linkedin_oauth
 [andreus]: https://github.com/andresv2/futbook
 
-[timer]: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=45%20minute%20timer
+[timer]: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=25%20minute%20timer
+[pomodoro]: http://en.wikipedia.org/wiki/Pomodoro_Technique
 
 ### Suggested Readings and Examples
 
