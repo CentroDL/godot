@@ -2,8 +2,8 @@
 
 ### What did we do [last week](/w05/README.md)?
 
-- **Authorization**: We will introduce the concept of Authorization and Authentication in public-facing applications. Special attention will be paid to the *stateless* nature of HTTP, and methods for overcoming that.
-- **First Project Sprint**: We will have unstructured time devoted to creating a web application!
+- **Authorization**: We introduced the concept of Authorization and Authentication in public-facing applications. Special attention was paid to the *stateless* nature of HTTP, and methods for overcoming that.
+- **First Project Sprint**: We had unstructured time devoted to creating a web application!
 
 ### What are we doing this week?
 
