@@ -57,6 +57,6 @@ Here is a list of readings, tutorials, and examples for this week's lessons:
   + [CRUD](http://en.wikipedia.org/wiki/Create,_read,_update_and_delete)
   + [Method overriding and forms in Sinatra](http://mikeebert.tumblr.com/post/26877173686/quick-tip-using-put-and-delete-in-sinatra)
 
-### What are we doing [next week](/w0?
+### What are we doing [next week](/w06/README.md)?
 
 - **JavaScript**: We will learn a new language, JavaScript. JavaScript introduces a few new ideas that are often related to the Functional Programming paradigm, a different *object model* (Prototypes instead of Classes), and slightly different scope and data-typing rules. JavaScript is embedded in every web browser, and is therefore the language of choice for client-side scripting (programming) in web applications.
