@@ -20,7 +20,7 @@ Here is a list of readings, tutorials, and examples for this week's lessons:
 
 - **[How to run JavaScript code in the Chrome console](https://developer.chrome.com/devtools/docs/console)**
 - **JavaScript**
-  + [A short, efficient primer to JavaScript Syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+  + [JavaScript Basics](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics)
   + [Further information regarding JavaScript functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
   + [Code Academy's interactive tutorial](http://www.codecademy.com/en/tracks/javascript)
 - **The Browser Environment and DOM API**
