@@ -40,7 +40,7 @@ For code reviews we will break in to small groups:
 | Instructor |   Room   | Small Group |
 |:----------:|:--------:|:-----------:|
 |  Phil  |  Classroom   | Andres Valencia, Brian Rucker, Chadd Clairmont,<br>Kamari Aykes, Melodie Malfa, Aliya Scribner |
-| Travis |  Reed (4 Fl) | Dennis Liaw, Kristen MacFarlane, Patricio Calderon,<br>Sade Stevens, Simons Chase  |
+| Travis |  Marcus (4 Fl) | Dennis Liaw, Kristen MacFarlane, Patricio Calderon,<br>Sade Stevens, Simons Chase  |
 |   PJ   | Sagan (4 Fl) | Angelina Bethoney, Dain Carver, Dana DeFilippo,<br>Michael Campbell, Sarah McAlear |
 
 #### Prepare Your Code
