@@ -67,7 +67,6 @@ While finishing the MVP features is the primary *goal* of the project, there are
   - instructions for running the accompanying test suite.
 2. Present your work to the class on the final day of the project, and participate in the class retrospective.
 3. (after) Deploy the application to Heroku (this will be the version of the application that you share with the class).
-4. (after) Write a blog post about some aspect of the experience. [Examples can be found here](https://medium.com/wdi-nyc-jan-2014).
 
 <!-- Links -->
 
