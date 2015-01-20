@@ -93,13 +93,13 @@ Keep in mind, this is tentative. **We may (and shall) change topics and dates as
 | (Winter Break)               | 12/22 &ndash; 1/2   | Building Web Pages with HTML & CSS |
 | **[Week 4](/w04/README.md)** | 1/5 &ndash; 1/9     | Creating Web Applications (Sinatra)<br>Persistent Stores (Redis) |
 | **[Week 5](/w05/README.md)** | 1/12 &ndash; 1/16   | Authorization<br>*First Project Sprint* |
-| **Week 6**     | 1/20 &ndash; 1/23   | Programming in the Browser Environment (JavaScript)<br>Using JavaScript Libraries<br>jQuery |
-| **Week 7**     | 1/26 &ndash; 1/30   | Modeling Domains and Data<br>Using SQL and ORMs (ActiveRecord)|
-| **Week 8**     | 2/2 &ndash; 2/5     | Producing and Consuming Universal APIs with REST |
-| **Weeks 8 & 9** | 2/5 &ndash; 2/13   | The Rails Web Application Framework |
-| **Week 10**    | 2/16 &ndash; 2/20   | *Second (Group) Project Sprint* |
-| **Week 11**    | 2/23 &ndash; 2/27   | Client-side Application Development (JavaScript) |
-| **Weeks 12 & 13** | 3/2 &ndash; 3/10 | *Final Project Sprint* |
+| **[Week 6](/w06/README.md)** | 1/20 &ndash; 1/23   | Programming in the Browser Environment (JavaScript) |
+| **Week 7**        | 1/26 &ndash; 1/30 | Using JavaScript Libraries<br>jQuery<br>*Second Project Sprint* |
+| **Week 8**        | 2/2 &ndash; 2/6   | The Rails Web Application Framework |
+| **Week 9**        | 2/9 &ndash; 2/13  | Modeling Domains and Data<br>Using SQL and ORMs (ActiveRecord)<br> |
+| **Week 10**       | 2/17 &ndash; 2/20 | *Third (Group) Project Sprint* |
+| **Week 11**       | 2/23 &ndash; 2/27 | AJAX<br>Client-side Application Development (JavaScript) |
+| **Weeks 12 & 13** | 3/2 &ndash; 3/10  | *Final Project Sprint* |
 
 <!--
 ## Classroom Code of Conduct <a id="coc"></a>

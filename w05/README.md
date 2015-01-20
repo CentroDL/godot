@@ -12,13 +12,33 @@
 | **Lessons** | Authentication and Authorization<br>OmniAuth (OAuth) 2| CRUD Part II: Deletion | **Project Sprint** | **Project Sprint** | **Project Sprint** |
 | **Events &amp; Panels** | | Outcomes<br/>(4:30pm - 5:30pm) | Lunch Panel: Betaworks<br>*Extended Hours @ GA* | | Code Reviews (2:30pm - 5:30pm) |
 
-### Pair Programming Schedule
+# Paired Programming Schedule
 
-|            | Wednesday<br>Morning | Wednesday<br>Afternoon | Thursday<br>Morning | Thursday<br>Afternoon | Friday<br>Morning |
+Paired programming sessions will consist of two [Pomodoro][pomodoro] cycles of [25 minutes][timer] each with a 5 minute break. Please come prepared with a User Story so that the time can be best utilized.
+
+|            | Wednesday<br>Afternon | Thursday<br>Morning | Thursday<br>Afternoon | Friday<br>Morning | Friday<br> Afternoon |
 |:----------:|:-------:|:--------:|:-------:|:--------:|:-------:|
-|  **Phil**  | Andreus | Dana     | Melodie | Angelina | Kristen |
-| **Travis** | Kamari    | Brian    | Sadé   | Sarah    | Michael |
-|   **PJ**   | Simons  | Patricio | Dain    | Chadd    | Dennis  |
+|  **Phil**  | [Andreus][andreus] | [Dana][dana]     | [Melodie][melodie] | [Angelina][angelina] | [Kristen][kristen] |
+| **Travis** | [Kamari][kamari]  | [Dain][dain] | [Sadé][sade]    | [Sarah][sarah]    | [Michael][michael] |
+|   **PJ**   | Simons  | [Patricio][patricio] | [Brian][brian]   | [Chadd][chadd]    | [Dennis][dennis]  |
+
+[sade]: https://github.com/Sadestevens/sexy_project
+[sarah]: https://github.com/sarahmcalear/project_one
+[chadd]: https://github.com/chaddpaul/elabarate_project
+[melodie]: https://github.com/melmalfa/hitch_hikely_app
+[patricio]: https://github.com/Patdel/perdito
+[kristen]: https://github.com/krismacfarlane/betweenlines
+[kamari]: https://github.com/brainyandbrown/forum_app
+[dana]: https://github.com/danadflip/first_project
+[michael]: https://github.com/hammer7402/gamer_input
+[dain]: https://github.com/rugger403/WDI_Project_1
+[brian]: https://github.com/Brucker1/ga_boards
+[dennis]: https://github.com/CentroDL/karnak
+[angelina]: https://github.com/ambethoney/linkedin_oauth
+[andreus]: https://github.com/andresv2/futbook
+
+[timer]: https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=25%20minute%20timer
+[pomodoro]: http://en.wikipedia.org/wiki/Pomodoro_Technique
 
 ### Suggested Readings and Examples
 
@@ -37,6 +57,6 @@ Here is a list of readings, tutorials, and examples for this week's lessons:
   + [CRUD](http://en.wikipedia.org/wiki/Create,_read,_update_and_delete)
   + [Method overriding and forms in Sinatra](http://mikeebert.tumblr.com/post/26877173686/quick-tip-using-put-and-delete-in-sinatra)
 
-### What are we doing next week?
+### What are we doing [next week](/w06/README.md)?
 
 - **JavaScript**: We will learn a new language, JavaScript. JavaScript introduces a few new ideas that are often related to the Functional Programming paradigm, a different *object model* (Prototypes instead of Classes), and slightly different scope and data-typing rules. JavaScript is embedded in every web browser, and is therefore the language of choice for client-side scripting (programming) in web applications.
