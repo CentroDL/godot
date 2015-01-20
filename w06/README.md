@@ -11,19 +11,48 @@ Due to MLK Day, we have a shortened week.
 
 |    | Tuesday | Wednesday | Thursday | Friday |
 |---:|:-------:|:---------:|:--------:|:------:|
-| **Lessons** | Project Presentations<br>Code Reviews (1:30pm - 4:30pm) | Intro to JavaScript | The Browser<br>The DOM API<br>Timers | Assessment & Lab |
+| **Lessons** | Code Reviews<br>Project Presentations (1:30pm - 4:30pm) | Intro to JavaScript | The Browser<br>The DOM API<br>Timers | Assessment & Lab |
 | **Events &amp; Panels** | Outcomes<br>(4:30pm - 5:30pm) | | Lunch Event: January-December WDI Mixer | |
 
 ### Suggested Readings and Examples
 
 Here is a list of readings, tutorials, and examples for this week's lessons:
 
+- **[How to run JavaScript code](https://developer.chrome.com/devtools/docs/console)**
 - **JavaScript**
+  + [A short, efficient primer to JavaScript Syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+  + [Further information regarding JavaScript functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+  + [Code Academy's interactive tutorial](http://www.codecademy.com/en/tracks/javascript)
 - **The Browser Environment and DOM API**
+  + [The browser environment](http://javascript.info/tutorial/browser-environment)
+  + [The DOM API](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
+  + [Browser Events](https://developer.mozilla.org/en-US/docs/Web/API/Event)
+  + [Timers](https://developer.mozilla.org/en-US/Add-ons/Code_snippets/Timers)
+
+For further introductory material about JavaScript, which you can read at length:
+
+- [Marijn Haverbeke's Eloquent JavaScript](http://eloquentjavascript.net/1st_edition/contents.html)
+
+### Crockford on JavaScript
+
+Finally, if you are interested, here are additional lectures about the JavaScript
+language itself:
+
+> [Douglas Crockford][crockford] was Yahoo!'s JavaScript architect and a member of the committee designing future versions of the world's most popular programming language. Starting in 2010 and through 2011, Douglas delivered his acclaimed series of lectures on the history of JavaScript, its features, and its use. Links to videos follow:
+
+<!-- crockford videos -->
+[crockford]: http://en.wikipedia.org/wiki/Douglas_Crockford
+- [Volume 1: The Early Years](https://www.youtube.com/watch?v=JxAXlJEmNMg)
+- [Chapter 2: And Then There Was - JavaScript](https://www.youtube.com/watch?v=RO1Wnu-xKoY)
+- [Act III: Function the Ultimate](https://www.youtube.com/watch?v=ya4UHuXNygM)
+[Episode IV: The Metamorphosis of - Ajax](https://www.youtube.com/watch?v=Fv9qT9joc0M)
+- [Part 5: The End of All Things](https://www.youtube.com/watch?v=47Ceot8yqeI)
+- [Scene 6: Loopage](https://www.youtube.com/watch?v=QgwSUtYSUqA)
+- [Level 7: ECMAScript 5: The New - Parts](https://www.youtube.com/watch?v=UTEqr0IlFKY)
+- [Section 8: Programming Style & Your - Brain](https://www.youtube.com/watch?v=taaEzHI9xyY)
 
 ### What are we doing next week?
 
-- **JavaScript**: We will learn a new language, JavaScript. JavaScript introduces a few new ideas that are often related to the Functional Programming paradigm, a different *object model* (Prototypes instead of Classes), and slightly different scope and data-typing rules. JavaScript is embedded in every web browser, and is therefore the language of choice for client-side scripting (programming) in web applications.
 - **Using JavaScript Libraries**: We will see how to include libraries (code
   other people have written) in to our JavaScript. This is a very different
   process in the browser that follows its own, unique, rules. We will also
