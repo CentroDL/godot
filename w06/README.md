@@ -18,7 +18,11 @@ Due to MLK Day, we have a shortened week.
 
 Here is a list of readings, tutorials, and examples for this week's lessons:
 
-- **[How to run JavaScript code in the Chrome console](https://developer.chrome.com/devtools/docs/console)**
+- **Code Review**
+  + [GitHub's Ruby Styleguide](https://github.com/styleguide/ruby)
+  + [A Code Review Primer](https://github.com/thoughtbot/guides/tree/master/code-review)
+- **Chrome Developer Tools**
+  + [How to run JavaScript code in the Chrome console](https://developer.chrome.com/devtools/docs/console)
 - **JavaScript**
   + [JavaScript Basics](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics)
   + [Further information regarding JavaScript functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
