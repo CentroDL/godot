@@ -31,6 +31,7 @@ For more on code reviews, you can check out:
 - [Code Review Best Practices](http://smartbear.com/smartbear/media/pdfs/wp-cc-11-best-practices-of-peer-code-review.pdf)
 - [Tips for an Effective Code Review](http://blog.fogcreek.com/effective-code-reviews-9-tips-from-a-converted-skeptic)
 - [A Code Review Primer](https://github.com/thoughtbot/guides/tree/master/code-review)
+- [GitHub's Ruby Styleguide](https://github.com/thoughtbot/guides/tree/master/code-review)
 
 #### Groups
 
