@@ -25,12 +25,18 @@ var anArray, anObject;
 anArray = [aString, anInteger, aFloat, aBoolean];
 anObject = {manInstructor: "Travis", dog: "Kait"};
 
-// function
+// function (expression)
 var aFunction;
 
 aFunction = function(){
   console.log("Hello world!");
 };
+
+// function (declaration)
+// avoid doing it this way
+// function anotherFunction(){
+//   console.log("Hello world!");
+// };
 
 // def say_its_your_birthday(age)
 //   puts "It's your birthday!"
