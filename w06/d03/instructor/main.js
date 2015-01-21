@@ -46,4 +46,5 @@ aFunction = function(){
 var sayItsYourBirthday = function(age){
   console.log("Its your birthday!");
   console.log("I hope " + age + " is better than " + (age-1) + "!");
+  return true; // have to explicitly return a value, otherwise it returns undefined
 };
