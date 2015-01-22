@@ -26,7 +26,7 @@ function makeMiddleEarth() {
 makeMiddleEarth();
 ```
 
-#### Part2
+#### Part 2
 ```js
 function makeHobbits() {
   // display an unordered list of hobbits in the shire (which is the second article tag on the page)
@@ -34,7 +34,7 @@ function makeHobbits() {
 }
 ```
 
-#### Part3
+#### Part 3
 ```js
 function keepItSecretKeepItSafe() {
   // create a div with an id of 'the-ring'
@@ -44,7 +44,7 @@ function keepItSecretKeepItSafe() {
 }
 ```
 
-#### Part4
+#### Part 4
 
 ```js
 function makeBuddies() {
@@ -54,7 +54,7 @@ function makeBuddies() {
 }
 ```
 
-#### Part5
+#### Part 5
 
 ```js
 function beautifulStranger() {
@@ -62,7 +62,7 @@ function beautifulStranger() {
 }
 ```
 
-#### Part6
+#### Part 6
 ```js
 function leaveTheShire() {
   // assemble the hobbits and move them to Rivendell
@@ -79,7 +79,7 @@ function forgeTheFellowShip() {
 }
 ```
 
-#### 8
+#### Part 8
 
 ```js
 function theBalrog() {
@@ -89,7 +89,7 @@ function theBalrog() {
 }
 ```
 
-#### 9
+#### Part 9
 ```js
 function hornOfGondor() {
   // pop up an alert that the horn of gondor has been blown
@@ -99,7 +99,7 @@ function hornOfGondor() {
 }
 ```
 
-#### 10
+#### Part 10
 ```js
 function itsDangerousToGoAlone(){
   // take Frodo and Sam out of the fellowship and move them to Mordor
@@ -107,7 +107,7 @@ function itsDangerousToGoAlone(){
 }
 ```
 
-#### 11
+#### Part 11
 ```js
 function weWantsIt() {
   // Create a div with an id of 'gollum' and add it to Mordor
@@ -116,7 +116,7 @@ function weWantsIt() {
 }
 ```
 
-#### 12
+#### Part 12
 ```js
 function thereAndBackAgain() {
   // remove Gollum and the Ring from the document
