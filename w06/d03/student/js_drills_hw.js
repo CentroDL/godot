@@ -192,6 +192,12 @@ var kings = [
 ];
 
 // 1. Create a variable called truePretenders and assign it to an empty array. Then use a for loop to iterate through the 'kings' array, pushing any established pretenders into the waiting truePretenders array.
+var truePretenders = [];
+
+for( var i=0; i < kings.length; i++){
+  if(kings[i].pretender === true){
+    truePretenders.push(kings[i]);}
+};
 
 /////////////////////////////////////////////////////
 // Part 7: Basic Functions
@@ -199,13 +205,20 @@ var kings = [
 
   // 1. Define a function 'calculateArea' that takes two arguments, 'height' and 'width' and returns the area as an integer.
     // Example usage: calculateArea(3, 4) // =>  12
+  var calculateArea = function(height, width){
+    return height * width;
+  };
 
   // 2. Define a function 'calculateTip' that takes two arguments, 'mealCost' and 'tip_percentage' and returns the appropriate tip amount as a float
     // Example usage: calculateTip(20.00, 15) // =>  3.0
-
+  var calculateTip = function(mealCost, tip_percentage){
+    return mealCost * tip_percentage / 100;
+  };
   // 3. Define a function 'buildFullName' that takes two arguments, 'firstName' and 'lastName', and returns the full name properly formatted
     // Example usage: buildFullName("Travis", "Vander Hoop") // => "Travis Vander Hoop"
-
+    var buildFullName = function(firstName, lastName){
+      return firstName + " " + lastName;
+    };
 /////////////////////////////////////////////////////
 // Part 8: User Validation Functions
 /////////////////////////////////////////////////////
@@ -216,25 +229,49 @@ var dave   = { name: "Dave", bornOn: "01/21/2014", password: "buffDog", password
 
 
 // 1. Create a variable called validatePasswordsMatch, and assign it to a function that takes two arguments, `pw` and `pwConf`.
+var validatePasswordsMatch = function(pw, pwConf){
+  return pw === pwConf;
+};
 //    Make this function return true if the password and password confirmation match, and false if they don't.
 
 // 2. Use your function on marvin and dave's password and passwordConfirmation attributes to make sure it works.
+var marvinVal = validatePasswordsMatch(marvin.password, marvin.passwordConfirmation);
+var daveVal = validatePasswordsMatch(dave.password, dave.passwordConfirmation);
 
+console.log(marvinVal);
+console.log(daveVal);
 // 3. Create a variable called validatePasswordLength, and assign it to a function that takes a single argument, `pw`.
 //    Make this function return true if the password length is between 8 and 16 characters, and false otherwise.
+var validatePasswordLength = function(pw){
+  return pw.length > 8 && pw.length < 16;
+};
 
 // 4. Use your function on marvin and dave's respective passwords to make sure it works.
+var marvinLength = validatePasswordLength(marvin.password);
+var daveLength = validatePasswordLength( dave.password);
 
+console.log(marvinLength);
+console.log(daveLength);
 // 5. Create a variable called validateEmail, and assign it to a function that takes a single argument, `email`.
 //    Make this function return true if the email contains an @ symbol and no spaces, and false otherwise
+var validateEmail = function(email){
+  return email.indexOf("@") !== -1 && email.indexOf(" ") === -1;
+};
 
 // 6. Use your function on marvin's and dave's email addresses to make sure it works.
+console.log( "marvin's email "+validateEmail(marvin.email) );
+console.log( "dave's email "+validateEmail(dave.email) );
 
 // 7. Create a variable called validateAge, and assign it to a function that takes a single argument, `date`.
 //    Make this function return true if the user is over 13, and false otherwise
-
+var validateAge = function(date){
+  today = new Date();
+  birthdate = new Date(date);
+  return ((today - birthdate)/1000/60/60/8760).toFixed() > 13;
+};
 // 8. Use your function on marvin and dave to make sure it works.
-
+console.log("marvin's age verif: " + validateAge(marvin.bornOn) );
+console.log("dave's age verif: " + validateAge(dave.bornOn) );
 /////////////////////////////////////////////////////
 // Part 9: User Validation
 /////////////////////////////////////////////////////
@@ -242,4 +279,21 @@ var dave   = { name: "Dave", bornOn: "01/21/2014", password: "buffDog", password
 // 1. Create a variable called validateUser, and assign it to a function that takes a single argument, `user`.
 //    Use the methods you defined above to validate the user's password length and equality, as well as their email and age.
 //    If everything checks out, the validateUser function should return true. If anything *doesn't* check out, make the function return false.
+var validateUser = function(user){
+  return ( validatePasswordsMatch(user.password, user.passwordConfirmation) &&
+    validatePasswordLength(user.password) &&
+    validateEmail(user.email) &&
+    validateAge(user.bornOn) &&
+    validateEmail(user.email));
+};
+
+mVal = validateUser(marvin);
+dVal = validateUser(dave);
+
+console.log("marvin checks out: " + mVal);
+console.log("dave checks out: " + dVal);
+
+
+
+
 
