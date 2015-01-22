@@ -1,0 +1,22 @@
+What is the DOM?
+  Document Object Model
+What does the DOM do?
+  Allows us to interface HTML and Javascript.
+Is the DOM part of JavaScript?
+  No, its from the browser.
+Why might JavaScript need the DOM?
+  Because it doesn't have any input or output, and needs a way to interact with the outside environment.
+
+How do you access the DOM?
+  Through javascript.
+What does the "window" object represent?
+  the browser
+What does the "document" object represent?
+  the html page
+What is an "element"?
+  each element tag
+What is a "node list"?
+  list of child nodes
+What is an "attribute"?
+  the properties of each node.
+
