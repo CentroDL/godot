@@ -1,6 +1,6 @@
 ## Fellowship of the Ring DOM Manipulation
 
-Create a function for each of the following steps to practice DOM Manipulation and JavaScript. These should each be called in order after the window has loaded.
+Create a function for each of the following steps to practice DOM Manipulation and JavaScript. These should each be called in order after the window has loaded. Completion for this assignment is to get through part 5. 
 
 #### Exercise Objectives
 
