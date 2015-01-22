@@ -11,6 +11,8 @@ Create a function for each of the following steps to practice DOM Manipulation a
 #### 1
 
 ```js
+// fellowship.js
+
 function makeMiddleEarth() {
   // create a section tag with an id of middle-earth
   // add each land as an article tag
