@@ -129,10 +129,10 @@ function thereAndBackAgain() {
 
 #### Bonus
 
-- Within the click event listener for clicking '#the-ring", so that when it's clicked, it not only calls nazgulScreech, but also causes frodo's opacity to go down to 0 for awhile, only to fade back in.
+- Within the click event listener for clicking `'#the-ring'`, so that when it's clicked, it not only calls `nazgulScreech`, but also causes frodo's opacity to go down to 0 for awhile, only to fade back in.
 - If the ring is clicked 3 times, the entire body element should disappear, to be replaced with the text "The Ring has been returned to Sauron and the world is over."
 
-### Resources
+#### Resources
 
 - [DOM Reference](https://developer.mozilla.org/en-US/docs/DOM/DOM_Reference)
 - [Events Reference](https://developer.mozilla.org/en-US/docs/Web/Events)
