@@ -13,7 +13,7 @@ Create a function for each of the following steps to practice DOM Manipulation a
 1. Check out [`scripts/fellowship.js`](scripts/fellowship.js). Starter data has been provided, and this is where you'll write the functions below.
 2. Write the functions to the commented-out specifications. 
 
-#### 1
+#### Part1
 
 ```js
 function makeMiddleEarth() {
@@ -26,7 +26,7 @@ function makeMiddleEarth() {
 makeMiddleEarth();
 ```
 
-#### 2
+#### Part2
 ```js
 function makeHobbits() {
   // display an unordered list of hobbits in the shire (which is the second article tag on the page)
@@ -34,7 +34,7 @@ function makeHobbits() {
 }
 ```
 
-#### 3
+#### Part3
 ```js
 function keepItSecretKeepItSafe() {
   // create a div with an id of 'the-ring'
@@ -44,7 +44,7 @@ function keepItSecretKeepItSafe() {
 }
 ```
 
-#### 4
+#### Part4
 
 ```js
 function makeBuddies() {
@@ -54,7 +54,7 @@ function makeBuddies() {
 }
 ```
 
-#### 5
+#### Part5
 
 ```js
 function beautifulStranger() {
@@ -62,14 +62,14 @@ function beautifulStranger() {
 }
 ```
 
-#### 6
+#### Part6
 ```js
 function leaveTheShire() {
   // assemble the hobbits and move them to Rivendell
 }
 ```
 
-#### 7
+#### Part 7
 
 ```js
 function forgeTheFellowShip() {
