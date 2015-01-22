@@ -1,7 +1,7 @@
 module Koopa
   class Server < Sinatra::Base
 
-    group :development do
+    configure :development do
       register Sinatra::Reloader
       $db = Redis.new
     end

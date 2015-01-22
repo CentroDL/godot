@@ -283,8 +283,7 @@ var validateUser = function(user){
   return ( validatePasswordsMatch(user.password, user.passwordConfirmation) &&
     validatePasswordLength(user.password) &&
     validateEmail(user.email) &&
-    validateAge(user.bornOn) &&
-    validateEmail(user.email));
+    validateAge(user.bornOn));
 };
 
 mVal = validateUser(marvin);
