@@ -40,3 +40,17 @@ for (var i = 0, len = colors.length; i < len; i++) {
   console.log( iLove(colors[i]) );
   thingsILove.push(iLove(colors[i]));
 }
+
+// conditionals
+var name = "henry george christian hughes IV";
+if (name.length === 10) {
+  console.log("I love green!");
+} else if (name.length < 10) {
+  console.log("I love brown!");
+} else {
+  console.log("No!");
+}
+
+var isTwentyOne = function(person) {
+  return person.age >= 21;
+};

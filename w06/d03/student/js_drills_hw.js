@@ -33,8 +33,6 @@ var album2 = {
   }
 };
 
-// 3. Access album2's formats array and use an array method to add "LP" to album2's formats
-
 var album3 = {
   title: "Fear of Music",
   albumDetails: {
@@ -43,6 +41,8 @@ var album3 = {
     formats: ["Cassette"]
   }
 };
+
+// 3. Access album2's formats array and use an array method to add "LP" to album3's formats
 
 // 4. Change the release date of album3 from a string into a Date object
 
