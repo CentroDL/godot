@@ -15,7 +15,7 @@ Create a function for each of the following steps to practice DOM Manipulation a
 
 ===
 
-#### Part1
+#### Part 1
 
 ```js
 function makeMiddleEarth() {
