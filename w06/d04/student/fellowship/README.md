@@ -8,11 +8,13 @@ Create a function for each of the following steps to practice DOM Manipulation a
 - implement event listeners to make your pages more interactive
 - practice self-directed learning with a new language
 
+#### Directions
+
+1. Work in [`scripts/fellowship.js`](scripts/fellowship.js). There, you'll find starter data.
+
 #### 1
 
 ```js
-// fellowship.js
-
 function makeMiddleEarth() {
   // create a section tag with an id of middle-earth
   // add each land as an article tag
