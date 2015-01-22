@@ -1,0 +1,36 @@
+- Who created JavaScript?
+    Brendan Eich
+- How is JavaScript related to Java?
+    It was a branding from Netscape's deal with Sun, since they wanted it to be a complementary scripting language in java applets.
+- What is ECMAScript?
+    ECMAscript was the language standard
+- What basic concept is JavaScript missing?
+    Classes. It uses a Prototype object that other objects can inherit from.
+- Is JavaScript Object Oriented?
+    Technically yes.
+- What are the main differences between JavaScript and most other languages?
+    prototyple. primarily functional.
+- What are the types in JavaScript?
+    int, string, boolean, arrays, objects, functions, null, undefined, NaN
+- What is NaN?
+    Not a number. A form of nill/undefined that indicates mathematical errors.
+- How do you convert a string into a number?
+    number.toString()
+- How do you find the length of a string?
+    string.length
+- What is the difference between null and undefined?
+
+- What values are "false" in JavaScript?
+
+- What's the keyword to declare a variable?
+
+- What happens when you add a string to a number in JavaScript?
+
+- What is the difference between == and ===
+
+- JavaScript objects are similar to what data type in Ruby?
+
+- What is the syntax to iterate over an Array?
+
+- What is the syntax to iterate over an Object?
+

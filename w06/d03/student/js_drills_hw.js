@@ -21,8 +21,11 @@ var album1 = {
 };
 
 // 1. Retrieve the string "Sire" from album1, and save it in a sensibly named variable.
-
+var albumTitle = album1.title;
+console.log(albumTitle);
 // 2. Change the title of album1 from "Talking Heads" to "Talking Heads: 77"
+album1.title = "Talking Heads: 77";
+console.log(album1.title);
 
 var album2 = {
   title: "More Songs About Buildings and Food",
@@ -43,9 +46,13 @@ var album3 = {
 };
 
 // 3. Access album2's formats array and use an array method to add "LP" to album3's formats
-
+var lp = album2.albumDetails.formats[0];
+album3.albumDetails.formats.push(lp);
+console.log("Album 3 formats: " + album3.albumDetails.formats);
 // 4. Change the release date of album3 from a string into a Date object
-
+var date_string = new Date(album3.albumDetails.released);
+album3.albumDetails.released = date_string;
+console.log( "New date: " + album3.albumDetails.released );
 
 var album4 = {
   title: "Remain in Light",
@@ -56,7 +63,8 @@ var album4 = {
 };
 
 // 5. Add the label "Sire" to album4's details
-
+album4.albumDetails.label = "Sire";
+console.log(album4.albumDetails);
 
 var album5 = {
   title: "Speaking in Tongues",
@@ -67,6 +75,9 @@ var album5 = {
 };
 
 // 6. Add a 'formats' array to album 5 and add "CD", "Cassette", and "LP"
+album5.albumDetails.formats = [];
+album5.albumDetails.formats.push("CD", "Cassette", "LP");
+console.log(album5.albumDetails.formats);
 
 var album6 = {
   title: "Little Creatures",
@@ -78,7 +89,8 @@ var album6 = {
 };
 
 // 7. Make the label "emi" in album6 all uppercase
-
+album6.albumDetails.label[1] = album6.albumDetails.label[1].toUpperCase();
+console.log(album6.albumDetails.label);
 
 var album7 = {
   title: "True Stories",
@@ -90,6 +102,9 @@ var album7 = {
 };
 
 // Convert album7's 'label' property from the string value "Sire, EMI" into the array: ["Sire", "EMI"]
+console.log(album7.albumDetails.label);
+album7.albumDetails.label = album7.albumDetails.label.split(", ");
+console.log(album7.albumDetails.label);
 
 var album8 = {
   title: "Naked",
@@ -116,28 +131,53 @@ var talkingHeadsAlbums = [
 ////////////////////////////////////////////////
 
 // 1. print "Talking Heads were a prolific band" to the console IF AND ONLY IF Talking Heads have 6 albums or more. Otherwise, print "Talking heads didn't have much output." Use the array of albums above.
+if(talkingHeadsAlbums.length >= 6)
+  console.log("Talking Heads were a prolific band.");
+else
+  console.log("Talking heads didn't have much output.");
 
 /////////////////////////////////////////////////////
 // Part 4: More Tasks About Datatypes and Structures
 /////////////////////////////////////////////////////
 
 // 1. Create an object literal called `band`.
-
+var band = {};
 // 2. Give it the property `name` and set it to "Talking Heads"
-
+band.name = "Talking Heads";
 // 3. Give it the property `members` and set it to an array with a single string, "David Byrne", in it.
-
+band.members = ["David Byrne"];
 // 4. Give it the property `albums` and set it to the array stored in the variable talkingHeadsAlbums
-
+band.albums = talkingHeadsAlbums;
 // 5. Add "Tiny Weymouth", "Chris Franz" and "Jerry Harrison" to the members array.
-
+band.members.push("Tiny Weymouth", "Chris Franz", "Jerry Harrison");
+console.log(band, band.members);
 /////////////////////////////////////////////////////
 // Part 5: For Loops
 /////////////////////////////////////////////////////
 
 // 1. Use a for loop to print out the name of each Talking Heads album
+for(var i=0; i < talkingHeadsAlbums.length; i++){
+  console.log( (i+1) + ". " + talkingHeadsAlbums[i].title );
+  console.log( talkingHeadsAlbums[i].albumDetails.label );
+}
 
 // 2. Create a variable called 'sireTally', and set it to the integer value 0. Then use a for-loop to go through all the Talking Heads albums, incrementing sireTally if the album was released under the "Sire" label
+var sireTally = 0;
+for(var i=0; i < talkingHeadsAlbums.length; i++){
+  if( typeof(talkingHeadsAlbums[i].albumDetails.label) === "string" ){
+    if(talkingHeadsAlbums[i].albumDetails.label === "Sire"){
+      sireTally++;
+    }
+  }
+  else {
+    for( var j=0; j < talkingHeadsAlbums[i].albumDetails.label.length; j++){
+     if(talkingHeadsAlbums[i].albumDetails.label[j] === "Sire"){
+       sireTally++;
+      }//if
+    }//for
+  }//else
+}//for
+console.log("sireTally: " + sireTally);
 
 /////////////////////////////////////////////////////
 // Part 6: More Tasks With Arrays and For Loops
