@@ -127,7 +127,7 @@ function thereAndBackAgain() {
 }
 ```
 
-#### Bonus
+#### Additional Madness!
 
 - Within the click event listener for clicking `'#the-ring'`, so that when it's clicked, it not only calls `nazgulScreech`, but also causes frodo's opacity to go down to 0 for awhile, only to fade back in.
 - If the ring is clicked 3 times, the entire body element should disappear, to be replaced with the text "The Ring has been returned to Sauron and the world is over."
