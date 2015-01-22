@@ -10,7 +10,8 @@ Create a function for each of the following steps to practice DOM Manipulation a
 
 #### Directions
 
-1. Work in [`scripts/fellowship.js`](scripts/fellowship.js). There, you'll find starter data.
+1. Check out [`scripts/fellowship.js`](scripts/fellowship.js). Starter data has been provided, and this is where you'll write the functions below.
+2. Write the functions to the commented-out specifications. 
 
 #### 1
 
