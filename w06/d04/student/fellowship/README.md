@@ -1,6 +1,6 @@
 ## Fellowship of the Ring DOM Manipulation
 
-Create a function for each of the following steps to practice DOM Manipulation and JavaScript. These should each be called in order after the window has loaded.
+Create a function for each of the following steps to practice DOM Manipulation and JavaScript. These should each be called in order after the window has loaded. Completion for this assignment is to get through part 5. 
 
 #### Exercise Objectives
 
@@ -8,7 +8,14 @@ Create a function for each of the following steps to practice DOM Manipulation a
 - implement event listeners to make your pages more interactive
 - practice self-directed learning with a new language
 
-#### 1
+#### Directions
+
+1. Check out [`scripts/fellowship.js`](scripts/fellowship.js). This is where you will work. Starter data has been provided.
+2. Define and invoke the functions outlined below.
+
+===
+
+#### Part 1
 
 ```js
 function makeMiddleEarth() {
@@ -21,7 +28,7 @@ function makeMiddleEarth() {
 makeMiddleEarth();
 ```
 
-#### 2
+#### Part 2
 ```js
 function makeHobbits() {
   // display an unordered list of hobbits in the shire (which is the second article tag on the page)
@@ -29,7 +36,7 @@ function makeHobbits() {
 }
 ```
 
-#### 3
+#### Part 3
 ```js
 function keepItSecretKeepItSafe() {
   // create a div with an id of 'the-ring'
@@ -39,7 +46,7 @@ function keepItSecretKeepItSafe() {
 }
 ```
 
-#### 4
+#### Part 4
 
 ```js
 function makeBuddies() {
@@ -49,7 +56,7 @@ function makeBuddies() {
 }
 ```
 
-#### 5
+#### Part 5
 
 ```js
 function beautifulStranger() {
@@ -57,14 +64,14 @@ function beautifulStranger() {
 }
 ```
 
-#### 6
+#### Part 6
 ```js
 function leaveTheShire() {
   // assemble the hobbits and move them to Rivendell
 }
 ```
 
-#### 7
+#### Part 7
 
 ```js
 function forgeTheFellowShip() {
@@ -74,7 +81,7 @@ function forgeTheFellowShip() {
 }
 ```
 
-#### 8
+#### Part 8
 
 ```js
 function theBalrog() {
@@ -84,7 +91,7 @@ function theBalrog() {
 }
 ```
 
-#### 9
+#### Part 9
 ```js
 function hornOfGondor() {
   // pop up an alert that the horn of gondor has been blown
@@ -94,7 +101,7 @@ function hornOfGondor() {
 }
 ```
 
-#### 10
+#### Part 10
 ```js
 function itsDangerousToGoAlone(){
   // take Frodo and Sam out of the fellowship and move them to Mordor
@@ -102,7 +109,7 @@ function itsDangerousToGoAlone(){
 }
 ```
 
-#### 11
+#### Part 11
 ```js
 function weWantsIt() {
   // Create a div with an id of 'gollum' and add it to Mordor
@@ -111,7 +118,7 @@ function weWantsIt() {
 }
 ```
 
-#### 12
+#### Part 12
 ```js
 function thereAndBackAgain() {
   // remove Gollum and the Ring from the document
@@ -120,12 +127,12 @@ function thereAndBackAgain() {
 }
 ```
 
-#### Bonus
+#### Additional Madness!
 
-- Within the click event listener for clicking '#the-ring", so that when it's clicked, it not only calls nazgulScreech, but also causes frodo's opacity to go down to 0 for awhile, only to fade back in.
+- Within the click event listener for clicking `'#the-ring'`, so that when it's clicked, it not only calls `nazgulScreech`, but also causes frodo's opacity to go down to 0 for awhile, only to fade back in.
 - If the ring is clicked 3 times, the entire body element should disappear, to be replaced with the text "The Ring has been returned to Sauron and the world is over."
 
-### Resources
+#### Resources
 
 - [DOM Reference](https://developer.mozilla.org/en-US/docs/DOM/DOM_Reference)
 - [Events Reference](https://developer.mozilla.org/en-US/docs/Web/Events)
