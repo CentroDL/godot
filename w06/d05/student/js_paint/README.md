@@ -4,8 +4,7 @@ You've been tasked with building a painting program for the browser. Completion 
 
 #### Exercise Objectives
 
-- gain experience using JavaScript event listeners to add additional interactivity to the page.
-- 
+- gain experience using JavaScript event listeners to add interactivity to the page
 
 #### Part 1: Dynamically Creating The Canvas
 
