@@ -2,9 +2,10 @@
 
 You've been tasked with building a painting program for the browser. Completion is to get through part 3.
 
-#### Exercise Objectives
+#### Exercise Objective(s)
 
 - gain experience using JavaScript event listeners to add interactivity to the page
+- get reps using loops and manipulating the DOM using JavaScript
 
 #### Part 1: Dynamically Creating The Canvas
 
