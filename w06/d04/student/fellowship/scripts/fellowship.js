@@ -20,6 +20,7 @@ var lands = ['The Shire', 'Rivendell', 'Mordor'];
 var body = document.querySelector('body');
 
 var makeMiddleEarth = function(){
+  // debugger
   var middleEarth = document.createElement("section");
 
   middleEarth.setAttribute("id", "middle-earth");
@@ -80,7 +81,6 @@ var makeBuddies = function(){
   var rivenDell = mid.children[1]
   rivenDell.appendChild(aside);
 };
-
 var beautifulStranger = function(){
   // change the 'Strider' textnode to 'Aragorn'
   document.querySelector("#middle-earth").children[1].querySelector("ul").children[3].textContent= "Aragorn";
