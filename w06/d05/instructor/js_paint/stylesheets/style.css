@@ -1,0 +1,71 @@
+/* Global Styles */
+html, body {
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+
+/* Canvas Styles */
+.canvas {
+  width: 700px;
+  margin: 1.5em auto;
+}
+
+.tile {
+  background-color: #ECF0F1;
+  display: inline-block;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+/* Palette Styles */
+
+.color-palette {
+  position: fixed;
+  top: 100px;
+  right: 100px;
+}
+
+.droplet {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  margin: 1em auto;
+  cursor: pointer;
+}
+
+/* Reset */
+
+.reset {
+  background-color: #0E83CD;
+  cursor: pointer;
+  color: white;
+  line-height: 60px;
+  font-family: sans-serif;
+  height: 60px;
+  margin: 0 auto 1em auto;
+  text-align: center;
+  width: 125px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.reset:hover {
+  background-color: #075E94;
+}
+
+/* Colors */
+.green {
+  background-color: #2ECC71;
+}
+
+.blue {
+  background-color: #3498DB;
+}
+
+.goldenrod {
+  background-color: #F1C40F;
+}
+
+.red {
+  background-color: #E74C3C;
+}
