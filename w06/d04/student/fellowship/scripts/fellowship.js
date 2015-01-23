@@ -86,6 +86,10 @@ var beautifulStranger = function(){
   document.querySelector("#middle-earth").children[1].querySelector("ul").children[3].textContent= "Aragorn";
 };
 
+var leaveTheShire = function(){
+  // assemble the hobbits and move them to Rivendell
+  var hobbs = document.querySelector("#middle-earth").childNodes[0].childNodes[1].childNodes;
+};
 makeMiddleEarth();
 makeHobbits();
 keepItSecretKeepItSafe();
