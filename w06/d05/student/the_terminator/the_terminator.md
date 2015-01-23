@@ -20,6 +20,7 @@ In the 1984 film, The Terminator, a ruthless non-feeling cyborg assassin travels
 1. Give `theOneTrueSarahConnor` the class of `badass`.
 1. Query the DOM for all elements that have the class `collateral-damage`, and save the elements in a variable called `poorSouls`.
 1. Iterate through `poorSouls`, removing the elements from the DOM one by one.
+1. Remove the terminator from the DOM.
 
 #### MDN Links
 
