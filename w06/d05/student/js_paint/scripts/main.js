@@ -20,6 +20,14 @@ var mouseDep = function(event){
   // console.log("poop!");
 }
 
+var clearGreen = function(event){
+  var tiles = canvas.querySelectorAll(".tile");
+  for(var i=0; i < tiles.length; i++){
+    tiles[i].setAttribute("class", "tile");
+  }
+
+}
+
 for(var i = 0; i < 805; i++){
   var tile = document.createElement("div")
   tile.setAttribute("class", "tile");
@@ -31,3 +39,9 @@ for(var i = 0; i < 805; i++){
 var tiles = canvas.querySelectorAll(".tile");
 canvas.addEventListener("mousedown", mouseDep);
 canvas.addEventListener("mouseup", mouseDep);
+
+ var resDiv = document.querySelector(".reset");
+ var resPar = resDiv.querySelector("p");
+ resPar.addEventListener("click", clearGreen);
+
+
