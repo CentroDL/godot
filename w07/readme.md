@@ -27,5 +27,5 @@ Here is a list of readings, tutorials, and examples for this week's lessons:
 
 - **JavaScript Timers**
  + [Timers](https://developer.mozilla.org/en-US/Add-ons/Code_snippets/Timers)
- + [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers.setTimeout)
- + [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers.setInterval)
+ + [`setTimeout()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers.setTimeout)
+ + [`setInterval()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers.setInterval)
