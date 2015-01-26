@@ -18,14 +18,14 @@ Classes), and slightly different scope and data-typing rules.
 
 Here is a list of readings, tutorials, and examples for this week's lessons:
 
-- __Libraries__
+- **Libraries**
  + [Lo-Dash Docs](https://lodash.com/docs)
  + [jQuery Learning Center](http://learn.jquery.com/)
  + [jQuery Docs](http://api.jquery.com/)
  + [Firebase tutorial](https://www.firebase.com/tutorial/#gettingstarted)
  + [Firebase Docs](https://www.firebase.com/docs/)
 
-- **Timers••
+- **Timers**
  + [Timers](https://developer.mozilla.org/en-US/Add-ons/Code_snippets/Timers)
  + [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers.setTimeout)
  + [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers.setInterval)
