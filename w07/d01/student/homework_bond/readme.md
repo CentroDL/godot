@@ -6,9 +6,9 @@
 
 Hello 007.  The following data about James Bond films is stored in a file called
 `bondFilms.js`.  You'll use your new [`lo_dash.js`](lo_dash) and [`moment.js`](moment) libraries to work through
-Parts 1 through 9.
+Parts 1 through 9. __Be sure to add them to `index.html`!__
 
-Append each answer to DOM in `index.html` as `li` tags under "ul#answers".
+__Append each answer to the DOM in `index.html` as `li` tags under "ul#answers".__
 
 [low_dash]: https://lodash.com/docs
 [moment]: http://momentjs.com/
