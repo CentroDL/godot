@@ -18,7 +18,7 @@ Classes), and slightly different scope and data-typing rules.
 
 Here is a list of readings, tutorials, and examples for this week's lessons:
 
-- **Libraries**
+- __Libraries__
  + [Lo-Dash Docs](https://lodash.com/docs)
  + [jQuery Learning Center](http://learn.jquery.com/)
  + [jQuery Docs](http://api.jquery.com/)
