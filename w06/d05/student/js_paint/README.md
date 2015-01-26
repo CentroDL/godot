@@ -2,10 +2,10 @@
 
 You've been tasked with building a painting program for the browser. Completion is to get through part 3.
 
-#### Exercise Objectives
+#### Exercise Objective(s)
 
-- gain experience using JavaScript event listeners to add additional interactivity to the page.
-- 
+- gain experience using JavaScript event listeners to add interactivity to the page
+- get reps using loops and manipulating the DOM using JavaScript
 
 #### Part 1: Dynamically Creating The Canvas
 
@@ -13,7 +13,7 @@ Use a loop (while or for, your choice) to append 805 divs with the class of `til
 
 #### Part 2: A Sort of Paint Cursor!
 
-1. Add an event listener to each tile such that when the user uses mouse down over the tile, the tile gets the additional class of "green".
+1. Add an event listener to each tile such that when the user uses mouse enters the space over the tile, the tile gets the additional class of "green".
 1. Add another event listener to each tile, such that when the user mouses *out* of a tile, the class of "green" is removed.
 
 __Note:__ Rather than loop through the tiles each time, why not add these event listeners in the loop from step 1? Just a thought :)
