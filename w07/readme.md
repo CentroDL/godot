@@ -24,3 +24,8 @@ Here is a list of readings, tutorials, and examples for this week's lessons:
  + [jQuery Docs](http://api.jquery.com/)
  + [Firebase tutorial](https://www.firebase.com/tutorial/#gettingstarted)
  + [Firebase Docs](https://www.firebase.com/docs/)
+
+- **JavaScript Timers**
+ + [Timers](https://developer.mozilla.org/en-US/Add-ons/Code_snippets/Timers)
+ + [`setTimeout()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers.setTimeout)
+ + [`setInterval()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers.setInterval)
