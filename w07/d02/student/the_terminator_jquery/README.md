@@ -8,7 +8,7 @@ In the 1984 film, The Terminator, a ruthless non-feeling cyborg assassin travels
 
 #### Directions
 
-1. Work within the Chrome Developer console. Once you have a working line of code, copy it over into your `scripts/main.js` file.
+1. Work within the Chrome Developer console. Once you have a working line of code, copy it over into your [`scripts/main.js`](scripts/main.js) file.
 1. Query the DOM for the h1 and store it in a sensibly named variable.
 1. Change the heading's text so that it reads "Inhabitants of Los Angeles (1984)".
 1. Query the DOM for any list items with the class of `cop`, and store the elements in a variable called `cops`.
