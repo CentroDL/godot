@@ -40,12 +40,34 @@ var highestGrossingBond = function(films){
   return _.max(films, function(film){ return grossToNumber(film.gross)});
 };
 // part 7
-var moviesPerActor = function(){};
+var moviesPerActor = function(films){
+  var actors = {};
+  for(var i = 0, len = films.length; i < len; i++){
+    if (_.contains( actors, actors[films[i].actor] ))
+      actors[films[i].actor] += 1;
+    else
+      actors[films[i].actor] = 1;
+  }
+  return actors;
+};
 
 // part 8
-var sortByRelease = function(){};
+var sortByRelease = function(films){
+  return _.sortBy( films, function(film) { return new Date(film.releasedOn) });
+};
 // part 9
-var titlesOfWordCount = function(){};
+var titlesOfWordCount = function(films, num){
+  var matches = [];
+  var wordCount;
+
+  for(var i = 0, len = films.length; i < len; i++){
+    wordCount = films[i].title.split(" ").length;
+    if( wordCount == num)
+      matches.push(films[i].title);
+  }
+  //consider select
+  return matches;
+};
 
 var li;
 var answers = document.getElementById("answers");
@@ -71,14 +93,23 @@ answers.appendChild(li);
 
 // part 5
 li = document.createElement("li");
-li.textContent = "The worst grossing bond was: " + JSON.stringify(worstGrossingBond(bondFilms));
+li.textContent = "The worst grossing bond was: " + JSON.stringify(worstGrossingBond(bondFilms), null, '\n');
 answers.appendChild(li);
 // part 6
 li = document.createElement("li");
 li.textContent = "The highest grossing bond was: " + JSON.stringify(highestGrossingBond(bondFilms));
 answers.appendChild(li);
 // part 7
+li = document.createElement("li");
+li.textContent = "The count of bond movies per actor is: " + JSON.stringify(moviesPerActor(bondFilms));
+answers.appendChild(li);
 // part 8
+li = document.createElement("li");
+li.textContent = "The movies sorted by release date: " + JSON.stringify(sortByRelease(bondFilms));
+answers.appendChild(li);
 // part 9
+li = document.createElement("li");
+li.textContent = "Movies with 4 words in the title: " + JSON.stringify(titlesOfWordCount(bondFilms, 4));
+answers.appendChild(li);
 });
 
