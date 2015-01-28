@@ -9,7 +9,7 @@ These sandboxes we've been using are cool, but market demands have changed and G
 #### Directions
 
 1. Change the h1 so that it has the class 'classy', and its text reads "The Fart Store"
-1. Change the h1's font size to 8ems.
+1. Change the h1's font size to `8em`.
 1. Add the "backdrop" class to the `body` element.
 1. Target the first paragraph tag on the DOM, and change its text so that it reads '- Established 2014 -'. Then give it the class 'sub-head'
 1. Target the second paragraph tag on the DOM, and give it the inner html "Everything You Need to Start `<span>`Farting`</span>` Around"
