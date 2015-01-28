@@ -161,6 +161,7 @@ var weWantsIt = function() {
 var thereAndBackAgain = function() {
   // remove Gollum and the Ring from the document
   // Move all the hobbits back to The Shire
+  // add the class of "collapse" to Mordor
 }
 ```
 
