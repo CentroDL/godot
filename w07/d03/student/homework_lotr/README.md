@@ -26,7 +26,7 @@ __Commuters!__ This assignment relies on linking to jQuery via a CDN. If you're 
 
 ## 1
 
-```
+```js
 // An example of using setTimeout to call makeMiddleEarth after 2 seconds.
 setTimeout(makeMiddleEarth, 2000)
 
@@ -124,7 +124,7 @@ var theBalrog = function() {
 
 ## 9
 
-```
+```js
 // Boromir's been killed by the Uruk-hai!
 var hornOfGondor = function() {
   // Pop up an alert that the Horn of Gondor has been blown
