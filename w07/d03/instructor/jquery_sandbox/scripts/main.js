@@ -1,18 +1,37 @@
-var $title = $("#title");
-$title.addClass("pleasant");
+// caches DOM queries for efficiency
+var $body = $("body");
+var $title      = $body.find("#title");
+var $allThePeas = $body.find("p");
 
-$title.attr("role", "page identification");
+$title.addClass("classy").text("The Fart Store").css("font-size", "8em");
 
-var $lis = $("li");
-$lis.eq(0).css("color", "orange");
+$body.addClass("backdrop");
 
-// peace sings denote creation of a jQuery object in memory
-var $newLi = $("<li>");
-$newLi.text('Bully Repulsion');
+$allThePeas.eq(0).addClass("sub-head").text("- Established 2014 -");
 
-$("ul").append($newLi);
+$secondP = $allThePeas.eq(1);
+$secondP.html("Everything You Need to Start <span>Farting</span> Around");
 
-var $tomboy = $("<li class='tomboy' id='marpdarp'>");
-$tomboy.text("Hey Class");
+$("h2").remove();
+$("ul").remove();
 
-$("ul").append($tomboy);
+$allThePeas.addClass("classy");
+
+var $container = $("<div class=\"product-container\">");
+
+for(var i = 0; i < 8; i++){
+  var $newJar = $("<div class=\"jar\">");
+  $container.append($newJar);
+}
+
+$secondP.after($container);
+
+var $button = $("<button>Sample The Product</button>").attr("id", "sample-button");
+$container.after($button);
+
+
+
+
+
+
+
