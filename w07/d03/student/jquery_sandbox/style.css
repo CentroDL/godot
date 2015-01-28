@@ -1,0 +1,19 @@
+ls.pleasant {
+  color: #facade;
+}
+
+.classy {
+  font-family: 'Niconne', cursive;
+  color: rgb(165, 119, 0);
+}
+
+<<<<<<< Updated upstream
+.product {
+  background-color: rgba(165, 119, 0, 0.5);
+=======
+.product div {
+  color: rgba(165, 119, 0, 0.5);
+>>>>>>> Stashed changes
+  height: 200px;
+  width: 200px;
+}
