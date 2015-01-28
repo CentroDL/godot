@@ -82,7 +82,7 @@ Write a function called `adventureTime` that creates a "script" element with the
 
 ### Flash Notice
 
-Update jQuerify and LoDashyify to append messages to the DOM that say they've been loaded and use [setTimeout](timeout) to remove the message from the DOM after 5 seconds.
+Update jQuerify and LoDashyify to append messages to the DOM that say they've been loaded and use [setTimeout][timeout] to remove the message from the DOM after 5 seconds.
 
 [timeout]: https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers.setTimeout
 
