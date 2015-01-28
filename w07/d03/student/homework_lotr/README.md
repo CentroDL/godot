@@ -3,7 +3,7 @@
 ![:image](images/frodo.jpg)
 
 We're going to use our newfound knowledge of jQuery and JavaScript Timers to
-build a self-governing version of The Fellowship of the Ring, complete with
+build a self-governing version of The Lord of the Rings, complete with
 soundtrack.
 
 #### Exercise Objectives
