@@ -31,94 +31,94 @@ __Commuters!__ This assignment relies on linking to jQuery via a CDN. If you're 
 setTimeout(makeMiddleEarth, 2000)
 
 var makeMiddleEarth = function() {
-  // create a section tag with an id of middle-earth
-  // create an article tag for each land in the lands array
-  // give each article tag a class of "land"
-  // inside each article tag include an h1 with the name of the land
-  // append each article.land to section#middle-earth
-  // append section#middle-earth to the document body
-  // use setTimeout to delay the execution of the next function (in this case,
+  // Create a section tag with an id of middle-earth
+  // Create an article tag for each land in the lands array in characters.js
+  // Give each article tag a class of "land"
+  // Inside each article tag include an h1 with the name of the land
+  // Append each article.land to section#middle-earth
+  // Append section#middle-earth to the document body
+  // Use setTimeout to delay the execution of the next function (in this case,
   // makeHobbits) by several seconds
 }
 ```
 
 ## 2
 
-```
+```js
 var makeHobbits = function() {
-  // create a ul with an id of "hobbits"
-  // create li tags for each hobbit in the hobbits array
-  // give each li tag a class of "hobbit"
-  // set the text of each li.hobbit to one of the hobbits in the array
-  // append the ul#hobbits to the article.land representing "The Shire"
+  // Create a ul with an id of "hobbits"
+  // Create li tags for each Hobbit in the hobbits array in characters.js
+  // Give each li tag a class of "hobbit"
+  // Set the text of each li.hobbit to one of the Hobbits in the array
+  // Append the ul#hobbits to the article.land representing "The Shire"
   // (the first article tag on the page)
 }
 ```
 
 ## 3
 
-```
+```js
 var keepItSecretKeepItSafe = function() {
-  // create a div with an id of 'the-ring'
-  // give div#the-ring a class of 'magic-imbued-jewelry'
-  // add an event listener so that when a user clicks on the ring,
-  // the nazgulScreech function (provided in index.html) is invoked
-  // add div#the-ring as a child element of the li.hobbit representing "Frodo"
-  // use setTimeout to delay the execution of the next function
+  // Create a div with an id of 'the-ring'
+  // Give div#the-ring a class of 'magic-imbued-jewelry'
+  // Add an event listener so that when a user clicks on the ring,
+  // The nazgulScreech function (provided in index.html) is invoked
+  // Add div#the-ring as a child element of the li.hobbit representing "Frodo"
+  // Use setTimeout to delay the execution of the next function
 }
 ```
 
 ## 4
 
-```
+```js
 var makeBuddies = function() {
-  // create an aside tag
-  // create a ul tag with an id of "buddies" and append it to the aside tag
-  // create li tags for each buddy in the "buddies" array
+  // Create an aside tag
+  // Create a ul tag with an id of "buddies" and append it to the aside tag
+  // Create li tags for each buddy in the buddies array in characters.js
   // give each li tag a class of "buddy" and append them to "ul#buddies"
-  // insert the aside tag as a child element of the secion.land representing "Rivendell"
-  // use setTimeout to delay the execution of the next function
+  // Insert the aside tag as a child element of the secion.land representing "Rivendell"
+  // Use setTimeout to delay the execution of the next function
 }
 ```
 
 ## 5
 
-```
+```js
 var beautifulStranger = function() {
-  // find the li.buddy representing "Strider"
-  // change the "Strider" textnode to "Aragorn" and make its text green
-  // use setTimeout to delay the execution of the next function
+  // Find the li.buddy representing "Strider"
+  // Change the "Strider" textnode to "Aragorn" and make its text green
+  // Use setTimeout to delay the execution of the next function
 }
 ```
 
 ## 6
 
-```
+```js
 var leaveTheShire = function() {
-  // assemble the hobbits and move them to Rivendell
-  // use setTimeout to delay the execution of the next function
+  // Assemble the Hobbits and move them to Rivendell
+  // Use setTimeout to delay the execution of the next function
 }
 ```
 
 ## 7
 
-```
+```js
 var forgeTheFellowShip = function() {
-  // create a div with an id of 'the-fellowship' within the section.land for "Rivendell"
-  // add each hobbit and buddy one at a time to 'div#the-fellowship'
-  // after each character is added make an alert that they have joined your party
-  // use setTimeout to delay the execution of the next function by several seconds
+  // Create a div with an id of 'the-fellowship' within the section.land for "Rivendell"
+  // Add each hobbit and buddy one at a time to 'div#the-fellowship'
+  // After each character is added make an alert that they have joined your party
+  // Use setTimeout to delay the execution of the next function by several seconds
 }
 ```
 
 ## 8
 
-```
+```js
 var theBalrog = function() {
-  // select the "li.buddy" for 'Gandalf'
-  // and change its textNode to 'Gandalf the White'
-  // apply style to the element, adding a 3px solid white border to it
-  // use setTimeout to delay the execution of the next function
+  // Select the "li.buddy" for "Gandalf"
+  // And change its textNode to "Gandalf the White"
+  // Apply style to the element, adding a "3px solid white" border to it
+  // Use setTimeout to delay the execution of the next function
 }
 ```
 
@@ -127,41 +127,41 @@ var theBalrog = function() {
 ```
 // Boromir's been killed by the Uruk-hai!
 var hornOfGondor = function() {
-  // pop up an alert that the Horn of Gondor has been blown
-  // put a line-through on Boromir's name
-  // and fade Boromir's opacity to 0.3 (he lives on in spirit)
-  // use setTimeout to delay the execution of the next function
+  // Pop up an alert that the Horn of Gondor has been blown
+  // Put a line-through on Boromir's name
+  // And fade Boromir's opacity to 0.3 (he lives on in spirit)
+  // Use setTimeout to delay the execution of the next function
 }
 ```
 
 ## 10
 
-```
+```js
 var itsDangerousToGoAlone = function(){
-  // take Frodo and Sam out of The Fellowship and move them to Mordor
-  // add a div with an id of 'mount-doom' to Mordor
-  // use setTimeout to delay the execution of the next function
+  // Take Frodo and Sam out of The Fellowship and move them to Mordor
+  // Add a div with an id of 'mount-doom' to Mordor
+  // Use setTimeout to delay the execution of the next function
 }
 ```
 
 ## 11
 
-```
+```js
 var weWantsIt = function() {
   // Create a div with an id of 'gollum' and add it to Mordor
   // Remove The Ring from Frodo and give it to Gollum
   // Move Gollum into Mount Doom
-  // use setTimeout to delay the execution of the next function
+  // Use setTimeout to delay the execution of the next function
 }
 ```
 
 ## 12
 
-```
+```js
 var thereAndBackAgain = function() {
-  // remove Gollum and the Ring from the document
+  // Remove Gollum and the Ring from the document
   // Move all the hobbits back to The Shire
-  // add the class of "collapse" to Mordor
+  // Add the class "collapse" to Mordor
 }
 ```
 
@@ -183,4 +183,5 @@ execution of the page, regardless of where in the storyline you are.
 
 - [Official jQuery Documentation](http://jquery.com)
 - [MDN](https://developer.mozilla.org/en-US/docs/DOM/DOM_Reference)
+- [setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers.setTimeout)
 - [LOTR](http://en.wikipedia.org/wiki/The_Lord_of_the_Rings)
