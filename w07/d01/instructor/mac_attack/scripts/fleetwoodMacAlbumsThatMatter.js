@@ -6,7 +6,7 @@ var fleetwoodMacAlbums = [
     releasedOn: "11 July 1975",
     label: "Reprise",
     image: "https://confessingcinephile.files.wordpress.com/2014/03/fleetwood-mac-cover.jpg",
-    trackklist: [{
+    tracklist: [{
         title: "Monday Morning",
         writers: "Lindsey Buckingham ",
         length: "2:48"
