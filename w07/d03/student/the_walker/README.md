@@ -16,4 +16,3 @@ In the `index.html` file lives a friendly captive .gif known only as *The Walker
 #### Additional Sillyness
 * When The Walker crosses the threshold of *either* border, he would like to turn around, as if happily captive in an invisible prison cell.
 * When clicked, The Walker would like to change direction.
-* Target the div with id of "overlay", and give it the class of "prison".
