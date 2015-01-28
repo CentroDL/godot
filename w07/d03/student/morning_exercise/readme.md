@@ -1,5 +1,7 @@
 # Adventures in DOM manipulation
 
+![:image](img/adventures.jpg)
+
 Have you ever used a bookmarklet?  A bookmarklet is a small bit of JavaScript
 that can be stored as a URL for a browser bookmark. A user drags the bookmark
 link from the page into their browser toolbar where they can execute it later.
