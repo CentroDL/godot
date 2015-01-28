@@ -11,8 +11,8 @@ Classes), and slightly different scope and data-typing rules.
 
 |                         | Monday       | Tuesday | Wednesday | Thursday | Friday |
 |---:                     |:-------:     |:-------:|:---------:|:--------:|:------:|
-| **Lessons**             | JS Libraries <br> Callbacks & Timers | jQuery | Firebase | Project Sprint | Project Sprint |
-| **Events &amp; Panels** | Lunch Panel: Twilio API Demo | Pivotal Labs Site Visit<br>Tour followed by Q&A |           | Outcomes 4:30 to 5:30<br>Extended Hours: GA open until Midnight |  Extended Hours: GA open until Midnight |
+| **Lessons**             | JS Libraries | *Blizzard Debacle* | Timers<br>jQuery | Firebase | Assessment & Lab |
+| **Events &amp; Panels** | Lunch Panel: Twilio API Demo | |           | Outcomes 4:30 to 5:30 |  |
 
 ### Suggested Readings and Examples
 

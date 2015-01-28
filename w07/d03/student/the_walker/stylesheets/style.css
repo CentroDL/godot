@@ -1,0 +1,25 @@
+img {
+  /* Ensures Walker Walks Along the Broder */
+  position: absolute;
+  bottom: -1em;
+
+  width:  20em;
+  height: 20em;
+  cursor: pointer;
+}
+
+.walk-right {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+
+/* jail bars sillyness */
+.prison {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  background-size: cover;
+  background-image: url(../images/prison_bars.png);
+}

@@ -1,0 +1,54 @@
+.pleasant {
+  color: #facade;
+}
+
+.classy {
+  font-family: 'Niconne', cursive;
+  text-align: center;
+  margin: 0.3em 0 0 0;
+}
+
+p.classy.sub-head {
+  font-size: 3em;
+}
+
+.product {
+  background-color: rgba(165, 119, 0, 0.6);
+  height: 200px;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.product-container {
+  margin: 0 auto;
+  margin-top: 1.5em;
+  width: 500px;
+  line-height: 100px;
+}
+
+.jar {
+  background: url(../images/jar.png) no-repeat;
+  background-size: 3em;
+  height: 66px;
+  width: 55px;
+  display: inline-block;
+}
+
+.backdrop {
+  background-image: url(http://www.slda.co.uk/images/harvey-nichols-1.png);
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+}
+
+button {
+  background-color: #facade;
+  font-family: 'Niconne', cursive;
+  height: 5em;
+  font-size: 1.4em;
+  padding: 0 1em;
+}
+
+span {
+  text-decoration: underline;
+}
