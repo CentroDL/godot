@@ -21,7 +21,7 @@ Here are some examples in the wild:
 We're going to practice the first part of creating bookmarklets: writing
 functions that append tags to the page.
 
-Write your functions inside "js/main.js"
+__Write your functions inside "js/main.js"__
 
 ## How to Test
 
@@ -42,8 +42,8 @@ Write a function called `loadCSS` that creates a "link" element and sets its
 "href" attribute to "css/style.css" and it's "rel" attribute to "stylesheet". Append
 the link element to the document's head.
 
-> css/style.css has some code in it. Does it take affect when you append the element
-> to the DOM?
+> js/app.js has some code in it so you should see the page change color when you're
+> successful.
 
 ### Load Styles
 
