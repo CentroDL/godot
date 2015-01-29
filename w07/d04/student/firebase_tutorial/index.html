@@ -9,8 +9,9 @@
   <body>
     <h1>Firebase Tutorial</h1>
 
-    <input type='text' id='fireBaseInput' placeholder='Name'>
-
+    <label>Firebase Demo ID
+      <input type='text' id='fireBaseInput' placeholder='FireBase ID'>
+    </label>
     <div id='messagesDiv'></div>
 
     <input type='text' id='nameInput' placeholder='Name'>
@@ -33,6 +34,8 @@
 
           $('#questionInput').val('');
 
+
+
         }
       });
 
@@ -45,10 +48,15 @@
           var newFireBaseUrl = "https://" + prefix + ".firebaseio-demo.com/";
           // console.log(newFireBaseUrl);
           myDataRef = new Firebase(newFireBaseUrl);
-
+          $('#messagesDiv').text("zomg new firebase");
           $('#fireBaseInput').val('');
 
         }
+
+        myDataRef.on('child_added', function(snapshot) {
+        var message = snapshot.val();
+        displayChatMessage(message.name, message.text);
+        });
       });
 
       myDataRef.on('child_added', function(snapshot) {
