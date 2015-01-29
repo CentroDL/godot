@@ -14,7 +14,10 @@ best. Only do the bonus if you have completed every single part.
 Now that you can set a Firebase, implement the features below. You can continue
 work in your index file from the tutorial or use the included index.html.
 
-Before you get started it's in your best interest to review parts [2 Understanding Data](https://www.firebase.com/docs/web/guide/understanding-data.html), [3 Saving Data] and [4 Retrieving Data](https://www.firebase.com/docs/web/guide/saving-data.html) of 
+Before you get started it's in your best interest to review parts 
+[2 Understanding Data](https://www.firebase.com/docs/web/guide/understanding-data.html), 
+[3 Saving Data](https://www.firebase.com/docs/web/guide/saving-data.html) and 
+[4 Retrieving Data](https://www.firebase.com/docs/web/guide/retrieving-data.html) of 
 the [Firebase quickstart guide](https://www.firebase.com/docs/web/guide/).
 
 ### Part 1
