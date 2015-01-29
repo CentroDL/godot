@@ -9,12 +9,26 @@
   </head>
   <body>
     <h1>Firebase Tutorial</h1>
+    <label> Firebase Demo ID
+      <input type="text" id="id-input" placeholder="ce77ddxbqcv" value="ce77ddxbqcv">
+    </label>
+    <br><br>
     <div id='messagesDiv'></div>
     <input type='text' id='nameInput' placeholder='Name'>
     <input type='text' id='messageInput' placeholder='Message'>
     <script>
       // create a database reference
       var myDataRef = new Firebase('https://ce77ddxbqcv.firebaseio-demo.com/');
+
+      $("#id-input").keypress(function (e) {
+        // if enter is pressed
+        if (e.keyCode == 13) {
+          var id = $("#id-input").val();
+          var url = 'https://' + id + '.firebaseio-demo.com/'
+          console.log(url);
+        }
+      });
+      //Kamari: egeilf2zwxa
 
       // a listener for keypress events on the message input
       $('#messageInput').keypress(function (e) {
