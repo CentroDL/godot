@@ -1,0 +1,7 @@
+.hidden {
+  display: none;
+}
+
+.selected {
+  border: 1px solid blue;
+}
