@@ -9,41 +9,55 @@
   </head>
   <body>
     <h1>Firebase Tutorial</h1>
-          <div id='messagesDiv'></div>
+    <div id='messagesDiv'></div>
     <input type='text' id='nameInput' placeholder='Name'>
     <input type='text' id='messageInput' placeholder='Message'>
     <script>
+      // create a database reference
       var myDataRef = new Firebase('https://ce77ddxbqcv.firebaseio-demo.com/');
+
+      // a listener for keypress events on the message input
       $('#messageInput').keypress(function (e) {
+        // if enter is pressed
         if (e.keyCode == 13) {
+          // get the data in the inputs
           var name = $('#nameInput').val();
           var text = $('#messageInput').val();
+
+          // push that data to our database ref
           myDataRef.push({name: name, text: text});
+
+          // clear the message input
           $('#messageInput').val('');
         }
       });
-      myDataRef.on('child_added', function(snapshot) {
-        console.log("child added called!");
-       var message = snapshot.val();
-       displayChatMessage(message.name, message.text);
-      });
 
-  myDataRef.on('child_removed',function(){
-    console.log('child_removed fired!');
-  });
-    myDataRef.on('child_changed',function(){
-      console.log('child_changed fired!');
-    });
-    myDataRef.on('value',function(){
-      console.log('value fired!');
-    });
-
-
-
+      // the jQuery function to add a new message to the screen
       function displayChatMessage(name, text) {
         $('<div/>').text(text).prepend($('<em/>').text(name+': ')).appendTo($('#messagesDiv'));
         $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
       };
+
+      // the child added listener:
+      // 1. is called when the datbase ref has a new child created
+      // 2. is called when you start your page for every child in the
+      //    database ref
+      myDataRef.on('child_added', function(snapshot) {
+        console.log("child added called!");
+        var message = snapshot.val();
+        displayChatMessage(message.name, message.text);
+      });
+
+      // extra listeners...
+      myDataRef.on('child_removed',function(){
+        console.log('child_removed fired!');
+      });
+      myDataRef.on('child_changed',function(){
+        console.log('child_changed fired!');
+      });
+      myDataRef.on('value',function(){
+        console.log('value fired!');
+      });
     </script>
   </body>
 </html>
