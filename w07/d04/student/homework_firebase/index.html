@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Firebase Tutorial</title>
+
+    <script src="https://cdn.firebase.com/js/client/2.0.4/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+
+  </head>
+  <body>
+    <h1>Firebase Tutorial</h1>
+    <label>Firebase Demo ID
+      <input type="text" id="firebaseIDInput" value="bxg3onoh650" placeholder="bxg3onoh650">
+    </label>
+    <br>
+    <br>
+    <div id="messagesDiv"></div>
+    <br>
+    <input type="text" id="nameInput" placeholder="Name">
+    <input type="text" id="messageInput" placeholder="Message">
+    <script>
+
+      var fireStream;
+
+      var createStream = function(streamId) {
+        fireStream = new Firebase('https://'+streamId+'.firebaseio-demo.com/');
+
+        fireStream.on('child_added', function(snapshot) {
+          console.log('child_added fired!');
+          var message = snapshot.val();
+          displayChatMessage(message.name, message.text);
+        });
+
+        fireStream.on('child_removed',function(){console.log('child_removed fired!');});
+        fireStream.on('child_changed',function(){console.log('child_changed fired!');});
+        fireStream.on('value',function(){console.log('value fired!');});
+        $('#messagesDiv').html('');
+      }
+
+      var displayChatMessage = function(name, text) {
+        $('<div>').text(text).prepend($('<em>').text(name+': ')).appendTo($('#messagesDiv'));
+        $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
+      };
+
+      $('#firebaseIDInput').keypress(function (e) {
+        if (e.keyCode == 13) {
+          var id = $('#firebaseIDInput').val();
+          createStream(id);
+          $('#firebaseIDInput').val('');
+        }
+      });
+
+      $('#messageInput').keypress(function (e) {
+        if (e.keyCode == 13) {
+          var name = $('#nameInput').val();
+          var text = $('#messageInput').val();
+          fireStream.push({name: name, text: text});
+          $('#messageInput').val('');
+        }
+      });
+
+    </script>
+  </body>
+</html>

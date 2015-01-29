@@ -1,0 +1,15 @@
+.hidden {
+  display: none;
+}
+
+.selected {
+  border: 1px solid blue;
+}
+
+.shot {
+  background: red;
+}
+
+.dead {
+  background: black;
+}

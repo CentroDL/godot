@@ -63,7 +63,26 @@ way*!
    of the `input`. Use the provided code for examples!
 1. Link to one another's `Firebase`s and chat!
 
+### Part 5: A Full Chat App
+
+Now that you can set a Firebase, implement the following features:
+
+1. Every message has a button with it that you can press to delete the message.
+1. That button only exists for messages that you've created in this session,
+   not the messages you've downloaded from Firebase (ie, via the `child_added`
+   event).
+1. Listen for `remove_child` events, and delete the messages from the DOM that
+   people have removed.
+1. Add another button that let's you update the text! When you click it the
+   message turns into a text input with the current message in it. Make sure,
+   as with remove, it is only on messages you created in this session.
+1. Listen for updates, and make the changes locally.
+1. Style the app!
+1. Make it live online using [GitHub pages][gh-pages]. Create a project page
+   "from scratch."
+
 <!-- Links -->
 
-[firebase]:          https://www.firebase.com/
+[firebase]:          https://www.firebase.com
 [firebase-tutorial]: https://www.firebase.com/tutorial/#gettingstarted
+[gh-pages]:          https://pages.github.com
