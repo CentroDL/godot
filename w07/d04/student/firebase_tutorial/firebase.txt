@@ -1,0 +1,20 @@
+What is Firebase?
+  A client side API used to store and synchronize data, across platforms, on or offline.
+
+What is the company?
+  Hosting company, CDN, API provider.
+
+What is the technology?
+  Javascript.
+
+Why would someone use it; what is it for?
+  to synchronize data across different platforms.
+
+What technologies does it replace?
+
+
+What are the pros/cons of using it versus a competing technology?
+
+How do you use it?
+
+Where do you start when using it?
