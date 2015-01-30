@@ -20,12 +20,31 @@
       // create a database reference
       var myDataRef = new Firebase('https://ce77ddxbqcv.firebaseio-demo.com/');
 
+      // the child added listener:
+      // 1. is called when the datbase ref has a new child created
+      // 2. is called when you start your page for every child in the
+      //    database ref
+      myDataRef.on('child_added', function(snapshot) {
+        console.log("child added called!");
+        var message = snapshot.val();
+        displayChatMessage(message.name, message.text);
+      });
+
       $("#id-input").keypress(function (e) {
         // if enter is pressed
         if (e.keyCode == 13) {
           var id = $("#id-input").val();
           var url = 'https://' + id + '.firebaseio-demo.com/'
           console.log(url);
+
+          $("#messagesDiv").text("");
+
+          myDataRef = new Firebase(url);
+          myDataRef.on('child_added', function(snapshot) {
+            console.log("child added called!");
+            var message = snapshot.val();
+            displayChatMessage(message.name, message.text);
+          });
         }
       });
       //Kamari: egeilf2zwxa
@@ -52,15 +71,7 @@
         $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
       };
 
-      // the child added listener:
-      // 1. is called when the datbase ref has a new child created
-      // 2. is called when you start your page for every child in the
-      //    database ref
-      myDataRef.on('child_added', function(snapshot) {
-        console.log("child added called!");
-        var message = snapshot.val();
-        displayChatMessage(message.name, message.text);
-      });
+
 
       // extra listeners...
       myDataRef.on('child_removed',function(){
