@@ -21,14 +21,20 @@
     <input type="text" id="messageInput" placeholder="Message">
     <script>
 
+      var limit;
       var fireStream;
-
+      var postIndex = 0;
       var createStream = function(streamId) {
+
         fireStream = new Firebase('https://'+streamId+'.firebaseio-demo.com/');
 
         fireStream.on('child_added', function(snapshot) {
           console.log('child_added fired!');
           var message = snapshot.val();
+
+          postIndex += 1;
+
+          console.log(postIndex);
           displayChatMessage(message.name, message.text);
         });
 
@@ -39,10 +45,28 @@
       }
 
       var displayChatMessage = function(name, text) {
-        $('<div>').text(text).prepend($('<em>').text(name+': ')).appendTo($('#messagesDiv'));
+
+        var div = $('<div>');
+        div.text(text).prepend($('<em>').text(name+': ')).appendTo($('#messagesDiv'));
+        if(postIndex > limit)
+          addDelete(div);//appends delete button
+
         $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
       };
 
+      //post creation
+      $('#messageInput').keypress(function (e) {
+        if (e.keyCode == 13) {
+          limit = postIndex;
+          var name = $('#nameInput').val();
+          var text = $('#messageInput').val();
+          fireStream.push({name: name, text: text});
+
+          $('#messageInput').val('');
+        }
+      });
+
+      //sets new stream
       $('#firebaseIDInput').keypress(function (e) {
         if (e.keyCode == 13) {
           var id = $('#firebaseIDInput').val();
@@ -51,14 +75,16 @@
         }
       });
 
-      $('#messageInput').keypress(function (e) {
-        if (e.keyCode == 13) {
-          var name = $('#nameInput').val();
-          var text = $('#messageInput').val();
-          fireStream.push({name: name, text: text});
-          $('#messageInput').val('');
-        }
-      });
+
+      var addDelete = function(div){
+        var button = $("<button>").text("delete");
+        button.on("click", deleteText).appendTo(div);
+      };
+
+      var deleteText = function(){
+        $(this).parent().remove();
+        $(this).remove();
+      };
 
     </script>
   </body>
