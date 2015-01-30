@@ -23,9 +23,18 @@ $("input.input-name").on("keypress", function(e){
 var scale = 1;
 
 $("img.extreme-closeup").on("mousedown", function(e){
-  console.log( $(e.target).css("transform") );
+  //console.log( $(e.target).css("transform") );
   $(e.target).css("transform", "scale(" + (scale = scale * 1.1) + ")");
 })
+
+// Add an event listener to "img.extreme-closeup" so that when you fire a mouseup event, the element's CSS "transform: scale(x)" property revert back to "scale(1)"
+
+$("img.extreme-closeup").on("mouseup", function(e){
+  $(e.target).css("transform", "scale(1)");
+});
+
+
+
 
 
 
