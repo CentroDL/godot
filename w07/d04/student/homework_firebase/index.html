@@ -21,13 +21,16 @@
     <input type="text" id="messageInput" placeholder="Message">
     <script>
 
-      var limit;
       var fireStream;
+
+      var limit;
       var postIndex = 0;
+
       var createStream = function(streamId) {
 
         fireStream = new Firebase('https://'+streamId+'.firebaseio-demo.com/');
 
+        //WORK HERE
         fireStream.on('child_added', function(snapshot) {
           console.log('child_added fired!');
           var message = snapshot.val();
@@ -36,7 +39,7 @@
 
           console.log(postIndex);
           displayChatMessage(message.name, message.text);
-        });
+        });//childadded
 
         fireStream.on('child_removed',function(){console.log('child_removed fired!');});
         fireStream.on('child_changed',function(){console.log('child_changed fired!');});
@@ -48,7 +51,8 @@
 
         var div = $('<div>');
         div.text(text).prepend($('<em>').text(name+': ')).appendTo($('#messagesDiv'));
-        if(postIndex > limit)
+
+        if( postIndex > limit )
           addDelete(div);//appends delete button
 
         $('#messagesDiv')[0].scrollTop = $('#messagesDiv')[0].scrollHeight;
