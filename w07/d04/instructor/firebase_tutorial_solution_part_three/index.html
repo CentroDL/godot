@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Firebase Tutorial</title>
+
+    <script src='https://cdn.firebase.com/js/client/2.0.4/firebase.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js'></script>
+  </head>
+  <body>
+    <h1>Firebase Tutorial</h1>
+    <label>Firebase Demo ID
+      <input type='text' id='firebaseIDInput' value='ce77ddxbqcv' placeholder='firebase-demo-id'>
+    </label>
+    <br>
+    <br>
+    <div id='messagesDiv'></div>
+    <br>
+    <input type='text' id='nameInput' placeholder='Name'>
+    <input type='text' id='messageInput' placeholder='Message'>
+    <script>
+      // create a global firebase data reference and a global messages list ref
+      var firebaseDataRef,
+          $messagesList = $('#messagesDiv');
+
+      // package the actions to connect to a data reference together
+      var connectToNewDataRef = function(refUrlId) {
+        // step 1: create a new firebase data ref object that points to a given
+        //         firebase demo url, and set it to our global variable...
+        firebaseDataRef = new Firebase('https://'+refUrlId+'.firebaseio-demo.com/');
+
+        // step 2: add listeners to that new connection
+        firebaseDataRef.on('child_added', function(snapshot) {
+          console.log('child_added fired!');
+
+          // when a child is added to the model (firebase), this event is
+          // triggered. we take the incoming data and call our jQuery code
+          // to build a DOM object
+          var message = snapshot.val();
+          // also grab the unique id of the data!
+          var id      = snapshot.key();
+
+          // takes the whole message and it's id!
+          displayChatMessage(id, message);
+        });
+        firebaseDataRef.on('child_removed', function(snapshot) {
+          console.log('child_removed fired!');
+
+          // when a child is removed from the model (firebase), this event is
+          // triggered. we take the incoming data and call our jQuery remove
+          // element code
+          var id = snapshot.key();
+
+          removeChatMessage(id);
+
+        });
+        firebaseDataRef.on('child_changed', function() {
+          console.log('child_changed fired!');
+        });
+
+        // step 3: be sure to clear out any messages from a previous connection
+        //         from the DOM
+        $messagesList.html('');
+      }
+
+      // big changes to the chat message!
+      var displayChatMessage = function(id, message) {
+        var $nameTextEl   = $('<em/>').text(message.name + ': '),
+            $deleteButton = $('<button class="delete">Delete</button>'),
+            $updateButton = $('<button class="update">Update</button>'),
+            // create the new message and give it the id from firebase
+            $newMessage   = $('<div/>').attr('id', id);
+
+        // add the text to the message
+        $newMessage.text(message.text + "  ").prepend($nameTextEl)
+
+        // if the message is "new" (just sent)
+        if (message.new) {
+          // add the buttons
+          $newMessage.append($deleteButton);
+          $newMessage.append($updateButton);
+
+          // attach listeners to the new messages buttons!
+          $deleteButton.on("click", deleteButtonHandler);
+          $updateButton.on("click", function(event) {console.log("update fired!")});
+
+          // then remove the new status, FOREVER
+          firebaseDataRef.child(id).child("new").remove();
+        }
+
+        // add the new message to the list
+        $newMessage.append($("<br><br>")).appendTo($messagesList);
+
+        // scroll to the message if necessary
+        $messagesList[0].scrollTop = $messagesList[0].scrollHeight;
+      };
+
+      // the function to remove a chat from the DOM
+      var removeChatMessage = function(id) {
+        $("#" + id).remove();
+      }
+
+      // the delete button action we call
+      var deleteButtonHandler = function(event) {
+        // use the event object to get the target element, and then get the
+        // message's id from that target's (the button's) parent element
+        var id = $(event.target).parent().attr("id");
+
+        // remove the message from the model!
+        firebaseDataRef.child(id).remove();
+      }
+
+      // now, when we load the page...
+      window.addEventListener("load", function() {
+
+        // listen to the firebase id input
+        $('#firebaseIDInput').keypress(function (e) {
+          if (e.keyCode == 13) {
+            // when we enter a new firebase id
+            var id = $('#firebaseIDInput').val();
+
+            // connect to a new firebase
+            connectToNewDataRef(id);
+
+            // clear the input box
+            $('#firebaseIDInput').val('');
+          }
+        });
+
+        // listen to the message input
+        $('#messageInput').keypress(function (e) {
+          if (e.keyCode == 13) {
+            // when we enter a new message
+
+            // get the message
+            var name = $('#nameInput').val();
+            var text = $('#messageInput').val();
+
+            // send the data to firebase, with the flag that is new
+            firebaseDataRef.push({name: name, text: text, new: true});
+
+            // clear the message box
+            $('#messageInput').val('');
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
