@@ -31,11 +31,24 @@ $("img.extreme-closeup").on("mouseup", function(e){
   scale = 1;
 });
 
+var notCount = 0;
+
 $("input.input-phrase").on("keypress", function(e){
   if(e.which === 13){
     var p = $("<p>").text( $(e.target).val() )
     p.on("click", function(e){
       $(e.target).append("...NOT");
+      notCount++;
+
+    if( notCount >= 5 ){
+
+      $("div.flash").addClass("show");
+
+      setTimeout(function(){
+        $("div.flash").removeClass("show");
+      }, 3000)
+    }
+
     });
     p.appendTo( $("div#phrases") );
     $(e.target).val("");
