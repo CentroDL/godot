@@ -63,3 +63,9 @@ var createTask = function(description) {
   var newID = dataRef.key();
   return newID;
 };
+var toggleTaskComplete = function(taskID) {
+  fireStream.child(taskID).child("complete").set(true);
+};
+var removeTask = function(taskID) {
+  fireStream.child(taskID).remove();
+};
