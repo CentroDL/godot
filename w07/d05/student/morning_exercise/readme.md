@@ -43,5 +43,5 @@ Update the above event listener on "input.input-names" so that when a new p tag 
 # Excellent
 
 Update your code so that if 5 p tags have had "... NOT" appened to them
-- add the class "show" to "div.top-bar"
+- add the class "show" to "div.flash"
 - remove the class "show" after 3 seconds.
