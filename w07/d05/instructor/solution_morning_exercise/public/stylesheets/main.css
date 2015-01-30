@@ -1,0 +1,89 @@
+body {
+  font-size: 18px;
+  line-height: 1.5;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.bohemians {
+  background-image: url(../images/bohemians.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 960px;
+  height: 640px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+.input-name {
+    font-size: 1em;
+}
+
+.top-bar {
+    transition: top 800ms;
+    position: fixed;
+    height: 80px;
+    width: 100px;
+    line-height: 80px;
+    top: -80px;
+    background: yellow;
+    color: black;
+}
+
+.top-bar.show {
+    /*https://developer.mozilla.org/en-US/docs/Web/CSS/transition*/
+    transition: top 800ms;
+    top: 0;
+}
+
+.extreme-closeup {
+  transform: scale(1);
+  position: absolute;
+  top: 275px;
+  left: 80px;
+}
+
+.branding {
+  color: white;
+  font-size: 2em;
+}
+
+.btn {
+  font-size: 2em;
+  display: block;
+  border: 0;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.way-no-way {
+  background: #63d2e8;
+  height: 50px;
+  width: 200px;
+}
+
+.way-no-way:hover {
+  background: #51adbf;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+
+.main {
+  display: inline-block;
+}
+
+.sidebar {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+}
