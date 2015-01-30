@@ -33,7 +33,11 @@ $("img.extreme-closeup").on("mouseup", function(e){
 
 $("input.input-phrase").on("keypress", function(e){
   if(e.which === 13){
-    $("<p>").text( $(e.target).val() ).appendTo( $("div#phrases") );
+    var p = $("<p>").text( $(e.target).val() )
+    p.on("click", function(e){
+      $(e.target).append("...NOT");
+    });
+    p.appendTo( $("div#phrases") );
     $(e.target).val("");
   }
 });
