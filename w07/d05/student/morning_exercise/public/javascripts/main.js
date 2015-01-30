@@ -20,6 +20,12 @@ $("input.input-name").on("keypress", function(e){
   }
 });
 
+var scale = 1;
+
+$("img.extreme-closeup").on("mousedown", function(e){
+  console.log( $(e.target).css("transform") );
+  $(e.target).css("transform", "scale(" + (scale = scale * 1.1) + ")");
+})
 
 
 
