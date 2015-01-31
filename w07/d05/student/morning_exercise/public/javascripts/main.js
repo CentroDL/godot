@@ -13,6 +13,7 @@ $("span.name").on( "click", function(){
 });
 
 $("input.input-name").on("keypress", function(e){
+  console.log(e.keyCode);
   if( e.which === 13 ){
     $(this).addClass("hidden");
     $("span.name").removeClass("hidden");
