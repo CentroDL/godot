@@ -27,7 +27,13 @@ var toggleComplete = function(id){
 };
 
 // 3. Remove a task (removeTask).
-var removeTask = function(){};
+var removeTask = function(id){
+  delete taskList.id;
+};
 
 // 4. List tasks (listTasks). This should log to the console!
-var listTasks = function(){};
+var listTasks = function(){
+  for(var task in taskList){
+    console.log(task);
+  }
+};
