@@ -37,13 +37,13 @@ var listTasks = function(){
 // </div>
 var createTaskEl = function(description, id, complete){
 
-  var div = $("<div>").addClass("task");
+  var div = $("<div>").addClass("task").attr("data-taskid", id);
   //ask why prop() doesnt show anything in tag
-  $("<input>").attr( { type: "checkbox", "data-taskid": id } )
+  $("<input>").attr("type", "checkbox")
               .prop("checked", complete)
               .appendTo(div);
   $("<span>").addClass("task-description")
-              .text(description).appendTo(div);
+             .text(description).appendTo(div);
   $("<span>").addClass("remove")
              .text("X")
              .appendTo(div);
@@ -64,4 +64,6 @@ var toggleTaskElComplete = function(id){
 
 
 // 5. Remove the element based on the task ID (removeTaskEl).
-var removeTaskEl = function(){};
+var removeTaskEl = function(id){
+  $('*[data-taskid="'+id+'"]').remove();
+};
