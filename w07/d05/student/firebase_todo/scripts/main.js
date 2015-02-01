@@ -58,7 +58,9 @@ var addTaskEl = function(description, id, complete){
 
 // 4. Toggle the class "complete" on the task element (<div>). You can grab the correct element by finding the right data attribute (toggleTaskElComplete).
 // $('*[data-customerID="22"]');
-var toggleTaskElComplete = function(){};
+var toggleTaskElComplete = function(id){
+  $('*[data-taskid="'+id+'"]').toggleClass("complete");
+};
 
 
 // 5. Remove the element based on the task ID (removeTaskEl).
