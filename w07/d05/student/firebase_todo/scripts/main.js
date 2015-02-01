@@ -51,9 +51,15 @@ var createTaskEl = function(description, id, complete){
 };
 
  // Write a function to add a task element to the DOM (addTaskEl)! It should take all the same inputs as createTaskEl, call createTaskEl and save its result, and then add it to the "task-list" on the DOM.
-var addTaskEl = function(description, complete){
-  var task = createTaskEl( description, complete);
+var addTaskEl = function(description, id, complete){
+  var task = createTaskEl( description, id, complete);
   $(".task-list").append(task);
 };
 
+// 4. Toggle the class "complete" on the task element (<div>). You can grab the correct element by finding the right data attribute (toggleTaskElComplete).
+// $('*[data-customerID="22"]');
+var toggleTaskElComplete = function(){};
 
+
+// 5. Remove the element based on the task ID (removeTaskEl).
+var removeTaskEl = function(){};
