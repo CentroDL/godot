@@ -22,9 +22,9 @@ var createTask = function(description, complete){
   return uniqueID;
 };
 
-// 2. Mark a task as complete or as incomplete (toggleComplete), given the task's unique ID.
+// Rewrite toggleComplete to work with Firebase using Firebase#child to get the child reference, and Firebase#set to change its value. For now you can have it just force complete to be false.
 var toggleComplete = function(id){
-  taskList[id].complete = !taskList[id].complete;
+  firebase.child(id).complete = !firebase.child(id).complete;
 };
 
 // 3. Remove a task (removeTask).
