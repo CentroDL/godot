@@ -53,8 +53,10 @@ var createTaskEl = function(description, complete){
   return div;
 };
 
-
-
-
+ // Write a function to add a task element to the DOM (addTaskEl)! It should take all the same inputs as createTaskEl, call createTaskEl and save its result, and then add it to the "task-list" on the DOM.
+var addTaskEl = function(description, complete){
+  var task = createTaskEl( description, complete);
+  $(".task-list").append(task);
+};
 
 
