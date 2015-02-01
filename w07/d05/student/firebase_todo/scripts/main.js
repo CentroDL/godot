@@ -27,9 +27,9 @@ var toggleComplete = function(id){
   firebase.child(id).complete = !firebase.child(id).complete;
 };
 
-// 3. Remove a task (removeTask).
+//Rewrite removeTask to work with Firebase using Firebase#child and Firebase#remove().
 var removeTask = function(id){
-  delete taskList.id;
+  firebase.remove(id);
 };
 
 // 4. List tasks (listTasks). This should log to the console!
