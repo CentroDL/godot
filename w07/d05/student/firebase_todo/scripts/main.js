@@ -46,6 +46,7 @@ var listTasks = function(){
 // </div>
 var createTaskEl = function(description, complete){
   var div = $("<div>").addClass("task");
+  //ask why prop() doesnt show anything in tag
   $("<input>").attr("type", "checkbox").prop("checked", complete).appendTo(div);
   $("<span>").addClass("task-description").text(description).appendTo(div);
   $("<span>").addClass("remove").text("X").appendTo(div);
