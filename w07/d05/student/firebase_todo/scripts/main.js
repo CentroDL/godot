@@ -38,3 +38,23 @@ var listTasks = function(){
     console.log(task);
   }
 };
+
+// <div class="task">
+//   <input type="checkbox">
+//   <span class="task-description">Task description here.</span>
+//   <span class="remove">X</span>
+// </div>
+var createTaskEl = function(description, complete){
+
+  var div = $("<div>").addClass("task");
+  $("<input>").attr("type", "checkbox").appendTo(div);
+  $("<span>").addClass("task-description").text(description).appendTo(div);
+  $("<span>").addClass("remove").text("X").appendTo(div);
+  return div;
+};
+
+
+
+
+
+
