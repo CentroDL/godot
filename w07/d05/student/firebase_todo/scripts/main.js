@@ -5,15 +5,6 @@ var taskList = {};
 taskList["counter"] = 0;
 // $("window").on("load", function(){});
 
-// // 1. Create a new task (createTask). Make sure to give the new task a unique ID! Also, have the function return that new unique ID. (Remember how we did this with Redis?)
-// var createTask = function( description, complete){
-//   var uniqueID = "task" + taskList.counter;
-//   taskList.uniqueID = { complete: complete, description: description };
-//   taskList.counter++;// $redis.incr("task:counter");
-//   return uniqueID;
-// };
-
-// var firebase = new Firebase();
 var TodoApp = new Firebase("https://blazing-inferno-3859.firebaseio.com/");
 
 var createTask = function(description, complete){
@@ -44,12 +35,18 @@ var listTasks = function(){
 //   <span class="task-description">Task description here.</span>
 //   <span class="remove">X</span>
 // </div>
-var createTaskEl = function(description, complete){
+var createTaskEl = function(description, id, complete){
+
   var div = $("<div>").addClass("task");
   //ask why prop() doesnt show anything in tag
-  $("<input>").attr("type", "checkbox").prop("checked", complete).appendTo(div);
-  $("<span>").addClass("task-description").text(description).appendTo(div);
-  $("<span>").addClass("remove").text("X").appendTo(div);
+  $("<input>").attr( { type: "checkbox", "data-taskid": id } )
+              .prop("checked", complete)
+              .appendTo(div);
+  $("<span>").addClass("task-description")
+              .text(description).appendTo(div);
+  $("<span>").addClass("remove")
+             .text("X")
+             .appendTo(div);
   return div;
 };
 
