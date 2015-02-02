@@ -1,6 +1,6 @@
 # SQLab, CSV!
 
-![:image](http://coding.smashingmagazine.com/wp-content/uploads/2010/10/sql.png)
+![A lame comic about SQL injection](http://coding.smashingmagazine.com/wp-content/uploads/2010/10/sql.png)
 
 ## Setup
 
@@ -64,7 +64,7 @@ SQL insert statements. Add those statements to the `nba_seeds.sql` file.
 
 ## Part 3
 
-Keeping track of your answers in a file called `nba_queries.sql`, figure out 
+Keeping track of your answers in a file called `nba_queries.sql`, figure out
 the appropriate SQL commands to return the following:
 
 1. All columns for all players from the New York Knicks (NYK).
