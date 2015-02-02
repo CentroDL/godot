@@ -31,13 +31,13 @@ In order to submit your homework to this repo and share it with your instruction
 | **Instructor**         | Phil Lamplugh      | @philco       | philco@ga.co  | [phlco][phlco] (**no 'i'!**) |
 | **Instructor**         | PJ Hughes          | @pj           | pj@ga.co      | [h4w5][h4w5] |
 | **Instructor**         | Travis Vander Hoop | @trav         | travis@ga.co  | [vanderhoop][van] |
-| **Evening TA**         | Robert Silverblatt | @splat   |rsilverblatt88@gmail.com   | [rsilverblatt88][splat] |
+| **Evening TA**         | Amanda Kievet      | @amandakievet | akievet@gmail.com | [akievet][amanda] |
 
-[smaib]: https://github.com/smaib          "Sarah's GitHub link"
-[phlco]: https://github.com/phlco          "Phil's GitHub link"
-[h4w5]:  https://github.com/h4w5           "PJ's GitHub link"
-[van]:   https://github.com/vanderhoop     "Travis's GitHub link"
-[splat]: https://github.com/rsilverblatt88 "Splat's GitHub Link"
+[smaib]:  https://github.com/smaib          "Sarah's GitHub link"
+[phlco]:  https://github.com/phlco          "Phil's GitHub link"
+[h4w5]:   https://github.com/h4w5           "PJ's GitHub link"
+[van]:    https://github.com/vanderhoop     "Travis's GitHub link"
+[amanda]: https://github.com/akievet        "Amanda's GitHub Link"
 
 ### Class
 
