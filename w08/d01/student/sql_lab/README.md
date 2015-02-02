@@ -29,7 +29,7 @@ best.
     - `team`
     - `games`
     - `points`
-  1. inserts the player:
+  1. inserts the player:<br>
      `Anderson Varejao, age: 29, team: CLE, games: 25, points: 271`.
 1. Create a db called `greys_anatomy_db`.
 1. Create a SQL script called `greys_seeds.sql` that:
@@ -40,7 +40,7 @@ best.
     - `episodes`
     - `start_year`
     - `end_year`
-  1. inserts the actor:
+  1. inserts the actor:<br>
      [`Demi Lovato, character: Hayley May, episodes: 1, start year: 2010, end year: 2010`](http://static.tvgcdn.net/MediaBin/Galleries/Editorial/121112/Greys_Anatomy_Guest_Stars/thumbs/greys-guest-stars)
 
 You should be able to run `nba_seeds.sql` and populate your `nba_db` from the
