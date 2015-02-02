@@ -59,8 +59,11 @@ $ psql -c greys_anatomy_db -f greys_seeds.sql
 
 ## Part 2
 
-Use any tools you can to turn the `nba_season_2011-12.csv` file into a series of
-SQL insert statements. Add those statements to the `nba_seeds.sql` file.
+Use any tools you can (Sublime [multi-line editing](http://stackoverflow.com/questions/22099813/sublime-text-2-multiple-line-edit), 
+[find and replace](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/search_and_replace/search_and_replace.html), Excel
+or even [regular expressions](http://rubular.com), for example) to turn the 
+`nba_season_2011-12.csv` file into a series of SQL insert statements. 
+Add those statements to the `nba_seeds.sql` file.
 
 ## Part 3
 
