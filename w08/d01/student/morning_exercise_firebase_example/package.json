@@ -1,0 +1,17 @@
+{
+  "name": "firebase_todo_examples",
+  "version": "0.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "~0.4.5"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean":  "",
+    "grunt-contrib-copy":   "",
+    "grunt-processhtml":    "",
+    "grunt-contrib-uglify": "",
+    "grunt-contrib-concat": "",
+    "grunt-markdown":       ""
+  }
+}
