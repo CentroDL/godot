@@ -16,7 +16,7 @@
 |    | Monday | Tuesday | Wednesday | Thursday | Friday |
 |---:|:------:|:-------:|:---------:|:--------:|:------:|
 | **Lessons** | Relational Databases (Postgres)<br>Intro to SQL | SQL Joins | Data and Domain Modeling<br>File I/O & CSVs | ORMs (Active Record) | Assessment<br>Lab |
-| **Events &amp; Panels** | | Class Trip<br>Pivotal Labs | | | |
+| **Events &amp; Panels** | | Outcomes 3:30-4:30<br>Class Trip to Pivotal Labs | | | |
 
 ### One-on-One Schedule
 
