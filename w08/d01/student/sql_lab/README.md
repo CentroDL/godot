@@ -64,9 +64,8 @@ SQL insert statements. Add those statements to the `nba_seeds.sql` file.
 
 ## Part 3
 
-Figure out the appropriate SQL commands for the following:
-
-(Keep track of your answers in a file called `nba_queries.sql`.)
+Keeping track of your answers in a file called `nba_queries.sql`, figure out 
+the appropriate SQL commands to return the following:
 
 1. All columns for all players from the New York Knicks (NYK).
 1. All columns for all players from the Indiana Packers (IND) who are under 26
