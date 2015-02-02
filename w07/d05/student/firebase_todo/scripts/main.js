@@ -54,16 +54,30 @@ var createTaskEl = function(description, id, complete){
 var addTaskEl = function(description, id, complete){
   var task = createTaskEl( description, id, complete);
   $(".task-list").append(task);
+  return task;
 };
 
 // 4. Toggle the class "complete" on the task element (<div>). You can grab the correct element by finding the right data attribute (toggleTaskElComplete).
 // $('*[data-customerID="22"]');
 var toggleTaskElComplete = function(id){
-  $('*[data-taskid="'+id+'"]').toggleClass("complete");
+  $('*[data-taskid="'+id.data+'"]').toggleClass("complete");
+  console.log("toggled " + id.data);
 };
 
 
 // 5. Remove the element based on the task ID (removeTaskEl).
 var removeTaskEl = function(id){
-  $('*[data-taskid="'+id+'"]').remove();
+  // debugger;
+  $('*[data-taskid="'+id.data+'"]').remove();
+  console.log( "removed id " + id.data);
+};
+
+var newTask = function(description, id, complete){
+  var task = addTaskEl( description, id, complete);
+  // $(task).children()[0].on("click", id, toggleTaskElComplete );
+  // $(task).children()[2].on("click", id, removeTaskEl);
+
+  task.on("click", "input", id, toggleTaskElComplete );
+  task.on("click", ".remove", id, removeTaskEl );
+  return true;
 };
