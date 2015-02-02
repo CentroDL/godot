@@ -3,7 +3,6 @@ console.log('main.js loaded');
 var taskList = {};
 
 taskList["counter"] = 0;
-// $("window").on("load", function(){});
 
 var TodoApp = new Firebase("https://blazing-inferno-3859.firebaseio.com/");
 
@@ -81,3 +80,29 @@ var newTask = function(description, id, complete){
   task.on("click", ".remove", id, removeTaskEl );
   return true;
 };
+
+// Now, we need to add a click event handler to the "new-task" form's submit event that:
+// stops the form's submission,
+// gets the description from the input,
+// creates the new task in the model (saving the ID for the next step),
+// and adds the new task to the DOM (calls newTask).
+// Note: make sure that this listener is added after the DOM content is loaded!
+$("window").on("load", function(){
+
+  $("#new-task").on("click", function(e){
+    e.stopPropagation();
+    var input = e.target.val();
+    var id = createTask( input, false);
+    newTask( input, id, false);
+  });
+
+});
+
+
+
+
+
+
+
+
+
