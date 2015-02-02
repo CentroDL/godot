@@ -43,17 +43,24 @@ best.
   1. inserts the actor:
      [`Demi Lovato, character: Hayley May, episodes: 1, start year: 2010, end year: 2010`](http://static.tvgcdn.net/MediaBin/Galleries/Editorial/121112/Greys_Anatomy_Guest_Stars/thumbs/greys-guest-stars)
 
-## Part 2
-
-Use any tools you can to turn the `nba_season_2011-12.csv` file into a series of
-SQL insert statements. Add those statements to the `nba_seeds.sql` file.
-
 You should be able to run `nba_seeds.sql` and populate your `nba_db` from the
 command line with:
 
 ```
 $ psql -c nba_db -f nba_seeds.sql
 ```
+
+You should be able to run `greys_seeds.sql` and populate your `greys_anatomy_db`
+from the command line with:
+
+```
+$ psql -c greys_anatomy_db -f greys_seeds.sql
+```
+
+## Part 2
+
+Use any tools you can to turn the `nba_season_2011-12.csv` file into a series of
+SQL insert statements. Add those statements to the `nba_seeds.sql` file.
 
 ## Part 3
 
@@ -88,13 +95,6 @@ Add the following to your `nba_queries.sql` file:
 
 Use any tools you can to turn the `greys_anatomy_actors.csv` file into a series
 of SQL insert statements. Add those statements to the `greys_seeds.sql` file.
-
-You should be able to run `greys_seeds.sql` and populate your `greys_anatomy_db`
-from the command line with:
-
-```
-$ psql -c greys_anatomy_db -f greys_seeds.sql
-```
 
 Then answer the following in `greys_queries.sql`:
 
