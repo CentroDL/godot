@@ -1,0 +1,120 @@
+
+/* COLORS */
+/* gray        rgba(128, 128, 128, 1) */
+/* silver      rgba(192, 192, 192, 1) */
+/* lightgray   rgba(211, 211, 211, 1) */
+/* white       rgba(255, 255, 255, 1) */
+/* red         rgba(255,   0,   0, 1) */
+/* deepskyblue rgba(  0, 191, 255, 1) */
+
+html, body {
+  font-size: 18px;
+  width:     100%;
+  height:    100%;
+}
+
+h1, h2, h3, h4, h5 {
+  letter-spacing: 2px;
+  text-align:     center;
+}
+
+.wrapper {
+  max-width:     800px;
+  width:         90%;
+  min-width:     480px;
+  margin:        20px auto;
+  border-radius: 1em;
+  border:        2px solid rgba(211, 211, 211, 1);
+}
+
+header {
+  width:     80%;
+  min-width: 440px;
+  margin:    0 auto;
+}
+
+section {
+  width:  440px;
+  margin: 0 auto;
+}
+
+.task-list { margin: 30px 0; }
+
+.new-task { text-align: center; }
+.new-task input {
+  margin: 0 15px;
+  width:  60%;
+}
+
+.task {
+  position:         relative;
+  margin:           10px auto;
+  padding:          10px 10px 10px 20px;
+  border-radius:    0.5em;
+  background-color: rgba(192, 192, 192, 1);
+  color:            rgba(255, 255, 255, 1);
+  cursor:           pointer;
+  transition:       0.25s;
+  height:           1.3em;
+}
+
+.task:hover {
+  background-color: rgba(128, 128, 128, 1);
+  transition:       0.25s;
+}
+
+.task a {
+  text-decoration: none;
+  font-weight:     bold;
+  color:           rgba(255, 255, 255, 1);
+}
+
+.task i, .task span {
+  vertical-align: middle;
+}
+
+.task .checkbox {
+  position:      relative;
+  bottom:        -1px;
+  width:         1.2em;
+  font-size:     1.2em;
+  padding-right: 0.25em;
+  transition:    0.25s;
+}
+
+.task .checkbox:hover {
+  text-shadow: 0px 0px 4px rgba(  0, 191, 255, 1);
+  transition:  0.25s;
+}
+
+.complete .task-description {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.task .time {
+  position:    absolute;
+  right:       40px;
+  bottom:      0px;
+  font-size:   0.6em;
+  line-height: 3.65em;
+  font-style:  italic;
+}
+
+.task .remove {
+  position:  relative;
+  bottom:    -1px;
+  float:     right;
+  font-size: 1.2em;
+  color:     rgba(192, 192, 192, 1);
+}
+
+.task:hover .remove { 
+  color:      rgba(255, 255, 255, 1); 
+  transition: 0.25s;
+}
+
+.task .remove:hover {
+  text-shadow: 0px 0px 4px rgba(255,   0,   0, 1);
+  transition:  0.25s;
+}

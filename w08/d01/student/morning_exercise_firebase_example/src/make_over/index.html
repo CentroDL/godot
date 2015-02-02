@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="end">
+<head>
+  <meta charset="utf-8">
+  <title>Todo</title>
+
+  <!-- CDN CSS libraries -->
+  <link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.css'>
+  <!-- build:remove -->
+  <!-- <link rel="stylesheet" type="text/css" href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css'> -->
+  <!-- /build -->
+
+  <!-- Local CSS libraries -->
+  <link rel='stylesheet' type='text/css' href='stylesheets/main.css'>
+  <link rel="stylesheet" type="text/css" href='stylesheets/font-awesome.css'>
+
+  <!-- CDN JS libraries -->
+  <!-- build:remove -->
+  <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.0.0/lodash.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.js"></script> -->
+  <!-- /build -->
+  <script src="https://cdn.firebase.com/js/client/2.1.2/firebase.js"></script>
+
+  <!-- build:remove -->
+  <!-- Local JS libraries -->
+  <script type="text/javascript" src="scripts/moment.js"></script>
+  <script type="text/javascript" src="scripts/lodash.js"></script>
+  <script type="text/javascript" src="scripts/jquery.js"></script>
+  <!-- /build -->
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Todo App</h1>
+    </header>
+    <section class="todo-app">
+      <div class="new-task">
+        <form>
+          <fieldset>
+            <legend>New Task</legend>
+            <label>
+              Task:
+              <input type="text" name="task" id="new-task" maxlength="30" />
+            </label>
+            <button>Save</button>
+          </fieldset>
+        </form>
+      </div>
+      <div class="task-list"></div>
+    </section>
+  </div>
+  <script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>
