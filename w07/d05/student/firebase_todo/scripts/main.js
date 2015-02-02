@@ -3,11 +3,12 @@ console.log('main.js loaded');
 var taskList = {};
 taskList["counter"] = 0;
 
-var TodoApp = new Firebase("https://blazing-inferno-3859.firebaseio.com/");
+var firebase = new Firebase("https://blazing-inferno-3859.firebaseio.com/");
 
 var createTask = function(description, complete){
   var snapshot = firebase.push( {complete: complete, description: description} );
   var uniqueID = snapshot.key();
+  console.log("firebase object added");
   return uniqueID;
 };
 
@@ -67,20 +68,15 @@ var newTask = function(description, id, complete){
   return true;
 };
 
-$("window").on("load", function(){
 
-  $("form").on("submit", function(e){
-    e.preventDefault();
-    var input = $("#new-task").val();
-    var id = createTask( input, false);
-    newTask( input, id, false);
-  });
-
+//doesnt work inside $("window").on( "load", .... )
+$("form").on("submit", function(e){
+  e.preventDefault();
+  console.log("SUBMITTED");
+  var input = $("#new-task").val();
+  var id = createTask( input, false);
+  newTask( input, id, false);
 });
-
-
-
-
 
 
 
