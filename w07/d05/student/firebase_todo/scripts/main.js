@@ -75,7 +75,7 @@ $("form").on("submit", function(e){
   console.log("SUBMITTED");
   var input = $("#new-task").val();
   var id = createTask( input, false);
-  newTask( input, id, false);
+  // newTask( input, id, false);
 });
 
 // 1. Add a listener for child_added events to your Firebase with Firebase#on. The listener should be sure to add the element to the page (newTask).
