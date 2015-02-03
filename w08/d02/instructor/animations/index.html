@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="end">
+<head>
+  <meta charset="utf-8">
+  <title>Animations</title>
+
+  <link rel="stylesheet" type="text/css" href="stylesheets/animate.css">
+
+  <link rel='stylesheet' type='text/css' href='stylesheets/normalize.css'>
+  <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+  <style>
+    /* Your style here. */
+    #title {
+      -webkit-animation-duration: 1.5s;
+      -moz-animation-duration:    1.5s;
+      -o-animation-duration:      1.5s;
+      animation-duration:         1.5s;
+    } /* use the id selector to increase the specificity! */
+    nav li.animated.bounceInLeft {
+      -webkit-animation-duration: 0.5s;
+      -moz-animation-duration:    0.5s;
+      -o-animation-duration:      0.5s;
+      animation-duration:         0.5s;
+    } /* use multiple selectors to increase the specificity! */
+  </style>
+
+  <script type="text/javascript" src="scripts/jquery.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <header><h1 id="title" class="animated fadeIn">CSS Animations</h1></header>
+    <div class="content">
+      <nav>
+        <ul>
+          <li class="animated bounceInLeft hide">Option One</li>
+          <li class="animated bounceInLeft hide">Option Two</li>
+          <li class="animated bounceInLeft hide">Option Three</li>
+          <li class="animated bounceInLeft hide">Option Four</li>
+        </ul>
+      </nav>
+      <section class="table">
+      </section>
+    </div>
+  </div>
+  <script>
+    // Your scripts here.
+
+    // first of all, these solutions avoid the for-loop listener problem
+    // we ran into in class... we'll cover the topics around why that
+    // happenned later, but in the mean time:
+    // http://stackoverflow.com/questions/1451009/javascript-infamous-loop-issue
+
+    // vendor prefix animationend events from https://github.com/daneden/animate.css#usage
+    var animationEnd = "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
+
+    // HAND-ROLLING IT ISN'T THAT HARD!
+    var unhideNextOnEnd = function($currentEl, $nextEl) {
+      $currentEl.on(animationEnd, function(e) {
+        $nextEl.removeClass("hide");
+      });
+    }
+    var cascadeEffect = function($els) {
+      for(var i=0,len=4; i<len; i++){
+        var $currentEl = $els.eq(i),
+            $nextEl    = $els.eq(i+1);
+
+        // if there is a next li...
+        if ($nextEl.length > 0) {
+          unhideNextOnEnd($currentEl, $nextEl);
+        }
+      }
+      $els.eq(0).removeClass("hide");
+      return true;
+    }
+
+    window.addEventListener("load", function(e) {
+      var $title = $("#title"),
+          $lis   = $("nav li");
+
+      // // timeouts
+      // setTimeout(function() {
+      //   $("li").eq(0).removeClass("hide");
+      // }, (1000) );
+      // setTimeout(function() {
+      //   $("li").eq(1).removeClass("hide");
+      // }, 1500);
+      // setTimeout(function() {
+      //   $("li").eq(2).removeClass("hide");
+      // }, 2000);
+      // setTimeout(function() {
+      //   $("li").eq(3).removeClass("hide");
+      // }, 2500);
+
+      // // hard-coded unhides
+      // unhideNextOnEnd($title,     $lis.eq(0));
+      // unhideNextOnEnd($lis.eq(0), $lis.eq(1));
+      // unhideNextOnEnd($lis.eq(1), $lis.eq(2));
+      // unhideNextOnEnd($lis.eq(2), $lis.eq(3));
+
+      // // loop
+      // unhideNextOnEnd($title,     $lis.eq(0));
+      // for(var i=0,len=4; i<len; i++){
+      //   var $currentLi = $lis.eq(i),
+      //       $nextLi    = $currentLi.next();
+
+      //   // if there is a next li...
+      //   if ($nextLi.length > 0) {
+      //     unhideNextOnEnd($currentLi, $nextLi);
+      //   }
+      // }
+
+      // now we're talking!
+      $title.on(animationEnd, function(e) {
+        cascadeEffect($lis);
+      });
+    });
+  </script>
+</body>
+</html>
