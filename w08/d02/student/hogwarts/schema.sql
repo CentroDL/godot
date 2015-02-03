@@ -44,4 +44,5 @@ CREATE TABLE death_eater_memberships(
   student_id INTEGER REFERENCES students (id)
 );
 
+-- SELECT * FROM students INNER JOIN death_eater_memberships ON students.id = death_eater_memberships.student_id
 
