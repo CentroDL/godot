@@ -26,6 +26,7 @@ INSERT INTO students
 VALUES
   ('Fred', 'Weasly', 'Gryffindor'),
   ('George', 'Weasly', 'Gryffindor');
+```
 
 > Research! Delete the twin that died! 
 
@@ -47,6 +48,7 @@ __Students table__
 | Justin  | Finch-Fletchley | 2        |
 
 __Houses table__
+
 | id   | name       |
 | :--: | :--:       |
 | 1    | Gryffindor |
