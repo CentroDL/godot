@@ -4,11 +4,15 @@
   <meta charset="utf-8">
   <title>Animations</title>
 
+  <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
   <link rel='stylesheet' type='text/css' href='stylesheets/normalize.css'>
+  <link rel="stylesheet" type="text/css" href="stylesheets/animate.css">
   <style>
-    /* Your style here. */
+/*    h1{
+      -webkit-animation-duration: 3s;
+    }*/
   </style>
-  
+
   <script type="text/javascript" src="scripts/jquery.js"></script>
 </head>
 <body>
@@ -17,10 +21,10 @@
     <div class="content">
       <nav>
         <ul>
-        <li>Option One</li>
-        <li>Option Two</li>
-        <li>Option Three</li>
-        <li>Option Four</li>
+        <li class="hide">Option One</li>
+        <li class="hide">Option Two</li>
+        <li class="hide">Option Three</li>
+        <li class="hide">Option Four</li>
         </ul>
       </nav>
       <section class="table">
@@ -28,7 +32,18 @@
     </div>
   </div>
   <script>
-    // Your scripts here.
+
+     $(window).on( "load", function(e){
+        $("header h1").addClass("animated fadeIn");
+
+        for( var j = 0, len = $("li").length; j < len; j++ ){
+          setTimeout( function(){
+            $("li").eq(j).removeClass("hide");
+            console.log("added hide to " + j);
+          }, 1000*(j+1) );
+        };
+      });
+
   </script>
 </body>
 </html>

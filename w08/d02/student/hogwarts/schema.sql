@@ -1,6 +1,7 @@
 DROP TABLE IF EXISTS students CASCADE;
 DROP TABLE IF EXISTS houses CASCADE;
 DROP TABLE IF EXISTS death_eater_memberships CASCADE;
+DROP TABLE IF EXISTS spells CASCADE;
 
 CREATE TABLE houses(
   id SERIAL PRIMARY KEY,
@@ -23,6 +24,10 @@ CREATE TABLE students(
 -- );
 
 -- these commands will change tables that already exist
+CREATE TABLE spells(
+  id SERIAL PRIMARY KEY,
+  name VARCHAR NOT NULL
+);
 -- ALTER TABLE students
 -- RENAME COLUMN house_name
 -- TO house_id;
@@ -30,19 +35,17 @@ CREATE TABLE students(
 -- ALTER TABLE students
 -- ALTER COLUMN house_id TYPE integer;
 
-
-
-
--- death_eater_memberships should have a
-
--- unique id
--- joined_on (a timestamp)
--- student_id
 CREATE TABLE death_eater_memberships(
   id SERIAL PRIMARY KEY,
   joined_on TIMESTAMP NOT NULL,
   student_id INTEGER REFERENCES students (id)
 );
 
+
+
+
+
 -- SELECT * FROM students INNER JOIN death_eater_memberships ON students.id = death_eater_memberships.student_id
+
+
 
