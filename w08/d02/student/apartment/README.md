@@ -6,7 +6,7 @@
 > the landlords, like all other men, love to reap where they never sowed,
 > and demand a rent even for its natural produce. ”
 
-— Adam Smith, Wealth of Nations (Book 1, Chapter 6, Paragraph 8)
+*— Adam Smith, Wealth of Nations*
 
 ## Setup
 
