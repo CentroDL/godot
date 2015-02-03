@@ -26,6 +26,7 @@ INSERT INTO students
 VALUES
   ('Fred', 'Weasly', 'Gryffindor'),
   ('George', 'Weasly', 'Gryffindor');
+```
 
 > Research! Delete the twin that died! 
 
