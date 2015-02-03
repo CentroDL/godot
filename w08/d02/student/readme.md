@@ -48,6 +48,7 @@ __Students table__
 | Justin  | Finch-Fletchley | 2        |
 
 __Houses table__
+
 | id   | name       |
 | :--: | :--:       |
 | 1    | Gryffindor |
