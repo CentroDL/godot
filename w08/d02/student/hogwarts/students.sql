@@ -12,3 +12,4 @@ VALUES
   ('Padma', 'Patil',  '3'),
   ('Cedric', 'Diggory',  '2'),
   ('Justin', 'Finch-Fletchley',  '2');
+

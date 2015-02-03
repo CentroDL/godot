@@ -8,3 +8,5 @@ VALUES
   ('Hufflepuff'),
   ('Ravenclaw'),
   ('Slytherin');
+
+
