@@ -17,3 +17,5 @@ INSERT INTO players ( name, age, team, games, points) VALUES ( 'Anderson Varejao
 -- team
 -- games
 -- points
+
+-- \COPY players ( name, age, team, games, points ) FROM 'nba_season_2011-12.csv' DELIMITER ',' CSV;
