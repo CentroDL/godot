@@ -1,5 +1,5 @@
 -- All columns for all players from the New York Knicks (NYK).
-SELECT * FROM players;
+SELECT * FROM players WHERE team = 'NYK';
 -- All columns for all players from the Indiana Packers (IND) who are under 26 years old.
 SELECT * FROM players WHERE team = 'IND' AND age < 26;
 -- All columns for all players, ordered from least points scored to most points scored.
