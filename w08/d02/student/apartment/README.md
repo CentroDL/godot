@@ -83,7 +83,7 @@ Write queries to do the following:
 
 <!-- Links -->
 
-[new-york-new-york]: manhattan-wallpaper-800x600.jpg
+[new-york-new-york]: images/manhattan-wallpaper-800x600.jpg
 [hari]:              http://harimohanraj.com/about_me/
 [mck]:               https://github.com/DrRobotmck
 [harish]:            https://www.linkedin.com/pub/harish-tella/73/686/797
