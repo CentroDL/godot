@@ -47,23 +47,24 @@ You should be able to run `nba_seeds.sql` and populate your `nba_db` from the
 command line with:
 
 ```
-$ psql -c nba_db -f nba_seeds.sql
+$ psql -d nba_db -f nba_seeds.sql
 ```
 
 You should be able to run `greys_seeds.sql` and populate your `greys_anatomy_db`
 from the command line with:
 
 ```
-$ psql -c greys_anatomy_db -f greys_seeds.sql
+$ psql -d greys_anatomy_db -f greys_seeds.sql
 ```
 
 ## Part 2
 
-Use any tools you can (Sublime [multi-line editing](http://stackoverflow.com/questions/22099813/sublime-text-2-multiple-line-edit), 
-[find and replace](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/search_and_replace/search_and_replace.html), Excel
-or even [regular expressions](http://rubular.com), for example) to turn the 
-`nba_season_2011-12.csv` file into a series of SQL insert statements. 
-Add those statements to the `nba_seeds.sql` file.
+Use any tools you can (PostgreSQL's [`COPY`](http://stackoverflow.com/questions/17662631/how-to-copy-from-csv-file-to-postgresql-table-with-headers-in-csv-file), 
+Sublime [multi-line editing](http://stackoverflow.com/questions/22099813/sublime-text-2-multiple-line-edit), 
+[find and replace](http://sublime-text-unofficial-documentation.readthedocs.org/en/latest/search_and_replace/search_and_replace.html),
+Excel or even [regular expressions](http://rubular.com), for example) to turn 
+the `nba_season_2011-12.csv` file into a series of SQL insert statements. Add 
+those statements to the `nba_seeds.sql` file.
 
 ## Part 3
 
