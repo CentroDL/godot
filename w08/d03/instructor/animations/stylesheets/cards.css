@@ -1,0 +1,93 @@
+.card {
+  display: inline-block;
+  margin:  2px;
+  cursor:  pointer;
+
+  /* size */
+  width:  64px;
+  height: 88px;
+
+  /* add a "border" */
+  background-color: gray;
+  border-radius:    4px;
+
+  /* enlarge and center the background */
+  background-image: url(../images/playing_cards/blue.svg);
+  background-position-x: -73px;
+  background-position-y: -104px;
+  background-repeat:     no-repeat;
+  background-size:       210px;
+  
+  /* hide any text */
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow:    hidden;
+}
+
+.card.dA  { background-image: url(../images/playing_cards/AD.svg);  }
+.card.dK  { background-image: url(../images/playing_cards/KD.svg);  }
+.card.dQ  { background-image: url(../images/playing_cards/QD.svg);  }
+.card.dJ  { background-image: url(../images/playing_cards/JD.svg);  }
+.card.d10 { background-image: url(../images/playing_cards/10D.svg); }
+.card.d09 { background-image: url(../images/playing_cards/9D.svg);  }
+.card.d08 { background-image: url(../images/playing_cards/8D.svg);  }
+.card.d07 { background-image: url(../images/playing_cards/7D.svg);  }
+.card.d06 { background-image: url(../images/playing_cards/6D.svg);  }
+.card.d05 { background-image: url(../images/playing_cards/5D.svg);  }
+.card.d04 { background-image: url(../images/playing_cards/4D.svg);  }
+.card.d03 { background-image: url(../images/playing_cards/3D.svg);  }
+.card.d02 { background-image: url(../images/playing_cards/2D.svg);  }
+
+.card.hA  { background-image: url(../images/playing_cards/AH.svg);  }
+.card.hK  { background-image: url(../images/playing_cards/KH.svg);  }
+.card.hQ  { background-image: url(../images/playing_cards/QH.svg);  }
+.card.hJ  { background-image: url(../images/playing_cards/JH.svg);  }
+.card.h10 { background-image: url(../images/playing_cards/10H.svg); }
+.card.h09 { background-image: url(../images/playing_cards/9H.svg);  }
+.card.h08 { background-image: url(../images/playing_cards/8H.svg);  }
+.card.h07 { background-image: url(../images/playing_cards/7H.svg);  }
+.card.h06 { background-image: url(../images/playing_cards/6H.svg);  }
+.card.h05 { background-image: url(../images/playing_cards/5H.svg);  }
+.card.h04 { background-image: url(../images/playing_cards/4H.svg);  }
+.card.h03 { background-image: url(../images/playing_cards/3H.svg);  }
+.card.h02 { background-image: url(../images/playing_cards/2H.svg);  }
+
+.card.cA  { background-image: url(../images/playing_cards/AC.svg);  }
+.card.cK  { background-image: url(../images/playing_cards/KC.svg);  }
+.card.cQ  { background-image: url(../images/playing_cards/QC.svg);  }
+.card.cJ  { background-image: url(../images/playing_cards/JC.svg);  }
+.card.c10 { background-image: url(../images/playing_cards/10C.svg); }
+.card.c09 { background-image: url(../images/playing_cards/9C.svg);  }
+.card.c08 { background-image: url(../images/playing_cards/8C.svg);  }
+.card.c07 { background-image: url(../images/playing_cards/7C.svg);  }
+.card.c06 { background-image: url(../images/playing_cards/6C.svg);  }
+.card.c05 { background-image: url(../images/playing_cards/5C.svg);  }
+.card.c04 { background-image: url(../images/playing_cards/4C.svg);  }
+.card.c03 { background-image: url(../images/playing_cards/3C.svg);  }
+.card.c02 { background-image: url(../images/playing_cards/2C.svg);  }
+
+.card.sA  { background-image: url(../images/playing_cards/AS.svg);  }
+.card.sK  { background-image: url(../images/playing_cards/KS.svg);  }
+.card.sQ  { background-image: url(../images/playing_cards/QS.svg);  }
+.card.sJ  { background-image: url(../images/playing_cards/JS.svg);  }
+.card.s10 { background-image: url(../images/playing_cards/10S.svg); }
+.card.s09 { background-image: url(../images/playing_cards/9S.svg);  }
+.card.s08 { background-image: url(../images/playing_cards/8S.svg);  }
+.card.s07 { background-image: url(../images/playing_cards/7S.svg);  }
+.card.s06 { background-image: url(../images/playing_cards/6S.svg);  }
+.card.s05 { background-image: url(../images/playing_cards/5S.svg);  }
+.card.s04 { background-image: url(../images/playing_cards/4S.svg);  }
+.card.s03 { background-image: url(../images/playing_cards/3S.svg);  }
+.card.s02 { background-image: url(../images/playing_cards/2S.svg);  }
+
+.card.back      { background-image: url(../images/playing_cards/blue.svg); }
+.card.back-blue { background-image: url(../images/playing_cards/blue.svg); }
+.card.back-red  { background-image: url(../images/playing_cards/red.svg);  }
+
+.card.outline   {
+  background-image: none;
+  background-color: transparent;
+  
+  box-sizing: border-box;
+  border:     1px dashed gold;
+}
