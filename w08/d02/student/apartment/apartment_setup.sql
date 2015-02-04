@@ -12,12 +12,13 @@ CREATE TABLE buildings(
 
 CREATE TABLE apartments(
   id SERIAL PRIMARY KEY,
-  floor INTEGER REFERENCES buildings (num_floors), -- CHECK THIS CONSTRAINT
+  floor INTEGER NOT NULL, -- CHECK THIS CONSTRAINT, maybe integer < # of floors?
   name VARCHAR NOT NULL,
   price INTEGER NOT NULL,
   sqft INTEGER NOT NULL,
   bedrooms INTEGER NOT NULL,
-  bathrooms INTEGER NOT NULL
+  bathrooms INTEGER NOT NULL,
+  building_id INTEGER REFERENCES buildings (id)
 );
 
 CREATE TABLE tenants(
