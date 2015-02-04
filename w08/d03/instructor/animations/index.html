@@ -5,7 +5,7 @@
   <title>Animations</title>
 
   <link rel="stylesheet" type="text/css" href="stylesheets/animate.css">
-
+  <link rel="stylesheet" type="text/css" href="stylesheets/cards.css">
   <link rel='stylesheet' type='text/css' href='stylesheets/normalize.css'>
   <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
   <style>
@@ -16,12 +16,33 @@
       -o-animation-duration:      1.5s;
       animation-duration:         1.5s;
     } /* use the id selector to increase the specificity! */
+    section .table.animated.fadeInRight {
+      -webkit-animation-duration: 2s;
+      -moz-animation-duration:    2s;
+      -o-animation-duration:      2s;
+      animation-duration:         2s;
+    }
     nav li.animated.bounceInLeft {
       -webkit-animation-duration: 0.5s;
       -moz-animation-duration:    0.5s;
       -o-animation-duration:      0.5s;
       animation-duration:         0.5s;
     } /* use multiple selectors to increase the specificity! */
+
+  .card {
+      position: absolute;
+      margin-left: -32px;
+    }
+
+    #deck {
+      top: 216px;
+      left: 50%;
+    }
+
+    .west { left: 20%; }
+    .north { left: 40%; }
+    .east { left: 60%; }
+    .south { left: 80%; }
   </style>
 
   <script type="text/javascript" src="scripts/jquery.js"></script>
@@ -38,7 +59,12 @@
           <li class="animated bounceInLeft hide">Option Four</li>
         </ul>
       </nav>
-      <section class="table">
+      <section class="table animated fadeInRight">
+        <div class="card outline west" >West</div>
+        <div class="card outline north">North</div>
+        <div class="card outline east" >East</div>
+        <div class="card outline south">South</div>
+        <div id="deck" class="card deck">Deck</div>
       </section>
     </div>
   </div>
@@ -70,11 +96,19 @@
 
     window.addEventListener("load", function(e) {
       var $title = $("#title"),
-          $lis   = $("nav li");
+          $lis   = $("nav li"),
+          $deck  = $("#deck"),
+          $cards = $(".card");
+
+      $cards.addClass("animated fadeIn hide");
 
       // now we're talking!
       $title.on(animationEnd, function(e) {
         cascadeEffect($lis);
+      });
+      unhideNextOnEnd($lis.eq(3), $cards);
+      $cards.one(animationEnd, function(e) {
+        window.setTimeout(function() {pulseEl($deck);}, 800);
       });
     });
   </script>
