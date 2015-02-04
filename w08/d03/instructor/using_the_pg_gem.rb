@@ -1,5 +1,4 @@
 require 'pry'
-require 'pg'
 
 # Leave These Variables Commented Out, For Use in a Later Example #########
 #store    = ["Sears", "Disney Store", "JC Penney"].sample
