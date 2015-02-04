@@ -41,3 +41,15 @@ UPDATE students SET age = 53 WHERE id = 1;
 
 -- Deletes the student with id of 5
 DELETE FROM students WHERE id = 5;
+
+INSERT INTO employees (name, age, title, badge_number) VALUES ('Phil', 91, 'Instructor', '55jk');
+INSERT INTO employees (name, age, title, badge_number) VALUES ('PJ', 71, 'Instructor', '21nn');
+INSERT INTO employees (name, age, title, badge_number) VALUES ('Travis', 98, 'Instructor', 'nfl64');
+INSERT INTO employees (name, age, title, badge_number) VALUES ('Inhak Kim', 31, 'Chief Demon', 'nfl21mm');
+
+-- Deletes the user where name is Inhak
+DELETE FROM students WHERE name = 'Inhak Kim';
+
+UPDATE students SET name = 'Philco' WHERE name = 'Phil';
+UPDATE students SET name = 'Trizzle' WHERE name = 'Travis';
+UPDATE students SET name = 'Philliam' WHERE name = 'PJ';
