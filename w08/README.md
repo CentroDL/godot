@@ -15,7 +15,7 @@
 
 |    | Monday | Tuesday | Wednesday | Thursday | Friday |
 |---:|:------:|:-------:|:---------:|:--------:|:------:|
-| **Lessons** | Relational Databases (Postgres)<br>Intro to SQL | SQL Joins | Data and Domain Modeling<br>File I/O & CSVs | ORMs (Active Record) | Assessment<br>Lab |
+| **Lessons** | Relational Databases (Postgres)<br>Intro to SQL | SQL Joins | Data and Domain Modeling | ORMs (Active Record) | Assessment<br>Lab |
 | **Events &amp; Panels** | | Outcomes 3:30-4:30<br>Class Trip to Pivotal Labs | | | |
 
 ### One-on-One Schedule
@@ -31,8 +31,13 @@
 Here is a list of readings, tutorials, and examples for this week's lessons:
 
 - **Postgres and Relational Databases**
+  - [Postgres Documentation](http://www.postgresql.org/docs/9.4/interactive/intro-whatis.html)
 - **SQL**
 - **Data Modeling and Normalization**
-- **File I/O**
+  - [Data Normalization](http://w3.cs.jmu.edu/mayfiecs/cs474_12sp/notes/normposter.jpg)
+  - [Domain Modeling](http://en.wikipedia.org/wiki/Domain_model)
 - **ORMs**
+  - [Object Relational Mappers](http://en.wikipedia.org/wiki/Object-relational_mapping)
 - **Active Record**
+  - [Active Record Pattern](http://en.wikipedia.org/wiki/Active_record_pattern)
+  - [Active Record Basics](http://guides.rubyonrails.org/active_record_basics.html)
