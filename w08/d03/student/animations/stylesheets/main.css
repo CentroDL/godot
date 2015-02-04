@@ -1,0 +1,57 @@
+h1, h2, h3 {
+  text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+header, .content {
+  width:    950px;
+  margin:   0 auto;
+  position: relative;
+}
+
+.table {
+  background-color: mediumseagreen;
+
+  position: absolute;
+  left: 250px;
+
+  width:      90%;
+  min-width:  500px;
+  max-width:  700px;
+  min-height: 350px;
+
+  margin:     0 auto;
+  padding:    40px;
+
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 5px solid gold;
+  outline: 2px solid gold;
+  outline-offset: -20px;
+}
+
+nav ul {
+  padding:         0 20px;
+  list-style-type: none;
+  position:        absolute;
+}
+
+nav li {
+  background:     grey;
+  width:          200px;
+  height:         30px;
+  line-height:    30px;
+  vertical-align: middle;
+  margin:         5px;
+  text-align:     center;
+  color:          white;
+  border-radius:  10px;
+  cursor:         pointer;
+}
+
+.hide {
+  display: none;
+}
