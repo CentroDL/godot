@@ -25,7 +25,21 @@ UPDATE tenants SET age = 91 WHERE age = 90;
 -- Change all tenants ages to increase by 1
 UPDATE tenants SET age = age + 1;
 -- Find all tenants who live in an apartment that costs more than $2300
-SELECT * FROM tenants INNER JOIN apartments ON tenants.apartment_id = apartments.id WHERE apartments.price > 2300;
+SELECT * FROM tenants INNER JOIN apartments ON tenants.apartment_id = apartments.id AND apartments.price > 2300;
 
+-- SELECT actors.name, movies.*
+--   FROM actors
+-- INNER JOIN actors_movies
+--   ON actors.id = actors_movies.actor_id
+-- INNER JOIN movies
+--   ON actors_movies.movie_id = movies.id
+
+-- Demonstrate joining doormen with buildings
+SELECT * FROM doormen INNER JOIN buildings ON doormen.building_id = buildings.id;
+-- Demonstrate joining buildings with apartments
+SELECT * FROM buildings INNER JOIN apartments ON buildings.id = apartments.building_id;
+
+-- Demonstrate joining apartments with tenants
+SELECT * FROM apartments INNER JOIN tenants ON apartments.id = tenants.apartment_id;
 
 
