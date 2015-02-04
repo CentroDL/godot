@@ -20,8 +20,8 @@
 
 ### One-on-One Schedule
 
-|            | Monday    | Tuesday  | Wednesday  | Thursday |
-|:----------:|:---------:|:--------:|:----------:|:---------|
+|            | Monday    | Tuesday  | Wednesday  | Thursday | Friday |
+|:----------:|:---------:|:--------:|:----------:|:---------|:---------------- |
 |   **PJ**   | | | Dain<br>Patricio | MacFarlane<br>Melodie | Michael<br>Sarah |
 |  **Phil**  | | | Andres<br>Kamari | Simons<br>DFlip       | Dennis           |
 | **Travis** | | | Aliya<br>Sade    | Chadd<br>Angelina     | Brian            |
