@@ -22,9 +22,9 @@
 
 |            | Monday    | Tuesday  | Wednesday  | Thursday |
 |:----------:|:---------:|:--------:|:----------:|:---------|
-|   **PJ**   | Dain<br>Patricio | n/a | MacFarlane<br>Melodie | Michael<br>Sarah |
-|  **Phil**  | Andres<br>Kamari | n/a | Simons<br>DFlip       | Dennis           |
-| **Travis** | Aliya<br>Sade    | n/a | Chadd<br>Angelina     | Brian            |
+|   **PJ**   | | | Dain<br>Patricio | MacFarlane<br>Melodie | Michael<br>Sarah |
+|  **Phil**  | | | Andres<br>Kamari | Simons<br>DFlip       | Dennis           |
+| **Travis** | | | Aliya<br>Sade    | Chadd<br>Angelina     | Brian            |
 
 ### Suggested Readings and Examples
 
