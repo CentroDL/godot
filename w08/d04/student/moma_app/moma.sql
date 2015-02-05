@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS artists CASCADE;
+DROP TABLE IF EXISTS paintings CASCADE;
+
+CREATE TABLE artists(
+  id SERIAL PRIMARY KEY,
+  name VARCHAR NOT NULL,
+  nationality VARCHAR NOT NULL
+);
+
+CREATE TABLE paintings(
+  id SERIAL PRIMARY KEY,
+  title VARCHAR NOT NULL,
+  artist_id INTEGER REFERENCES artists (id)
+);
