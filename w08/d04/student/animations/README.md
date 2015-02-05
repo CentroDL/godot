@@ -81,7 +81,7 @@ to implement a few of the simple animations on the contents of the page.
    [jquery-throttle-debounce](https://github.com/cowboy/jquery-throttle-debounce), and described at
    [Cowboy's blog post about his gorgeous code](http://benalman.com/projects/jquery-throttle-debounce-plugin).
 1. Use this plugin's `jQuery.throttle()` method to make sure that you can only call the ***deck's***
-   "click" event handler once every second (the length of time of the card flip animation) to create
+   "click" event handler once every second (the length of time of the *card-flip* animation) to create
    a new card element.
 
 ***... to be continued!***
