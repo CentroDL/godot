@@ -16,8 +16,13 @@ ActiveRecord::Base.establish_connection(
 van_gogh = Artist.create name: 'Vincent Van Gogh',   nationality:  'Dutch'
 picasso  = Artist.create name: 'Pablo Picasso',      nationality:  'Spanish'
 hokusai  = Artist.create name: 'Katsushika Hokusai', nationality:  'Japanese'
+dennis   = Artist.create name: 'Dennis Liaw',        nationality:  'USA'
 
 # # Paintings
+dennis.paintings.create title: 'Prism Shell'
+
+springer = Painting.new title: 'Springer'
+dennis.paintings << springer
 
 Painting.create title: 'Starry Night',                artist_id: van_gogh.id
 Painting.create title: 'Cafe Terrace at Night',       artist_id: van_gogh.id
