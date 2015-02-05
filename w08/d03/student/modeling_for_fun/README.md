@@ -118,7 +118,7 @@ love!
 
 From your ERD diagrams above, write a database schema files:
 
-A. Database: `refridgerator_management_db`, Schema: `create_fridge_db.sql`
-B. Database: `manga_library_db`, Schema: `create_library_db.sql`
-C. Database: `street_pets_db`, Schema: `create_pets_db.sql`
+A. Database: `refridgerator_management_db`, Schema: `create_fridge_db.sql`   
+B. Database: `manga_library_db`, Schema: `create_library_db.sql`   
+C. Database: `street_pets_db`, Schema: `create_pets_db.sql`   
 
