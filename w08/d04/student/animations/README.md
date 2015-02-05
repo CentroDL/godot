@@ -51,7 +51,7 @@ var cards = [
   "sA"  /* ... */
 ];
 ```
-2. Write an event handler and attach it to the deck that:
+2. Write a "click" event handler and attach it to the deck that:
   - the first time it's called, shuffles the deck,
   - every subsequent time, pops one of the cards off of the deck
 3. Add an animation to make the deck `shake` when you shuffle it.
