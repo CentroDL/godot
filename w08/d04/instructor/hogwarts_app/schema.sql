@@ -21,6 +21,10 @@ CREATE TABLE spells (
   name varchar UNIQUE
 );
 
+-- this is the join table
+-- we don't create an active record model
+-- we just put has_and_belongs_to_many on both
+-- foreign key tables
 CREATE TABLE spells_students (
   spell_id integer REFERENCES spells(id),
   student_id integer REFERENCES students(id)
