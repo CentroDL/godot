@@ -7,7 +7,11 @@
 
 class Student < ActiveRecord::Base
 
+  belongs_to :house
+  has_and_belongs_to_many :spells
+
   validates(:fname,{ presence: true })
+  validates(:lname,{ presence: true })
 
   def read_directions
     "never!"
