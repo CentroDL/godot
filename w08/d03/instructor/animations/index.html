@@ -70,11 +70,12 @@
   </div>
   <script>
     // Your scripts here.
+    var $title,
+        $lis,
+        $deck,
+        $cards;
 
-    // vendor prefix animationend events from https://github.com/daneden/animate.css#usage
     var animationEnd = "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
-
-    // HAND-ROLLING IT ISN'T THAT HARD!
     var unhideNextOnEnd = function($currentEl, $nextEl) {
       $currentEl.on(animationEnd, function(e) {
         $nextEl.removeClass("hide");
@@ -95,10 +96,10 @@
     }
 
     window.addEventListener("load", function(e) {
-      var $title = $("#title"),
-          $lis   = $("nav li"),
-          $deck  = $("#deck"),
-          $cards = $(".card");
+      $title = $("#title");
+      $lis   = $("nav li");
+      $deck  = $("#deck");
+      $cards = $(".card");
 
       $cards.addClass("animated fadeIn hide");
 
