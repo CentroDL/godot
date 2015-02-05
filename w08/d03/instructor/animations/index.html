@@ -108,7 +108,9 @@
       });
       unhideNextOnEnd($lis.eq(3), $cards);
       $cards.one(animationEnd, function(e) {
-        window.setTimeout(function() {pulseEl($deck);}, 800);
+        window.setTimeout(function() {
+          $deck.removeClass("fadeIn").addClass("pulse");
+        }, 800);
       });
     });
   </script>
