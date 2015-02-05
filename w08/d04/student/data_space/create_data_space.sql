@@ -9,7 +9,7 @@ DROP TYPE  IF EXISTS roles;
 
 CREATE TABLE nations (
   id            SERIAL       PRIMARY KEY,
-  country_code  VARCHAR(2)   NOT NULL, -- ISO 3166-1 codes (CCs)
+  country_code  VARCHAR(2)   UNIQUE NOT NULL, -- ISO 3166-1 codes (CCs)
   name          VARCHAR(50)  NOT NULL,
   head_of_state VARCHAR(100)
 );
@@ -48,7 +48,7 @@ CREATE TABLE space_travelers (
 );
 CREATE TABLE space_programs (
   id         SERIAL        PRIMARY KEY,
-  name       VARCHAR(50)   NOT NULL,
+  name       VARCHAR(50)   UNIQUE NOT NULL,
   budget     DECIMAL, -- http://stackoverflow.com/questions/1019939/ruby-on-rails-best-method-of-handling-currency-money
   director   VARCHAR(100),
   founded_on DATE          NOT NULL,

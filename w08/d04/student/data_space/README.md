@@ -46,8 +46,9 @@ while more is better; healthy living is best.
 
 1. Add validations to the models where necessary to enforce the constraints
    described in our schema, including:
-     - ["ENUM"s](http://guides.rubyonrails.org/active_record_validations.html#inclusion)
+     - [UNIQUES](http://guides.rubyonrails.org/active_record_validations.html#uniqueness)
      - [NOT NULLs](http://guides.rubyonrails.org/active_record_validations.html#presence)
+     - (optional) ["ENUM"s](http://guides.rubyonrails.org/active_record_validations.html#inclusion)
      - any others you find necessary (but don't go overboard!)
 
 **TEST YOUR MODELS AND VALIDATIONS AS YOU GO.** Run them in `pry` to ensure
