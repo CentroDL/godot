@@ -75,3 +75,17 @@ You should be able to load up `db_config.rb` in pry again and instantiate Studen
 
 - Create additional ActiveRecord models for houses, spells, and death eater memberships.
 - Create Ruby files for each and use require_relative to add them to `db_config.rb`
+- Add additional Houses for "Durmstrang" and "Beauxbatons"
+- Create the following students for House Beauxbatons
+  - Fleur Delacour
+  - Gabrielle Delacour
+  - Luc Millefeuille
+  - Nicolas Flamel
+  - Olympe Maxime
+  - Perenelle Flamel
+  - Vincent Duc de Trefle-Picques
+- Create the following students for House Durmstrang
+  - Gellert Grindelwald
+  - Viktor Krum
+  - Poliakoff
+  - Igor Karkaroff
