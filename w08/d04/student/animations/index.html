@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/cards.css">
   <link rel='stylesheet' type='text/css' href='stylesheets/normalize.css'>
   <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+
   <style>
     /* Your style here. */
     #title {
@@ -46,6 +47,7 @@
   </style>
 
   <script type="text/javascript" src="scripts/jquery.js"></script>
+  <script type="text/javascript" src="scripts/lodash.js"></script>
 </head>
 <body>
   <div class="wrapper">
@@ -73,7 +75,19 @@
     var $title,
         $lis,
         $deck,
-        $cards;
+        $cards,
+        $table,
+        cards,
+        currentDeck,
+        currentCard,
+        deckShuffled = false;
+
+    cards = [
+    "dA","dK","dQ","dJ","d10","d09","d08","d07","d06","d05","d04","d03","d02",
+    "cA","cK","cQ","cJ","c10","c09","c08","c07","c06","c05","c04","c03","c02",
+    "hA","hK","hQ","hJ","h10","h09","h08","h07","h06","h05","h04","h03","h02",
+    "sA","sK","sQ","sJ","s10","s09","s08","s07","s06","s05","s04","s03","s02"
+    ];
 
     var animationEnd = "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
     var unhideNextOnEnd = function($currentEl, $nextEl) {
@@ -100,6 +114,7 @@
       $lis   = $("nav li");
       $deck  = $("#deck");
       $cards = $(".card");
+      $table = $(".table")
 
       $cards.addClass("animated fadeIn hide");
 
@@ -113,7 +128,25 @@
           $deck.removeClass("fadeIn").addClass("pulse");
         }, 800);
       });
-    });
+
+      $deck.on( "click", function(e){
+        if(deckShuffled) {
+          currentCard = currentDeck.pop();
+          $currentCardEl = $('<div class="card '+currentCard+'">'+currentCard+'</div>');
+          $currentCardEl.css({ top: "216px", left: "50%"});
+          $currentCardEl.addClass("animated flipInY");
+          $table.append($currentCardEl);
+        } else {
+          console.log("first click.");
+          currentDeck = _.shuffle(cards);
+          deckShuffled = true;
+          $deck.removeClass("pulse").addClass("shake");
+        }
+      });
+
+    });//onLoad
+
+
   </script>
 </body>
 </html>
