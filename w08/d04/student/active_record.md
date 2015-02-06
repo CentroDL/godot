@@ -9,9 +9,17 @@ Be sure you're both able to answer the following questions:
 
 **These questions will be on the assessment tomorrow**
 
-- What naming conventions does ActiveRecord follow? 
+- What naming conventions does ActiveRecord follow?
+
+  CamelCase for classnames, pluralized snake case for table names.
+
 - What optional columns will ActiveRecord use if they're on a table?
+
+  created_at, updated_at, lock_version, type, ascociation_name_type, table_name_count
+
 - How do you create an ActiveRecord model?
+
+  Define a class that inherits from ActiveRecord::Base
 
 Given the following sql
 
