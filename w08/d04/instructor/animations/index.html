@@ -15,7 +15,7 @@
       -moz-animation-duration:    1.5s;
       -o-animation-duration:      1.5s;
       animation-duration:         1.5s;
-    } /* use the id selector to increase the specificity! */
+    }
     section .table.animated.fadeInRight {
       -webkit-animation-duration: 2s;
       -moz-animation-duration:    2s;
@@ -27,7 +27,7 @@
       -moz-animation-duration:    0.5s;
       -o-animation-duration:      0.5s;
       animation-duration:         0.5s;
-    } /* use multiple selectors to increase the specificity! */
+    }
 
   .card {
       position: absolute;
@@ -39,13 +39,14 @@
       left: 50%;
     }
 
-    .west { left: 20%; }
+    .west  { left: 20%; }
     .north { left: 40%; }
-    .east { left: 60%; }
+    .east  { left: 60%; }
     .south { left: 80%; }
   </style>
 
   <script type="text/javascript" src="scripts/jquery.js"></script>
+  <script type="text/javascript" src="scripts/lodash.js"></script>
 </head>
 <body>
   <div class="wrapper">
@@ -73,7 +74,19 @@
     var $title,
         $lis,
         $deck,
-        $cards;
+        $cards,
+        $table,
+        $currentCardEl,
+        deckOfCards,
+        currentDeck,
+        deckIsShuffled = false;
+
+    deckOfCards = [
+      "dA","dK","dQ","dJ","d10","d09","d08","d07","d06","d05","d04","d03","d02",
+      "cA","cK","cQ","cJ","c10","c09","c08","c07","c06","c05","c04","c03","c02",
+      "hA","hK","hQ","hJ","h10","h09","h08","h07","h06","h05","h04","h03","h02",
+      "sA","sK","sQ","sJ","s10","s09","s08","s07","s06","s05","s04","s03","s02"
+    ];
 
     var animationEnd = "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
     var unhideNextOnEnd = function($currentEl, $nextEl) {
@@ -94,16 +107,26 @@
       $els.eq(0).removeClass("hide");
       return true;
     }
+    var shuffleDeck = function() {
+      $deck.removeClass("pulse").addClass("shake");
+      return _.shuffle(deckOfCards);
+    }
+    var pullCard = function(card) {
+      return $('<div class="card '+card+'">'+card+'</div>')
+        .css({top: "216px", left: "50%"})
+        .addClass("animated flipInY")
+        .appendTo($table);
+    }
 
     window.addEventListener("load", function(e) {
       $title = $("#title");
       $lis   = $("nav li");
       $deck  = $("#deck");
       $cards = $(".card");
+      $table = $(".table");
 
       $cards.addClass("animated fadeIn hide");
 
-      // now we're talking!
       $title.on(animationEnd, function(e) {
         cascadeEffect($lis);
       });
@@ -113,7 +136,23 @@
           $deck.removeClass("fadeIn").addClass("pulse");
         }, 800);
       });
-    });
+      $deck.on("click", function(event) {
+        if (deckIsShuffled) {
+          $currentCardEl = pullCard(currentDeck.pop());
+        } else {
+          currentDeck = shuffleDeck();
+          deckIsShuffled = true;
+        }
+      }); // deck.click
+
+      // $deck.one("click", function(event) {
+      //   currentDeck = shuffleDeck();
+      //   $deck.on("click", function(event) {
+      //     $currentCardEl = pullCard(currentDeck.pop());
+      //   });
+      // }); // deck.click if you're a baller
+
+    }); // window.load
   </script>
 </body>
 </html>
