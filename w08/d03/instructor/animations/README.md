@@ -67,7 +67,7 @@ var cards = [
 
 1. Whenever a new card is created, give it a one time event-handler that
    will move it to one of the 4 positions on the board (West, North, East or
-   South).
+   South) on a click.
 1. Use jQuery's `.animate()` to animate the cards' click events (above).
 1. Make the cards' click events (above) distribute them, starting at
    West, to the positions in order.

@@ -70,7 +70,7 @@ to implement a few of the simple animations on the contents of the page.
 
 1. Whenever a new card is created, give it a one time event-handler that
    will move it to one of the 4 positions on the board (West, North, East or
-   South).
+   South) on click.
 1. Use jQuery's `.animate()` to animate the cards' click events (above).
 1. Make the cards' click events (above) distribute them, starting at
    West, to the positions in order.
@@ -83,5 +83,3 @@ to implement a few of the simple animations on the contents of the page.
 1. Use this plugin's `jQuery.throttle()` method to make sure that you can only call the ***deck's***
    "click" event handler once every second (the length of time of the *card-flip* animation) to create
    a new card element.
-
-***... to be continued!***
