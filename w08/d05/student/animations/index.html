@@ -115,7 +115,24 @@
       return $('<div class="card '+card+'">'+card+'</div>')
         .css({top: "216px", left: "50%"})
         .addClass("animated flipInY")
+        .one("click", function(e){
+
+            $(e.target).animate( {top: '40px', left: lastCard + '%'} );
+
+            lastCard += 20;
+
+            if (lastCard > 80)
+              lastCard = 20;
+            // place = _.shuffle(placements).pop();
+            // $(e.target).css({top: "40px", left: ""})
+            //               .removeClass("animated flipInY")
+            //               .addClass(place);
+        })
         .appendTo($table);
+    }
+
+    var placeCard = function(card){
+
     }
 
     window.addEventListener("load", function(e) {
@@ -124,7 +141,9 @@
       $deck  = $("#deck");
       $cards = $(".card");
       $table = $(".table");
-
+      // placements = ["north", 'east','west', 'south'];
+      // placements = ["20", '40','60', '80'];
+      lastCard = 20;
       $cards.addClass("animated fadeIn hide");
 
       $title.on(animationEnd, function(e) {
@@ -145,6 +164,8 @@
         }
       });
     }); // window.load
+
+
   </script>
 </body>
 </html>
