@@ -8,7 +8,7 @@
 class Nation < ActiveRecord::Base
 
   has_many :space_programs
-  has_many :space_travellers
+  has_many :space_travelers
 
   validates :country_code,  presence: true
   validates :country_code,  uniqueness: true
