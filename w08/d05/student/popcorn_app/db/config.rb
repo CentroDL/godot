@@ -1,4 +1,8 @@
 require 'active_record'
+require_relative '../models/user.rb'
+require_relative '../models/movie.rb'
+require_relative '../models/purchase.rb'
+require_relative '../models/movie.rb'
 
 ActiveRecord::Base.establish_connection(
   adapter:  'postgresql',
@@ -9,3 +13,4 @@ ActiveRecord::Base.establish_connection(
 
 # Logging
 ActiveRecord::Base.logger = ActiveSupport::Logger.new($stdout)
+
