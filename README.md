@@ -96,7 +96,7 @@ Keep in mind, this is tentative. **We may (and shall) change topics and dates as
 | **[Week 6](/w06/README.md)** | 1/20 &ndash; 1/23   | Programming in the Browser Environment (JavaScript) |
 | **[Week 7](/w07/README.md)** | 1/26 &ndash; 1/30   | Using JavaScript Libraries<br>jQuery<br>*Second Project Sprint* |
 | **[Week 8](/w08/README.md)** | 2/2 &ndash; 2/6     | Modeling Domains and Data<br>Using SQL and ORMs (ActiveRecord)<br>  |
-| **Week 9**        | 2/9 &ndash; 2/13  | The Rails Web Application Framework |
+| **[Week 9](/w09/README.md)**        | 2/9 &ndash; 2/13  | The Rails Web Application Framework |
 | **Week 10**       | 2/17 &ndash; 2/20 | *Third (Group) Project Sprint* |
 | **Week 11**       | 2/23 &ndash; 2/27 | AJAX<br>Client-side Application Development (JavaScript) |
 | **Weeks 12 & 13** | 3/2 &ndash; 3/10  | *Final Project Sprint* |
