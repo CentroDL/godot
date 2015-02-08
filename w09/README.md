@@ -23,6 +23,8 @@ Here is a list of readings, tutorials, and examples for this week's lessons:
 
 - **Intro to Rails**
   + [Getting Started with Rails](http://guides.rubyonrails.org/getting_started.html)
+  + [RESTful Routing](http://guides.rubyonrails.org/routing.html)
+- **[REST](http://rest.elkstein.org)**
 - **[Views and Rendering](http://guides.rubyonrails.org/layouts_and_rendering.html)**
 - **View "Helpers"**
   + [Link/Button Helpers](http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html)
