@@ -25,4 +25,4 @@ Here is a list of readings, tutorials, and examples for this week's lessons:
 
 ### What are we doing next week?
 
-- **Module name**: description...
+- **Group Project Sprint**: We'll be working in small teams for a 4-5 day project sprint. 
