@@ -10,17 +10,56 @@ require_relative './config.rb'
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-pg_conn = PG.connect dbname: 'popcorn_db'
 
-10.times do
-  name  = Faker::Name.name
-  #=> "Miss Pearlie Buckridge", eg
+DB = PG.connect dbname: 'popcorn_db'
+
+def create_user
   email = Faker::Internet.email
   #=> "grayce@ledner.ca", eg
   born  = Faker::Time.date(:year_range => 60, :year_latest => 11)
   #=> "1976-04-09 00:00:00 -0500", eg
 
-  pg_conn.exec_params("INSERT INTO users (name, email, born_on) VALUES ($1, $2, $3)", [name, email, born])
+  DB.exec_params("INSERT INTO users (email, born_on) VALUES ($1, $2)", [email, born] )
+
+  puts "Created #{email} in Users."
+
+end
+
+def create_movie
+
+#   title           VARCHAR    NOT NULL,
+title = Faker::Movie.title
+#   available_on    DATE       NOT NULL,
+
+#   description     VARCHAR    NOT NULL,
+description = Faker::HipsterIpsum.sentences(5)
+#   rating          varchar    NOT NULL,
+
+#   poster_image    VARCHAR    NOT NULL,
+
+#   created_at      timestamp  DEFAULT CURRENT_TIMESTAMP,
+
+#   updated_at      timestamp  DEFAULT CURRENT_TIMESTAMP,
+
+#   length          INTERVAL   NOT NULL, --microseconds?
+
+end
+
+def create_genre
+
+end
+
+def create_purchase
+end
+
+10.times do
+
+  create_user
+  create_movie
+  # will these autofill the link table?
+  create_purchase
+  create_genre
+
 end
 
 

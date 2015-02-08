@@ -29,7 +29,7 @@ CREATE TABLE users(
   balance     MONEY      DEFAULT 0.00,
   born_on     DATE       NOT NULL,
   created_at  timestamp  DEFAULT CURRENT_TIMESTAMP,
-  update_at   timestamp  DEFAULT CURRENT_TIMESTAMP
+  updated_at  timestamp  DEFAULT CURRENT_TIMESTAMP
 );
 
 
