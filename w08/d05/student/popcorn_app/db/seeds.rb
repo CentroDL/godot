@@ -19,7 +19,7 @@ def create_user
   born  = Faker::Time.date(:year_range => 60, :year_latest => 11)
   #=> "1976-04-09 00:00:00 -0500", eg
 
-  DB.exec_params("INSERT INTO users (email, born_on) VALUES ($1, $2)", [email, born] )
+  DB.exec_params "INSERT INTO users (email, born_on) VALUES ($1, $2)", [email, born]
 
   puts "Created #{email} in Users."
 
@@ -27,22 +27,26 @@ end
 
 def create_movie
 
-#   title           VARCHAR    NOT NULL,
-title = Faker::Movie.title
-#   available_on    DATE       NOT NULL,
+  #   title           VARCHAR    NOT NULL,
+  title = Faker::Movie.title
+  #   available_on    DATE       NOT NULL,
+  available_on = Faker::Time.date
+  #   description     VARCHAR    NOT NULL,
+  description = Faker::HipsterIpsum.sentences(5)
+  #   rating          varchar    NOT NULL,
+  rating = ['G', 'PG', 'PG-13', 'R', 'NC-17'].sample
+  #   poster_image    VARCHAR    NOT NULL,
+  poster_image = 'http://www.somesite.com/imgs/someimage.jpg'
+  #   created_at      timestamp  DEFAULT CURRENT_TIMESTAMP,
 
-#   description     VARCHAR    NOT NULL,
-description = Faker::HipsterIpsum.sentences(5)
-#   rating          varchar    NOT NULL,
+  #   updated_at      timestamp  DEFAULT CURRENT_TIMESTAMP,
 
-#   poster_image    VARCHAR    NOT NULL,
+  #   length          INTERVAL   NOT NULL, --microseconds?
+  length = "#{rand(1..3)} hours"
 
-#   created_at      timestamp  DEFAULT CURRENT_TIMESTAMP,
+  DB.exec_params "INSERT INTO movies (title, available_on, description, rating, poster_image, length) VALUES ($1, $2, $3, $4, $5, $6)", [title, available_on, description, rating, poster_image, length]
 
-#   updated_at      timestamp  DEFAULT CURRENT_TIMESTAMP,
-
-#   length          INTERVAL   NOT NULL, --microseconds?
-
+  puts "Created #{title} in MOVIES."
 end
 
 def create_genre

@@ -2,12 +2,14 @@ DROP TABLE IF EXISTS users CASCADE;
 DROP TABLE IF EXISTS purchases CASCADE;
 DROP TABLE IF EXISTS genres CASCADE;
 DROP TABLE IF EXISTS movies CASCADE;
-DROP TABLE IF EXISTS genre_movies CASCADE;
+DROP TABLE IF EXISTS genres_movies CASCADE;
 
 CREATE TABLE genres(
   id    SERIAL   PRIMARY KEY,
   name  VARCHAR  NOT NULL
 );
+
+CREATE TYPE rating AS ENUM ('G', 'PG', 'PG-13', 'R', 'NC-17');
 
 CREATE TABLE movies(
   id              SERIAL     PRIMARY KEY,
@@ -15,7 +17,7 @@ CREATE TABLE movies(
   rental_price    MONEY      DEFAULT 3.99,
   available_on    DATE       NOT NULL,
   description     VARCHAR    NOT NULL,
-  rating          varchar    NOT NULL,
+  rating          rating    NOT NULL,
   poster_image    VARCHAR    NOT NULL,
   length          INTERVAL   NOT NULL, --microseconds?
   created_at      timestamp  DEFAULT CURRENT_TIMESTAMP,
@@ -44,7 +46,7 @@ CREATE TABLE purchases(
 );
 
 
-CREATE TABLE genre_movies(
-  genre   INTEGER REFERENCES genres(id),
-  movies  INTEGER REFERENCES movies(id)
+CREATE TABLE genres_movies(
+  genre_id   INTEGER REFERENCES genres(id),
+  movie_id  INTEGER REFERENCES movies(id)
 );
