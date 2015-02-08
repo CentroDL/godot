@@ -8,7 +8,7 @@
 
 |    | Monday | Tuesday | Wednesday | Thursday | Friday |
 |---:|:------:|:-------:|:---------:|:--------:|:------:|
-| **Lessons** | Intro to Rails | Rails Helpers <br> Serving Assets in Rails | Multi-Model CRUD in Rails | Consuming APIs<br>+<br>Creating APIs w/ Rails | |
+| **Lessons** | Intro to Rails | Rails Helpers <br> Serving Assets in Rails | Multi-Model CRUD in Rails | Consuming APIs<br>+<br>Creating APIs | |
 | **Events &amp; Panels** | | | | | |
 
 ### Suggested Readings and Examples
