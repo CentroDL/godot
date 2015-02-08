@@ -21,7 +21,8 @@
 
 Here is a list of readings, tutorials, and examples for this week's lessons:
 
-- **Lesson name** (link directly if one link, or sub-lists if more than one...)
+- **Intro to Rails**
+  * [Getting Started with Rails](http://guides.rubyonrails.org/getting_started.html)
 
 ### What are we doing next week?
 
