@@ -17,15 +17,15 @@ Request -> Route -> Controller -> Action -> Model -> View -> Response
 
 ## Important files and folders
 
-`config/routes.rb`
-`config/database.yml`
-`app/controllers`
-`app/models`
-`app/views`
-`db/seeds.rb`
-`assets/javascripts`
-`assets/stylesheets`
-`assets/images`
+- `config/routes.rb`
+- `config/database.yml`
+- `app/controllers`
+- `app/models`
+- `app/views`
+- `db/seeds.rb`
+- `assets/javascripts`
+- `assets/stylesheets`
+- `assets/images`
 
 ## Transitioning from Sinatra Route Handlers
 
