@@ -1,6 +1,6 @@
 ## Doin' That Dee Eye (WDI)
 
-Today you began your introduction to Rails. Tonight, your introduction continues, as you build a simple web app to to represent your WDI cohort.
+Today you began your introduction to Rails. Tonight, your introduction continues as you build out a simple web app to hold crucial information about your WDI cohort.
 
 #### Completion
 
