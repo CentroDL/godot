@@ -47,7 +47,7 @@ Fulfill the following specifications:
 1. Alter the template that gets rendered when users hit the root so that there is also a link to `/students`.
 1. Fulfill the following specifications:
   -  GET requests to `/students` should have a heading that says, "Students:", followed by an unordered list of links to students, ie `/students/1`, `/students/2`, `/students/3`, and so on.
-  - GET requests to `/students/1` should display the name and photo of the student with the `id` of 1, while GET requests to `/students/13` should display the information of the student with the `id` of 3.
+  - GET requests to `/students/1` should display the name and photo of the student with the `id` of 1, while GET requests to `/students/13` should display the information of the student with the `id` of 13.
 
 #### Useful Command-Line Commands
 
