@@ -40,37 +40,49 @@ Run the command `rails` from outside of a Rails app and from within one.
 Does the output change?
 
 - What version of Rails are you running?
+    We are using Rails 4.2.0
 - What's the command to create a new Rails application?
+    rails new app_name
 - What is Rails default Database?
+    sqlite
 - How does one configure Rails presets?
+    rails -d
 - How does one create a new Rails Application with a postgresql database?
+    rail new my_app -d postgresql
 
 ## Do the following
 
 Inside of `dev/wdi`
 
 Create a new Rails application called `sample_app` without Active Record
+  rails new sample_app -O
+Create another new Rails application called `welcome_app` with
 
-Create another new Rails application called `welcome_app` with 
-
-- a postgres database inside of `dev/wdi` 
+- a postgres database inside of `dev/wdi`
 - no Javascript
+
+  rails new welcome_app -d postgresql -J
 
 Create another new Rails application called `popcorn_app` with
 
 - a postgres database
 - no turbolinks
-- no test unit 
+- no test unit
+
+  rails new popcorn_app -d postgresql --skip-turbolinks -T
 
 `cd` into `sample_app` and run `rails -h`
 
 What is the command to start the server?
+  rails s
 
 What port does the server listen on?
+  3000
 
 What's the command to run the server in a different environment?
-
+  rails s -e
 What command starts a Rails console?
+  rails c
 
 `rake` is a Ruby program built to run tasks.
 
