@@ -8,7 +8,7 @@ Completion for tonight's homework __is to get through part 5__.
 
 #### Part 1: Read!
 
-Carefully read the following portions of the Rails guides. You're not expected to know all the verbiage in these guides, but a careful reading will yield major understandings when learning Rails.
+Carefully read the following portions of the Rails guides:
 - [Rails Routing](http://guides.rubyonrails.org/routing.html)
 - [Rails Controllers](http://guides.rubyonrails.org/action_controller_overview.html)
 - [Rails Views](http://guides.rubyonrails.org/action_view_overview.html)
