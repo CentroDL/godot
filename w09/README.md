@@ -22,7 +22,17 @@
 Here is a list of readings, tutorials, and examples for this week's lessons:
 
 - **Intro to Rails**
-  * [Getting Started with Rails](http://guides.rubyonrails.org/getting_started.html)
+  + [Getting Started with Rails](http://guides.rubyonrails.org/getting_started.html)
+  + [RESTful Routing](http://guides.rubyonrails.org/routing.html)
+- **[REST](http://rest.elkstein.org)**
+- **[Views and Rendering](http://guides.rubyonrails.org/layouts_and_rendering.html)**
+- **View "Helpers"**
+  + [Link/Button Helpers](http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html)
+  + [Form Heplers](http://guides.rubyonrails.org/form_helpers.html)
+- **The Asset Pipeline and _Build_ Tasks**
+  + [The Asset Pipeline](http://guides.rubyonrails.org/asset_pipeline.html)
+  + [Sprockets](https://github.com/rails/sprockets-rails)
+  + [Different Ways of Building Finalized Assets](http://stackoverflow.com/questions/9287823/combine-and-minify-multiple-css-js-files)
 
 ### What are we doing next week?
 
