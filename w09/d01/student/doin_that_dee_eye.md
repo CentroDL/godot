@@ -1,4 +1,10 @@
-## Doin' That DI
+## Doin' That Dee Eye (WDI)
+
+Today you began your introduction to Rails. Tonight, your introduction continues, as you build a simple web app to to represent your WDI cohort.
+
+#### Completion
+
+Completion for tonight's homework __is to get through part 5__.
 
 #### Part 1: Read!
 
