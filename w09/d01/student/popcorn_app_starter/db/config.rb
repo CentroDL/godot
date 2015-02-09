@@ -7,8 +7,8 @@ require_relative '../models/purchase.rb'
 ActiveRecord::Base.establish_connection(
   adapter:  'postgresql',
   host:     'localhost',
-  username: 'philco',
-  database: 'popcorn_db'
+  username: 'Dennis',
+  database: 'popcorn_app_development'
 )
 
 # Logging
