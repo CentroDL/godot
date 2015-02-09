@@ -23,9 +23,11 @@ class Movie < ActiveRecord::Base
   end
 
   def formatted_time
+    self.length
   end
 
   def rented_by?(user)
+    user.purchases.where( purchase_type: 'rent' ).pluck(:movie_id).include?(id)
   end
 
   def owned_by?(user)

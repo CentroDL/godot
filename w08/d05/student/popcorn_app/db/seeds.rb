@@ -50,10 +50,13 @@ def create_movie
 end
 
 def create_genre
-
+  DB.exec_params "INSERT INTO genres (name) VALUES 'comedy';"
+  DB.exec_params "INSERT INTO genres (name) VALUES 'horror';"
+  DB.exec_params "INSERT INTO genres (name) VALUES 'action';"
 end
 
 def create_purchase
+
 end
 
 10.times do

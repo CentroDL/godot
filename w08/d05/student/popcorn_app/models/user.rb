@@ -26,20 +26,44 @@ class User < ActiveRecord::Base
   end
 
   def can_view?(movie)
-
+    case movie.rating
+    when 'G'
+      self.age >= 0
+    when 'PG'
+      self.age >= 0
+    when 'PG-13'
+      self.age >= 13
+    when 'R'
+      self.age >= 17
+    when 'NC-17'
+      self.age >= 17
+    end
   end
 
   def buy(movie)
-    self.purchases.create( purchase_type: 'own', movie_id: movie.id)
+    if self.can_afford_to_buy?(movie)
+      self.purchases.create( purchase_type: 'own', movie_id: movie.id)
+      self.balance -= movie.purchase_price
+    else
+      puts "Not enough money to buy."
+    end
   end
 
   def rent(movie)
+    if self.can_afford_to_rent? movie
+      self.purchases.create purchase_type: 'rent', movie_id: movie.id
+      self.balance -= movie.rental_price
+    else
+      puts 'Not enough money to rent.'
+    end
   end
 
   def rented_movies
+    self.purchases .where( purchase_type: 'rent')
   end
 
   def purchased_movies
+    self.purchases .where( purchase_type: 'own')
   end
 
   def owns?(movie)

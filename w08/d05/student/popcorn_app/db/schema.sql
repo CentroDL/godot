@@ -17,7 +17,7 @@ CREATE TABLE movies(
   rental_price    MONEY      DEFAULT 3.99,
   available_on    DATE       NOT NULL,
   description     VARCHAR    NOT NULL,
-  rating          rating    NOT NULL,
+  rating          rating     NOT NULL,
   poster_image    VARCHAR    NOT NULL,
   length          INTERVAL   NOT NULL, --microseconds?
   created_at      timestamp  DEFAULT CURRENT_TIMESTAMP,
@@ -34,19 +34,16 @@ CREATE TABLE users(
   updated_at  timestamp  DEFAULT CURRENT_TIMESTAMP
 );
 
-
-
 CREATE TABLE purchases(
-  id            SERIAL  PRIMARY KEY,
-  user_id       integer REFERENCES users(id),
-  movie_id      integer REFERENCES movies(id),
-  purchase_type VARCHAR NOT NULL,
+  id            SERIAL    PRIMARY KEY,
+  user_id       integer   REFERENCES users(id),
+  movie_id      integer   REFERENCES movies(id),
+  purchase_type VARCHAR   NOT NULL,
   created_at    timestamp DEFAULT CURRENT_TIMESTAMP,
   updated_at    timestamp DEFAULT CURRENT_TIMESTAMP
 );
 
-
 CREATE TABLE genres_movies(
-  genre_id   INTEGER REFERENCES genres(id),
+  genre_id  INTEGER REFERENCES genres(id),
   movie_id  INTEGER REFERENCES movies(id)
 );
