@@ -20,4 +20,9 @@ class CheesesController < ApplicationController
     params.require(:cheese).permit(:name, :milk_type, :image_url, :description)
   end
 
+  def destroy
+    Cheese.destroy params[:id]
+    redirect_to cheeses_path
+  end
+
 end
