@@ -9,6 +9,5 @@ class UsersController < ApplicationController
 
   def new
     @user = User.new
-    render :erb, :"resource/action.thml.erb"
   end
 end
