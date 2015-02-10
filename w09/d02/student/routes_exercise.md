@@ -11,11 +11,11 @@ For example:
 
 | ACTION     | Resource    | Description |
 |:-----------|:------------|:------------|
-|            |             | "Unpin" a wedding dress from Pinterest that your Mom doesn't like. |
-|            | **users**   | Go to your profile page on LinkedIn in order to add your new GA experience. |
-|            |             | See the results of a search on the New York Times for articles about "Net Neutrality." |
-|            |             | Submit changes to Winston Churchill's wiki page to remind everyone he was an "imperialist bigot." |
-|            |             | Upload a video to YouTube. |
+| **UPDATE** |  **pins**   | "Unpin" a wedding dress from Pinterest that your Mom doesn't like. |
+| **EDIT** | **users**   | Go to your profile page on LinkedIn in order to add your new GA experience. |
+| **SHOW**   |  **articles** | See the results of a search on the New York Times for articles about "Net Neutrality." |
+|     **UPDATE**       |     **wiki**        | Submit changes to Winston Churchill's wiki page to remind everyone he was an "imperialist bigot." |
+|    **CREATE**        |     **video**        | Upload a video to YouTube. |
 | **UPDATE** |             | "Like" your friend's picture of his dog on Facebook. |
 |            | **files**   | Click on the "pencil" icon on your README in GitHub to fix an arror. |
 |            |             | Go to the page to direct message your friend on Twitter. |

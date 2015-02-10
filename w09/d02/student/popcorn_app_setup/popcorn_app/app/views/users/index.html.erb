@@ -2,6 +2,13 @@
 
 <div class="users collection">
   <% @users.each do |user| %>
-    <li><%= user.login %></li>
+    <div class="user">
+      <p>User Login: <%= user.login %></p>
+      <p>Current Balance: <%= user.balance %></p>
+      <p>Birthdate: <%= user.born_on %></p>
+      <%= link_to "Go to this user.", user_path(user.id) %>
+    </div>
+
+    </div>
   <% end %>
 </div>

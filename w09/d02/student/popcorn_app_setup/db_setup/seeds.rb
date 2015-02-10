@@ -4,7 +4,7 @@ require 'active_record'
 ActiveRecord::Base.establish_connection(
   adapter:  'postgresql',
   host:     'localhost',
-  username: '...',
+  username: 'Dennis',
   database: 'popcorn_app_development'
 )
 
