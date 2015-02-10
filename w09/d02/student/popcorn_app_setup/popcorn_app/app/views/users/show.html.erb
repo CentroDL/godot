@@ -1,0 +1,10 @@
+
+
+<div class="user">
+  <p>User Login: <%= @user.login %></p>
+  <p>Current Balance: <%= @user.balance %></p>
+  <p>Birthdate: <%= @user.born_on %></p>
+</div>
+
+<!-- <a href="/users">Return to User List</a> -->
+<%= link_to "Return to User List", users_path %>
