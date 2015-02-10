@@ -12,10 +12,8 @@ class UsersController < ApplicationController
   end
 
   def create
-    # add something to the db
     user = User.create(user_params)
-
-    redirect_to users_path
+    redirect_to user_path(user)
   end
 
   def destroy
