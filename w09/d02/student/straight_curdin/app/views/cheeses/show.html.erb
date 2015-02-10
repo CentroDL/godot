@@ -1,0 +1,9 @@
+<!-- GET requests to /cheeses/1 should display the name, milk_type, description, and image (via image_url) of the cheese with the id of 1, while GET requests to /cheeses/7 should display the information of the cheese with the id of 7.
+ -->
+
+ <div class="cheese">
+  <h1><%= @cheese.name %></h1>
+  <h2><%= @cheese.milk_type %></h2>
+  <img src="<%= @cheese.image_url %>">
+  <p><%= @cheese.description %></p>
+ </div>
