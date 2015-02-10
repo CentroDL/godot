@@ -4,7 +4,7 @@
 
 Today, you learned to CRUD. Tonight, you learn to *CURD*.
 
-> Travis: This assignment goes whey back
+> Travis: This assignment goes whey back.
 
 > ...(15 seconds elapse)...
 
