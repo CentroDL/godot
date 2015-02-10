@@ -1,8 +1,14 @@
-## Doin' That DI
+## Doin' That Dee Eye (WDI)
+
+Today you began your introduction to Rails. Tonight, your introduction continues as you build out a simple web app to hold crucial information about your WDI cohort.
+
+#### Completion
+
+Completion for tonight's homework __is to get through part 5__.
 
 #### Part 1: Read!
 
-Carefully read the following portions of the Rails guides. You're not expected to know all the verbiage in these guides, but a careful reading will yield major understandings when learning Rails.
+Carefully read the following portions of the Rails guides:
 - [Rails Routing](http://guides.rubyonrails.org/routing.html)
 - [Rails Controllers](http://guides.rubyonrails.org/action_controller_overview.html)
 - [Rails Views](http://guides.rubyonrails.org/action_view_overview.html)
@@ -41,7 +47,7 @@ Fulfill the following specifications:
 1. Alter the template that gets rendered when users hit the root so that there is also a link to `/students`.
 1. Fulfill the following specifications:
   -  GET requests to `/students` should have a heading that says, "Students:", followed by an unordered list of links to students, ie `/students/1`, `/students/2`, `/students/3`, and so on.
-  - GET requests to `/students/1` should display the name and photo of the student with the `id` of 1, while GET requests to `/students/13` should display the information of the student with the `id` of 3.
+  - GET requests to `/students/1` should display the name and photo of the student with the `id` of 1, while GET requests to `/students/13` should display the information of the student with the `id` of 13.
 
 #### Useful Command-Line Commands
 
