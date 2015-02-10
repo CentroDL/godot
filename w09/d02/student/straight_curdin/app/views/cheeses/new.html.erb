@@ -1,0 +1,20 @@
+<!-- When the user submits the form, a new cheese is created in the database, and the user is redirected to The Great Hall of Cheeses. If all has gone according to plan, the newly created cheese should will show up in the list. -->
+<h1>Add a Cheese</h1>
+
+<%= form_for @cheese do |f| %>
+
+  <%= f.label      :name, "Name" %>
+  <%= f.text_field :name %>
+
+  <%= f.label      :milk_type, "Milk Type" %>
+  <%= f.text_field :milk_type %>
+
+  <%= f.label      :image_url, "Image URL" %>
+  <%= f.text_field :image_url %>
+
+  <%= f.label      :description, "Description" %>
+  <%= f.text_field :description %>
+
+  <%= f.submit %>
+
+<%end%>
