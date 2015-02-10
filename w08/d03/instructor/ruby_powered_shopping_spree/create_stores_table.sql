@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS stores;
+
+CREATE TABLE stores (
+  id     SERIAL       PRIMARY KEY,
+  name   VARCHAR(50)  NOT NULL,
+  slogan VARCHAR(255) NOT NULL
+);
