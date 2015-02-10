@@ -1,0 +1,15 @@
+<h1>Edit User</h1>
+
+<!-- <#%= form_tag users_path, method: "post" do %> -->
+  <!-- <#%= label_tag :login, "Email:" %> -->
+  <!-- <#%= text_field_tag :login %> -->
+  <!-- <#%= submit_tag "Create New User" %> -->
+<!-- <#% end %> -->
+
+<%= form_for @user do |f| %> <!-- for new and edit, for basic CRUD use form -->
+  <%= f.label      :login, "Email" %>
+  <%= f.text_field :login %>
+  <%= f.label      :born_on, "Birthdate" %>
+  <%= f.date_field :born_on %>
+  <%= f.submit %>
+<%end%>
