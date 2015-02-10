@@ -1,5 +1,7 @@
 <h1>The Great Hall of Cheeses</h1>
 
+<%= link_to "Create a new Cheese!", new_cheese_path %>
+
 <ul>
 <% @cheeses.each do |cheese| %>
 <li class="cheese"><%= link_to cheese.name, cheese_path(cheese) %></li>
