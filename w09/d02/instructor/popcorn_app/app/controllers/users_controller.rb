@@ -10,4 +10,15 @@ class UsersController < ApplicationController
   def new
     @user = User.new
   end
+
+  def create
+    # add something to the db
+    user = User.create(user_params)
+
+    redirect_to users_path
+  end
+
+  def user_params
+    params.require(:user).permit(:login, :born_on)
+  end
 end
