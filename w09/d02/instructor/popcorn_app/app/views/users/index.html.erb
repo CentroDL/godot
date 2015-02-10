@@ -1,10 +1,12 @@
+<%= button_to "Create a new user!", new_user_path, method: "get" %>
 <div class="users collection">
   <% @users.each do |user| %>
     <div class="user">
      <p>User Login: <%= user.login %></p>
      <p>Current Balance: <%= user.balance %></p>
      <p>Birthdate: <%= user.born_on %></p>
-     <%= link_to("Go to this user.", "users/#{user.id}") %>
+     <%= link_to("Go to this user.", user_path(user)) %>
+     <%= button_to "Delete this user.", user_path(user), method: "delete" %>
     </div>
   <% end %>
 </div>
