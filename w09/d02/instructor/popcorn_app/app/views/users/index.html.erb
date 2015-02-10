@@ -4,7 +4,7 @@
      <p>User Login: <%= user.login %></p>
      <p>Current Balance: <%= user.balance %></p>
      <p>Birthdate: <%= user.born_on %></p>
-     <%= link_to("Go to this user.", "users/#{user.id}") %>
+     <%= link_to("Go to this user.", user_path(user)) %>
     </div>
   <% end %>
 </div>
