@@ -6,6 +6,7 @@
      <p>Current Balance: <%= user.balance %></p>
      <p>Birthdate: <%= user.born_on %></p>
      <%= link_to("Go to this user.", user_path(user)) %>
+     <%= button_to "Delete this user.", user_path(user), method: "delete" %>
     </div>
   <% end %>
 </div>
