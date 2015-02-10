@@ -25,4 +25,15 @@ class CheesesController < ApplicationController
     redirect_to cheeses_path
   end
 
+  def edit
+    @cheese = Cheese.find params[:id]
+  end
+
+  def update
+    updated_cheese = Cheese.find params[:id]
+    updated_cheese.update cheese_params
+    redirect_to cheese_path( updated_cheese )
+  end
+
+
 end
