@@ -9,15 +9,15 @@
   text-align: center;
 }
 
-.collection div 
-  border 1px solid black;
+.collection div {
+  border: 1px solid black;
   border-radius: 20px;
   padding: 10px;
   margin: 10px auto;
   width: 300px;
-  text-align: center
+  text-align: center;
   background-color: white;
-
+}
 
 body { text-align: center; }
 
