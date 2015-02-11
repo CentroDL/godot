@@ -1,0 +1,10 @@
+<div class="movie">
+  <p><strong><%= @movie.title %></strong>, <%= @movie.rating %> Rated</p>
+  <img src="<%= @movie.poster_image %>" height="200px">
+  <p><%= @movie.length %> minutes, Released: <%= @movie.available_on %></p>
+  <p><%= @movie.description %></p>
+  <p>Purchase for: $<%= @movie.purchase_price %></p>
+  <p>Rent for: $<%= @movie.rental_price %></p>
+  <%= link_to("Edit this movie.", edit_movie_path(@movie)) %>
+</div>
+<%= link_to("Return to movie list.", movies_path) %>
