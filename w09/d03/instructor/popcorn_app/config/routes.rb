@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
-  root 'users#index'
+  root 'welcome#show'
   resources :users
+  resources :movies
 end

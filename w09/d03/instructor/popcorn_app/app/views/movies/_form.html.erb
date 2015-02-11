@@ -1,0 +1,20 @@
+
+<%= form_for(@movie) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %><br/>
+  <%= f.label :length, "Length (in minutes)" %>
+  <%= f.number_field :length %><br/>
+  <%= f.label :rating %>
+  <%= f.text_field :rating %><br/>
+  <%= f.label :available_on %>
+  <%= f.date_field :available_on %><br/>
+  <%= f.label :description %>
+  <%= f.text_area :description %><br/>
+  <%= f.label :poster_image %>
+  <%= f.text_field :poster_image %><br/>
+  <%= f.label :purchase_price %>
+  $<%= f.text_field :purchase_price %><br/>
+  <%= f.label :rental_price %>
+  $<%= f.text_field :rental_price %><br/>
+  <%= f.submit %>
+<% end %>
