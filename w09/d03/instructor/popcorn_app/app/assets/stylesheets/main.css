@@ -1,0 +1,27 @@
+.collection {
+  background-color: rgba(0,0,0,0.05);
+  padding: 20px;
+  min-width: 480px;
+  max-width: 880px;
+  width: 60%;
+  margin: 30px auto;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.collection div 
+  border 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px auto;
+  width: 300px;
+  text-align: center
+  background-color: white;
+
+
+body { text-align: center; }
+
+h1 a {
+  text-decoration: none;
+  color: inherit;
+}
