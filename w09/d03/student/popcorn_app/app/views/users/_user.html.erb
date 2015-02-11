@@ -1,0 +1,8 @@
+<div class="user">
+ <p>User Login: <%= user.login %></p>
+ <p>Current Balance: <%= user.balance %></p>
+ <p>Birthdate: <%= user.born_on %></p>
+
+ <%= link_to("Go to this user.", user_path(user)) %>
+ <%= button_to "Delete this user.", user_path(user), method: "delete", class: "delete_btn" %>
+</div>

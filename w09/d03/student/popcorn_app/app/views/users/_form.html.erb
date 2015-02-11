@@ -1,0 +1,7 @@
+<%= form_for(@user) do |f| %>
+  <%= f.label :login, "Email" %>:
+  <%= f.text_field :login %><br />
+  <%= f.label :born_on, "Birthdate" %>:
+  <%= f.date_field :born_on %><br />
+  <%= f.submit %>
+<% end %>
