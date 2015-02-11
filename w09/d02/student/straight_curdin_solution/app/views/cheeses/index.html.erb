@@ -1,9 +1,0 @@
-<h1>The Gallery of Cheeses</h1>
-
-<ul>
-    <% @cheeses.each do |cheese| %>
-      <li><a href="/cheeses/<%= cheese.id %>"><%= cheese.name %></a><%= button_to 'Eat this Cheese!', cheese, method: :delete, action: :delete %></li>
-    <% end %>
-</ul>
-
-<%= link_to 'Add a cheese', '/cheeses/new' %>
