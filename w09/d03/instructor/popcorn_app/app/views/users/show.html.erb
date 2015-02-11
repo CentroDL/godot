@@ -5,3 +5,4 @@
 </div>
 <%= link_to("Return to user list.", users_path) %>
 <%= link_to("Edit this user.", edit_user_path(@user)) %>
+<%= button_to "Buy a new movie", new_user_purchase_path(@user), method: "get" %>
