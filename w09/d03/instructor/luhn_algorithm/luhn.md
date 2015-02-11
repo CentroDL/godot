@@ -21,7 +21,8 @@ __Example, given the card number 4408 0412 3456 7893:__
 
 #### Directions
 
-Write a class `Luhn`, and define a class method `valid?` that takes an integer and returns either true or false, depending on whether the number is valid. The specs are written for you so make them pass!
+1. From within the `luhn_algorithm` directory, run the provided tests using the `rspec` command.
+2. Within [`lib/luhn.rb`](lib/luhn.rb), define a class `Luhn`. Provide `Luhn` with a class method `valid?` that takes an integer and returns either true or false, depending on whether the number is valid according to the algorithm. 
 
 For your reference:
 * 1234567890123456 is not valid
