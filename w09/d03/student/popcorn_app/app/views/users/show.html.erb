@@ -1,0 +1,7 @@
+<div class="user">
+ <p>User Login: <%= @user.login %></p>
+ <p>Current Balance: <%= @user.balance %></p>
+ <p>Birthdate: <%= @user.born_on %></p>
+</div>
+<%= link_to("Return to user list.", users_path) %>
+<%= link_to("Edit this user.", edit_user_path(@user)) %>
