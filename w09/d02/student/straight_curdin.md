@@ -5,8 +5,11 @@
 Today, you learned to CRUD. Tonight, you learn to *CURD*.
 
 > Travis: This assignment goes whey back.
+
 > ...(15 seconds elapse)...
+
 > Sarah: 'whey back' rhymes with Maibach.
+
 > Phil: Gouda one, Sarah. Gouda one.
 
 #### Completion
