@@ -1,0 +1,7 @@
+<h1>Search for a Movie</h1>
+
+<%= form_tag '/movies/search', :method => :get do %>
+<!-- http://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-text_field_tag -->
+  <%= text_field_tag(:title, nil, {placeholder: 'Enter a title'}) %>
+  <%= submit_tag 'Search' %>
+<% end %>
