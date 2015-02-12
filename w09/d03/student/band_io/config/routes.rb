@@ -2,10 +2,10 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
-  resources :venues
+  resources :venues do
 
   resources :events
-
+end
   resources :bands
 
   # The priority is based upon order of creation: first created -> highest priority.
