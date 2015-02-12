@@ -19,5 +19,5 @@ We've been tasked with building out the behavior for a digital stopwatch, the in
 
 #### Resources
 
--[Event Listeners](https://developer.mozilla.org/en-US/docs/Web/API/Event)
--[JavaScript Timers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Timers)
+- [Event Listeners](https://developer.mozilla.org/en-US/docs/Web/API/Event)
+- [JavaScript Timers](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Timers)
