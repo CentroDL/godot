@@ -1,0 +1,16 @@
+<h1>Create Band</h1>
+
+<%= form_for(@band) do |f| %>
+
+  <%= f.label :name, "Name" %>:
+  <%= f.text_field :name %><br />
+
+  <%= f.label :genre, "Genre" %>:
+  <%= f.text_field :genre %><br />
+
+  <%= f.label :has_explicit_lyrics, "Explicit?" %>:
+  <%= f.text_field :has_explicit_lyrics %><br />
+
+  <%= f.submit %>
+
+<% end %>
