@@ -13,7 +13,7 @@ The prime directive of the Poké master is to catch them all. You are an aspirin
 
 #### Completion 
 
-Completion for tonight's homework is to get through part 6. 
+Completion for tonight's homework is to get through part 7. 
 
 #### Part 1: Inflection! Migration!
 
