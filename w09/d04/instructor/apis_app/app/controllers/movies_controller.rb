@@ -9,7 +9,7 @@ class MoviesController < ApplicationController
     # @movies = JSON.parse(response.body)["Search"]
     # # handle the JSON
     # # render the results
-    @movies = OmdbApi.search(@title)
+    @movies = OmdbApi.search( @title )
   end
 
   def show
@@ -21,6 +21,6 @@ class MoviesController < ApplicationController
     # # parse the response as json
     # @movie = JSON.parse(response.body)
     # # render the movie info
-    @movie = OmdbApi.info(imdb_id)
+    @movie = OmdbApi.info( imdb_id )
   end
 end
