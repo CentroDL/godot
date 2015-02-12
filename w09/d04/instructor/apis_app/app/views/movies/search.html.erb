@@ -1,0 +1,10 @@
+<h1>Results <%= @title %></h1>
+
+<ul>
+<% @movies.each do |movie| %>
+  <li><%= movie['Title'] %>
+    <%= movie['imdbID'] %>
+    <%= link_to movie['Title'], "/movies/info/#{movie['imdbID']}" %>
+  </li>
+<% end %>
+</ul>
