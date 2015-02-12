@@ -3,7 +3,7 @@ class MoviesController < ApplicationController
   end
 
   def search
-    # @title = params[:title]
+    @title = params[:title]
     # url = "http://www.omdbapi.com/?s=#{@title}&r=json"
     # response = HTTParty.get(url) #...
     # @movies = JSON.parse(response.body)["Search"]
@@ -13,7 +13,7 @@ class MoviesController < ApplicationController
   end
 
   def show
-    # imdb_id = params[:imdb_id]
+    imdb_id = params[:imdb_id]
     # # construct the url
     # url = "http://www.omdbapi.com/?i=#{imdb_id}&r=json"
     # # do an httparty request
