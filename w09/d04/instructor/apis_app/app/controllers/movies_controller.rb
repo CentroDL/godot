@@ -23,4 +23,13 @@ class MoviesController < ApplicationController
     # # render the movie info
     @movie = OmdbApi.info(imdb_id)
   end
+
+  def random
+    rating = ['PG', 'PG-13', 'R', 'G', 'NC-17'].sample
+    movie = {
+      title: Faker::Movie.title,
+      rating: rating
+    }
+    render :json => movie.to_json
+  end
 end

@@ -8,7 +8,9 @@ Rails.application.routes.draw do
   # resources :movies
   get '/movies/search' => 'movies#search'
   get '/movies/info/:imdb_id' => 'movies#show'
+  get '/movies/random' => 'movies#random'
 
+  get '/users/random' => 'users#random'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
