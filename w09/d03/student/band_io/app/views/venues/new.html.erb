@@ -1,0 +1,17 @@
+<%= form_for @venue do |f| %>
+  <%= f.label :name, "Name" %>:
+  <%= f.text_field :name %><br />
+
+  <%= f.label :city, "City" %>:
+  <%= f.text_field :city %><br />
+
+  <%= f.label :state, "State" %>:
+  <%= f.text_field :state %><br />
+
+  <%= f.label :is_family_friendly, "Family Friendly"%>:
+  <%= f.text_field :is_family_friendly%>
+
+  <%= f.submit %>
+
+
+<% end %>
