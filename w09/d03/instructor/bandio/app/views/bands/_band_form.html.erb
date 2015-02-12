@@ -1,0 +1,9 @@
+<%= form_for @band do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+  <%= f.label :genre %>
+  <%= f.text_field :genre %>
+  <%= f.label :explicit_lyrics %>
+  <%= f.check_box :explicit_lyrics %>
+  <%= f.submit "Create Band" %>
+<% end %>

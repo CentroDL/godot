@@ -1,0 +1,8 @@
+<h1><%= @venue.name %></h1>
+<p>Location: <%= @venue.city %>, <%= @venue.state %></p>
+<p>Family friendly? <%= @venue.family_friendly ? "No" : "Yes" %></p>
+
+<ul>
+  <li><%= link_to "Create a New Event for the #{@venue.name}", new_venue_event_path(@venue) %></li>
+  <li><%= link_to "Back to all venues", venues_path %></li>
+</ul>

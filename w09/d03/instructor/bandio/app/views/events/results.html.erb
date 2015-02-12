@@ -1,0 +1,11 @@
+<h1>Concert Results for: <%= @date %> </h1>
+
+<ul>
+  <% @events.each do |event| %>
+    <p><%= event.band.name %> is playing at <%= event.venue.name %></p>
+  <% end %>
+</ul>
+<ul>
+  <li><%= link_to "Return to Search Page", search_path %></li>
+  <li><%= link_to "Home", root_path %></li>
+</ul>

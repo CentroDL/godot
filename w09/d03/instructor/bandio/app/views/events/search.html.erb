@@ -1,0 +1,12 @@
+<h1>Find a Concert</h1>
+
+<p>What date are you interested in?</p>
+
+<!-- Here I'm making the form method a GET request, rather than a post, because my intention is not to POST -->
+<!-- new information to the database. The items from the form will still come over in params, and because the form -->
+<!-- is making a GET request, the user will be able to see their query string in the browser's address bar. So cool. -->
+<form action="/events/results" method="get">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <input type="date" name="date">
+  <input type="submit" value="Search">
+</form>

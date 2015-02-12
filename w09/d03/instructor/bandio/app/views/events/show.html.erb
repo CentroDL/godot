@@ -1,0 +1,4 @@
+<h1><%= @event.band.name %>, live at the <%= @event.venue.name %></h1>
+<!-- To pretty-print a Date object, I use the strftime helper -->
+<!-- http://apidock.com/ruby/Time/strftime -->
+<p>Date: <%= @event.date.strftime("%m/%d/%Y") %></p>
