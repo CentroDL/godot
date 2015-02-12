@@ -6,5 +6,6 @@
   <p>Purchase for: $<%= @movie.purchase_price %></p>
   <p>Rent for: $<%= @movie.rental_price %></p>
   <%= link_to("Edit this movie.", edit_movie_path(@movie)) %>
+  <%= button_to "Delete this movie.", movie_path(@movie), method: "delete", class: "delete_btn" %>
 </div>
 <%= link_to("Return to movie list.", movies_path) %>
