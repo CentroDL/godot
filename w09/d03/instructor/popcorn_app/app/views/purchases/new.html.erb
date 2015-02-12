@@ -1,0 +1,17 @@
+<h2>Let's Buy a Movie!</h2>
+
+<p>User: <%= @user.login %><p>
+
+<!-- for nested resources, you use both in the form_for! -->
+<%= form_for([@user, @purchase]) do |f| %>
+  <%= f.label :movie %>
+  <!-- select tags are a lot of work! -->
+  <!-- http://guides.rubyonrails.org/form_helpers.html#option-tags-from-a-collection-of-arbitrary-objects -->
+  <%= f.collection_select(:movie_id, @movies, :id, :title) %><br><br>
+  <%= f.submit "Buy!", name: :buy %>
+  <%= f.submit "Rent...", name: :rent %>
+<% end %>
+
+<% if flash[:error] %>
+<p>There was a problem with your attempted purchase!</p>
+<% end %>
