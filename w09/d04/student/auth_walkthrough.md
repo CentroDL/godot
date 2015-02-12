@@ -119,3 +119,96 @@ class SessionsController < ApplicationController
   # ...
 end
 ```
+
+We create three routes to handle showing a login form, handling creating a session and destroying a session.
+
+```rb
+# config/routes.rb
+# Setup our three routes for handling sessions
+  get    '/login' => 'sessions#new'
+  post   '/login' => 'sessions#create'
+  delete '/logout' => 'sessions#destroy'
+```
+
+The login form isn't for a resource, just an email and password.
+
+```erb
+<!-- views/sessions/new.html.erb -->
+  <h1>Login</h1>
+  <%= form_tag '/login' do %>
+    <%= text_field_tag :email %>
+    <%= text_field_tag :password %>
+  <% end %>
+```
+
+Our three actions in the Controller
+
+```rb
+# app/controllers/sessions_controller.rb
+class SessionsController < ApplicationController
+  def new
+    # render the login form
+  end
+  
+  def create
+    user = User.find_by({email: params[:email]})
+    # if we found a user with that email
+    # and they provided the correct password
+    if user && user.authenticate(params[:password])
+      # store their id in session
+      session[:user_id] = user.id
+      redirect_to user_path(user)
+    else
+      # rerender the form
+      render :new
+    end
+  end
+  
+  def destroy
+    # remove the user_id from session
+    session[:user_id] = nil
+    redirect_to '/login'
+  end
+end
+```
+
+## Looking up and authorizing users
+
+Once we have a user_id in session we can set up methods in our ApplicationController that we can access in the UsersController.
+
+```rb
+# app/controllers/application_controller.rb
+class ApplicationController < ActionController::Base
+  # Prevent CSRF attacks by raising an exception.
+  # For APIs, you may want to use :null_session instead.
+  protect_from_forgery with: :exception
+
+  # We can call these methods from other controllers
+
+  # set the current_user instance variable if we have a session
+  def current_user
+    @current_user ||= User.find(session[:user_id]) if session[:user_id]
+  end
+
+  # This allows us to call curernt_user in our views
+  helper_method :current_user
+
+  # Allows us to check for a logged in user
+  def authorize
+    redirect_to '/login' unless current_user
+  end
+end
+```
+Our UsersController inherits everything above
+
+```rb
+# app/controllers/users_controller.rb
+class UsersController < ApplicationController
+  # This will call ApplicationController's authorize
+  # unless we hit the create or new actions
+  before_action :authorize, except: [:create, :new]
+  def show
+    # in our view we can access current_user
+  end
+end
+```
