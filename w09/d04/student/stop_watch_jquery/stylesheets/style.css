@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab);
+
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.controls {
+  margin: 50px;
+  text-align: center;
+}
+
+.centered {
+  margin: 0 auto;
+  width: 450px;;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 72px;
+  float: left;
+}
+
+button {
+  background: #4479BA;
+  color: #FFF;
+  font-family: Josefin Slab;
+  font-size: 50px;
+  text-align: center;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  box-shadow: 2px 2px black;
+}
+
+button:hover{
+  background: #356094;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
