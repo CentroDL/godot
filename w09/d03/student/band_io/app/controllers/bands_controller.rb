@@ -17,9 +17,8 @@ class BandsController < ApplicationController
     redirect_to band_path(band)
   end
 
-  #TODO: fix boolean values in band form
   def band_params
-    params.require(:band).permit(:name, :genre, :has_expicit_lyrics)
+    params.require(:band).permit(:name, :genre, :has_explicit_lyrics)
   end
 
 end

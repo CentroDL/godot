@@ -1,0 +1,19 @@
+<h1>Create Event</h1>
+
+<%= form_for(@event) do |f| %>
+
+  <%= f.label :date, "Date" %>:
+  <%= f.date_field :date %><br />
+
+  <%= f.label :alcohol_served, "Alcohol Served?" %>:
+  <%= f.text_field :alcohol_served %><br />
+
+  <%= f.label :band_id, "Band ID" %>:
+  <%= f.text_field :band_id %><br />
+
+  <%= f.label :venue_id, "Venue ID" %>:
+  <%= f.text_field :venue_id %><br />
+
+  <%= f.submit %>
+
+<% end %>
