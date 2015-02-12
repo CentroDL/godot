@@ -38,6 +38,7 @@ $(document).ready(function(){
       clearInterval(intervalID);
       timerActive = false;
     } else {
+      // this interval code appears verbatim up above; opportunity to refactor, methinks
       intervalID = setInterval(function(){
         counter++;
         $headline.text("Time Elapsed: " + counter);
