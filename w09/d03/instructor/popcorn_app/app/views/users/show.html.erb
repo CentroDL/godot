@@ -1,7 +1,22 @@
 <div class="user">
  <p>User Login: <%= @user.login %></p>
- <p>Current Balance: <%= @user.balance %></p>
- <p>Birthdate: <%= @user.born_on %></p>
+ <p>Current Balance: $<%= @user.balance %></p>
+ <p>Age: <%= @user.age.to_i %> years</p>
 </div>
 <%= link_to("Return to user list.", users_path) %>
 <%= link_to("Edit this user.", edit_user_path(@user)) %>
+<%= button_to "Delete this user.", user_path(@user), method: "delete" %>
+
+<br><br>
+<%= button_to "Purchase a new movie", new_user_purchase_path(@user), method: "get" %>
+
+<% unless @user.owned_movies.empty? %>
+  <h4>Movies Owned</h4>
+  <%= render partial: "movies/movie", collection: @user.owned_movies %>
+<% end %>
+
+<% unless @user.rented_movies.empty? %>
+  <h4>Movies Rented</h4>
+  <%= render partial: "movies/movie", collection: @user.rented_movies %>
+<% end %>
+
