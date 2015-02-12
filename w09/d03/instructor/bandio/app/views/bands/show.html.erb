@@ -1,0 +1,10 @@
+<h1><%= @band.name %></h1>
+
+<p>Genre: <%= @band.genre %></p>
+<p><%= @band.explicit_lyrics ? "Adults Only" : "Family Friendly" %></p>
+
+<ul>
+  <li><%= link_to "Home", root_path %></li>
+  <li><%= link_to "Return to All Bands", bands_path %></li>
+</ul>
+
