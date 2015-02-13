@@ -13,7 +13,7 @@ The prime directive of the Poké master is to catch them all. You are an aspirin
 
 #### Completion 
 
-Completion for tonight's homework is to get through part 6. 
+Completion for tonight's homework is to get through part 7. 
 
 #### Part 1: Inflection! Migration!
 
@@ -44,7 +44,7 @@ To ensure your Pokemon model works as expected, go into the rails console (via `
 - When the user visits the `/explore` path, they should be redirected to `/random_poke_clash`
 
 #### Part 5: Random Poké Clash
-- When the user visits `/random_poke_clash`, they should be presented with the `name`, `height`, `width`, `happiness_level`, and image (via `image_url`) of a random pokemon, retrieved from the [RESTful Pokemon API](http://pokeapi.co/) using HTTParty.
+- When the user visits `/random_poke_clash`, they should be presented with the `name`, `height`, `weight`, `happiness_level`, and image (via `image_url`) of a random pokemon, retrieved from the [RESTful Pokemon API](http://pokeapi.co/) using HTTParty.
     - __Note:__ You're going to have to hit the api twice: once for the basic information about the pokemon, and a second time to retrieve the URL that holds the sprite image of the Pokemon. Hmmmm... methinks you'll have to read the API docs and experiment.
     - __Secondary Note:__ For random selection of pokemon, it might be helpful to know that the Pokemon API has 778 pokemon
 
