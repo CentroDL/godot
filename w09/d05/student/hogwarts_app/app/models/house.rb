@@ -1,3 +1,3 @@
 class House < ActiveRecord::Base
-  has_many_students
+  has_many :students
 end

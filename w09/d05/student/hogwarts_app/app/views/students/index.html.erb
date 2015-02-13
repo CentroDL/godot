@@ -1,6 +1,8 @@
 <h1>Here are the students</h1>
+  <%= link_to "Create New Student", new_student_path %>
 <% @students.each do |student| %>
   <div>
-    <%= link_to student, students_path(student) %> - <%= student.house %>
+    <%= link_to student.name, student_path(student) %> - <%= link_to student.house.name, house_path(student.house) %>
 <% end %>
   </div>
+
