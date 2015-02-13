@@ -17,7 +17,7 @@ Completion for tonight's homework is to get through part 7.
 
 #### Part 1: Inflection! Migration!
 
-Normally, Rails expects your table name to pluralized, and the corresponding model to be singular, i.e. Rails looks for a "moms" table when you use the `Mom` model. Unfortunately, the pluralization of "Pokemon" is "Pokemon". Fortunately for you, your instructor has changed the [`config/initializers/inflections.rb`](config/initializers/inflections.rb) file so that Rails will look for a "pokemon" table when you create a Pokemon model.
+Normally, Rails expects your table name to be pluralized, and the corresponding model to be singular, i.e. Rails looks for a "moms" table when you use the `Mom` model. Unfortunately, the pluralization of "Pokemon" is "Pokemon". Fortunately for you, your instructor has changed the [`config/initializers/inflections.rb`](config/initializers/inflections.rb) file so that Rails will look for a "pokemon" table when you create a Pokemon model.
 
 #### Part 2: A Migration! A Model!
 
