@@ -1,0 +1,17 @@
+<%= form_for @author do |a| %>
+
+  <%= a.label      :name %>
+  <%= a.text_field :name %><br/>
+
+  <%= a.label :born_on %>
+  <%= a.date_field :born_on %><br/>
+
+  <%= a.label :died_on %>
+  <%= a.date_field :died_on %><br/>
+
+  <%= a.label :has_pseudonym %>
+  <%= a.text_field :has_pseudonym %>
+
+  <br/><%= submit_tag "Create Author" %>
+
+<% end %>
