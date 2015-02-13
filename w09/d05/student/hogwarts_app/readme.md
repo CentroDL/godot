@@ -4,12 +4,13 @@
 
 Hogwarts has lost all its magic and now NOTHING WORKS!
 
-
 As a member of Dumbledore's Army it's up to YOU to correct all the errors so that this app runs properly.
+
+> Reparo!
 
 ## Setup
 
-Start by creating a database and running `rake db:seed`
+Start by creating a database and running `rake db:seed`.
 
 Then run `rails s` and correct all the errors as you go along.
 
