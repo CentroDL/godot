@@ -1,3 +1,6 @@
 <!-- books#show -->
 
 <%= render @book %>
+
+<%= link_to "Edit this book.", edit_book_path %>
+<%= link_to "Delete Book!", book_path, method: 'delete' %>

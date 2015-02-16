@@ -1,0 +1,25 @@
+<!-- _form.html.erb -->
+<%= form_for @book do |f| %>
+
+<%= f.label :title %>
+<%= f.text_field :title %>
+
+<%= f.label :released_on %>
+<%= f.date_field :released_on %>
+
+<%= f.label :genre %>
+<%= f.text_field :genre %>
+
+<%= f.label :author_id %>
+<%= f.collection_select :author_id, Author.all, :id, :name %>
+
+<%= f.submit %>
+
+<% end %>
+
+<!--   # create_table "books", force: :cascade do |t|
+  #   t.string  "title",       null: false
+  #   t.date    "released_on", null: false
+  #   t.string  "genre",       null: false
+  #   t.integer "author_id",   null: false
+  # end -->
