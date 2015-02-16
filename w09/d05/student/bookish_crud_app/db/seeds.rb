@@ -5,3 +5,18 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+# Book.delete_all
+# Author.delete_all
+
+# Author.create([])
+
+# Book.create([
+#   {title: "Fear and Loathing In Las Vegas", released_on:"November 11, 1971" , genre: "Gonzo Journalism", author_id: 1 }
+#   ])
+  # create_table "books", force: :cascade do |t|
+  #   t.string  "title",       null: false
+  #   t.date    "released_on", null: false
+  #   t.string  "genre",       null: false
+  #   t.integer "author_id",   null: false
+  # end
