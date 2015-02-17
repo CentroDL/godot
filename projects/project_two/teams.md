@@ -1,25 +1,25 @@
-#### PACK
+#### PACKers - [Quiz Generator](prompts/quiz.md)
 
 - Patricio
 - Andreus 
 - Chadd
 - Kristen
 
-#### DADS
+#### DADS - [Admissions Tracker](prompts/admissions.md)
 
 - Dana 
 - Angelina 
 - Dennis 
 - Sade
 
-#### KaMMa Chameleon
+#### KaMMa Chameleon - [Outcomes Tracker](prompts/outcomes.md)
 
 - KAmari
 - Michael 
 - Aliya 
 - Melodie
 
-#### Dabz
+#### Dabz - [Attendance Tracker](prompts/attendance.md)
 
 - Sarah 
 - Dain 
