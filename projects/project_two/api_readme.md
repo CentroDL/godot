@@ -86,7 +86,7 @@ Sample Payload
 }
 ```
 
-### Classes
+### Students
 
 Endpoint `api/v1/cohorts/:id/students` returns a JSON payload
 
