@@ -26,7 +26,7 @@ Objectives
 - You application must provide authentication.
 - Your application MUST be on Heroku.
 - Every team member must be involved.
-- Adhere to the included [Accessibility Guidelines](accessibilty_guidelines.md).
+- Adhere to the included [Accessibility Guidelines](accessibility_guidelines.md).
 
 > Consider using pair programming when writing your code. It is great to ensure
 > that you are writing good code and to help each team member understand the
