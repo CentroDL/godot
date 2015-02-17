@@ -11,11 +11,6 @@ Each team will tackle one of the following prompts.  Each application will run a
 
 Each prompt contains a set of criteria with some sample wireframes to serve as guides.  Your team will need to create their own wireframes and flesh out what data you'll track.
 
-- [Admissions Tracker](prompts/admissions.md)
-- [Attendance Tracker](prompts/attendance.md)
-- [Quiz Maker](prompts/quiz.md)
-- [Outcomes Tracker](prompts/outcomes.md)
-
 Objectives
 
 - Collaborate with your peers as a team
