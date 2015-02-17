@@ -1,0 +1,19 @@
+
+
+<%= form_for @character do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name %>
+
+  <%= f.label :gender %>
+  <%= f.text_field :gender %>
+
+  <%= f.label :quirk %>
+  <%= f.text_field :quirk %>
+
+  <%= f.label :book_id %>
+  <%= f.collection_select :book_id, Book.all, :id, :title  %>
+
+  <%= f.submit %>
+
+<% end %>
+
