@@ -3,11 +3,10 @@
 ![image](http://thetrendguys.com/wp-content/uploads/2013/06/Bill-Pullman-Independence-Day.jpg)
 > Today, is your co-dependence day! - Bill Pullman
 
-[Teams](teams.md)
 
 ## Prompts
 
-Each team will tackle one of the following prompts.  Each application will run as a stand alone service that feeds back into the WDI api. 
+Each [team](teams.md) will tackle an assigned prompt.  Each application will run as a stand alone service that feeds back into the WDI api.
 
 Each prompt contains a set of criteria with some sample wireframes to serve as guides.  Your team will need to create their own wireframes and flesh out what data you'll track.
 
