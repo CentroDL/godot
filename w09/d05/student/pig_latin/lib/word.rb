@@ -9,7 +9,7 @@ class Word
     else
       word_array = @original_word.chars
       first_letter = word_array.shift
-      first_letter += word_array.shift until vowel?(word_array.join)
+      first_letter += word_array.shift until (vowel?(word_array.join) || word_array.first == 'y')
       word_array.join + first_letter + 'ay'
     end
 

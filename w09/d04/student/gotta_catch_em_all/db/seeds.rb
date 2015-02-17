@@ -5,3 +5,17 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+# name (mandatory and unique)
+# weight (mandatory)
+# height (mandatory)
+# image_url (mandatory)
+# happiness_level (mandatory)
+
+# Pokemon.create([
+# {name: , weight:, height: , image_url: , happiness_level: },
+# {name: , weight:, height: , image_url: , happiness_level: },
+# {name: , weight:, height: , image_url: , happiness_level: },
+# {name: , weight:, height: , image_url: , happiness_level: },
+# {name: , weight:, height: , image_url: , happiness_level: }
+#   ])
