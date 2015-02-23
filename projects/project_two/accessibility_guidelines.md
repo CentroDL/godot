@@ -3,6 +3,7 @@
 Everyone should be able to enjoy your site, whether they see colors differently, use a screen reader, or have other needs.
 
 ## Visuals
+
 - Some people will use a screen reader with your site. Thus, images should have an alt attribute.
 - Don’t rely solely on color to communicate state. Use icons and text too.
 
