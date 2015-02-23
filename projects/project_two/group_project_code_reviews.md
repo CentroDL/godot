@@ -1,5 +1,7 @@
 # Group Project Code Reviews
 
+![:image](http://www.somkiat.cc/wp-content/uploads/2015/02/code_reviews.jpg)
+
 ## Objectives
 
 The objective of these code reviews is to:
