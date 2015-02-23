@@ -25,9 +25,11 @@ merge them as necessary, and close Issues (labeling them as `duplicate`,
 `invalid`, or `wontfix`), assign them to team mates, or continue to message 
 about them!
 
-|2:00pm&ndash;2:30pm|2:45pm&ndash;3:30pm|3:45pm&ndash;4:30pm|4:45pm&ndash;5:30pm|
-|:-----------------:|:-----------------:|:-----------------:|:-----------------:|
-| Set Up Local Fork |   Submit Issues   |    Submit PRs     | Check Issues & PRs|
+Suggested Timeline
+
+|2:00pm&ndash;2:30pm|2:45pm&ndash;3:30pm|3:45pm&ndash;4:30pm|
+|:-----------------:|:-----------------:|:-----------------:|
+| Set Up Local Fork |   Submit Issues   |    Submit PRs     |
 
 ### Fork and clone another team's project
 
@@ -42,7 +44,7 @@ development locally. This includes a running and seeded database.
 
 ### Create Issues for the project
 
-Use the application! Look for glaring problems, and then explore a little
+Use the application! Look for glaring problems. Are there broken links? Explore a little
 further to see how the code is being used to make each feature and each page
 work!
 
@@ -53,19 +55,20 @@ Issue should be tagged** as either a `question`, `bug`, or `enhancement`
 
 When exploring the app, look especially for:
 
+- broken features or errors!
 - UX or usability problems: unclear navigation or problematic presentation of
   data or features
 - [accessibility problems](/accessibility_guidelines.md)
 - style or visual design problems, especially in mobile or small sizes
-- broken features or errors!
 - incorrectly used or broken security (authorization or authentication)
 - unclear directions or text (or inappropriate text) on the site or in the 
   README
 
 ### Submit PRs on the project
 
-Find "code smells" and help by fixing them. Each commit should be something
-small, sensible, and easy to test. Each PR should be well written and explained.
+Find "code smells" and help by fixing them. Are there outstanding issues that you can fix?
+Each commit should be something small, sensible, and easy to test. 
+Each PR should be well written and explained.
 
 When fixing stylistic errors and code smells, look especially for:
 
@@ -91,8 +94,6 @@ When fixing stylistic errors and code smells, look especially for:
 - (Rails) unused Routes, Controller actions, or Views
 - (Rails) logic in the Controllers (*or in the Views!*) that can be moved to
   the Models
-- (Rails) shared logic between Controllers that can be moved to Helpers or
-  the Application Controller
 - (Rails) Assets structured incorrectly:
   + asset files are not required explicitly in the manifests
   + incorrect use of, or failure to use, the `/vendor` (or `/lib`) folder
