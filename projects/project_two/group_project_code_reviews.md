@@ -1,6 +1,6 @@
 # Group Project Code Reviews
 
-![:image](http://www.somkiat.cc/wp-content/uploads/2015/02/code_reviews.jpg)
+![:image](http://www.acc.umu.se/~zqad/cats/1174324818-code_review_kitty_not_pleased.b.jpg)
 
 ## Objectives
 
