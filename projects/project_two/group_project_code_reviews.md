@@ -52,9 +52,9 @@ When exploring the app, look especially for:
 - UX or usability problems: unclear navigation or problematic presentation of
   data or features
 - [accessibility problems](/accessibility_guidelines.md)
+- style or visual design problems, especially in mobile or small sizes
 - broken features or errors!
 - incorrectly used or broken security (authorization or authentication)
-- (CSS) style problems, especially in mobile or small sizes
 - unclear directions or text (or inappropriate text) on the site or in the 
   README
 
