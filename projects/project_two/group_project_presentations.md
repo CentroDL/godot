@@ -8,5 +8,5 @@ Project presentations are your opportunity to get up in front of your peers and 
   - What you are most proud of?
   - What was the biggest difficulty you ran into?
   - What would you do differently if you had to start over?
-  - What feature would you like to build out next
+  - What feature would you like to build out next?
 - __Q&A ~2-3 minutes__
