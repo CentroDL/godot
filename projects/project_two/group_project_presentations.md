@@ -1,4 +1,4 @@
-## Project Presentations
+## Group Project Presentations
 
 Project presentations are your opportunity to get up in front of your peers and articulate your vision for your project, as well as the snags you encountered and the solutions you devised while developing. This will be fantastic preparation for your job search and careers in development, so look forward to it!
 
