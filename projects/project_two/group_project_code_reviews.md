@@ -36,11 +36,11 @@ Suggested Timeline
 Make sure that you have a working version of the application running in
 development locally. This includes a running and seeded database.
 
-- [DaBZ (Dain, Brian, Sarah, Simons)][DABZ] will review **KaMMA**
-- [DADS (DFlip, Angelina, Dennis, Sade)][DADS] will review **PACKers**
-- [KaMMA Chameleon (Kamari, Melodie, Michael)][KaMMA] will review **DADS**
-- [PACKers (Patricio, Andres, Chadd, [Kristen] MacFarlance)][PACKers] will 
-  review **DABZ**
+- [DaBZ (Dain, Brian, Sarah, Simons)][DABZ] will review **KaMMA** in Room 4E
+- [DADS (DFlip, Angelina, Dennis, Sade)][DADS] will review **PACKers** in Room 4C
+- [KaMMA Chameleon (Kamari, Melodie, Michael)][KaMMA] will review **DADS** in Hopper
+- [PACKers (Patricio, Andres, Chadd, [Kristen] MacFarlance)][PACKers]
+  review **DABZ** in Sagan
 
 ### Create Issues for the project
 
