@@ -91,6 +91,8 @@ When fixing stylistic errors and code smells, look especially for:
 - (Rails) unused Routes, Controller actions, or Views
 - (Rails) logic in the Controllers (*or in the Views!*) that can be moved to
   the Models
+- (Rails) shared logic between Controllers that can be moved to Helpers or
+  the Application Controller
 - (Rails) Assets structured incorrectly:
   + asset files are not required explicitly in the manifests
   + incorrect use of, or failure to use, the `/vendor` (or `/lib`) folder
