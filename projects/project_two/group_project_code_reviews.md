@@ -67,7 +67,7 @@ When fixing stylistic errors and code smells, look especially for:
 
 #### Style
 
-- inconsistent and/or incorrect use of JavaScript, Ruby or CSS syntax, 
+- inconsistent and/or incorrect use of [JavaScript](https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml), [Ruby](https://github.com/bbatsov/ruby-style-guide) or [HTML/CSS](https://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml) syntax, 
   including but not limited to:
   + indentation
   + "dead" code (commented out)
