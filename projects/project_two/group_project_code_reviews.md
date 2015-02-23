@@ -26,15 +26,10 @@ be the only member of the group submitting Issues or PRs.
 Make sure that you have a working version of the application running in
 development locally. This includes a running and seeded database.
 
-- [DaBZ (Dain, Brian, Sarah, Simons)](https://github.com/godot-dabz/wdi_attendance)
-- [DADS (DFlip, Angelina, Dennis, Sade)](https://github.com/godot-dads/wdi_admissions_app)
-- [KaMMA Chameleon (Kamari, Melodie, Michael)](https://github.com/godot-kamma-chameleons/outcomes_tracker)
-- [PACKers (Patricio, Andres, Chadd, [Kristen] MacFarlance)](https://github.com/godot-packers/quiz_app)
-
-**DABZ will review KaMMA**<br/>
-**DADS will review PACKers**<br/>
-**KaMMA will review DADS**<br/>
-**PACKers will review DABZ**
+- [DaBZ (Dain, Brian, Sarah, Simons)][DABZ] will review **KaMMA**
+- [DADS (DFlip, Angelina, Dennis, Sade)][DADS] will review **PACKers**
+- [KaMMA Chameleon (Kamari, Melodie, Michael)][KaMMA] will review **DADS**
+- [PACKers (Patricio, Andres, Chadd, [Kristen] MacFarlance)][PACKers] will review **DABZ**
 
 ### Create Issues for the project
 
@@ -101,7 +96,11 @@ When fixing stylistic errors and code smells, look especially for:
 
 <!-- Links -->
 
-[url-path-helpers]: http://stackoverflow.com/questions/2350539/what-is-the-difference-between-url-and-path-while-using-the-routes-in-rails
+[DABZ]:                https://github.com/godot-dabz/wdi_attendance
+[DADS]:                https://github.com/godot-dads/wdi_admissions_app
+[KaMMA]:               https://github.com/godot-kamma-chameleons/outcomes_tracker
+[PACKers]:             https://github.com/godot-packers/quiz_app
+[url-path-helpers]:    http://stackoverflow.com/questions/2350539/what-is-the-difference-between-url-and-path-while-using-the-routes-in-rails
 [button-link-helpers]: http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html
-[form-helpers]: http://guides.rubyonrails.org/form_helpers.html
-[asset-helpers]: http://api.rubyonrails.org/classes/ActionView/Helpers/AssetTagHelper.html
+[form-helpers]:        http://guides.rubyonrails.org/form_helpers.html
+[asset-helpers]:       http://api.rubyonrails.org/classes/ActionView/Helpers/AssetTagHelper.html
