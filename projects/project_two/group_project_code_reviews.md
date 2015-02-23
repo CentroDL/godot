@@ -19,9 +19,15 @@ work on one computer (*driver*) using a display for all members to see, but each
 member can use their own computers to scan the code base. The *driver* should
 be the only member of the group submitting Issues or PRs.
 
-|  2:00pm - 2:30pm  |  2:45pm - 3:30pm  |  3:45pm - 4:30pm  |
-|:-----------------:|:-----------------:|:-----------------:|
-| Set Up Local Fork |   Submit Issues   |    Submit PRs     |
+Once the code review is over, you can (optionally) continue with your team to 
+check the Issues and PRs that have been submitted to you. You can close PRs or
+merge them as necessary, and close Issues (labeling them as `duplicate`, 
+`invalid`, or `wontfix`), assign them to team mates, or continue to message 
+about them!
+
+|2:00pm&ndash;2:30pm|2:45pm&ndash;3:30pm|3:45pm&ndash;4:30pm|4:45pm&ndash;5:30pm|
+|:-----------------:|:-----------------:|:-----------------:|:-----------------:|
+| Set Up Local Fork |   Submit Issues   |    Submit PRs     | Check Issues & PRs|
 
 ### Fork and clone another team's project
 
