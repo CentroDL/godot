@@ -1,5 +1,7 @@
 # Group Project Code Reviews
 
+![:image](http://www.acc.umu.se/~zqad/cats/1174324818-code_review_kitty_not_pleased.b.jpg)
+
 ## Objectives
 
 The objective of these code reviews is to:
