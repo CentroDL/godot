@@ -29,7 +29,8 @@ development locally. This includes a running and seeded database.
 - [DaBZ (Dain, Brian, Sarah, Simons)][DABZ] will review **KaMMA**
 - [DADS (DFlip, Angelina, Dennis, Sade)][DADS] will review **PACKers**
 - [KaMMA Chameleon (Kamari, Melodie, Michael)][KaMMA] will review **DADS**
-- [PACKers (Patricio, Andres, Chadd, [Kristen] MacFarlance)][PACKers] will review **DABZ**
+- [PACKers (Patricio, Andres, Chadd, [Kristen] MacFarlance)][PACKers] will 
+  review **DABZ**
 
 ### Create Issues for the project
 
@@ -62,7 +63,8 @@ When fixing stylistic errors and code smells, look especially for:
 
 #### Style
 
-- inconsistent and/or incorrect use of [JavaScript](https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml), [Ruby](https://github.com/bbatsov/ruby-style-guide) or [HTML/CSS](https://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml) syntax, 
+- inconsistent and/or incorrect use of [JavaScript][js-style],
+  [Ruby][rb-style] or [HTML/CSS][css-style] syntax
   including but not limited to:
   + indentation
   + "dead" code (commented out)
@@ -87,11 +89,11 @@ When fixing stylistic errors and code smells, look especially for:
   + not using Rails helpers to link to assets, or putting JS or CSS directly
     in to Views
 - (Rails) failure to use helpers throughout and consistently
-  + [`_url`/`_path` route helpers][url-path-helpers]
-  + [`button_to`/`link_to` URL helpers][button-link-helpers]
+  + [`_url`/`_path`][url-path-helpers] route helpers
+  + [`button_to`/`link_to`][button-link-helpers] URL helpers
   + [`form_tag`/`form_for`][form-helpers]
   + [`asset helpers`][asset-helpers]
-  + route resources
+  + the [`resources`][resources-helper] Route helper
 - (Rails) failure to use partials for repeated View code
 
 <!-- Links -->
@@ -100,7 +102,11 @@ When fixing stylistic errors and code smells, look especially for:
 [DADS]:                https://github.com/godot-dads/wdi_admissions_app
 [KaMMA]:               https://github.com/godot-kamma-chameleons/outcomes_tracker
 [PACKers]:             https://github.com/godot-packers/quiz_app
+[js-style]:            https://google-styleguide.googlecode.com/svn/trunk/javascriptguide.xml
+[rb-style]:            https://github.com/bbatsov/ruby-style-guide
+[css-style]:           https://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml
 [url-path-helpers]:    http://stackoverflow.com/questions/2350539/what-is-the-difference-between-url-and-path-while-using-the-routes-in-rails
 [button-link-helpers]: http://api.rubyonrails.org/classes/ActionView/Helpers/UrlHelper.html
 [form-helpers]:        http://guides.rubyonrails.org/form_helpers.html
 [asset-helpers]:       http://api.rubyonrails.org/classes/ActionView/Helpers/AssetTagHelper.html
+[resources-helper]:    http://apidock.com/rails/ActionController/Resources/resources
