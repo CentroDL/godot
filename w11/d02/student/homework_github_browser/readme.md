@@ -1,4 +1,6 @@
-# Single Page Movie Browser
+# Single Page Github Browser
+
+![:image](http://webinos.org/files/2014/03/github_icon.png)
 
 Today we learned about AJAX, which allows us to make HTTP requests from the
 browser. This is an incredibly powerful tool, because it allows us to talk to a
