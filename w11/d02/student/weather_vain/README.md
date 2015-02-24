@@ -1,5 +1,15 @@
 ## Weather Vain
 
-The year is 2005, and Weather Vain is a promising young startup based in Cedarburh, WI. 
+Today, you began your exploration of AJAX. Now, you put it to use in the most common way: with forms.
 
-Can we get the data? Yes, given the data. 
+#### Exercise Objective(s)
+
+- get comfortable using AJAX to dynamically retrieve information
+- practice using event listeners and manipulating the DOM
+
+#### Directions
+
+1. Within your [`scripts/main.js`](scripts/main.js) file, use jQuery to make an AJAX request to retrieve the current weather for "milwaukee".
+  - validate that your ajax call worked by using the network tab
+1. Once your ajax call is returning the data you want, add the text "In Milaukee it's BLANK degrees Kelvin" to the paragraph tag with id of "forecast".
+1. Once you're able to display the information for Milwaukee, make the ajax call dynamic, so that users can enter a city name in the input field, and the ajax call gets the data for that city.
