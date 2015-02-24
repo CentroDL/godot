@@ -28,10 +28,14 @@ describe('pluralize', function(){
 
   it('turns an array into a comma separated string', function(){
     var list = ['lions', 'tigers', 'bears'];
-    pending("This won't run until we comment it out");
-    expect( pluralize(list) ).toEqual( "lions, tiger's and bears" );
+    // pending("This won't run until we comment it out");
+    expect( pluralize(list) ).toEqual( "lions, tigers and bears" );
   });
+  it("works on any array of strings", function(){
+    var snacks = ['doritos', 'apples', 'candy', 'cheetos'];
+    expect( pluralize(snacks) ).toEqual( "doritos, apples, candy and cheetos");
 
+  });
 });
 
 describe('prettyTime', function(){
