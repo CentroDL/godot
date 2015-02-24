@@ -1,0 +1,32 @@
+html, body {
+  background-color: #5CBF94;
+  font-weight: 100;
+  color: #FFF;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  text-align: center;
+  font-weight: 100;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+.prompt {
+  font-size: 1.2em;
+  margin-top: 4em;
+}
+
+form {
+  color: #000;
+  width: 290px;
+  margin: 0 auto;
+}
+
+.date {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
