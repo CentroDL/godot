@@ -32,9 +32,9 @@ describe('pluralize', function(){
     expect( pluralize(list) ).toEqual( "lions, tigers and bears" );
   });
 
-  it("turns any array into a comma separated string", function(){
-    var snacks = [ 'doritos', 'cookies', 'candies', 'apples'];
-    expect( pluralize(snacks) ).toEqual("doritos, cookies, candies and apples");
+  it("works on any array of strings", function(){
+    var snacks = ['doritos', 'apples', 'candy', 'cheetos'];
+    expect( pluralize(snacks) ).toEqual( "doritos, apples, candy and cheetos");
   });
 
   it("turns single word arrays into itself", function(){

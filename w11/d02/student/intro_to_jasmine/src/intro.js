@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var sleepIn = function(dayName){
 
 
@@ -32,4 +33,16 @@ var prettyTime = function(seconds){
 
 
 
+=======
+var sleepIn = function(dayName) {
+  if (dayName == 'Saturday' || dayName == 'Sunday') {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+var pluralize = function(list) {
+  return "lions, tigers and bears";
+>>>>>>> f6313883025f7fdf3131fa62268b50d022dd6ee7
 }
