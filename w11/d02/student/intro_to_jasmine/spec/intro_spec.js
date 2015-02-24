@@ -28,7 +28,7 @@ describe('pluralize', function(){
 
   it('turns an array into a comma separated string', function(){
     var list = ['lions', 'tigers', 'bears'];
-    pending("This won't run until we comment it out");
+    // pending("This won't run until we comment it out");
     expect( pluralize(list) ).toEqual( "lions, tiger's and bears" );
   });
 
@@ -37,10 +37,10 @@ describe('pluralize', function(){
 describe('prettyTime', function(){
   it('converts seconds into a formatted string', function(){
     var seconds = 120;
-    expect( prettyTime(seconds) ).toEqual( "2 hours" );
+    expect( prettyTime(seconds) ).toEqual( "2 minutes" );
   });
   it('handles minutes correctly', function(){
     var seconds = 165;
-    expect( prettyTime(seconds) ).toEqual( "2 hours and 45 minutes");
+    expect( prettyTime(seconds) ).toEqual( "2 minutes and 45 seconds");
   });
 });
