@@ -1,5 +1,7 @@
 # This is a test
 
+![:image](http://i.kinja-img.com/gawker-media/image/upload/s--AW1Mur6m--/972362987667599938.jpg)
+
 ```js
 describe("something we want to test", function(){
 
