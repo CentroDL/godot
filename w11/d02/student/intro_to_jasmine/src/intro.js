@@ -11,7 +11,11 @@ var sleepIn = function(dayName){
 }
 
 var pluralize = function(list){
+
+  if(list.length > 1)
   return list.slice(0,-1).join(", ") + " and " + list.pop() ;
+  else
+    return list.join();
 }
 
 var prettyTime = function(seconds){

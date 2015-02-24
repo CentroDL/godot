@@ -37,6 +37,11 @@ describe('pluralize', function(){
     expect( pluralize(snacks) ).toEqual("doritos, cookies, candies and apples");
   });
 
+  it("turns single word arrays into itself", function(){
+    single = ['lions'];
+    expect ( pluralize(single) ).toEqual("lions");
+  });
+
 });
 
 describe('prettyTime', function(){
