@@ -1,6 +1,7 @@
 class SessionsController < ApplicationController
   def new
   end
+
   def create
     # handle the lookup and auth
     email = params[:email]
