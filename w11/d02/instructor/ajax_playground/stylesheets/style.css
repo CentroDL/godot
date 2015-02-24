@@ -1,0 +1,49 @@
+html, body {
+  font-weight: 100;
+  color: #000;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  text-align: center;
+  font-weight: 100;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+body div {
+  width: 20%;
+}
+
+.centered {
+  margin: 0 auto;
+}
+
+button {
+  margin-bottom: 1em;
+  display: block;
+}
+
+#random-user-btn {
+  margin-left: 3em;
+}
+
+#female-user-btn {
+  margin-left: 3.2em;
+}
+
+#male-user-btn {
+  margin-left: 3.8em;
+}
+
+img {
+  margin: 0 auto;
+  width: 10em;
+  position: relative;
+  display: block;
+}
+
+
