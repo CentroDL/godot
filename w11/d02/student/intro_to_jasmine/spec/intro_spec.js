@@ -29,7 +29,12 @@ describe('pluralize', function(){
   it('turns an array into a comma separated string', function(){
     var list = ['lions', 'tigers', 'bears'];
     // pending("This won't run until we comment it out");
-    expect( pluralize(list) ).toEqual( "lions, tiger's and bears" );
+    expect( pluralize(list) ).toEqual( "lions, tigers and bears" );
+  });
+
+  it("turns any array into a comma separated string", function(){
+    var snacks = [ 'doritos', 'cookies', 'candies', 'apples'];
+    expect( pluralize(snacks) ).toEqual("doritos, cookies, candies and apples");
   });
 
 });

@@ -11,7 +11,7 @@ var sleepIn = function(dayName){
 }
 
 var pluralize = function(list){
-  return "lions, tiger's and bears";
+  return list.slice(0,-1).join(", ") + " and " + list.pop() ;
 }
 
 var prettyTime = function(seconds){
