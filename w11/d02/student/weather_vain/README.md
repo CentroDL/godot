@@ -1,6 +1,6 @@
 ## Weather Vain
 
-Today, you began your exploration of AJAX. Now, you put it to use in the most common way: by grabbing data from form inputs.
+Today, you began your exploration of AJAX. Now, you put it to using it with forms!
 
 #### Exercise Objective(s)
 
