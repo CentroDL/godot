@@ -1,6 +1,6 @@
 # This is a test!
 
-Today we're going to work on passing tests in Ruby with Rspec.
+Today we're going to work on passing tests in Ruby with [Rspec](http://www.relishapp.com/rspec/).
 
 ## Water Bottle
 

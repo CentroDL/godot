@@ -28,10 +28,14 @@ describe "WaterBottle" do
   xdescribe "#measure" do
 
     it "returns the amount left in a bottle" do
-      wb = WaterBottle.new("Chardonnade", 16)
-      expect(wb.measure).to eq(0)
-      wb.fill
-      expect(wb.measure).to eq(16)
+      wb1 = WaterBottle.new("Chardonnade", 16)
+      wb2 = WaterBottle.new("Chardonnade", 8)
+      expect(wb1.measure).to eq(0)
+      expect(wb2.measure).to eq(0)
+      wb1.fill
+      wb2.fill
+      expect(wb1.measure).to eq(16)
+      expect(wb2.measure).to eq(8)
     end
 
   end
@@ -39,17 +43,17 @@ describe "WaterBottle" do
   xdescribe "#squirt" do
 
     it "removes 4 units at a time." do
-      wb = WaterBottle.new("Coke Lite", 16)
+      wb = WaterBottle.new("Coke Lite", 8)
       wb.fill
       amount = wb.squirt
       expect( amount ).to eq(4)
-      expect( wb.measure ).to eq(12)
+      expect( wb.measure ).to eq(4)
     end
 
     it "cannot be squirted if empty" do
-      wb = WaterBottle.new("Bru's Bru", 16)
+      wb = WaterBottle.new("Bru's Bru", 20)
       wb.fill
-      4.times { wb.squirt }
+      5.times { wb.squirt }
       expect(wb).to be_empty
       expect(wb.squirt).to eq(false)
     end
