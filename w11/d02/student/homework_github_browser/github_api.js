@@ -32,7 +32,21 @@ $(document).ready(function(){
       html += "<img src=\"" + data.avatar_url + "\">";
       html += "<p>Number of public gists: " + data.public_gists + "</p>";
       html += "<p>Number of public repos: " + data.public_repos + "</p>";
-      $(".user-info").html(html);
+
+      // part 2
+      $.ajax({
+        url: "https://api.github.com/users/" + username + "/repos",
+        type: "get",
+        dataType: "json"
+      }).done(function(repos){
+        var links = "";
+        for(var i = 0, len = repos.length; i < len; i++ ){
+          links += '<li><a href="'+ repos[i].html_url + '">' + repos[i].name +'</li>'
+        }
+
+        html += "<ul>Repos:<br/>" + links + "</ul>";
+        $(".user-info").html(html);
+      });
       // debugger
     });
 
