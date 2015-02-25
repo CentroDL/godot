@@ -30,3 +30,7 @@ For example to run the water_bottle specs from inside the `water_bottle` folder 
 ```sh
 $ rspec spec/
 ```
+
+# Pig Latin
+
+After Water Bottle try your hand at Pig Latin
