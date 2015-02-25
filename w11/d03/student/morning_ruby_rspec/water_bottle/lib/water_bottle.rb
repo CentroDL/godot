@@ -23,7 +23,7 @@ class WaterBottle
 
   def to_json
     return {brand: @brand,
-            capactiy: @capacity,
+            capacity: @capacity,
             measure: @measure
            }.to_json
   end

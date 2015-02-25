@@ -79,6 +79,8 @@ describe "WaterBottle" do
       json_string = wb.to_json
       object = JSON.parse(json_string)
       expect(object["brand"]).to eq("n/a")
+      expect(object["capacity"]).to eq(10)
+      expect(object["measure"].class).to eq(Fixnum)
     end
 
   end
