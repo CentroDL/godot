@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Github Browser</title>
+  <script src="jquery.js"></script>
+  <script src="github_api.js"></script>
+</head>
+<body>
+
+  <h1>Github Browser</h1>
+
+  <form id="search-user">
+    <label for="username">Username</label>
+    <input type="text" name="username" placeholder="enter a valid username">
+    <input type="submit" value="Search for User">
+  </form>
+
+  <div class="user-info"></div>
+
+  <div class="user-controls" style="display:none">
+    <a href="#" class="show-repos">List Repos</a>
+    <a href="#" class="show-gists">List Gists</a>
+    <a href="#" class="show-search">Search Code</a>
+  </div>
+
+  <ul class="repos"></ul>
+  <ul class="gists"></ul>
+
+  <!-- Search for Code -->
+  <form id="search-code" style="display:none">
+    <label for="search-snippet">Search</label>
+    <input type="text" name="query" placeholder="enter a code snippet" id="search-snippet">
+    <label for="search-lang">Language</label>
+    <input type="text" name="language" placeholder="enter a language" id="search-lang">
+    <input type="submit" value="Search">
+  </form>
+  <ul class="results"></ul>
+</body>
+</html>
