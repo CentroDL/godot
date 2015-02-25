@@ -6,7 +6,7 @@ You've been handed a mostly-written Rails backend that serves up sweet JSON for 
 
 ## Setup
 
-1. Run `bundle`, `rake db:create`, `rake db:create`, and `rake db:seed` from within your new Rails app folder.
+1. Run `bundle`, `rake db:create`, `rake db:migrate`, and `rake db:seed` from within your new Rails app folder.
 
 ## Completion
 
