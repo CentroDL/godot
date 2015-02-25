@@ -21,7 +21,7 @@ $(document).ready(function(){
       for(var i = 0; i < songs.length; i++){
         var songName = songs[i].name;
         var href     = songs[i].href;
-        html += "<li><a href=\"" + href + "\">" + songName + "</a></li>";
+        html += "<li><a class="green" href=\"" + href + "\">" + songName + "</a></li>";
       }
 
       $("#results").html(html);

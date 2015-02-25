@@ -2,7 +2,7 @@ console.log('github_api loaded');
 
 var baseUrl = 'https://api.github.com';
 
-var apiToken = '4891b3134d3220445b30039286b8f4c20fef1c70';
+var apiToken = 'your-api-token';
 
 var headers = {
   Authorization: 'token ' + apiToken
