@@ -1,5 +1,7 @@
 # This is a test!
 
+![:image](http://blog.schwern.net/images/Derpy_Please_Stand_By_blog.jpeg)
+
 Today we're going to work on passing tests in Ruby with [Rspec](http://www.relishapp.com/rspec/).
 
 ## Water Bottle
