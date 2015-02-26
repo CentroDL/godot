@@ -1,50 +1,25 @@
+var $userInfo;
+
 $(document).ready(function(){
   console.log("main.js linked");
 
   // caches reference to commonly needed DOM elements
-  var $userInfo    = $(".user-info"),
-      $xButton     = $(".x");
+  $userInfo    = $(".user-info");
+  var $xButton     = $(".x"),
       $heartButton = $(".heart");
 
-  // fake data for a template that expects 'image_url', 'name', and 'age'
-  var fakeData = {
-    name: "Phil",
-    age: 33,
-    image_url: "https://ga-core.s3.amazonaws.com/production/uploads/instructor/image/654/phillip-lamplugh.jpg"
-  };
-
-  // grabs template as a string
+  // gets user template source as a string and uses it to create templating function
   var templateSource = $("#tinder-template").html();
+  genUserHTML = _.template(templateSource);
 
+  // gets match template source as a string and uses it to create templating function
+  var matchTemplateSource = $("#match-template").html();
+  var genMatchHTML = _.template(matchTemplateSource);
 
-});
+  var currentUser = {};
+  var matchHTML;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  var getNewUser = function(){
     $.ajax({
       url: "http://api.randomuser.me",
       type: "GET",
@@ -52,11 +27,27 @@ $(document).ready(function(){
     }).done(function(data){
       var user = data["results"][0]["user"];
       var firstName = user.name.first;
-      var age = 28;
       var pictureURL = user["picture"]["large"];
-      var image = $("<img>").attr("src", pictureURL);
-      var newTinderHTML = fillTemplateWith({
-        image_url: pictureURL,
-        name: firstName,
-        age: 31
-      });
+      currentUser.image_url = pictureURL;
+      currentUser.name = firstName;
+      currentUser.age = 31;
+      newTinderHTML = genUserHTML(currentUser);
+      $userInfo.html(newTinderHTML);
+      matchHTML = genMatchHTML(currentUser);
+    });
+  };
+
+  getNewUser();
+
+  $xButton.on("click", getNewUser);
+
+  $heartButton.on("click", function(){
+    $(".matches-container").append(matchHTML);
+    getNewUser();
+  });
+
+
+
+
+
+});
