@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -28,6 +28,16 @@
       <p><strong>Audio:</strong> <%= audioLanguage %></p>
       <p><strong>Subtitles:</strong> <%= subtitleLanguage %></p>
     </div>
+  </script>
+
+  <script id="user-template" type="text/template">
+    <img src="<%= imgHREF %>" alt="thumbnail image of <%= firstName %>">
+  </script>
+
+  <script id="list-view-template" type="text/template">
+     <% for(var i = 0; i < movies.length; i++) { %>
+        <img src="<%= movies[i].imgURL %>" class="inline-browse" alt="Movie cover for <%= movies[i].title %>">
+      <% } %>
   </script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.3.1/lodash.min.js" type="text/javascript"></script>
