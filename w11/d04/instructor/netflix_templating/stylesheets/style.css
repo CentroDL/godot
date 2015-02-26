@@ -1,0 +1,77 @@
+html, body {
+  background-color: #FFF;
+}
+
+div {
+  vertical-align: top;
+}
+
+h2, h3, h4, h6, p {
+  font-weight: 100;
+}
+
+header {
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+header span {
+  margin-left: 845px;
+}
+
+header img:nth-child(2) {
+  height: 35px;
+}
+
+header *:not(.logo) {
+  float: right;
+  margin: 2em 1em 2em 0em;
+}
+
+.logo {
+  width: 160px;
+  padding: 1.5em 0 1em 2em;
+}
+
+.row {
+  width: 100%;
+}
+
+.main {
+  width: 85%;
+  margin: 1em auto 1em auto;
+}
+
+.info-container {
+  width: 37%;
+  display: inline-block;
+  margin-left: 1em;
+  overflow: auto;
+}
+
+.cover {
+  display: inline-block;
+  width: 60%;
+}
+
+.inline-block {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.inline-block.padded {
+  background-color: #BEBEBE;
+  color: white;
+  padding: 0.3em 0.3em 0.1em 0.2em;
+  border-radius: 2px;
+}
+
+.gray {
+  color: gray;
+}
+
+.inline-browse {
+  height: 200px;
+  margin-left: 1.5em;
+}
