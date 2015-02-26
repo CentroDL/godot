@@ -31,7 +31,6 @@ $(document).ready(function(){
 
     var user = {
       name:      $userInfo.find("p").text().split(", ")[0],
-      age:       parseInt($userInfo.find("p").text().split(", ")[1]),
       image_url: $userInfo.find("img").attr("src")
     }
 
