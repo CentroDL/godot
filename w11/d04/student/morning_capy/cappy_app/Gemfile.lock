@@ -52,6 +52,9 @@ GEM
       xpath (~> 2.0)
     childprocess (0.5.5)
       ffi (~> 1.0, >= 1.0.11)
+    chromedriver-helper (0.0.8)
+      nokogiri (~> 1.6)
+      version_sorter (~> 1.1)
     coderay (1.1.0)
     coffee-rails (4.1.0)
       coffee-script (>= 2.2.0)
@@ -184,6 +187,7 @@ GEM
     uglifier (2.7.0)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    version_sorter (1.1.1)
     web-console (2.0.0)
       activemodel (~> 4.0)
       binding_of_caller (>= 0.7.2)
@@ -199,6 +203,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   capybara
+  chromedriver-helper
   coffee-rails (~> 4.1.0)
   factory_girl_rails
   jbuilder (~> 2.0)
