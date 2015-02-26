@@ -28,7 +28,7 @@ $(document).ready(function(){
       tinderHTML = generateTinderHTML(userInfo);
       $userInfo.html(tinderHTML);
     }).fail(function(error){
-      console.log("error fired");
+      console.log("x button error fired ");
       console.log(error);
     });
   });
