@@ -30,9 +30,16 @@
     <img src="images/iphone_PNG5730.png" alt="The iPhone 6" class="iphone">
   </div>
 
-  <script id="tinder-template" type="application/template" >
+  <script id="tinder-template" type="text/template" >
     <img src="<%= image_url %>" alt="A picture of <%= name %>">
     <p><%= name %>, <%= age %></p>
+  </script>
+
+
+  <script id="match-template" type="text/template">
+    <div class="match clearfix">
+      <img src="<%= image_url %>" alt="thumbnail photo of <%= name %>>"><span><%= name %></span>
+    </div>
   </script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.3.1/lodash.min.js" type="text/javascript"></script>
