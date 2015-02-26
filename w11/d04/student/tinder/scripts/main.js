@@ -4,17 +4,10 @@ $(document).ready(function(){
   // caches reference to commonly needed DOM elements
   var $userInfo    = $(".user-info"),
       $xButton     = $(".x"),
-      $heartButton = $(".heart");
+      $heartButton = $(".heart"),
+      $matchesContainer = $(".matches-container");
 
-  //name, age, image_url
-  var tinderTemplateSource = $("#tinder-template").html();
-  var generateTinderHTML   = _.template(tinderTemplateSource);
-  var tinderHTML           = generateTinderHTML({ name: "Dan", age: 62, image_url:"http://www.nndb.com/people/244/000025169/da-sized.jpg"});
-
-  $userInfo.html(tinderHTML);
-
-  $xButton.click(function(e){
-    console.log("x clicked");
+  var getNewUser = function(){
     $.ajax({
       url: "http://api.randomuser.me/",
       type: "get",
@@ -28,9 +21,51 @@ $(document).ready(function(){
       tinderHTML = generateTinderHTML(userInfo);
       $userInfo.html(tinderHTML);
     }).fail(function(error){
-      console.log("x button error fired ");
+      console.log("button error fired ");
       console.log(error);
     });
-  });
+  };
+
+  var setMatch = function(){
+    console.log("add like to matches");
+
+    var user = {
+      name:      $userInfo.find("p").text().split(", ")[0],
+      age:       parseInt($userInfo.find("p").text().split(", ")[1]),
+      image_url: $userInfo.find("img").attr("src")
+    }
+
+    var matchTemplateSource = $("#match-template").html();
+    var generateMatchHTML = _.template(matchTemplateSource);
+    var matchHTML = generateMatchHTML(user);
+
+    $matchesContainer.append(matchHTML);
+
+  }; // set match
+
+  //name, age, image_url
+  var tinderTemplateSource = $("#tinder-template").html();
+  var generateTinderHTML   = _.template(tinderTemplateSource);
+  var tinderHTML           = generateTinderHTML({ name: "Dan", age: 62, image_url:"http://www.nndb.com/people/244/000025169/da-sized.jpg"});
+
+
+  $userInfo.html(tinderHTML);
+
+  $xButton.click(function(e){
+    console.log("x clicked");
+    getNewUser();
+  });// x button click
+
+  $heartButton.click(function(e){
+    // debugger
+    console.log("heart clicked");
+    setMatch();
+    getNewUser();
+  });//heart button click
+
+
+
 
 });
+
+
