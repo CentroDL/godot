@@ -22,7 +22,7 @@ $(document).ready(function(){
     }).done(function(data){
       var userInfo = {
         name: data.results[0].user.name.first,
-        age: (Math.random()*25) + 23 ,
+        age: Math.floor(Math.random()*25) + 23 ,
         image_url: data.results[0].user.picture.medium
       };
       tinderHTML = generateTinderHTML(userInfo);
