@@ -24,10 +24,24 @@
     <div id="flag-overlay">
       <img src="<%%= flag_image %>" alt="<%%= name %>">
     </div>
-    <label>
-      <input id="annihilate-checkbox" type="checkbox" name="annihilated">
-      Annihilate!
-    </label>
+
+    <%% if(!annihilated){ %>
+      <%% if( name === "Russia ") {%>
+      <label>
+        <input id="annihilate-checkbox" type="checkbox" name="annihilated">
+        Annihilate!
+      </label>
+      <%% } %>
+
+      <label>
+        <input id="ally-checkbox" type="checkbox" name="ally">
+        Ally!
+      </label>
+
+    <%% } else { %>
+      <p><strong>Already Annihilated!</strong></p>
+    <%% } %>
+
   </div>
 </script>
 

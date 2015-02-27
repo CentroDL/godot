@@ -29,6 +29,9 @@ $(document).ready(function(){
         console.log("got data from /countries/" + $(e.target).data("id"))
         createCountry(countryData);
         registerCheckbox(countryData);
+        if(countryData.ally){
+          $("#ally-checkbox").prop('checked', true);
+        }
       });
   });
 
@@ -57,6 +60,17 @@ var registerCheckbox = function(country){
       data: { country: { annihilated: true } }
     }).done(function(data){
       $("li[data-id=" +country.id + "]").addClass("annihilated");
+    });
+  });
+
+  $("#ally-checkbox").click(function(e){
+    $.ajax({
+      url: '/countries/' + country.id,
+      type:'put',
+      dataType: 'json',
+      data: { country: { ally: $(e.target).is(':checked') } }
+    }).done(function(data){
+      console.log("Allied with " + country.name);
     });
   });
 }
