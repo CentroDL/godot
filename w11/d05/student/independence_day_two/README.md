@@ -28,7 +28,7 @@ The HTML found within the "country-main" div in [`welcome/index.html.erb`](app/v
 var stubData = {
   name: "Afghanistan",
   annihilated: false,
-  language: "Persian"
+  language: "Persian",
   population: 29121286,
   area_in_sq_km: 647500,
   flag_image: "http://www.geonames.org/flags/x/af.gif"
