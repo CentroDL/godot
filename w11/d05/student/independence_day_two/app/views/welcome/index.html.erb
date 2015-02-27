@@ -26,11 +26,12 @@
     </div>
 
     <%% if(!annihilated){ %>
-      <%% if( name === "Russia ") {%>
-      <label>
-        <input id="annihilate-checkbox" type="checkbox" name="annihilated">
-        Annihilate!
-      </label>
+
+      <%% if( name != "Russia") {%>
+        <label>
+          <input id="annihilate-checkbox" type="checkbox" name="annihilated">
+          Annihilate!
+        </label>
       <%% } %>
 
       <label>
