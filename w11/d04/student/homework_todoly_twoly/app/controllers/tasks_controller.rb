@@ -3,7 +3,7 @@ class TasksController < ApplicationController
 
   def index
     @tasks = Task.all.sort_by(&:created_at)
-    render json: @task
+    render json: @tasks
   end
 
   def show

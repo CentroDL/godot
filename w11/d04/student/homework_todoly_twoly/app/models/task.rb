@@ -10,7 +10,9 @@
 #
 
 class Task < ActiveRecord::Base
+
   def complete?
     is_complete
   end
+
 end
