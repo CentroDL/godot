@@ -90,3 +90,10 @@ On Travis, flick the switch to `on` for a project repo, then push again to Githu
 
 Flick the switches below to turn on the Travis service hook for your projects,
 then push to GitHub.
+
+# JavaScript testing in Rails with Jasmine
+
+https://github.com/searls/jasmine-rails
+
+Can you write a method that validates the age from a form?
+
