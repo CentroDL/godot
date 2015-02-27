@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IndependenceDayTwo</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <header>
+    <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Alien01.svg/400px-Alien01.svg.png" alt="stereotypical alien face">
+  </header>
+
+  <%= yield %>
+
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+</body>
+</html>

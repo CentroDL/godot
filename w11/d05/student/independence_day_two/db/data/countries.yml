@@ -1,0 +1,3589 @@
+---
+- iso_alpha3: AND
+  code: AD
+  name: Andorra
+  geoname_id: 3041565
+  population: 84000
+  area_in_sq_km: 468.0
+  capital: Andorra la Vella
+  continent_name: Europe
+  currency_code: EUR
+  language: Catalan, Valencian
+  all_languages:
+  - Catalan, Valencian
+  flag_image: http://www.geonames.org/flags/x/ad.gif
+- iso_alpha3: ARE
+  code: AE
+  name: United Arab Emirates
+  geoname_id: 290557
+  population: 4975593
+  area_in_sq_km: 82880.0
+  capital: Abu Dhabi
+  continent_name: Asia
+  currency_code: AED
+  language: Arabic
+  all_languages:
+  - Arabic
+  - Persian
+  - English
+  - Hindi
+  - Urdu
+  flag_image: http://www.geonames.org/flags/x/ae.gif
+- iso_alpha3: AFG
+  code: AF
+  name: Afghanistan
+  geoname_id: 1149361
+  population: 29121286
+  area_in_sq_km: 647500.0
+  capital: Kabul
+  continent_name: Asia
+  currency_code: AFN
+  language: Persian
+  all_languages:
+  - Persian
+  - Pashto, Pushto
+  - Uzbek
+  - Turkmen
+  flag_image: http://www.geonames.org/flags/x/af.gif
+- iso_alpha3: ATG
+  code: AG
+  name: Antigua and Barbuda
+  geoname_id: 3576396
+  population: 86754
+  area_in_sq_km: 443.0
+  capital: St. John's
+  continent_name: North America
+  currency_code: XCD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/ag.gif
+- iso_alpha3: AIA
+  code: AI
+  name: Anguilla
+  geoname_id: 3573511
+  population: 13254
+  area_in_sq_km: 102.0
+  capital: The Valley
+  continent_name: North America
+  currency_code: XCD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/ai.gif
+- iso_alpha3: ALB
+  code: AL
+  name: Albania
+  geoname_id: 783754
+  population: 2986952
+  area_in_sq_km: 28748.0
+  capital: Tirana
+  continent_name: Europe
+  currency_code: ALL
+  language: Albanian
+  all_languages:
+  - Albanian
+  - Modern Greek
+  flag_image: http://www.geonames.org/flags/x/al.gif
+- iso_alpha3: ARM
+  code: AM
+  name: Armenia
+  geoname_id: 174982
+  population: 2968000
+  area_in_sq_km: 29800.0
+  capital: Yerevan
+  continent_name: Asia
+  currency_code: AMD
+  language: Armenian
+  all_languages:
+  - Armenian
+  flag_image: http://www.geonames.org/flags/x/am.gif
+- iso_alpha3: AGO
+  code: AO
+  name: Angola
+  geoname_id: 3351879
+  population: 13068161
+  area_in_sq_km: 1246700.0
+  capital: Luanda
+  continent_name: Africa
+  currency_code: AOA
+  language: Portuguese
+  all_languages:
+  - Portuguese
+  flag_image: http://www.geonames.org/flags/x/ao.gif
+- iso_alpha3: ATA
+  code: AQ
+  name: Antarctica
+  geoname_id: 6697173
+  population: 0
+  area_in_sq_km: 1.4E7
+  capital: ''
+  continent_name: Antarctica
+  currency_code: ''
+  language: 
+  all_languages: []
+  flag_image: http://www.geonames.org/flags/x/aq.gif
+- iso_alpha3: ARG
+  code: AR
+  name: Argentina
+  geoname_id: 3865483
+  population: 41343201
+  area_in_sq_km: 2766890.0
+  capital: Buenos Aires
+  continent_name: South America
+  currency_code: ARS
+  language: Spanish, Castilian
+  all_languages:
+  - Spanish, Castilian
+  - English
+  - Italian
+  - German
+  - French
+  - Guaraní
+  flag_image: http://www.geonames.org/flags/x/ar.gif
+- iso_alpha3: ASM
+  code: AS
+  name: American Samoa
+  geoname_id: 5880801
+  population: 57881
+  area_in_sq_km: 199.0
+  capital: Pago Pago
+  continent_name: Oceania
+  currency_code: USD
+  language: English
+  all_languages:
+  - English
+  - Samoan
+  - Tongan (Tonga Islands)
+  flag_image: http://www.geonames.org/flags/x/as.gif
+- iso_alpha3: AUT
+  code: AT
+  name: Austria
+  geoname_id: 2782113
+  population: 8205000
+  area_in_sq_km: 83858.0
+  capital: Vienna
+  continent_name: Europe
+  currency_code: EUR
+  language: German
+  all_languages:
+  - German
+  - Croatian
+  - Hungarian
+  - Slovene
+  flag_image: http://www.geonames.org/flags/x/at.gif
+- iso_alpha3: AUS
+  code: AU
+  name: Australia
+  geoname_id: 2077456
+  population: 21515754
+  area_in_sq_km: 7686850.0
+  capital: Canberra
+  continent_name: Oceania
+  currency_code: AUD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/au.gif
+- iso_alpha3: ABW
+  code: AW
+  name: Aruba
+  geoname_id: 3577279
+  population: 71566
+  area_in_sq_km: 193.0
+  capital: Oranjestad
+  continent_name: North America
+  currency_code: AWG
+  language: Dutch, Flemish
+  all_languages:
+  - Dutch, Flemish
+  - Spanish, Castilian
+  - English
+  flag_image: http://www.geonames.org/flags/x/aw.gif
+- iso_alpha3: ALA
+  code: AX
+  name: Åland
+  geoname_id: 661882
+  population: 26711
+  area_in_sq_km: ''
+  capital: Mariehamn
+  continent_name: Europe
+  currency_code: EUR
+  language: Swedish
+  all_languages:
+  - Swedish
+  flag_image: http://www.geonames.org/flags/x/ax.gif
+- iso_alpha3: AZE
+  code: AZ
+  name: Azerbaijan
+  geoname_id: 587116
+  population: 8303512
+  area_in_sq_km: 86600.0
+  capital: Baku
+  continent_name: Asia
+  currency_code: AZN
+  language: Azerbaijani
+  all_languages:
+  - Azerbaijani
+  - Russian
+  - Armenian
+  flag_image: http://www.geonames.org/flags/x/az.gif
+- iso_alpha3: BIH
+  code: BA
+  name: Bosnia and Herzegovina
+  geoname_id: 3277605
+  population: 4590000
+  area_in_sq_km: 51129.0
+  capital: Sarajevo
+  continent_name: Europe
+  currency_code: BAM
+  language: Bosnian
+  all_languages:
+  - Bosnian
+  - Croatian
+  - Serbian
+  flag_image: http://www.geonames.org/flags/x/ba.gif
+- iso_alpha3: BRB
+  code: BB
+  name: Barbados
+  geoname_id: 3374084
+  population: 285653
+  area_in_sq_km: 431.0
+  capital: Bridgetown
+  continent_name: North America
+  currency_code: BBD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/bb.gif
+- iso_alpha3: BGD
+  code: BD
+  name: Bangladesh
+  geoname_id: 1210997
+  population: 156118464
+  area_in_sq_km: 144000.0
+  capital: Dhaka
+  continent_name: Asia
+  currency_code: BDT
+  language: Bengali
+  all_languages:
+  - Bengali
+  - English
+  flag_image: http://www.geonames.org/flags/x/bd.gif
+- iso_alpha3: BEL
+  code: BE
+  name: Belgium
+  geoname_id: 2802361
+  population: 10403000
+  area_in_sq_km: 30510.0
+  capital: Brussels
+  continent_name: Europe
+  currency_code: EUR
+  language: Dutch, Flemish
+  all_languages:
+  - Dutch, Flemish
+  - French
+  - German
+  flag_image: http://www.geonames.org/flags/x/be.gif
+- iso_alpha3: BFA
+  code: BF
+  name: Burkina Faso
+  geoname_id: 2361809
+  population: 16241811
+  area_in_sq_km: 274200.0
+  capital: Ouagadougou
+  continent_name: Africa
+  currency_code: XOF
+  language: French
+  all_languages:
+  - French
+  flag_image: http://www.geonames.org/flags/x/bf.gif
+- iso_alpha3: BGR
+  code: BG
+  name: Bulgaria
+  geoname_id: 732800
+  population: 7148785
+  area_in_sq_km: 110910.0
+  capital: Sofia
+  continent_name: Europe
+  currency_code: BGN
+  language: Bulgarian
+  all_languages:
+  - Bulgarian
+  - Turkish
+  flag_image: http://www.geonames.org/flags/x/bg.gif
+- iso_alpha3: BHR
+  code: BH
+  name: Bahrain
+  geoname_id: 290291
+  population: 738004
+  area_in_sq_km: 665.0
+  capital: Manama
+  continent_name: Asia
+  currency_code: BHD
+  language: Arabic
+  all_languages:
+  - Arabic
+  - English
+  - Persian
+  - Urdu
+  flag_image: http://www.geonames.org/flags/x/bh.gif
+- iso_alpha3: BDI
+  code: BI
+  name: Burundi
+  geoname_id: 433561
+  population: 9863117
+  area_in_sq_km: 27830.0
+  capital: Bujumbura
+  continent_name: Africa
+  currency_code: BIF
+  language: French
+  all_languages:
+  - French
+  - Kirundi
+  flag_image: http://www.geonames.org/flags/x/bi.gif
+- iso_alpha3: BEN
+  code: BJ
+  name: Benin
+  geoname_id: 2395170
+  population: 9056010
+  area_in_sq_km: 112620.0
+  capital: Porto-Novo
+  continent_name: Africa
+  currency_code: XOF
+  language: French
+  all_languages:
+  - French
+  flag_image: http://www.geonames.org/flags/x/bj.gif
+- iso_alpha3: BLM
+  code: BL
+  name: Saint Barthélemy
+  geoname_id: 3578476
+  population: 8450
+  area_in_sq_km: 21.0
+  capital: Gustavia
+  continent_name: North America
+  currency_code: EUR
+  language: French
+  all_languages:
+  - French
+  flag_image: http://www.geonames.org/flags/x/bl.gif
+- iso_alpha3: BMU
+  code: BM
+  name: Bermuda
+  geoname_id: 3573345
+  population: 65365
+  area_in_sq_km: 53.0
+  capital: Hamilton
+  continent_name: North America
+  currency_code: BMD
+  language: English
+  all_languages:
+  - English
+  - Portuguese
+  flag_image: http://www.geonames.org/flags/x/bm.gif
+- iso_alpha3: BRN
+  code: BN
+  name: Brunei
+  geoname_id: 1820814
+  population: 395027
+  area_in_sq_km: 5770.0
+  capital: Bandar Seri Begawan
+  continent_name: Asia
+  currency_code: BND
+  language: Malay
+  all_languages:
+  - Malay
+  - English
+  flag_image: http://www.geonames.org/flags/x/bn.gif
+- iso_alpha3: BOL
+  code: BO
+  name: Bolivia
+  geoname_id: 3923057
+  population: 9947418
+  area_in_sq_km: 1098580.0
+  capital: Sucre
+  continent_name: South America
+  currency_code: BOB
+  language: Spanish, Castilian
+  all_languages:
+  - Spanish, Castilian
+  - Quechua
+  - Aymara
+  flag_image: http://www.geonames.org/flags/x/bo.gif
+- iso_alpha3: BES
+  code: BQ
+  name: Bonaire
+  geoname_id: 7626844
+  population: 18012
+  area_in_sq_km: ''
+  capital: ''
+  continent_name: North America
+  currency_code: USD
+  language: Dutch, Flemish
+  all_languages:
+  - Dutch, Flemish
+  - English
+  flag_image: http://www.geonames.org/flags/x/bq.gif
+- iso_alpha3: BRA
+  code: BR
+  name: Brazil
+  geoname_id: 3469034
+  population: 201103330
+  area_in_sq_km: 8511965.0
+  capital: Brasília
+  continent_name: South America
+  currency_code: BRL
+  language: Portuguese
+  all_languages:
+  - Portuguese
+  - Spanish, Castilian
+  - English
+  - French
+  flag_image: http://www.geonames.org/flags/x/br.gif
+- iso_alpha3: BHS
+  code: BS
+  name: Bahamas
+  geoname_id: 3572887
+  population: 301790
+  area_in_sq_km: 13940.0
+  capital: Nassau
+  continent_name: North America
+  currency_code: BSD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/bs.gif
+- iso_alpha3: BTN
+  code: BT
+  name: Bhutan
+  geoname_id: 1252634
+  population: 699847
+  area_in_sq_km: 47000.0
+  capital: Thimphu
+  continent_name: Asia
+  currency_code: BTN
+  language: Dzongkha
+  all_languages:
+  - Dzongkha
+  flag_image: http://www.geonames.org/flags/x/bt.gif
+- iso_alpha3: BVT
+  code: BV
+  name: Bouvet Island
+  geoname_id: 3371123
+  population: 0
+  area_in_sq_km: ''
+  capital: ''
+  continent_name: Antarctica
+  currency_code: NOK
+  language: 
+  all_languages: []
+  flag_image: http://www.geonames.org/flags/x/bv.gif
+- iso_alpha3: BWA
+  code: BW
+  name: Botswana
+  geoname_id: 933860
+  population: 2029307
+  area_in_sq_km: 600370.0
+  capital: Gaborone
+  continent_name: Africa
+  currency_code: BWP
+  language: English
+  all_languages:
+  - English
+  - Tswana
+  flag_image: http://www.geonames.org/flags/x/bw.gif
+- iso_alpha3: BLR
+  code: BY
+  name: Belarus
+  geoname_id: 630336
+  population: 9685000
+  area_in_sq_km: 207600.0
+  capital: Minsk
+  continent_name: Europe
+  currency_code: BYR
+  language: Belarusian
+  all_languages:
+  - Belarusian
+  - Russian
+  flag_image: http://www.geonames.org/flags/x/by.gif
+- iso_alpha3: BLZ
+  code: BZ
+  name: Belize
+  geoname_id: 3582678
+  population: 314522
+  area_in_sq_km: 22966.0
+  capital: Belmopan
+  continent_name: North America
+  currency_code: BZD
+  language: English
+  all_languages:
+  - English
+  - Spanish, Castilian
+  flag_image: http://www.geonames.org/flags/x/bz.gif
+- iso_alpha3: CAN
+  code: CA
+  name: Canada
+  geoname_id: 6251999
+  population: 33679000
+  area_in_sq_km: 9984670.0
+  capital: Ottawa
+  continent_name: North America
+  currency_code: CAD
+  language: English
+  all_languages:
+  - English
+  - French
+  - Inuktitut
+  flag_image: http://www.geonames.org/flags/x/ca.gif
+- iso_alpha3: CCK
+  code: CC
+  name: Cocos [Keeling] Islands
+  geoname_id: 1547376
+  population: 628
+  area_in_sq_km: 14.0
+  capital: West Island
+  continent_name: Asia
+  currency_code: AUD
+  language: Malay
+  all_languages:
+  - Malay
+  - English
+  flag_image: http://www.geonames.org/flags/x/cc.gif
+- iso_alpha3: COD
+  code: CD
+  name: Democratic Republic of the Congo
+  geoname_id: 203312
+  population: 70916439
+  area_in_sq_km: 2345410.0
+  capital: Kinshasa
+  continent_name: Africa
+  currency_code: CDF
+  language: French
+  all_languages:
+  - French
+  - Lingala
+  - Kongo
+  flag_image: http://www.geonames.org/flags/x/cd.gif
+- iso_alpha3: CAF
+  code: CF
+  name: Central African Republic
+  geoname_id: 239880
+  population: 4844927
+  area_in_sq_km: 622984.0
+  capital: Bangui
+  continent_name: Africa
+  currency_code: XAF
+  language: French
+  all_languages:
+  - French
+  - Sango
+  - Lingala
+  - Kongo
+  flag_image: http://www.geonames.org/flags/x/cf.gif
+- iso_alpha3: COG
+  code: CG
+  name: Republic of the Congo
+  geoname_id: 2260494
+  population: 3039126
+  area_in_sq_km: 342000.0
+  capital: Brazzaville
+  continent_name: Africa
+  currency_code: XAF
+  language: French
+  all_languages:
+  - French
+  - Kongo
+  - Lingala
+  flag_image: http://www.geonames.org/flags/x/cg.gif
+- iso_alpha3: CHE
+  code: CH
+  name: Switzerland
+  geoname_id: 2658434
+  population: 7581000
+  area_in_sq_km: 41290.0
+  capital: Berne
+  continent_name: Europe
+  currency_code: CHF
+  language: German
+  all_languages:
+  - German
+  - French
+  - Italian
+  - Romansh
+  flag_image: http://www.geonames.org/flags/x/ch.gif
+- iso_alpha3: CIV
+  code: CI
+  name: Ivory Coast
+  geoname_id: 2287781
+  population: 21058798
+  area_in_sq_km: 322460.0
+  capital: Yamoussoukro
+  continent_name: Africa
+  currency_code: XOF
+  language: French
+  all_languages:
+  - French
+  flag_image: http://www.geonames.org/flags/x/ci.gif
+- iso_alpha3: COK
+  code: CK
+  name: Cook Islands
+  geoname_id: 1899402
+  population: 21388
+  area_in_sq_km: 240.0
+  capital: Avarua
+  continent_name: Oceania
+  currency_code: NZD
+  language: English
+  all_languages:
+  - English
+  - Māori
+  flag_image: http://www.geonames.org/flags/x/ck.gif
+- iso_alpha3: CHL
+  code: CL
+  name: Chile
+  geoname_id: 3895114
+  population: 16746491
+  area_in_sq_km: 756950.0
+  capital: Santiago
+  continent_name: South America
+  currency_code: CLP
+  language: Spanish, Castilian
+  all_languages:
+  - Spanish, Castilian
+  flag_image: http://www.geonames.org/flags/x/cl.gif
+- iso_alpha3: CMR
+  code: CM
+  name: Cameroon
+  geoname_id: 2233387
+  population: 19294149
+  area_in_sq_km: 475440.0
+  capital: Yaoundé
+  continent_name: Africa
+  currency_code: XAF
+  language: English
+  all_languages:
+  - English
+  - French
+  flag_image: http://www.geonames.org/flags/x/cm.gif
+- iso_alpha3: CHN
+  code: CN
+  name: China
+  geoname_id: 1814991
+  population: 1330044000
+  area_in_sq_km: 9596960.0
+  capital: Beijing
+  continent_name: Asia
+  currency_code: CNY
+  language: Chinese
+  all_languages:
+  - Chinese
+  - Uyghur, Uyghur
+  - Zhuang, Chuang
+  flag_image: http://www.geonames.org/flags/x/cn.gif
+- iso_alpha3: COL
+  code: CO
+  name: Colombia
+  geoname_id: 3686110
+  population: 47790000
+  area_in_sq_km: 1138910.0
+  capital: Bogotá
+  continent_name: South America
+  currency_code: COP
+  language: Spanish, Castilian
+  all_languages:
+  - Spanish, Castilian
+  flag_image: http://www.geonames.org/flags/x/co.gif
+- iso_alpha3: CRI
+  code: CR
+  name: Costa Rica
+  geoname_id: 3624060
+  population: 4516220
+  area_in_sq_km: 51100.0
+  capital: San José
+  continent_name: North America
+  currency_code: CRC
+  language: Spanish, Castilian
+  all_languages:
+  - Spanish, Castilian
+  - English
+  flag_image: http://www.geonames.org/flags/x/cr.gif
+- iso_alpha3: CUB
+  code: CU
+  name: Cuba
+  geoname_id: 3562981
+  population: 11423000
+  area_in_sq_km: 110860.0
+  capital: Havana
+  continent_name: North America
+  currency_code: CUP
+  language: Spanish, Castilian
+  all_languages:
+  - Spanish, Castilian
+  flag_image: http://www.geonames.org/flags/x/cu.gif
+- iso_alpha3: CPV
+  code: CV
+  name: Cape Verde
+  geoname_id: 3374766
+  population: 508659
+  area_in_sq_km: 4033.0
+  capital: Praia
+  continent_name: Africa
+  currency_code: CVE
+  language: Portuguese
+  all_languages:
+  - Portuguese
+  flag_image: http://www.geonames.org/flags/x/cv.gif
+- iso_alpha3: CUW
+  code: CW
+  name: Curacao
+  geoname_id: 7626836
+  population: 141766
+  area_in_sq_km: ''
+  capital: Willemstad
+  continent_name: North America
+  currency_code: ANG
+  language: Dutch, Flemish
+  all_languages:
+  - Dutch, Flemish
+  flag_image: http://www.geonames.org/flags/x/cw.gif
+- iso_alpha3: CXR
+  code: CX
+  name: Christmas Island
+  geoname_id: 2078138
+  population: 1500
+  area_in_sq_km: 135.0
+  capital: The Settlement
+  continent_name: Asia
+  currency_code: AUD
+  language: English
+  all_languages:
+  - English
+  - Chinese
+  - Malay
+  flag_image: http://www.geonames.org/flags/x/cx.gif
+- iso_alpha3: CYP
+  code: CY
+  name: Cyprus
+  geoname_id: 146669
+  population: 1102677
+  area_in_sq_km: 9250.0
+  capital: Nicosia
+  continent_name: Europe
+  currency_code: EUR
+  language: Modern Greek
+  all_languages:
+  - Modern Greek
+  - Turkish
+  - English
+  flag_image: http://www.geonames.org/flags/x/cy.gif
+- iso_alpha3: CZE
+  code: CZ
+  name: Czech Republic
+  geoname_id: 3077311
+  population: 10476000
+  area_in_sq_km: 78866.0
+  capital: Prague
+  continent_name: Europe
+  currency_code: CZK
+  language: Czech
+  all_languages:
+  - Czech
+  - Slovak
+  flag_image: http://www.geonames.org/flags/x/cz.gif
+- iso_alpha3: DEU
+  code: DE
+  name: Germany
+  geoname_id: 2921044
+  population: 81802257
+  area_in_sq_km: 357021.0
+  capital: Berlin
+  continent_name: Europe
+  currency_code: EUR
+  language: German
+  all_languages:
+  - German
+  flag_image: http://www.geonames.org/flags/x/de.gif
+- iso_alpha3: DJI
+  code: DJ
+  name: Djibouti
+  geoname_id: 223816
+  population: 740528
+  area_in_sq_km: 23000.0
+  capital: Djibouti
+  continent_name: Africa
+  currency_code: DJF
+  language: French
+  all_languages:
+  - French
+  - Arabic
+  - Somali
+  - Afar
+  flag_image: http://www.geonames.org/flags/x/dj.gif
+- iso_alpha3: DNK
+  code: DK
+  name: Denmark
+  geoname_id: 2623032
+  population: 5484000
+  area_in_sq_km: 43094.0
+  capital: Copenhagen
+  continent_name: Europe
+  currency_code: DKK
+  language: Danish
+  all_languages:
+  - Danish
+  - English
+  - Faroese
+  - German
+  flag_image: http://www.geonames.org/flags/x/dk.gif
+- iso_alpha3: DMA
+  code: DM
+  name: Dominica
+  geoname_id: 3575830
+  population: 72813
+  area_in_sq_km: 754.0
+  capital: Roseau
+  continent_name: North America
+  currency_code: XCD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/dm.gif
+- iso_alpha3: DOM
+  code: DO
+  name: Dominican Republic
+  geoname_id: 3508796
+  population: 9823821
+  area_in_sq_km: 48730.0
+  capital: Santo Domingo
+  continent_name: North America
+  currency_code: DOP
+  language: Spanish, Castilian
+  all_languages:
+  - Spanish, Castilian
+  flag_image: http://www.geonames.org/flags/x/do.gif
+- iso_alpha3: DZA
+  code: DZ
+  name: Algeria
+  geoname_id: 2589581
+  population: 34586184
+  area_in_sq_km: 2381740.0
+  capital: Algiers
+  continent_name: Africa
+  currency_code: DZD
+  language: Arabic
+  all_languages:
+  - Arabic
+  flag_image: http://www.geonames.org/flags/x/dz.gif
+- iso_alpha3: ECU
+  code: EC
+  name: Ecuador
+  geoname_id: 3658394
+  population: 14790608
+  area_in_sq_km: 283560.0
+  capital: Quito
+  continent_name: South America
+  currency_code: USD
+  language: Spanish, Castilian
+  all_languages:
+  - Spanish, Castilian
+  flag_image: http://www.geonames.org/flags/x/ec.gif
+- iso_alpha3: EST
+  code: EE
+  name: Estonia
+  geoname_id: 453733
+  population: 1291170
+  area_in_sq_km: 45226.0
+  capital: Tallinn
+  continent_name: Europe
+  currency_code: EUR
+  language: Estonian
+  all_languages:
+  - Estonian
+  - Russian
+  flag_image: http://www.geonames.org/flags/x/ee.gif
+- iso_alpha3: EGY
+  code: EG
+  name: Egypt
+  geoname_id: 357994
+  population: 80471869
+  area_in_sq_km: 1001450.0
+  capital: Cairo
+  continent_name: Africa
+  currency_code: EGP
+  language: Arabic
+  all_languages:
+  - Arabic
+  - English
+  - French
+  flag_image: http://www.geonames.org/flags/x/eg.gif
+- iso_alpha3: ESH
+  code: EH
+  name: Western Sahara
+  geoname_id: 2461445
+  population: 273008
+  area_in_sq_km: 266000.0
+  capital: El Aaiún
+  continent_name: Africa
+  currency_code: MAD
+  language: Arabic
+  all_languages:
+  - Arabic
+  flag_image: http://www.geonames.org/flags/x/eh.gif
+- iso_alpha3: ERI
+  code: ER
+  name: Eritrea
+  geoname_id: 338010
+  population: 5792984
+  area_in_sq_km: 121320.0
+  capital: Asmara
+  continent_name: Africa
+  currency_code: ERN
+  language: Afar
+  all_languages:
+  - Afar
+  - Arabic
+  - Tigrinya
+  flag_image: http://www.geonames.org/flags/x/er.gif
+- iso_alpha3: ESP
+  code: ES
+  name: Spain
+  geoname_id: 2510769
+  population: 46505963
+  area_in_sq_km: 504782.0
+  capital: Madrid
+  continent_name: Europe
+  currency_code: EUR
+  language: Spanish, Castilian
+  all_languages:
+  - Spanish, Castilian
+  - Catalan, Valencian
+  - Galician
+  - Basque
+  - Occitan (after 1500)
+  flag_image: http://www.geonames.org/flags/x/es.gif
+- iso_alpha3: ETH
+  code: ET
+  name: Ethiopia
+  geoname_id: 337996
+  population: 88013491
+  area_in_sq_km: 1127127.0
+  capital: Addis Ababa
+  continent_name: Africa
+  currency_code: ETB
+  language: Amharic
+  all_languages:
+  - Amharic
+  - English
+  - Oromo
+  - Tigrinya
+  - Somali
+  flag_image: http://www.geonames.org/flags/x/et.gif
+- iso_alpha3: FIN
+  code: FI
+  name: Finland
+  geoname_id: 660013
+  population: 5244000
+  area_in_sq_km: 337030.0
+  capital: Helsinki
+  continent_name: Europe
+  currency_code: EUR
+  language: Finnish
+  all_languages:
+  - Finnish
+  - Swedish
+  flag_image: http://www.geonames.org/flags/x/fi.gif
+- iso_alpha3: FJI
+  code: FJ
+  name: Fiji
+  geoname_id: 2205218
+  population: 875983
+  area_in_sq_km: 18270.0
+  capital: Suva
+  continent_name: Oceania
+  currency_code: FJD
+  language: English
+  all_languages:
+  - English
+  - Fijian
+  flag_image: http://www.geonames.org/flags/x/fj.gif
+- iso_alpha3: FLK
+  code: FK
+  name: Falkland Islands
+  geoname_id: 3474414
+  population: 2638
+  area_in_sq_km: 12173.0
+  capital: Stanley
+  continent_name: South America
+  currency_code: FKP
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/fk.gif
+- iso_alpha3: FSM
+  code: FM
+  name: Micronesia
+  geoname_id: 2081918
+  population: 107708
+  area_in_sq_km: 702.0
+  capital: Palikir
+  continent_name: Oceania
+  currency_code: USD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/fm.gif
+- iso_alpha3: FRO
+  code: FO
+  name: Faroe Islands
+  geoname_id: 2622320
+  population: 48228
+  area_in_sq_km: 1399.0
+  capital: Tórshavn
+  continent_name: Europe
+  currency_code: DKK
+  language: Faroese
+  all_languages:
+  - Faroese
+  - Danish
+  flag_image: http://www.geonames.org/flags/x/fo.gif
+- iso_alpha3: FRA
+  code: FR
+  name: France
+  geoname_id: 3017382
+  population: 64768389
+  area_in_sq_km: 547030.0
+  capital: Paris
+  continent_name: Europe
+  currency_code: EUR
+  language: French
+  all_languages:
+  - French
+  - Breton
+  - Corsican
+  - Catalan, Valencian
+  - Basque
+  - Occitan (after 1500)
+  flag_image: http://www.geonames.org/flags/x/fr.gif
+- iso_alpha3: GAB
+  code: GA
+  name: Gabon
+  geoname_id: 2400553
+  population: 1545255
+  area_in_sq_km: 267667.0
+  capital: Libreville
+  continent_name: Africa
+  currency_code: XAF
+  language: French
+  all_languages:
+  - French
+  flag_image: http://www.geonames.org/flags/x/ga.gif
+- iso_alpha3: GBR
+  code: GB
+  name: United Kingdom
+  geoname_id: 2635167
+  population: 62348447
+  area_in_sq_km: 244820.0
+  capital: London
+  continent_name: Europe
+  currency_code: GBP
+  language: English
+  all_languages:
+  - English
+  - Welsh
+  - Gaelic, Scottish Gaelic
+  flag_image: http://www.geonames.org/flags/x/gb.gif
+- iso_alpha3: GRD
+  code: GD
+  name: Grenada
+  geoname_id: 3580239
+  population: 107818
+  area_in_sq_km: 344.0
+  capital: St. George's
+  continent_name: North America
+  currency_code: XCD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/gd.gif
+- iso_alpha3: GEO
+  code: GE
+  name: Georgia
+  geoname_id: 614540
+  population: 4630000
+  area_in_sq_km: 69700.0
+  capital: Tbilisi
+  continent_name: Asia
+  currency_code: GEL
+  language: Georgian
+  all_languages:
+  - Georgian
+  - Russian
+  - Armenian
+  - Azerbaijani
+  flag_image: http://www.geonames.org/flags/x/ge.gif
+- iso_alpha3: GUF
+  code: GF
+  name: French Guiana
+  geoname_id: 3381670
+  population: 195506
+  area_in_sq_km: 91000.0
+  capital: Cayenne
+  continent_name: South America
+  currency_code: EUR
+  language: French
+  all_languages:
+  - French
+  flag_image: http://www.geonames.org/flags/x/gf.gif
+- iso_alpha3: GGY
+  code: GG
+  name: Guernsey
+  geoname_id: 3042362
+  population: 65228
+  area_in_sq_km: 78.0
+  capital: St Peter Port
+  continent_name: Europe
+  currency_code: GBP
+  language: English
+  all_languages:
+  - English
+  - French
+  flag_image: http://www.geonames.org/flags/x/gg.gif
+- iso_alpha3: GHA
+  code: GH
+  name: Ghana
+  geoname_id: 2300660
+  population: 24339838
+  area_in_sq_km: 239460.0
+  capital: Accra
+  continent_name: Africa
+  currency_code: GHS
+  language: English
+  all_languages:
+  - English
+  - Akan
+  - Ewe
+  - Twi
+  flag_image: http://www.geonames.org/flags/x/gh.gif
+- iso_alpha3: GIB
+  code: GI
+  name: Gibraltar
+  geoname_id: 2411586
+  population: 27884
+  area_in_sq_km: 6.5
+  capital: Gibraltar
+  continent_name: Europe
+  currency_code: GIP
+  language: English
+  all_languages:
+  - English
+  - Spanish, Castilian
+  - Italian
+  - Portuguese
+  flag_image: http://www.geonames.org/flags/x/gi.gif
+- iso_alpha3: GRL
+  code: GL
+  name: Greenland
+  geoname_id: 3425505
+  population: 56375
+  area_in_sq_km: 2166086.0
+  capital: Nuuk
+  continent_name: North America
+  currency_code: DKK
+  language: Kalaallisut, Greenlandic
+  all_languages:
+  - Kalaallisut, Greenlandic
+  - Danish
+  - English
+  flag_image: http://www.geonames.org/flags/x/gl.gif
+- iso_alpha3: GMB
+  code: GM
+  name: Gambia
+  geoname_id: 2413451
+  population: 1593256
+  area_in_sq_km: 11300.0
+  capital: Banjul
+  continent_name: Africa
+  currency_code: GMD
+  language: English
+  all_languages:
+  - English
+  - Wolof
+  - Fula
+  flag_image: http://www.geonames.org/flags/x/gm.gif
+- iso_alpha3: GIN
+  code: GN
+  name: Guinea
+  geoname_id: 2420477
+  population: 10324025
+  area_in_sq_km: 245857.0
+  capital: Conakry
+  continent_name: Africa
+  currency_code: GNF
+  language: French
+  all_languages:
+  - French
+  flag_image: http://www.geonames.org/flags/x/gn.gif
+- iso_alpha3: GLP
+  code: GP
+  name: Guadeloupe
+  geoname_id: 3579143
+  population: 443000
+  area_in_sq_km: 1780.0
+  capital: Basse-Terre
+  continent_name: North America
+  currency_code: EUR
+  language: French
+  all_languages:
+  - French
+  flag_image: http://www.geonames.org/flags/x/gp.gif
+- iso_alpha3: GNQ
+  code: GQ
+  name: Equatorial Guinea
+  geoname_id: 2309096
+  population: 1014999
+  area_in_sq_km: 28051.0
+  capital: Malabo
+  continent_name: Africa
+  currency_code: XAF
+  language: Spanish, Castilian
+  all_languages:
+  - Spanish, Castilian
+  - French
+  flag_image: http://www.geonames.org/flags/x/gq.gif
+- iso_alpha3: GRC
+  code: GR
+  name: Greece
+  geoname_id: 390903
+  population: 11000000
+  area_in_sq_km: 131940.0
+  capital: Athens
+  continent_name: Europe
+  currency_code: EUR
+  language: Modern Greek
+  all_languages:
+  - Modern Greek
+  - English
+  - French
+  flag_image: http://www.geonames.org/flags/x/gr.gif
+- iso_alpha3: SGS
+  code: GS
+  name: South Georgia and the South Sandwich Islands
+  geoname_id: 3474415
+  population: 30
+  area_in_sq_km: 3903.0
+  capital: Grytviken
+  continent_name: Antarctica
+  currency_code: GBP
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/gs.gif
+- iso_alpha3: GTM
+  code: GT
+  name: Guatemala
+  geoname_id: 3595528
+  population: 13550440
+  area_in_sq_km: 108890.0
+  capital: Guatemala City
+  continent_name: North America
+  currency_code: GTQ
+  language: Spanish, Castilian
+  all_languages:
+  - Spanish, Castilian
+  flag_image: http://www.geonames.org/flags/x/gt.gif
+- iso_alpha3: GUM
+  code: GU
+  name: Guam
+  geoname_id: 4043988
+  population: 159358
+  area_in_sq_km: 549.0
+  capital: Hagåtña
+  continent_name: Oceania
+  currency_code: USD
+  language: English
+  all_languages:
+  - English
+  - Chamorro
+  flag_image: http://www.geonames.org/flags/x/gu.gif
+- iso_alpha3: GNB
+  code: GW
+  name: Guinea-Bissau
+  geoname_id: 2372248
+  population: 1565126
+  area_in_sq_km: 36120.0
+  capital: Bissau
+  continent_name: Africa
+  currency_code: XOF
+  language: Portuguese
+  all_languages:
+  - Portuguese
+  flag_image: http://www.geonames.org/flags/x/gw.gif
+- iso_alpha3: GUY
+  code: GY
+  name: Guyana
+  geoname_id: 3378535
+  population: 748486
+  area_in_sq_km: 214970.0
+  capital: Georgetown
+  continent_name: South America
+  currency_code: GYD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/gy.gif
+- iso_alpha3: HKG
+  code: HK
+  name: Hong Kong
+  geoname_id: 1819730
+  population: 6898686
+  area_in_sq_km: 1092.0
+  capital: Hong Kong
+  continent_name: Asia
+  currency_code: HKD
+  language: Chinese
+  all_languages:
+  - Chinese
+  - Chinese
+  - English
+  flag_image: http://www.geonames.org/flags/x/hk.gif
+- iso_alpha3: HMD
+  code: HM
+  name: Heard Island and McDonald Islands
+  geoname_id: 1547314
+  population: 0
+  area_in_sq_km: 412.0
+  capital: ''
+  continent_name: Antarctica
+  currency_code: AUD
+  language: 
+  all_languages: []
+  flag_image: http://www.geonames.org/flags/x/hm.gif
+- iso_alpha3: HND
+  code: HN
+  name: Honduras
+  geoname_id: 3608932
+  population: 7989415
+  area_in_sq_km: 112090.0
+  capital: Tegucigalpa
+  continent_name: North America
+  currency_code: HNL
+  language: Spanish, Castilian
+  all_languages:
+  - Spanish, Castilian
+  flag_image: http://www.geonames.org/flags/x/hn.gif
+- iso_alpha3: HRV
+  code: HR
+  name: Croatia
+  geoname_id: 3202326
+  population: 4491000
+  area_in_sq_km: 56542.0
+  capital: Zagreb
+  continent_name: Europe
+  currency_code: HRK
+  language: Croatian
+  all_languages:
+  - Croatian
+  - Serbian
+  flag_image: http://www.geonames.org/flags/x/hr.gif
+- iso_alpha3: HTI
+  code: HT
+  name: Haiti
+  geoname_id: 3723988
+  population: 9648924
+  area_in_sq_km: 27750.0
+  capital: Port-au-Prince
+  continent_name: North America
+  currency_code: HTG
+  language: Haitian Creole, Haitian Creole
+  all_languages:
+  - Haitian Creole, Haitian Creole
+  - French
+  flag_image: http://www.geonames.org/flags/x/ht.gif
+- iso_alpha3: HUN
+  code: HU
+  name: Hungary
+  geoname_id: 719819
+  population: 9982000
+  area_in_sq_km: 93030.0
+  capital: Budapest
+  continent_name: Europe
+  currency_code: HUF
+  language: Hungarian
+  all_languages:
+  - Hungarian
+  flag_image: http://www.geonames.org/flags/x/hu.gif
+- iso_alpha3: IDN
+  code: ID
+  name: Indonesia
+  geoname_id: 1643084
+  population: 242968342
+  area_in_sq_km: 1919440.0
+  capital: Jakarta
+  continent_name: Asia
+  currency_code: IDR
+  language: Indonesian
+  all_languages:
+  - Indonesian
+  - English
+  - Dutch, Flemish
+  - Javanese
+  flag_image: http://www.geonames.org/flags/x/id.gif
+- iso_alpha3: IRL
+  code: IE
+  name: Ireland
+  geoname_id: 2963597
+  population: 4622917
+  area_in_sq_km: 70280.0
+  capital: Dublin
+  continent_name: Europe
+  currency_code: EUR
+  language: English
+  all_languages:
+  - English
+  - Irish
+  flag_image: http://www.geonames.org/flags/x/ie.gif
+- iso_alpha3: ISR
+  code: IL
+  name: Israel
+  geoname_id: 294640
+  population: 7353985
+  area_in_sq_km: 20770.0
+  capital: ''
+  continent_name: Asia
+  currency_code: ILS
+  language: Modern Hebrew
+  all_languages:
+  - Modern Hebrew
+  - Arabic
+  - English
+  flag_image: http://www.geonames.org/flags/x/il.gif
+- iso_alpha3: IMN
+  code: IM
+  name: Isle of Man
+  geoname_id: 3042225
+  population: 75049
+  area_in_sq_km: 572.0
+  capital: Douglas
+  continent_name: Europe
+  currency_code: GBP
+  language: English
+  all_languages:
+  - English
+  - Manx
+  flag_image: http://www.geonames.org/flags/x/im.gif
+- iso_alpha3: IND
+  code: IN
+  name: India
+  geoname_id: 1269750
+  population: 1173108018
+  area_in_sq_km: 3287590.0
+  capital: New Delhi
+  continent_name: Asia
+  currency_code: INR
+  language: English
+  all_languages:
+  - English
+  - Hindi
+  - Bengali
+  - Telugu
+  - Marathi
+  - Tamil
+  - Urdu
+  - Gujarati
+  - Kannada
+  - Malayalam
+  - Oriya
+  - Punjabi, Panjabi
+  - Assamese
+  - Bihari
+  - Kashmiri
+  - Nepali
+  - Sindhi
+  - Sanskrit
+  - French
+  flag_image: http://www.geonames.org/flags/x/in.gif
+- iso_alpha3: IOT
+  code: IO
+  name: British Indian Ocean Territory
+  geoname_id: 1282588
+  population: 4000
+  area_in_sq_km: 60.0
+  capital: ''
+  continent_name: Asia
+  currency_code: USD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/io.gif
+- iso_alpha3: IRQ
+  code: IQ
+  name: Iraq
+  geoname_id: 99237
+  population: 29671605
+  area_in_sq_km: 437072.0
+  capital: Baghdad
+  continent_name: Asia
+  currency_code: IQD
+  language: Arabic
+  all_languages:
+  - Arabic
+  - Kurdish
+  - Armenian
+  flag_image: http://www.geonames.org/flags/x/iq.gif
+- iso_alpha3: IRN
+  code: IR
+  name: Iran
+  geoname_id: 130758
+  population: 76923300
+  area_in_sq_km: 1648000.0
+  capital: Tehran
+  continent_name: Asia
+  currency_code: IRR
+  language: Persian
+  all_languages:
+  - Persian
+  - Kurdish
+  flag_image: http://www.geonames.org/flags/x/ir.gif
+- iso_alpha3: ISL
+  code: IS
+  name: Iceland
+  geoname_id: 2629691
+  population: 308910
+  area_in_sq_km: 103000.0
+  capital: Reykjavik
+  continent_name: Europe
+  currency_code: ISK
+  language: Icelandic
+  all_languages:
+  - Icelandic
+  - English
+  - German
+  - Danish
+  - Swedish
+  - Norwegian
+  flag_image: http://www.geonames.org/flags/x/is.gif
+- iso_alpha3: ITA
+  code: IT
+  name: Italy
+  geoname_id: 3175395
+  population: 60340328
+  area_in_sq_km: 301230.0
+  capital: Rome
+  continent_name: Europe
+  currency_code: EUR
+  language: Italian
+  all_languages:
+  - Italian
+  - German
+  - French
+  - Sardinian
+  - Catalan, Valencian
+  - Corsican
+  - Slovene
+  flag_image: http://www.geonames.org/flags/x/it.gif
+- iso_alpha3: JEY
+  code: JE
+  name: Jersey
+  geoname_id: 3042142
+  population: 90812
+  area_in_sq_km: 116.0
+  capital: Saint Helier
+  continent_name: Europe
+  currency_code: GBP
+  language: English
+  all_languages:
+  - English
+  - Portuguese
+  flag_image: http://www.geonames.org/flags/x/je.gif
+- iso_alpha3: JAM
+  code: JM
+  name: Jamaica
+  geoname_id: 3489940
+  population: 2847232
+  area_in_sq_km: 10991.0
+  capital: Kingston
+  continent_name: North America
+  currency_code: JMD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/jm.gif
+- iso_alpha3: JOR
+  code: JO
+  name: Jordan
+  geoname_id: 248816
+  population: 6407085
+  area_in_sq_km: 92300.0
+  capital: Amman
+  continent_name: Asia
+  currency_code: JOD
+  language: Arabic
+  all_languages:
+  - Arabic
+  - English
+  flag_image: http://www.geonames.org/flags/x/jo.gif
+- iso_alpha3: JPN
+  code: JP
+  name: Japan
+  geoname_id: 1861060
+  population: 127288000
+  area_in_sq_km: 377835.0
+  capital: Tokyo
+  continent_name: Asia
+  currency_code: JPY
+  language: Japanese
+  all_languages:
+  - Japanese
+  flag_image: http://www.geonames.org/flags/x/jp.gif
+- iso_alpha3: KEN
+  code: KE
+  name: Kenya
+  geoname_id: 192950
+  population: 40046566
+  area_in_sq_km: 582650.0
+  capital: Nairobi
+  continent_name: Africa
+  currency_code: KES
+  language: English
+  all_languages:
+  - English
+  - Swahili
+  flag_image: http://www.geonames.org/flags/x/ke.gif
+- iso_alpha3: KGZ
+  code: KG
+  name: Kyrgyzstan
+  geoname_id: 1527747
+  population: 5508626
+  area_in_sq_km: 198500.0
+  capital: Bishkek
+  continent_name: Asia
+  currency_code: KGS
+  language: Kyrgyz, Kirgiz
+  all_languages:
+  - Kyrgyz, Kirgiz
+  - Uzbek
+  - Russian
+  flag_image: http://www.geonames.org/flags/x/kg.gif
+- iso_alpha3: KHM
+  code: KH
+  name: Cambodia
+  geoname_id: 1831722
+  population: 14453680
+  area_in_sq_km: 181040.0
+  capital: Phnom Penh
+  continent_name: Asia
+  currency_code: KHR
+  language: Central Khmer
+  all_languages:
+  - Central Khmer
+  - French
+  - English
+  flag_image: http://www.geonames.org/flags/x/kh.gif
+- iso_alpha3: KIR
+  code: KI
+  name: Kiribati
+  geoname_id: 4030945
+  population: 92533
+  area_in_sq_km: 811.0
+  capital: Tarawa
+  continent_name: Oceania
+  currency_code: AUD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/ki.gif
+- iso_alpha3: COM
+  code: KM
+  name: Comoros
+  geoname_id: 921929
+  population: 773407
+  area_in_sq_km: 2170.0
+  capital: Moroni
+  continent_name: Africa
+  currency_code: KMF
+  language: Arabic
+  all_languages:
+  - Arabic
+  - French
+  flag_image: http://www.geonames.org/flags/x/km.gif
+- iso_alpha3: KNA
+  code: KN
+  name: Saint Kitts and Nevis
+  geoname_id: 3575174
+  population: 51134
+  area_in_sq_km: 261.0
+  capital: Basseterre
+  continent_name: North America
+  currency_code: XCD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/kn.gif
+- iso_alpha3: PRK
+  code: KP
+  name: North Korea
+  geoname_id: 1873107
+  population: 22912177
+  area_in_sq_km: 120540.0
+  capital: Pyongyang
+  continent_name: Asia
+  currency_code: KPW
+  language: Korean
+  all_languages:
+  - Korean
+  flag_image: http://www.geonames.org/flags/x/kp.gif
+- iso_alpha3: KOR
+  code: KR
+  name: South Korea
+  geoname_id: 1835841
+  population: 48422644
+  area_in_sq_km: 98480.0
+  capital: Seoul
+  continent_name: Asia
+  currency_code: KRW
+  language: Korean
+  all_languages:
+  - Korean
+  - English
+  flag_image: http://www.geonames.org/flags/x/kr.gif
+- iso_alpha3: KWT
+  code: KW
+  name: Kuwait
+  geoname_id: 285570
+  population: 2789132
+  area_in_sq_km: 17820.0
+  capital: Kuwait City
+  continent_name: Asia
+  currency_code: KWD
+  language: Arabic
+  all_languages:
+  - Arabic
+  - English
+  flag_image: http://www.geonames.org/flags/x/kw.gif
+- iso_alpha3: CYM
+  code: KY
+  name: Cayman Islands
+  geoname_id: 3580718
+  population: 44270
+  area_in_sq_km: 262.0
+  capital: George Town
+  continent_name: North America
+  currency_code: KYD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/ky.gif
+- iso_alpha3: KAZ
+  code: KZ
+  name: Kazakhstan
+  geoname_id: 1522867
+  population: 15340000
+  area_in_sq_km: 2717300.0
+  capital: Astana
+  continent_name: Asia
+  currency_code: KZT
+  language: Kazakh
+  all_languages:
+  - Kazakh
+  - Russian
+  flag_image: http://www.geonames.org/flags/x/kz.gif
+- iso_alpha3: LAO
+  code: LA
+  name: Laos
+  geoname_id: 1655842
+  population: 6368162
+  area_in_sq_km: 236800.0
+  capital: Vientiane
+  continent_name: Asia
+  currency_code: LAK
+  language: Lao
+  all_languages:
+  - Lao
+  - French
+  - English
+  flag_image: http://www.geonames.org/flags/x/la.gif
+- iso_alpha3: LBN
+  code: LB
+  name: Lebanon
+  geoname_id: 272103
+  population: 4125247
+  area_in_sq_km: 10400.0
+  capital: Beirut
+  continent_name: Asia
+  currency_code: LBP
+  language: Arabic
+  all_languages:
+  - Arabic
+  - French
+  - English
+  - Armenian
+  flag_image: http://www.geonames.org/flags/x/lb.gif
+- iso_alpha3: LCA
+  code: LC
+  name: Saint Lucia
+  geoname_id: 3576468
+  population: 160922
+  area_in_sq_km: 616.0
+  capital: Castries
+  continent_name: North America
+  currency_code: XCD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/lc.gif
+- iso_alpha3: LIE
+  code: LI
+  name: Liechtenstein
+  geoname_id: 3042058
+  population: 35000
+  area_in_sq_km: 160.0
+  capital: Vaduz
+  continent_name: Europe
+  currency_code: CHF
+  language: German
+  all_languages:
+  - German
+  flag_image: http://www.geonames.org/flags/x/li.gif
+- iso_alpha3: LKA
+  code: LK
+  name: Sri Lanka
+  geoname_id: 1227603
+  population: 21513990
+  area_in_sq_km: 65610.0
+  capital: Colombo
+  continent_name: Asia
+  currency_code: LKR
+  language: Sinhala, Sinhalese
+  all_languages:
+  - Sinhala, Sinhalese
+  - Tamil
+  - English
+  flag_image: http://www.geonames.org/flags/x/lk.gif
+- iso_alpha3: LBR
+  code: LR
+  name: Liberia
+  geoname_id: 2275384
+  population: 3685076
+  area_in_sq_km: 111370.0
+  capital: Monrovia
+  continent_name: Africa
+  currency_code: LRD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/lr.gif
+- iso_alpha3: LSO
+  code: LS
+  name: Lesotho
+  geoname_id: 932692
+  population: 1919552
+  area_in_sq_km: 30355.0
+  capital: Maseru
+  continent_name: Africa
+  currency_code: LSL
+  language: English
+  all_languages:
+  - English
+  - Sotho
+  - Zulu
+  - Xhosa
+  flag_image: http://www.geonames.org/flags/x/ls.gif
+- iso_alpha3: LTU
+  code: LT
+  name: Lithuania
+  geoname_id: 597427
+  population: 2944459
+  area_in_sq_km: 65200.0
+  capital: Vilnius
+  continent_name: Europe
+  currency_code: LTL
+  language: Lithuanian
+  all_languages:
+  - Lithuanian
+  - Russian
+  - Polish
+  flag_image: http://www.geonames.org/flags/x/lt.gif
+- iso_alpha3: LUX
+  code: LU
+  name: Luxembourg
+  geoname_id: 2960313
+  population: 497538
+  area_in_sq_km: 2586.0
+  capital: Luxembourg
+  continent_name: Europe
+  currency_code: EUR
+  language: Luxembourgish, Letzeburgesch
+  all_languages:
+  - Luxembourgish, Letzeburgesch
+  - German
+  - French
+  flag_image: http://www.geonames.org/flags/x/lu.gif
+- iso_alpha3: LVA
+  code: LV
+  name: Latvia
+  geoname_id: 458258
+  population: 2217969
+  area_in_sq_km: 64589.0
+  capital: Riga
+  continent_name: Europe
+  currency_code: EUR
+  language: Latvian
+  all_languages:
+  - Latvian
+  - Russian
+  - Lithuanian
+  flag_image: http://www.geonames.org/flags/x/lv.gif
+- iso_alpha3: LBY
+  code: LY
+  name: Libya
+  geoname_id: 2215636
+  population: 6461454
+  area_in_sq_km: 1759540.0
+  capital: Tripoli
+  continent_name: Africa
+  currency_code: LYD
+  language: Arabic
+  all_languages:
+  - Arabic
+  - Italian
+  - English
+  flag_image: http://www.geonames.org/flags/x/ly.gif
+- iso_alpha3: MAR
+  code: MA
+  name: Morocco
+  geoname_id: 2542007
+  population: 31627428
+  area_in_sq_km: 446550.0
+  capital: Rabat
+  continent_name: Africa
+  currency_code: MAD
+  language: Arabic
+  all_languages:
+  - Arabic
+  - French
+  flag_image: http://www.geonames.org/flags/x/ma.gif
+- iso_alpha3: MCO
+  code: MC
+  name: Monaco
+  geoname_id: 2993457
+  population: 32965
+  area_in_sq_km: 1.95
+  capital: Monaco
+  continent_name: Europe
+  currency_code: EUR
+  language: French
+  all_languages:
+  - French
+  - English
+  - Italian
+  flag_image: http://www.geonames.org/flags/x/mc.gif
+- iso_alpha3: MDA
+  code: MD
+  name: Moldova
+  geoname_id: 617790
+  population: 4324000
+  area_in_sq_km: 33843.0
+  capital: Chişinău
+  continent_name: Europe
+  currency_code: MDL
+  language: Romanian, Moldavian, Moldovan
+  all_languages:
+  - Romanian, Moldavian, Moldovan
+  - Russian
+  - Turkish
+  flag_image: http://www.geonames.org/flags/x/md.gif
+- iso_alpha3: MNE
+  code: ME
+  name: Montenegro
+  geoname_id: 3194884
+  population: 666730
+  area_in_sq_km: 14026.0
+  capital: Podgorica
+  continent_name: Europe
+  currency_code: EUR
+  language: Serbian
+  all_languages:
+  - Serbian
+  - Hungarian
+  - Bosnian
+  - Albanian
+  - Croatian
+  flag_image: http://www.geonames.org/flags/x/me.gif
+- iso_alpha3: MAF
+  code: MF
+  name: Saint Martin
+  geoname_id: 3578421
+  population: 35925
+  area_in_sq_km: 53.0
+  capital: Marigot
+  continent_name: North America
+  currency_code: EUR
+  language: French
+  all_languages:
+  - French
+  flag_image: http://www.geonames.org/flags/x/mf.gif
+- iso_alpha3: MDG
+  code: MG
+  name: Madagascar
+  geoname_id: 1062947
+  population: 21281844
+  area_in_sq_km: 587040.0
+  capital: Antananarivo
+  continent_name: Africa
+  currency_code: MGA
+  language: French
+  all_languages:
+  - French
+  - Malagasy
+  flag_image: http://www.geonames.org/flags/x/mg.gif
+- iso_alpha3: MHL
+  code: MH
+  name: Marshall Islands
+  geoname_id: 2080185
+  population: 65859
+  area_in_sq_km: 181.3
+  capital: Majuro
+  continent_name: Oceania
+  currency_code: USD
+  language: Marshallese
+  all_languages:
+  - Marshallese
+  - English
+  flag_image: http://www.geonames.org/flags/x/mh.gif
+- iso_alpha3: MKD
+  code: MK
+  name: Macedonia
+  geoname_id: 718075
+  population: 2062294
+  area_in_sq_km: 25333.0
+  capital: Skopje
+  continent_name: Europe
+  currency_code: MKD
+  language: Macedonian
+  all_languages:
+  - Macedonian
+  - Albanian
+  - Turkish
+  - Serbian
+  flag_image: http://www.geonames.org/flags/x/mk.gif
+- iso_alpha3: MLI
+  code: ML
+  name: Mali
+  geoname_id: 2453866
+  population: 13796354
+  area_in_sq_km: 1240000.0
+  capital: Bamako
+  continent_name: Africa
+  currency_code: XOF
+  language: French
+  all_languages:
+  - French
+  - Bambara
+  flag_image: http://www.geonames.org/flags/x/ml.gif
+- iso_alpha3: MMR
+  code: MM
+  name: Myanmar [Burma]
+  geoname_id: 1327865
+  population: 53414374
+  area_in_sq_km: 678500.0
+  capital: Nay Pyi Taw
+  continent_name: Asia
+  currency_code: MMK
+  language: Burmese
+  all_languages:
+  - Burmese
+  flag_image: http://www.geonames.org/flags/x/mm.gif
+- iso_alpha3: MNG
+  code: MN
+  name: Mongolia
+  geoname_id: 2029969
+  population: 3086918
+  area_in_sq_km: 1565000.0
+  capital: Ulan Bator
+  continent_name: Asia
+  currency_code: MNT
+  language: Mongolian
+  all_languages:
+  - Mongolian
+  - Russian
+  flag_image: http://www.geonames.org/flags/x/mn.gif
+- iso_alpha3: MAC
+  code: MO
+  name: Macao
+  geoname_id: 1821275
+  population: 449198
+  area_in_sq_km: 254.0
+  capital: Macao
+  continent_name: Asia
+  currency_code: MOP
+  language: Chinese
+  all_languages:
+  - Chinese
+  - Chinese
+  - Portuguese
+  flag_image: http://www.geonames.org/flags/x/mo.gif
+- iso_alpha3: MNP
+  code: MP
+  name: Northern Mariana Islands
+  geoname_id: 4041468
+  population: 53883
+  area_in_sq_km: 477.0
+  capital: Saipan
+  continent_name: Oceania
+  currency_code: USD
+  language: 
+  all_languages:
+  - Tagalog
+  - Chinese
+  - Chamorro
+  - English
+  flag_image: http://www.geonames.org/flags/x/mp.gif
+- iso_alpha3: MTQ
+  code: MQ
+  name: Martinique
+  geoname_id: 3570311
+  population: 432900
+  area_in_sq_km: 1100.0
+  capital: Fort-de-France
+  continent_name: North America
+  currency_code: EUR
+  language: French
+  all_languages:
+  - French
+  flag_image: http://www.geonames.org/flags/x/mq.gif
+- iso_alpha3: MRT
+  code: MR
+  name: Mauritania
+  geoname_id: 2378080
+  population: 3205060
+  area_in_sq_km: 1030700.0
+  capital: Nouakchott
+  continent_name: Africa
+  currency_code: MRO
+  language: Arabic
+  all_languages:
+  - Arabic
+  - French
+  - Wolof
+  flag_image: http://www.geonames.org/flags/x/mr.gif
+- iso_alpha3: MSR
+  code: MS
+  name: Montserrat
+  geoname_id: 3578097
+  population: 9341
+  area_in_sq_km: 102.0
+  capital: Plymouth
+  continent_name: North America
+  currency_code: XCD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/ms.gif
+- iso_alpha3: MLT
+  code: MT
+  name: Malta
+  geoname_id: 2562770
+  population: 403000
+  area_in_sq_km: 316.0
+  capital: Valletta
+  continent_name: Europe
+  currency_code: EUR
+  language: Maltese
+  all_languages:
+  - Maltese
+  - English
+  flag_image: http://www.geonames.org/flags/x/mt.gif
+- iso_alpha3: MUS
+  code: MU
+  name: Mauritius
+  geoname_id: 934292
+  population: 1294104
+  area_in_sq_km: 2040.0
+  capital: Port Louis
+  continent_name: Africa
+  currency_code: MUR
+  language: English
+  all_languages:
+  - English
+  - French
+  flag_image: http://www.geonames.org/flags/x/mu.gif
+- iso_alpha3: MDV
+  code: MV
+  name: Maldives
+  geoname_id: 1282028
+  population: 395650
+  area_in_sq_km: 300.0
+  capital: Malé
+  continent_name: Asia
+  currency_code: MVR
+  language: Dhivehi, Dhivehi, Maldivian
+  all_languages:
+  - Dhivehi, Dhivehi, Maldivian
+  - English
+  flag_image: http://www.geonames.org/flags/x/mv.gif
+- iso_alpha3: MWI
+  code: MW
+  name: Malawi
+  geoname_id: 927384
+  population: 15447500
+  area_in_sq_km: 118480.0
+  capital: Lilongwe
+  continent_name: Africa
+  currency_code: MWK
+  language: Chichewa, Chewa, Nyanja
+  all_languages:
+  - Chichewa, Chewa, Nyanja
+  flag_image: http://www.geonames.org/flags/x/mw.gif
+- iso_alpha3: MEX
+  code: MX
+  name: Mexico
+  geoname_id: 3996063
+  population: 112468855
+  area_in_sq_km: 1972550.0
+  capital: Mexico City
+  continent_name: North America
+  currency_code: MXN
+  language: Spanish, Castilian
+  all_languages:
+  - Spanish, Castilian
+  flag_image: http://www.geonames.org/flags/x/mx.gif
+- iso_alpha3: MYS
+  code: MY
+  name: Malaysia
+  geoname_id: 1733045
+  population: 28274729
+  area_in_sq_km: 329750.0
+  capital: Kuala Lumpur
+  continent_name: Asia
+  currency_code: MYR
+  language: Malay
+  all_languages:
+  - Malay
+  - English
+  - Chinese
+  - Tamil
+  - Telugu
+  - Malayalam
+  - Punjabi, Panjabi
+  - Thai
+  flag_image: http://www.geonames.org/flags/x/my.gif
+- iso_alpha3: MOZ
+  code: MZ
+  name: Mozambique
+  geoname_id: 1036973
+  population: 22061451
+  area_in_sq_km: 801590.0
+  capital: Maputo
+  continent_name: Africa
+  currency_code: MZN
+  language: Portuguese
+  all_languages:
+  - Portuguese
+  flag_image: http://www.geonames.org/flags/x/mz.gif
+- iso_alpha3: NAM
+  code: NA
+  name: Namibia
+  geoname_id: 3355338
+  population: 2128471
+  area_in_sq_km: 825418.0
+  capital: Windhoek
+  continent_name: Africa
+  currency_code: NAD
+  language: English
+  all_languages:
+  - English
+  - Afrikaans
+  - German
+  - Herero
+  flag_image: http://www.geonames.org/flags/x/na.gif
+- iso_alpha3: NCL
+  code: NC
+  name: New Caledonia
+  geoname_id: 2139685
+  population: 216494
+  area_in_sq_km: 19060.0
+  capital: Noumea
+  continent_name: Oceania
+  currency_code: XPF
+  language: French
+  all_languages:
+  - French
+  flag_image: http://www.geonames.org/flags/x/nc.gif
+- iso_alpha3: NER
+  code: NE
+  name: Niger
+  geoname_id: 2440476
+  population: 15878271
+  area_in_sq_km: 1267000.0
+  capital: Niamey
+  continent_name: Africa
+  currency_code: XOF
+  language: French
+  all_languages:
+  - French
+  - Hausa
+  - Kanuri
+  flag_image: http://www.geonames.org/flags/x/ne.gif
+- iso_alpha3: NFK
+  code: NF
+  name: Norfolk Island
+  geoname_id: 2155115
+  population: 1828
+  area_in_sq_km: 34.6
+  capital: Kingston
+  continent_name: Oceania
+  currency_code: AUD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/nf.gif
+- iso_alpha3: NGA
+  code: NG
+  name: Nigeria
+  geoname_id: 2328926
+  population: 154000000
+  area_in_sq_km: 923768.0
+  capital: Abuja
+  continent_name: Africa
+  currency_code: NGN
+  language: English
+  all_languages:
+  - English
+  - Hausa
+  - Yoruba
+  - Igbo
+  - Fula
+  flag_image: http://www.geonames.org/flags/x/ng.gif
+- iso_alpha3: NIC
+  code: NI
+  name: Nicaragua
+  geoname_id: 3617476
+  population: 5995928
+  area_in_sq_km: 129494.0
+  capital: Managua
+  continent_name: North America
+  currency_code: NIO
+  language: Spanish, Castilian
+  all_languages:
+  - Spanish, Castilian
+  - English
+  flag_image: http://www.geonames.org/flags/x/ni.gif
+- iso_alpha3: NLD
+  code: NL
+  name: Netherlands
+  geoname_id: 2750405
+  population: 16645000
+  area_in_sq_km: 41526.0
+  capital: Amsterdam
+  continent_name: Europe
+  currency_code: EUR
+  language: Dutch, Flemish
+  all_languages:
+  - Dutch, Flemish
+  - West Frisian
+  flag_image: http://www.geonames.org/flags/x/nl.gif
+- iso_alpha3: NOR
+  code: 'NO'
+  name: Norway
+  geoname_id: 3144096
+  population: 5009150
+  area_in_sq_km: 324220.0
+  capital: Oslo
+  continent_name: Europe
+  currency_code: NOK
+  language: Norwegian
+  all_languages:
+  - Norwegian
+  - Norwegian Bokmål
+  - Norwegian Nynorsk
+  - Northern Sami
+  - Finnish
+  flag_image: http://www.geonames.org/flags/x/no.gif
+- iso_alpha3: NPL
+  code: NP
+  name: Nepal
+  geoname_id: 1282988
+  population: 28951852
+  area_in_sq_km: 140800.0
+  capital: Kathmandu
+  continent_name: Asia
+  currency_code: NPR
+  language: Nepali
+  all_languages:
+  - Nepali
+  - English
+  flag_image: http://www.geonames.org/flags/x/np.gif
+- iso_alpha3: NRU
+  code: NR
+  name: Nauru
+  geoname_id: 2110425
+  population: 10065
+  area_in_sq_km: 21.0
+  capital: ''
+  continent_name: Oceania
+  currency_code: AUD
+  language: Nauruan
+  all_languages:
+  - Nauruan
+  - English
+  flag_image: http://www.geonames.org/flags/x/nr.gif
+- iso_alpha3: NIU
+  code: NU
+  name: Niue
+  geoname_id: 4036232
+  population: 2166
+  area_in_sq_km: 260.0
+  capital: Alofi
+  continent_name: Oceania
+  currency_code: NZD
+  language: 
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/nu.gif
+- iso_alpha3: NZL
+  code: NZ
+  name: New Zealand
+  geoname_id: 2186224
+  population: 4252277
+  area_in_sq_km: 268680.0
+  capital: Wellington
+  continent_name: Oceania
+  currency_code: NZD
+  language: English
+  all_languages:
+  - English
+  - Māori
+  flag_image: http://www.geonames.org/flags/x/nz.gif
+- iso_alpha3: OMN
+  code: OM
+  name: Oman
+  geoname_id: 286963
+  population: 2967717
+  area_in_sq_km: 212460.0
+  capital: Muscat
+  continent_name: Asia
+  currency_code: OMR
+  language: Arabic
+  all_languages:
+  - Arabic
+  - English
+  - Urdu
+  flag_image: http://www.geonames.org/flags/x/om.gif
+- iso_alpha3: PAN
+  code: PA
+  name: Panama
+  geoname_id: 3703430
+  population: 3410676
+  area_in_sq_km: 78200.0
+  capital: Panama City
+  continent_name: North America
+  currency_code: PAB
+  language: Spanish, Castilian
+  all_languages:
+  - Spanish, Castilian
+  - English
+  flag_image: http://www.geonames.org/flags/x/pa.gif
+- iso_alpha3: PER
+  code: PE
+  name: Peru
+  geoname_id: 3932488
+  population: 29907003
+  area_in_sq_km: 1285220.0
+  capital: Lima
+  continent_name: South America
+  currency_code: PEN
+  language: Spanish, Castilian
+  all_languages:
+  - Spanish, Castilian
+  - Quechua
+  - Aymara
+  flag_image: http://www.geonames.org/flags/x/pe.gif
+- iso_alpha3: PYF
+  code: PF
+  name: French Polynesia
+  geoname_id: 4030656
+  population: 270485
+  area_in_sq_km: 4167.0
+  capital: Papeete
+  continent_name: Oceania
+  currency_code: XPF
+  language: French
+  all_languages:
+  - French
+  - Tahitian
+  flag_image: http://www.geonames.org/flags/x/pf.gif
+- iso_alpha3: PNG
+  code: PG
+  name: Papua New Guinea
+  geoname_id: 2088628
+  population: 6064515
+  area_in_sq_km: 462840.0
+  capital: Port Moresby
+  continent_name: Oceania
+  currency_code: PGK
+  language: English
+  all_languages:
+  - English
+  - Hiri Motu
+  flag_image: http://www.geonames.org/flags/x/pg.gif
+- iso_alpha3: PHL
+  code: PH
+  name: Philippines
+  geoname_id: 1694008
+  population: 99900177
+  area_in_sq_km: 300000.0
+  capital: Manila
+  continent_name: Asia
+  currency_code: PHP
+  language: Tagalog
+  all_languages:
+  - Tagalog
+  - English
+  flag_image: http://www.geonames.org/flags/x/ph.gif
+- iso_alpha3: PAK
+  code: PK
+  name: Pakistan
+  geoname_id: 1168579
+  population: 184404791
+  area_in_sq_km: 803940.0
+  capital: Islamabad
+  continent_name: Asia
+  currency_code: PKR
+  language: Urdu
+  all_languages:
+  - Urdu
+  - English
+  - Punjabi, Panjabi
+  - Sindhi
+  - Pashto, Pushto
+  flag_image: http://www.geonames.org/flags/x/pk.gif
+- iso_alpha3: POL
+  code: PL
+  name: Poland
+  geoname_id: 798544
+  population: 38500000
+  area_in_sq_km: 312685.0
+  capital: Warsaw
+  continent_name: Europe
+  currency_code: PLN
+  language: Polish
+  all_languages:
+  - Polish
+  flag_image: http://www.geonames.org/flags/x/pl.gif
+- iso_alpha3: SPM
+  code: PM
+  name: Saint Pierre and Miquelon
+  geoname_id: 3424932
+  population: 7012
+  area_in_sq_km: 242.0
+  capital: Saint-Pierre
+  continent_name: North America
+  currency_code: EUR
+  language: French
+  all_languages:
+  - French
+  flag_image: http://www.geonames.org/flags/x/pm.gif
+- iso_alpha3: PCN
+  code: PN
+  name: Pitcairn Islands
+  geoname_id: 4030699
+  population: 46
+  area_in_sq_km: 47.0
+  capital: Adamstown
+  continent_name: Oceania
+  currency_code: NZD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/pn.gif
+- iso_alpha3: PRI
+  code: PR
+  name: Puerto Rico
+  geoname_id: 4566966
+  population: 3916632
+  area_in_sq_km: 9104.0
+  capital: San Juan
+  continent_name: North America
+  currency_code: USD
+  language: English
+  all_languages:
+  - English
+  - Spanish, Castilian
+  flag_image: http://www.geonames.org/flags/x/pr.gif
+- iso_alpha3: PSE
+  code: PS
+  name: Palestine
+  geoname_id: 6254930
+  population: 3800000
+  area_in_sq_km: 5970.0
+  capital: ''
+  continent_name: Asia
+  currency_code: ILS
+  language: Arabic
+  all_languages:
+  - Arabic
+  flag_image: http://www.geonames.org/flags/x/ps.gif
+- iso_alpha3: PRT
+  code: PT
+  name: Portugal
+  geoname_id: 2264397
+  population: 10676000
+  area_in_sq_km: 92391.0
+  capital: Lisbon
+  continent_name: Europe
+  currency_code: EUR
+  language: Portuguese
+  all_languages:
+  - Portuguese
+  flag_image: http://www.geonames.org/flags/x/pt.gif
+- iso_alpha3: PLW
+  code: PW
+  name: Palau
+  geoname_id: 1559582
+  population: 19907
+  area_in_sq_km: 458.0
+  capital: Melekeok - Palau State Capital
+  continent_name: Oceania
+  currency_code: USD
+  language: 
+  all_languages:
+  - English
+  - Japanese
+  - Chinese
+  flag_image: http://www.geonames.org/flags/x/pw.gif
+- iso_alpha3: PRY
+  code: PY
+  name: Paraguay
+  geoname_id: 3437598
+  population: 6375830
+  area_in_sq_km: 406750.0
+  capital: Asunción
+  continent_name: South America
+  currency_code: PYG
+  language: Spanish, Castilian
+  all_languages:
+  - Spanish, Castilian
+  - Guaraní
+  flag_image: http://www.geonames.org/flags/x/py.gif
+- iso_alpha3: QAT
+  code: QA
+  name: Qatar
+  geoname_id: 289688
+  population: 840926
+  area_in_sq_km: 11437.0
+  capital: Doha
+  continent_name: Asia
+  currency_code: QAR
+  language: Arabic
+  all_languages:
+  - Arabic
+  - Spanish, Castilian
+  flag_image: http://www.geonames.org/flags/x/qa.gif
+- iso_alpha3: REU
+  code: RE
+  name: Réunion
+  geoname_id: 935317
+  population: 776948
+  area_in_sq_km: 2517.0
+  capital: Saint-Denis
+  continent_name: Africa
+  currency_code: EUR
+  language: French
+  all_languages:
+  - French
+  flag_image: http://www.geonames.org/flags/x/re.gif
+- iso_alpha3: ROU
+  code: RO
+  name: Romania
+  geoname_id: 798549
+  population: 21959278
+  area_in_sq_km: 237500.0
+  capital: Bucharest
+  continent_name: Europe
+  currency_code: RON
+  language: Romanian, Moldavian, Moldovan
+  all_languages:
+  - Romanian, Moldavian, Moldovan
+  - Hungarian
+  flag_image: http://www.geonames.org/flags/x/ro.gif
+- iso_alpha3: SRB
+  code: RS
+  name: Serbia
+  geoname_id: 6290252
+  population: 7344847
+  area_in_sq_km: 88361.0
+  capital: Belgrade
+  continent_name: Europe
+  currency_code: RSD
+  language: Serbian
+  all_languages:
+  - Serbian
+  - Hungarian
+  - Bosnian
+  flag_image: http://www.geonames.org/flags/x/rs.gif
+- iso_alpha3: RUS
+  code: RU
+  name: Russia
+  geoname_id: 2017370
+  population: 140702000
+  area_in_sq_km: 1.71E7
+  capital: Moscow
+  continent_name: Europe
+  currency_code: RUB
+  language: Russian
+  all_languages:
+  - Russian
+  - Tatar
+  - Komi
+  - Chechen
+  - Chuvash
+  - Bashkir
+  - Avar
+  flag_image: http://www.geonames.org/flags/x/ru.gif
+- iso_alpha3: RWA
+  code: RW
+  name: Rwanda
+  geoname_id: 49518
+  population: 11055976
+  area_in_sq_km: 26338.0
+  capital: Kigali
+  continent_name: Africa
+  currency_code: RWF
+  language: Kinyarwanda
+  all_languages:
+  - Kinyarwanda
+  - English
+  - French
+  - Swahili
+  flag_image: http://www.geonames.org/flags/x/rw.gif
+- iso_alpha3: SAU
+  code: SA
+  name: Saudi Arabia
+  geoname_id: 102358
+  population: 25731776
+  area_in_sq_km: 1960582.0
+  capital: Riyadh
+  continent_name: Asia
+  currency_code: SAR
+  language: Arabic
+  all_languages:
+  - Arabic
+  flag_image: http://www.geonames.org/flags/x/sa.gif
+- iso_alpha3: SLB
+  code: SB
+  name: Solomon Islands
+  geoname_id: 2103350
+  population: 559198
+  area_in_sq_km: 28450.0
+  capital: Honiara
+  continent_name: Oceania
+  currency_code: SBD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/sb.gif
+- iso_alpha3: SYC
+  code: SC
+  name: Seychelles
+  geoname_id: 241170
+  population: 88340
+  area_in_sq_km: 455.0
+  capital: Victoria
+  continent_name: Africa
+  currency_code: SCR
+  language: English
+  all_languages:
+  - English
+  - French
+  flag_image: http://www.geonames.org/flags/x/sc.gif
+- iso_alpha3: SDN
+  code: SD
+  name: Sudan
+  geoname_id: 366755
+  population: 35000000
+  area_in_sq_km: 1861484.0
+  capital: Khartoum
+  continent_name: Africa
+  currency_code: SDG
+  language: Arabic
+  all_languages:
+  - Arabic
+  - English
+  flag_image: http://www.geonames.org/flags/x/sd.gif
+- iso_alpha3: SWE
+  code: SE
+  name: Sweden
+  geoname_id: 2661886
+  population: 9555893
+  area_in_sq_km: 449964.0
+  capital: Stockholm
+  continent_name: Europe
+  currency_code: SEK
+  language: Swedish
+  all_languages:
+  - Swedish
+  - Northern Sami
+  - Finnish
+  flag_image: http://www.geonames.org/flags/x/se.gif
+- iso_alpha3: SGP
+  code: SG
+  name: Singapore
+  geoname_id: 1880251
+  population: 4701069
+  area_in_sq_km: 692.7
+  capital: Singapore
+  continent_name: Asia
+  currency_code: SGD
+  language: 
+  all_languages:
+  - English
+  - Malay
+  - Tamil
+  - Chinese
+  flag_image: http://www.geonames.org/flags/x/sg.gif
+- iso_alpha3: SHN
+  code: SH
+  name: Saint Helena
+  geoname_id: 3370751
+  population: 7460
+  area_in_sq_km: 410.0
+  capital: Jamestown
+  continent_name: Africa
+  currency_code: SHP
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/sh.gif
+- iso_alpha3: SVN
+  code: SI
+  name: Slovenia
+  geoname_id: 3190538
+  population: 2007000
+  area_in_sq_km: 20273.0
+  capital: Ljubljana
+  continent_name: Europe
+  currency_code: EUR
+  language: Slovene
+  all_languages:
+  - Slovene
+  flag_image: http://www.geonames.org/flags/x/si.gif
+- iso_alpha3: SJM
+  code: SJ
+  name: Svalbard and Jan Mayen
+  geoname_id: 607072
+  population: 2550
+  area_in_sq_km: 62049.0
+  capital: Longyearbyen
+  continent_name: Europe
+  currency_code: NOK
+  language: Norwegian
+  all_languages:
+  - Norwegian
+  - Russian
+  flag_image: http://www.geonames.org/flags/x/sj.gif
+- iso_alpha3: SVK
+  code: SK
+  name: Slovakia
+  geoname_id: 3057568
+  population: 5455000
+  area_in_sq_km: 48845.0
+  capital: Bratislava
+  continent_name: Europe
+  currency_code: EUR
+  language: Slovak
+  all_languages:
+  - Slovak
+  - Hungarian
+  flag_image: http://www.geonames.org/flags/x/sk.gif
+- iso_alpha3: SLE
+  code: SL
+  name: Sierra Leone
+  geoname_id: 2403846
+  population: 5245695
+  area_in_sq_km: 71740.0
+  capital: Freetown
+  continent_name: Africa
+  currency_code: SLL
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/sl.gif
+- iso_alpha3: SMR
+  code: SM
+  name: San Marino
+  geoname_id: 3168068
+  population: 31477
+  area_in_sq_km: 61.2
+  capital: San Marino
+  continent_name: Europe
+  currency_code: EUR
+  language: Italian
+  all_languages:
+  - Italian
+  flag_image: http://www.geonames.org/flags/x/sm.gif
+- iso_alpha3: SEN
+  code: SN
+  name: Senegal
+  geoname_id: 2245662
+  population: 12323252
+  area_in_sq_km: 196190.0
+  capital: Dakar
+  continent_name: Africa
+  currency_code: XOF
+  language: French
+  all_languages:
+  - French
+  - Wolof
+  flag_image: http://www.geonames.org/flags/x/sn.gif
+- iso_alpha3: SOM
+  code: SO
+  name: Somalia
+  geoname_id: 51537
+  population: 10112453
+  area_in_sq_km: 637657.0
+  capital: Mogadishu
+  continent_name: Africa
+  currency_code: SOS
+  language: Somali
+  all_languages:
+  - Somali
+  - Arabic
+  - Italian
+  - English
+  flag_image: http://www.geonames.org/flags/x/so.gif
+- iso_alpha3: SUR
+  code: SR
+  name: Suriname
+  geoname_id: 3382998
+  population: 492829
+  area_in_sq_km: 163270.0
+  capital: Paramaribo
+  continent_name: South America
+  currency_code: SRD
+  language: Dutch, Flemish
+  all_languages:
+  - Dutch, Flemish
+  - English
+  - Javanese
+  flag_image: http://www.geonames.org/flags/x/sr.gif
+- iso_alpha3: SSD
+  code: SS
+  name: South Sudan
+  geoname_id: 7909807
+  population: 8260490
+  area_in_sq_km: 644329.0
+  capital: Juba
+  continent_name: Africa
+  currency_code: SSP
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/ss.gif
+- iso_alpha3: STP
+  code: ST
+  name: São Tomé and Príncipe
+  geoname_id: 2410758
+  population: 175808
+  area_in_sq_km: 1001.0
+  capital: São Tomé
+  continent_name: Africa
+  currency_code: STD
+  language: Portuguese
+  all_languages:
+  - Portuguese
+  flag_image: http://www.geonames.org/flags/x/st.gif
+- iso_alpha3: SLV
+  code: SV
+  name: El Salvador
+  geoname_id: 3585968
+  population: 6052064
+  area_in_sq_km: 21040.0
+  capital: San Salvador
+  continent_name: North America
+  currency_code: USD
+  language: Spanish, Castilian
+  all_languages:
+  - Spanish, Castilian
+  flag_image: http://www.geonames.org/flags/x/sv.gif
+- iso_alpha3: SXM
+  code: SX
+  name: Sint Maarten
+  geoname_id: 7609695
+  population: 37429
+  area_in_sq_km: ''
+  capital: Philipsburg
+  continent_name: North America
+  currency_code: ANG
+  language: Dutch, Flemish
+  all_languages:
+  - Dutch, Flemish
+  - English
+  flag_image: http://www.geonames.org/flags/x/sx.gif
+- iso_alpha3: SYR
+  code: SY
+  name: Syria
+  geoname_id: 163843
+  population: 22198110
+  area_in_sq_km: 185180.0
+  capital: Damascus
+  continent_name: Asia
+  currency_code: SYP
+  language: Arabic
+  all_languages:
+  - Arabic
+  - Kurdish
+  - Armenian
+  - French
+  - English
+  flag_image: http://www.geonames.org/flags/x/sy.gif
+- iso_alpha3: SWZ
+  code: SZ
+  name: Swaziland
+  geoname_id: 934841
+  population: 1354051
+  area_in_sq_km: 17363.0
+  capital: Mbabane
+  continent_name: Africa
+  currency_code: SZL
+  language: English
+  all_languages:
+  - English
+  - Swati
+  flag_image: http://www.geonames.org/flags/x/sz.gif
+- iso_alpha3: TCA
+  code: TC
+  name: Turks and Caicos Islands
+  geoname_id: 3576916
+  population: 20556
+  area_in_sq_km: 430.0
+  capital: Cockburn Town
+  continent_name: North America
+  currency_code: USD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/tc.gif
+- iso_alpha3: TCD
+  code: TD
+  name: Chad
+  geoname_id: 2434508
+  population: 10543464
+  area_in_sq_km: 1284000.0
+  capital: N'Djamena
+  continent_name: Africa
+  currency_code: XAF
+  language: French
+  all_languages:
+  - French
+  - Arabic
+  flag_image: http://www.geonames.org/flags/x/td.gif
+- iso_alpha3: ATF
+  code: TF
+  name: French Southern Territories
+  geoname_id: 1546748
+  population: 140
+  area_in_sq_km: 7829.0
+  capital: Port-aux-Français
+  continent_name: Antarctica
+  currency_code: EUR
+  language: French
+  all_languages:
+  - French
+  flag_image: http://www.geonames.org/flags/x/tf.gif
+- iso_alpha3: TGO
+  code: TG
+  name: Togo
+  geoname_id: 2363686
+  population: 6587239
+  area_in_sq_km: 56785.0
+  capital: Lomé
+  continent_name: Africa
+  currency_code: XOF
+  language: French
+  all_languages:
+  - French
+  - Ewe
+  - Hausa
+  flag_image: http://www.geonames.org/flags/x/tg.gif
+- iso_alpha3: THA
+  code: TH
+  name: Thailand
+  geoname_id: 1605651
+  population: 67089500
+  area_in_sq_km: 514000.0
+  capital: Bangkok
+  continent_name: Asia
+  currency_code: THB
+  language: Thai
+  all_languages:
+  - Thai
+  - English
+  flag_image: http://www.geonames.org/flags/x/th.gif
+- iso_alpha3: TJK
+  code: TJ
+  name: Tajikistan
+  geoname_id: 1220409
+  population: 7487489
+  area_in_sq_km: 143100.0
+  capital: Dushanbe
+  continent_name: Asia
+  currency_code: TJS
+  language: Tajik
+  all_languages:
+  - Tajik
+  - Russian
+  flag_image: http://www.geonames.org/flags/x/tj.gif
+- iso_alpha3: TKL
+  code: TK
+  name: Tokelau
+  geoname_id: 4031074
+  population: 1466
+  area_in_sq_km: 10.0
+  capital: ''
+  continent_name: Oceania
+  currency_code: NZD
+  language: 
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/tk.gif
+- iso_alpha3: TLS
+  code: TL
+  name: East Timor
+  geoname_id: 1966436
+  population: 1154625
+  area_in_sq_km: 15007.0
+  capital: Dili
+  continent_name: Oceania
+  currency_code: USD
+  language: 
+  all_languages:
+  - Portuguese
+  - Indonesian
+  - English
+  flag_image: http://www.geonames.org/flags/x/tl.gif
+- iso_alpha3: TKM
+  code: TM
+  name: Turkmenistan
+  geoname_id: 1218197
+  population: 4940916
+  area_in_sq_km: 488100.0
+  capital: Ashgabat
+  continent_name: Asia
+  currency_code: TMT
+  language: Turkmen
+  all_languages:
+  - Turkmen
+  - Russian
+  - Uzbek
+  flag_image: http://www.geonames.org/flags/x/tm.gif
+- iso_alpha3: TUN
+  code: TN
+  name: Tunisia
+  geoname_id: 2464461
+  population: 10589025
+  area_in_sq_km: 163610.0
+  capital: Tunis
+  continent_name: Africa
+  currency_code: TND
+  language: Arabic
+  all_languages:
+  - Arabic
+  - French
+  flag_image: http://www.geonames.org/flags/x/tn.gif
+- iso_alpha3: TON
+  code: TO
+  name: Tonga
+  geoname_id: 4032283
+  population: 122580
+  area_in_sq_km: 748.0
+  capital: Nuku'alofa
+  continent_name: Oceania
+  currency_code: TOP
+  language: Tongan (Tonga Islands)
+  all_languages:
+  - Tongan (Tonga Islands)
+  - English
+  flag_image: http://www.geonames.org/flags/x/to.gif
+- iso_alpha3: TUR
+  code: TR
+  name: Turkey
+  geoname_id: 298795
+  population: 77804122
+  area_in_sq_km: 780580.0
+  capital: Ankara
+  continent_name: Asia
+  currency_code: TRY
+  language: Turkish
+  all_languages:
+  - Turkish
+  - Kurdish
+  - Azerbaijani
+  - Avar
+  flag_image: http://www.geonames.org/flags/x/tr.gif
+- iso_alpha3: TTO
+  code: TT
+  name: Trinidad and Tobago
+  geoname_id: 3573591
+  population: 1228691
+  area_in_sq_km: 5128.0
+  capital: Port of Spain
+  continent_name: North America
+  currency_code: TTD
+  language: English
+  all_languages:
+  - English
+  - French
+  - Spanish, Castilian
+  - Chinese
+  flag_image: http://www.geonames.org/flags/x/tt.gif
+- iso_alpha3: TUV
+  code: TV
+  name: Tuvalu
+  geoname_id: 2110297
+  population: 10472
+  area_in_sq_km: 26.0
+  capital: Funafuti
+  continent_name: Oceania
+  currency_code: AUD
+  language: 
+  all_languages:
+  - English
+  - Samoan
+  flag_image: http://www.geonames.org/flags/x/tv.gif
+- iso_alpha3: TWN
+  code: TW
+  name: Taiwan
+  geoname_id: 1668284
+  population: 22894384
+  area_in_sq_km: 35980.0
+  capital: Taipei
+  continent_name: Asia
+  currency_code: TWD
+  language: Chinese
+  all_languages:
+  - Chinese
+  - Chinese
+  flag_image: http://www.geonames.org/flags/x/tw.gif
+- iso_alpha3: TZA
+  code: TZ
+  name: Tanzania
+  geoname_id: 149590
+  population: 41892895
+  area_in_sq_km: 945087.0
+  capital: Dodoma
+  continent_name: Africa
+  currency_code: TZS
+  language: Swahili
+  all_languages:
+  - Swahili
+  - English
+  - Arabic
+  flag_image: http://www.geonames.org/flags/x/tz.gif
+- iso_alpha3: UKR
+  code: UA
+  name: Ukraine
+  geoname_id: 690791
+  population: 45415596
+  area_in_sq_km: 603700.0
+  capital: Kyiv
+  continent_name: Europe
+  currency_code: UAH
+  language: Ukrainian
+  all_languages:
+  - Ukrainian
+  - Russian
+  - Polish
+  - Hungarian
+  flag_image: http://www.geonames.org/flags/x/ua.gif
+- iso_alpha3: UGA
+  code: UG
+  name: Uganda
+  geoname_id: 226074
+  population: 33398682
+  area_in_sq_km: 236040.0
+  capital: Kampala
+  continent_name: Africa
+  currency_code: UGX
+  language: English
+  all_languages:
+  - English
+  - Luganda
+  - Swahili
+  - Arabic
+  flag_image: http://www.geonames.org/flags/x/ug.gif
+- iso_alpha3: UMI
+  code: UM
+  name: U.S. Minor Outlying Islands
+  geoname_id: 5854968
+  population: 0
+  area_in_sq_km: 0.0
+  capital: ''
+  continent_name: Oceania
+  currency_code: USD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/um.gif
+- iso_alpha3: USA
+  code: US
+  name: United States
+  geoname_id: 6252001
+  population: 310232863
+  area_in_sq_km: 9629091.0
+  capital: Washington
+  continent_name: North America
+  currency_code: USD
+  language: English
+  all_languages:
+  - English
+  - Spanish, Castilian
+  - French
+  flag_image: http://www.geonames.org/flags/x/us.gif
+- iso_alpha3: URY
+  code: UY
+  name: Uruguay
+  geoname_id: 3439705
+  population: 3477000
+  area_in_sq_km: 176220.0
+  capital: Montevideo
+  continent_name: South America
+  currency_code: UYU
+  language: Spanish, Castilian
+  all_languages:
+  - Spanish, Castilian
+  flag_image: http://www.geonames.org/flags/x/uy.gif
+- iso_alpha3: UZB
+  code: UZ
+  name: Uzbekistan
+  geoname_id: 1512440
+  population: 27865738
+  area_in_sq_km: 447400.0
+  capital: Tashkent
+  continent_name: Asia
+  currency_code: UZS
+  language: Uzbek
+  all_languages:
+  - Uzbek
+  - Russian
+  - Tajik
+  flag_image: http://www.geonames.org/flags/x/uz.gif
+- iso_alpha3: VAT
+  code: VA
+  name: Vatican City
+  geoname_id: 3164670
+  population: 921
+  area_in_sq_km: 0.44
+  capital: Vatican
+  continent_name: Europe
+  currency_code: EUR
+  language: Latin
+  all_languages:
+  - Latin
+  - Italian
+  - French
+  flag_image: http://www.geonames.org/flags/x/va.gif
+- iso_alpha3: VCT
+  code: VC
+  name: Saint Vincent and the Grenadines
+  geoname_id: 3577815
+  population: 104217
+  area_in_sq_km: 389.0
+  capital: Kingstown
+  continent_name: North America
+  currency_code: XCD
+  language: English
+  all_languages:
+  - English
+  - French
+  flag_image: http://www.geonames.org/flags/x/vc.gif
+- iso_alpha3: VEN
+  code: VE
+  name: Venezuela
+  geoname_id: 3625428
+  population: 27223228
+  area_in_sq_km: 912050.0
+  capital: Caracas
+  continent_name: South America
+  currency_code: VEF
+  language: Spanish, Castilian
+  all_languages:
+  - Spanish, Castilian
+  flag_image: http://www.geonames.org/flags/x/ve.gif
+- iso_alpha3: VGB
+  code: VG
+  name: British Virgin Islands
+  geoname_id: 3577718
+  population: 21730
+  area_in_sq_km: 153.0
+  capital: Road Town
+  continent_name: North America
+  currency_code: USD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/vg.gif
+- iso_alpha3: VIR
+  code: VI
+  name: U.S. Virgin Islands
+  geoname_id: 4796775
+  population: 108708
+  area_in_sq_km: 352.0
+  capital: Charlotte Amalie
+  continent_name: North America
+  currency_code: USD
+  language: English
+  all_languages:
+  - English
+  flag_image: http://www.geonames.org/flags/x/vi.gif
+- iso_alpha3: VNM
+  code: VN
+  name: Vietnam
+  geoname_id: 1562822
+  population: 89571130
+  area_in_sq_km: 329560.0
+  capital: Hanoi
+  continent_name: Asia
+  currency_code: VND
+  language: Vietnamese
+  all_languages:
+  - Vietnamese
+  - English
+  - French
+  - Chinese
+  - Central Khmer
+  flag_image: http://www.geonames.org/flags/x/vn.gif
+- iso_alpha3: VUT
+  code: VU
+  name: Vanuatu
+  geoname_id: 2134431
+  population: 221552
+  area_in_sq_km: 12200.0
+  capital: Port Vila
+  continent_name: Oceania
+  currency_code: VUV
+  language: Bislama
+  all_languages:
+  - Bislama
+  - English
+  - French
+  flag_image: http://www.geonames.org/flags/x/vu.gif
+- iso_alpha3: WLF
+  code: WF
+  name: Wallis and Futuna
+  geoname_id: 4034749
+  population: 16025
+  area_in_sq_km: 274.0
+  capital: Mata-Utu
+  continent_name: Oceania
+  currency_code: XPF
+  language: 
+  all_languages:
+  - French
+  flag_image: http://www.geonames.org/flags/x/wf.gif
+- iso_alpha3: WSM
+  code: WS
+  name: Samoa
+  geoname_id: 4034894
+  population: 192001
+  area_in_sq_km: 2944.0
+  capital: Apia
+  continent_name: Oceania
+  currency_code: WST
+  language: Samoan
+  all_languages:
+  - Samoan
+  - English
+  flag_image: http://www.geonames.org/flags/x/ws.gif
+- iso_alpha3: XKX
+  code: XK
+  name: Kosovo
+  geoname_id: 831053
+  population: 1800000
+  area_in_sq_km: ''
+  capital: Pristina
+  continent_name: Europe
+  currency_code: EUR
+  language: Albanian
+  all_languages:
+  - Albanian
+  - Serbian
+  flag_image: http://www.geonames.org/flags/x/xk.gif
+- iso_alpha3: YEM
+  code: YE
+  name: Yemen
+  geoname_id: 69543
+  population: 23495361
+  area_in_sq_km: 527970.0
+  capital: Sanaa
+  continent_name: Asia
+  currency_code: YER
+  language: Arabic
+  all_languages:
+  - Arabic
+  flag_image: http://www.geonames.org/flags/x/ye.gif
+- iso_alpha3: MYT
+  code: YT
+  name: Mayotte
+  geoname_id: 1024031
+  population: 159042
+  area_in_sq_km: 374.0
+  capital: Mamoutzou
+  continent_name: Africa
+  currency_code: EUR
+  language: French
+  all_languages:
+  - French
+  flag_image: http://www.geonames.org/flags/x/yt.gif
+- iso_alpha3: ZAF
+  code: ZA
+  name: South Africa
+  geoname_id: 953987
+  population: 49000000
+  area_in_sq_km: 1219912.0
+  capital: Pretoria
+  continent_name: Africa
+  currency_code: ZAR
+  language: Zulu
+  all_languages:
+  - Zulu
+  - Xhosa
+  - Afrikaans
+  - English
+  - Tswana
+  - Sotho
+  - Tsonga
+  - Swati
+  - Venda
+  - Southern Ndebele
+  flag_image: http://www.geonames.org/flags/x/za.gif
+- iso_alpha3: ZMB
+  code: ZM
+  name: Zambia
+  geoname_id: 895949
+  population: 13460305
+  area_in_sq_km: 752614.0
+  capital: Lusaka
+  continent_name: Africa
+  currency_code: ZMW
+  language: English
+  all_languages:
+  - English
+  - Chichewa, Chewa, Nyanja
+  flag_image: http://www.geonames.org/flags/x/zm.gif
+- iso_alpha3: ZWE
+  code: ZW
+  name: Zimbabwe
+  geoname_id: 878675
+  population: 11651858
+  area_in_sq_km: 390580.0
+  capital: Harare
+  continent_name: Africa
+  currency_code: ZWL
+  language: English
+  all_languages:
+  - English
+  - Shona
+  - Southern Ndebele
+  - Northern Ndebele
+  flag_image: http://www.geonames.org/flags/x/zw.gif
