@@ -28,7 +28,7 @@ The HTML found within the "country-main" div in [`welcome/index.html.erb`](app/v
 var stubData = {
   name: "Afghanistan",
   annihilated: false,
-  language: "Persian"
+  language: "Persian",
   population: 29121286,
   area_in_sq_km: 647500,
   flag_image: "http://www.geonames.org/flags/x/af.gif"
@@ -41,7 +41,7 @@ Allow the Alien overlords to click on a country in the countries list, and see t
 
 #### Part 4: More AJAX
 
-By default, none of the countries are annihilated. Make it so that if the user clicks on the `annihilate!` checkbox, the country's `annihilated` value is updated to true in the database. If the update is successful, remove the annihilate checkbox (you can't un-annihilate something) and add the "annihilated" class to the paragraph tag with id of `"country-name"` and the corresponding list-item representing the country.
+By default, none of the countries are annihilated. Make it so that if the user clicks on the `annihilate!` checkbox, the country's `annihilated` value is updated to true in the database. If the update is successful, remove the annihilate checkbox (you can't un-annihilate something) and add the "annihilated" class to the h1 tag with id of `"country-name"` and the corresponding list-item representing the country.
 
 #### Part 5: Russia
 

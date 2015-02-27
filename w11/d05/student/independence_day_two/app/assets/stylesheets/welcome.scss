@@ -93,6 +93,17 @@ a:hover {
   width: 80%;
 }
 
-.annilated {
+.countries-list li.annihilated {
   text-decoration: line-through;
+  background-image: url("http://pngimg.com/upload/fire_PNG6015.png");
+  background-size: 9em;
+  background-position-y: -3.5em;
+  background-repeat: no-repeat;
+  background-position-x: -2em;
+}
+
+h1.annihilated:after {
+  content: url('http://png-4.findicons.com/files/icons/1686/led/16/nuclear.png');
+  height: 10px;
+  width: 10px;
 }
