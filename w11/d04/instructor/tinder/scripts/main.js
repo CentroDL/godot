@@ -6,7 +6,17 @@ $(document).ready(function(){
   // caches reference to commonly needed DOM elements
   $userInfo    = $(".user-info");
   var $xButton     = $(".x"),
-      $heartButton = $(".heart");
+      $heartButton = $(".heart"),
+      $clock       = $("#clock"),
+      timeString   = moment().format('h:mm A');
+
+  $clock.text(timeString);
+  var updateTime = function(){
+    var time = moment().format('h:mm A');
+    $clock.text(time);
+  };
+
+  setInterval(updateTime, 1000);
 
   // gets user template source as a string and uses it to create templating function
   var templateSource = $("#tinder-template").html();
