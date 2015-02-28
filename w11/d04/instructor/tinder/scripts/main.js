@@ -39,7 +39,7 @@ $(document).ready(function(){
       var firstName = user.name.first;
       var pictureURL = user["picture"]["large"];
       currentUser.image_url = pictureURL;
-      currentUser.name = firstName;
+      currentUser.name = _.capitalize(firstName);
       currentUser.age = 31;
       newTinderHTML = genUserHTML(currentUser);
       $userInfo.html(newTinderHTML);
