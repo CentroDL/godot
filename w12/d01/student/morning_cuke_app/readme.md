@@ -1,6 +1,6 @@
 # Cucumber and Regular Expressions
 
-!:image](http://www.brightbluegorilla.com/LoseWithEnglish-CucumberEyes.jpg)
+![:image](http://www.brightbluegorilla.com/LoseWithEnglish-CucumberEyes.jpg)
 
 [Cucumber is a tool for running automated tests written in plain language. Because they're written in plain language, they can be read by anyone on your team. Because they can be read by anyone, you can use them to help improve communication, collaboration and trust on your team.](https://github.com/cucumber/cucumber)
 
