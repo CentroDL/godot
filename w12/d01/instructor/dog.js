@@ -1,3 +1,7 @@
+var $contentDiv,
+    $template,
+    generateNewTemplate;
+
 console.log('woof! Dog "class" loaded!');
 
 var Dog = function(name) {
@@ -18,3 +22,9 @@ Dog.prototype = {
   save: function(boysName) {return 'woof (ok, ill save ' + boysName + ')!';}
 };
 
+$(document).ready(function() {
+  $contentDiv = $('.content');
+  $template   = $('#dog-template');
+  generateNewTemplate = _.template($template.html());
+  $(generateNewTemplate({name: 'Lassie', age: 0})).appendTo($contentDiv);
+})
