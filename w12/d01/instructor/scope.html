@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+   <script type="text/javascript" src="jquery.js"></script>
+   <script type="text/javascript" src="lodash.js"></script>
+   <script type="text/javascript" src="dog.js"></script>
+  </head>
+  <body>
+
+    <div>
+      <div>Something here is you want...
+      </div>
+    </div>
+    <div></div>
+
+    <script>
+var snoopDog = 'doggy dog';
+
+var createIterator = function() {
+  var i = 0;
+  var newFunction = function() {
+    var snoopLion = 'jah';
+    console.log(i);
+    i++;
+    debugger
+  }
+  return newFunction;
+};
+
+var sayMyName = function() {
+  console.log(this.name);
+}
+
+var saySomething = function(something) {
+  console.log(this.name + ' ' + something);
+}
+
+for(var i=0, len=4; i<len; i++) {
+  var b = i;
+  window["func" + i] = function(b) {
+    console.log(b);
+  }
+}
+
+
+    </script>
+  </body>
+</html>
