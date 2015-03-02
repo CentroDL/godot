@@ -8,30 +8,26 @@ app.Dog = function(name, parentDiv) {
   this.$parentDiv = parentDiv;
 }
 
-// // given the above constructor function,
-// // lassie = new Dog('Lassie') means:
-// lassie = Object.create(Dog.prototype);
-// var name = 'Lassie';
-// lassie.name = name;
-// lassie.age  = 0;
+app.Dog.prototype = {
+  bark: function() {return 'bark bark!';},
+  sit: function() {return 'sits';},
+  save: function(boysName) {return 'woof (ok, ill save ' + boysName + ')!';}
+};
 
-$(document).ready(function() {
-  app.Dog.prototype = {
-    $template:  $('#dog-template'),
-    bark: function() {return 'bark bark!';},
-    sit: function() {return 'sits';},
-    save: function(boysName) {return 'woof (ok, ill save ' + boysName + ')!';}
-  };
-
-  app.Dog.prototype.render = _.template(app.Dog.prototype.$template.html())
-
-  app.Dog.prototype.addToPage = function() {
-    console.log(this);
+app.Dog.prototype.addToPage = function() {
     var stringOfHtml = this.render({name: this.name, age: this.age});
-    $(stringOfHtml).appendTo(this.$parentDiv);
+    console.log(this)
+    $(stringOfHtml)
+      .appendTo(this.$parentDiv)
+      .find('button').on('click', function() {
+        // debugger
+        // alert(this.bark());
+        alert(app.Dog.prototype.bark())
+      });
+      // }.bind(this));
   }
 
-  // var stringOfHtml = generateNewTemplate({name: 'Lassie', age: 0});
-  // $(stringOfHtml).appendTo($contentDiv);
-  // $(  generateNewTemplate({name: 'Lassie', age: 0})).appendTo($contentDiv);
-})
+$(document).ready(function() {
+  app.Dog.prototype.$template = $('#dog-template');
+  app.Dog.prototype.render    = _.template(app.Dog.prototype.$template.html())
+});
