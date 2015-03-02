@@ -1,3 +1,7 @@
+var $contentDiv,
+    $template,
+    generateNewTemplate;
+
 console.log('woof! Dog "class" loaded!');
 
 var Dog = function(name) {
@@ -12,9 +16,21 @@ var Dog = function(name) {
 // lassie.name = name;
 // lassie.age  = 0;
 
-Dog.prototype = {
-  bark: function() {return 'bark bark!';},
-  sit: function() {return 'sits';},
-  save: function(boysName) {return 'woof (ok, ill save ' + boysName + ')!';}
-};
 
+
+$(document).ready(function() {
+  $contentDiv = $('.content');
+
+  Dog.prototype = {
+    $template: $('#dog-template'),
+    bark: function() {return 'bark bark!';},
+    sit: function() {return 'sits';},
+    save: function(boysName) {return 'woof (ok, ill save ' + boysName + ')!';}
+  };
+
+  Dog.prototype.render = _.template(Dog.prototype.$template.html())
+
+  // var stringOfHtml = generateNewTemplate({name: 'Lassie', age: 0});
+  // $(stringOfHtml).appendTo($contentDiv);
+  // $(  generateNewTemplate({name: 'Lassie', age: 0})).appendTo($contentDiv);
+})

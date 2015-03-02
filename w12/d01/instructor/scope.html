@@ -7,11 +7,8 @@
   </head>
   <body>
 
-    <div>
-      <div>Something here is you want...
-      </div>
+    <div class="content">
     </div>
-    <div></div>
 
     <script>
 var snoopDog = 'doggy dog';
@@ -43,6 +40,14 @@ for(var i=0, len=4; i<len; i++) {
 }
 
 
+    </script>
+
+    <script id="dog-template" type="text/template">
+      <div class="dog">
+        <h3><%= name %></h3>
+        <p>Age: <%= age %></p>
+        <button class="bark">Bark!</button>
+      </div>
     </script>
   </body>
 </html>
