@@ -57,15 +57,21 @@ $(document).ready(  function(){
       accounts.forEach(function(account){
         if(parentID === account.number){
           targetAccount = account;
-          console.log("matched account to " + account.type + "account");
+          // console.log("matched account to " + account.type + "account");
           transactionAmount = parseInt( $( "#" + account.type + "_amount").val() );
-          console.log( transactionAmount);
+          // console.log( transactionAmount);
         }
       });
 
-      targetAccount.amount += transactionAmount;
-      targetAccount.render();
-      $parent.find( "#" + targetAccount.type + "_balance" ).text("$"+targetAccount.amount);
+      if( this.value === "Deposit"){
+        targetAccount.amount += transactionAmount;
+        targetAccount.render();
+        $parent.find( "#" + targetAccount.type + "_balance" ).text("$"+targetAccount.amount);
+      } else{
+        targetAccount.amount -= transactionAmount;
+        targetAccount.render();
+        $parent.find( "#" + targetAccount.type + "_balance" ).text("$"+targetAccount.amount);
+      }
   });
 
 
