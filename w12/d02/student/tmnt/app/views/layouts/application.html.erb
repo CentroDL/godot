@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RouterTmnt</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="header">
+    <div class="tmnt-logo"></div>
+    <div class="nav">
+      <ul>
+        <li><a href="#turtles">TURTLE INDEX</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="content-wrapper">
+    <%= yield %>
+  </div>
+
+<script type="text/template" id="turtle-list-item-template">
+  <%% for(var i=0; i < arr.length; i++) {  %>
+    <li class="turtle <%%= arr[i].eyeband_color %>">
+      <a href="#turtles/<%%= arr[i].id %>"><%%= arr[i].name  %></a>
+    </li>
+  <%% } %>
+</script>
+
+<script type="text/template" id="turtle-profile-template">
+  <h1 class="blue">Leonardo</h1>
+  <img src="http://fc09.deviantart.net/fs70/i/2011/211/5/f/tmnt___leonardo_by_kif_labs-d426yrn.png" alt="Action Pose of Leonardo">
+  <p class="weapon blue">Katanas</p>
+</script>
+
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+</body>
+</html>

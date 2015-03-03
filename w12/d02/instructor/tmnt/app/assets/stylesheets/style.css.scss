@@ -1,0 +1,88 @@
+$half-grey: rgba(0,0,0, 0.5);
+
+html, body {
+  background: url('http://nohealanimasonry.com/masonry/uploads/2013/08/1ms-187665.jpg') repeat-y;
+  background-size: cover;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  height: 100%;
+}
+
+.header {
+  height: 10em;
+  .tmnt-logo {
+    background: url('http://cdn1.sciencefiction.com/wp-content/uploads/2012/12/tumblr_mcqv1cxfA01qfklhjo1_1280-1024x472.png') no-repeat;
+    background-size: contain;
+    height: 100%;
+    margin-left: 1.6em;
+    width: 16em;
+  }
+}
+
+.nav {
+  position: relative;
+  top: -2em;
+  li {
+    display: inline-block;
+    font-size: 1em;
+    padding-left: 4.5em;
+  }
+  a {
+    color: white;
+    display:inline-block;
+    text-decoration: none;
+  }
+  a:hover {
+    color: darken(white, 20)
+  }
+}
+
+.content-wrapper {
+  margin: 0 auto;
+  margin-top: -3em;
+  width: 650px;
+  h1 {
+    text-align: center;
+  }
+  img {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: -2em;
+  }
+  .weapon {
+    font-size: 2em;
+    text-align: center;
+    margin-top: -1em;
+    z-index: 100;
+  }
+}
+
+li.turtle {
+  cursor: pointer;
+  font-size: 3em;
+  opacity: 0.75;
+  margin: 0 auto;
+  list-style: none;
+  text-align: center;
+  width: 50%;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.blue {
+  background-color: blue;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.red {
+  background-color: red;
+}
