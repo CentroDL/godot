@@ -1,4 +1,4 @@
-xdescribe("LambView", function(){
+describe("LambView", function(){
   var lamb, lambView;
 
   beforeEach(function(){
@@ -20,6 +20,7 @@ xdescribe("LambView", function(){
   describe("when it's been silenced", function(){
     it("renders a silent lamb", function(){
       var lamb = new Lamb();
+      lamb.silence();
       var lambView = new LambView(lamb);
       var htmlFrag = '<p class="silent lamb">...</p>';
       expect( lambView.render() ).toEqual(htmlFrag);
