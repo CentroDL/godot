@@ -16,7 +16,6 @@ april.fetch()
 april.get("name") // => "April O'Neil"
 
 
-
 var RatModel = Backbone.Model.extend({
   url: "rat"
 });
@@ -46,14 +45,35 @@ var footSoldiers = new FootSoldiersCollection();
 // fires GET request to '/foot_soldiers'
 footSoldiers.fetch();
 
-// returns Backbone Model
-var footSoldierThree = footSoldiers.get(3);
-
-// returns 68
-footSoldierThree.get("height_in_inches");
 
 
 
+
+
+var VillainModel = Backbone.Model.extend({
+  defaults: {
+    id: null,
+    name: null,
+    species: null,
+    superpower: null
+  }
+});
+
+var VillainCollection = Backbone.Collection.extend({
+  url: "/villains",
+  model: VillainModel
+});
+
+var villains = new VillainCollection();
+
+villains.fetch().done(function(){
+  rocksteady = villains.get(4);
+  krang = villains.get(2);
+  shredder = villains.get(1);
+  speciesOfKrang = krang.get("species");
+  shredder.set("superpower", "hatred");
+  shredder.save();
+});
 
 
 
