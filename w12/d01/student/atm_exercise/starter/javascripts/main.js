@@ -13,6 +13,11 @@ AtmView.prototype.render = function(target){
   var generateAtmViewHTML = _.template( AtmView.prototype.$template.html() );
   var accountHTML =  generateAtmViewHTML( this );
 
+  //adding class zero here doesn't change the element added to layout. find out why
+  // $(accountHTML).find(".balance").addClass("zero");
+  // $(accountHTML).find(".button").on("click", function(e){
+  //   console.log("button clicked!");
+  // });
   $(accountHTML).appendTo($(target));
 }
 
@@ -35,6 +40,11 @@ $(document).ready(  function(){
     var amount = parseInt( $(balance).text().replace("$", "") );
     if( amount === 0)
       $(balance).addClass("zero");
+  });
+
+  $(document).find(":button").on("click", function(e){
+    console.log( this.value);
+
   });
 
 
