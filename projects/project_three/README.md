@@ -47,7 +47,7 @@ Our advice is this:
 ## Deliverables for Wednesday, March 4th (end of day)
 
 - A single paragraph description of what you want your project to do, or be.
-- A Trello board that lists the features as User Stories (*A user can log in.*):
+- A Trello board that lists the features as User Stories (eg: *"A user can log in."*):
   - **Current** (what you're currently working on)
   - **Sprint** (what you hope to have finished in this sprint, ie your MVP)
   - **Backlog** (your wishlist)
