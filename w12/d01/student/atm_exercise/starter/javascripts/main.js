@@ -13,8 +13,6 @@ AtmView.prototype.render = function(target){
   var generateAtmViewHTML = _.template( AtmView.prototype.$template.html() );
   var accountHTML =  generateAtmViewHTML( this );
 
-  var balanceDiv = $(accountHTML).find(".balance")[0];
-  debugger
   $(accountHTML).appendTo($(target));
 }
 
@@ -30,6 +28,15 @@ $(document).ready(  function(){
     console.log("making account");
     account.render("#content");
   });
+
+  var $balances = $(".balance");
+
+  [].forEach.call($balances, function(balance){
+    var amount = parseInt( $(balance).text().replace("$", "") );
+    if( amount === 0)
+      $(balance).addClass("zero");
+  });
+
 
 });
 
