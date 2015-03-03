@@ -25,8 +25,26 @@ var splinter = new RatModel();
 
 splinter.fetch();
 
-debugger
-$(document).ready(function(){
 
+var FootSoldier = Backbone.Model.extend({
+  url: "/foot_soldiers/1"
 });
+
+var footman = new FootSoldier();
+
+footman.fetch().done(function(){
+  footman.set("image_url", "http://forums.3dtotal.com/attachment.php?attachmentid=133257&stc=1&d=1235439726")
+  footman.save();
+  var image_url = footman.get("image_url");
+  console.log("The foot soldier's image_url is: " + image_url);
+});
+
+
+
+
+
+
+
+
+
 
