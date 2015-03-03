@@ -4,10 +4,10 @@
 
 Please open up SpecRunner and look at all our poor failing tests.
 
-It's up to you to make them pass one at a time. 
+It's up to you to make them pass one at a time.
 
-Write the correspoding code inside `src/`
+Write the corresponding code inside `src/`
 
-# Completion
+Start with Lamb and once you've stopped their screaming, move on to Lamb View.
 
-Completion for this will be when the lambs have stopped screaming.
+I left a little bonus for you in Person.
