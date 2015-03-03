@@ -8,10 +8,25 @@
     <script src="javascripts/lodash.js"></script>
   </head>
   <body>
-    <div class="header">
-      <div><img src="images/ga.png" /></div>
-      <div class="title">Bank of GA</div>
+      <div class="header">
+        <div><img src="images/ga.png" /></div>
+        <div class="title">Bank of GA</div>
+      </div>
+
+    <div id="content">
+      <!-- account divs go in here -->
+
     </div>
+
+    <script id="account-template" type="text/template">
+      <div class="account" id="<%= "account" + number %>" >
+      <h2><%= type %></h2>
+      <div class="balance" id="<%= type + "_balance" %>" >$<%= amount %></div>
+      <input id="<%= type  + "_amount" %>" type="text" placeholder="enter an amount" />
+      <input id="<%= type + "_deposit" %>" type="button" value="Deposit" />
+      <input id="<%= type + "_withdraw" %>" type="button" value="Withdraw" />
+      </div>
+    </script>
 
     <script src="javascripts/main.js"></script>
   </body>
