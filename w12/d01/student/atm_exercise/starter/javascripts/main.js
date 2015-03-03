@@ -21,13 +21,20 @@ AtmView.prototype.render = function(target){
   $(accountHTML).appendTo($(target));
 }
 
+AtmView.prototype.deposit = function(){
+  console.log("DEPOSIT CALLED");
+}
+AtmView.prototype.withdraw = function(){
+  console.log("WITHDRAW CALLED");
+}
+
 $(document).ready(  function(){
   console.log("JS Loaded!");
 
-  var checking = new AtmView("checking", 1);
-  var savings  = new AtmView ("savings", 2);
+  checking = new AtmView("checking", 1);
+  savings  = new AtmView ("savings", 2);
 
-  var accounts = [ checking, savings ];
+  accounts = [ checking, savings ];
 
   accounts.forEach( function(account){
     console.log("making account");
@@ -42,9 +49,23 @@ $(document).ready(  function(){
       $(balance).addClass("zero");
   });
 
-  $(document).find(":button").on("click", function(e){
-    console.log( this.value);
+  $(document).find(":button").click(function(e){
 
+      $parent = $(this.parentElement);
+      parentID = parseInt( $parent.attr("id").replace("account", "") );
+
+      accounts.forEach(function(account){
+        if(parentID === account.number){
+          targetAccount = account;
+          console.log("matched account to " + account.type + "account");
+          transactionAmount = parseInt( $( "#" + account.type + "_amount").val() );
+          console.log( transactionAmount);
+        }
+      });
+
+      targetAccount.amount += transactionAmount;
+      targetAccount.render();
+      $parent.find( "#" + targetAccount.type + "_balance" ).text("$"+targetAccount.amount);
   });
 
 
