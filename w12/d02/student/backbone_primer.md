@@ -86,7 +86,7 @@ First, let's build a single model that manages data for Kermit. We know that Ker
 Kermit's model does two things:
 
 - It defines a RESTful URL for his model to sync with, and…
-- It defines default attributes for his model. Default attributes are useful for representing the composition of API data within your front-end code. Also, these defaults guarentee that your model is always fully formed, even before loading its data from ther server.
+- It defines default attributes for his model. Default attributes are useful for representing the composition of API data within your front-end code. Also, these defaults guarantee that your model is always fully formed, even before loading its data from ther server.
 
 However, what IS that `KermitModel` object? Whenever you extend a Backbone component, **you always get back a *constructor function***. That means we need to create an instance of the model before using it:
 
