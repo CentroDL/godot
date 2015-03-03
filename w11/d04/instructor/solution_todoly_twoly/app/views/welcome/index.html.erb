@@ -1,0 +1,105 @@
+<div id="content">
+
+  <div class="task-create">
+    <header>
+      <h1>Todo.ly</h1>
+      <h2>Get stuff done!</h2>
+    </header>
+    <form>
+      <fieldset>
+        <legend>Create a New Task</legend>
+        <label>
+          New Task <input type="text" name="item" />
+        </label>
+        <button>Save</button>
+      </fieldset>
+    </form>
+  </div><!-- /.task-create -->
+
+  <div class="task-list">
+    <h3>Tasks To Do</h3>
+  </div><!-- /.task-list -->
+
+</div><!-- /#content -->
+
+<script type="text/template" id="task-template">
+  <li data-is_complete="<%%= is_complete ? true : false %>"
+      data-id="<%%= id %>">
+    <span class="description <%%= is_complete ? 'complete' : '' %>">
+      <%%= description %>
+    </span>
+    <input type="checkbox" <%%= is_complete ? "checked" : "" %>/>
+    <span class="remove">&times;</span>
+  </li>
+</script>
+
+<script type="text/template" id="tasks-template">
+  <ul id="tasks">
+    <%% for(var i = 0, len = tasks.length, task; i < len; i++) { %>
+      <%% task = tasks[i] %>
+      <%%= taskTemplate(task) %>
+    <%% } %>
+  </ul>
+</script>
+
+
+<script>
+
+  var taskHTMLFrag  = $('#task-template').html();
+  var tasksHTMLFrag = $('#tasks-template').html();
+
+  var taskTemplate  = _.template(taskHTMLFrag);
+  var tasksTemplate = _.template(tasksHTMLFrag);
+
+
+  $.ajax({
+    url: '/tasks',
+    type: 'GET',
+    dataType: 'json'
+  }).done(function(response){
+    var renderedHTML = tasksTemplate({tasks: response });
+    $('.task-list').prepend(renderedHTML);
+  });
+
+  var removeTask = function(e){
+    var $task = $(e.currentTarget).parent('li');
+    var task = $task.data();
+    $.ajax({
+      url: '/tasks/' + task.id,
+      type: 'DELETE'
+    }).done(function(response){
+      $task.remove();
+    });
+  }
+
+  var toggleCompleteTask = function(e) {
+    var $checkBox = $(e.currentTarget);
+    $task = $checkBox.parent('li');
+    task = $task.data();
+    $.ajax({
+      url: '/tasks/' + task.id,
+      type: 'PUT',
+      data: { task: {is_complete: $checkBox.is(':checked') }}
+    }).done(function(response){
+      $task.replaceWith(taskTemplate(response));
+    });
+  }
+
+  var addTask = function(e){
+    e.preventDefault();
+    var taskDesc = $('.task-create input').val();
+    $.ajax({
+      url: '/tasks',
+      type: 'POST',
+      data: { task: {description: taskDesc } }
+    }).done(function(response){
+      $('#tasks').append(taskTemplate(response));
+    });
+  }
+</script>
+
+<script>
+  $('.task-list').on('click', '.remove', removeTask);
+  $('.task-list').on('click', 'input[type=checkbox]', toggleCompleteTask);
+  $('.task-create form').on('submit', addTask);
+</script>
