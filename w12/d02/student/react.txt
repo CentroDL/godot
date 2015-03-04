@@ -1,0 +1,20 @@
+Short description of the tool
+  View Library
+Who made it? (if available)
+  Facebook and Instagram
+Pattern (MVC? V-only? etc.)
+  V
+Dependencies (other libraries this tool depends on)
+  node.js
+Library or Framework?
+  library
+Minified filesize (NOT g-zipped! Download the minified script and ⌘I it)
+ 130 kB
+Browser Support (if available)
+ ie8
+GitHub Commits (rounded to the nearest hundred)
+  3800
+Commits per Kilobyte (number of commits / minified kilobytes)
+  29
+GitHub Stars (rounded to the nearest hundred)
+  17.3k
