@@ -19,8 +19,7 @@ Your self-assessment is an invaluable tool. Review it on a regular basis and chi
 Identify common areas of interest (gaming, education, healthcare, et cetera) among your classmates, and use Slack to alert them to meetups you plan on attending. Trust us, it's always easier to go with a group than alone.
 
 #### Keep Building
-
-* refactor and write tests for your projects. Add new features using BDD.
+* Build your own projects. There's no better way to learn.
 * Fork open source projects on GitHub and submit fixes to issues.
 * Make it a goal to open your terminal every day. We've learned an incredible about over the past 3 months, and most likely you're tired. But it is critical that you keep repping because you will forget what you've learned if you don't keep at it. So keep at it.
 
