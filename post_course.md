@@ -1,6 +1,6 @@
 ## Post-Class Workflow
 
-Sadly, we've wrapped up our time together as a class, and thus your learning process going forward will be mostly self-directed. To help focus your time, we've put together this guide on how to approach your development post-course.
+Sadly, we've wrapped up our time together as a class, and thus your learning process going forward will be mostly self-directed. To help focus your time, we've put together this guide on how to best approach your development post-course.
 
 #### Self-Assessment
 
