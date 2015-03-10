@@ -40,6 +40,17 @@ Identify common areas of interest (gaming, education, healthcare, et cetera) amo
   * [Rails Anti-Patterns](http://www.amazon.com/Rails-AntiPatterns-Refactoring-Addison-Wesley-Professional/dp/0321604814) (Intermediate)
   * [The Rails 4 Way](http://www.amazon.com/Rails-Way-Addison-Wesley-Professional-Ruby/dp/0321944275/ref=sr_1_1?s=books&ie=UTF8&qid=1414681549&sr=1-1&keywords=The+Rails+4+way) (Advanced)
 
+#### Blogs/Online Resources
+
+* Tender Love
+  - on [twitter](https://twitter.com/tenderlove)
+  - [blog](http://tenderlovemaking.com/)
+* Paul Irish
+  - [blog](http://www.paulirish.com/)
+  - on [twitter](https://twitter.com/paul_irish)
+* CSS Tricks/Chris Coyer
+  - [blog](https://css-tricks.com/)
+
 #### Do Interview Prep & Practice Problems
 
 * [Project Euler](http://projecteuler.net/problems)
