@@ -2,7 +2,7 @@
 
 Sadly, we've wrapped up our time together as a class, and thus your learning process going forward will be mostly self-directed. To help focus your time, we've put together this guide on how to best approach your development post-course.
 
-#### Self-Assessment
+#### Use Your Self-Assessment
 
 Your self-assessment is an invaluable tool. Review it on a regular basis and chip away at all the stuff you are even remotely unsure of. Provided you're honest with yourself, it will give you the best measuring stick of your understanding and progress.
 
@@ -20,11 +20,11 @@ Your self-assessment is an invaluable tool. Review it on a regular basis and chi
   * Plan what you are going to tackle that day, however big or small.
   * Identify anything that might be blocking you and figure out what needs to happen to remove those blockers
 
-#### Meetups
+#### Attend Meetups
 
 Identify common areas of interest (gaming, education, healthcare, et cetera) among your classmates, and use Slack to alert them to meetups you plan on attending. Trust us, it's always easier to go with a group than alone.
 
-#### Reading
+#### Read! 
 
 * __Git__
   * [Git Pro](http://www.amazon.com/Pro-Git-Scott-Chacon/dp/1430218339/ref=sr_1_2?s=books&ie=UTF8&qid=1414681405&sr=1-2&keywords=git+pro)
@@ -40,7 +40,7 @@ Identify common areas of interest (gaming, education, healthcare, et cetera) amo
   * [Rails Anti-Patterns](http://www.amazon.com/Rails-AntiPatterns-Refactoring-Addison-Wesley-Professional/dp/0321604814) (Intermediate)
   * [The Rails 4 Way](http://www.amazon.com/Rails-Way-Addison-Wesley-Professional-Ruby/dp/0321944275/ref=sr_1_1?s=books&ie=UTF8&qid=1414681549&sr=1-1&keywords=The+Rails+4+way) (Advanced)
 
-#### Interview Prep & Practice Problems
+#### Do Interview Prep & Practice Problems
 
 * [Project Euler](http://projecteuler.net/problems)
 * [Exercism.io](http://exercism.io/)
