@@ -18,14 +18,6 @@ Your self-assessment is an invaluable tool. Review it on a regular basis and chi
 
 Identify common areas of interest (gaming, education, healthcare, et cetera) among your classmates, and use Slack to alert them to meetups you plan on attending. Trust us, it's always easier to go with a group than alone.
 
-#### Personal Portfolio Site
-
-* Build a minimalist personal portfolio site that provides only the necessary information for visitors/potential employers. Make sure it works in all major browsers. Check out creating [GitHub](https://pages.github.com/) pages for all your projects and portfolios.
-    - __NOTE:__ When a style declaration doesn't do what you want or expect, research _why_, as this is the best way to gain enduring understandings of CSS.
-
-#### GitHub Profile
-* Make sure that the repos you have in your public GitHub profile are documented with descriptions, and links to relevant technologies and a live site
-
 #### Keep Building
 
 * refactor and write tests for your projects. Add new features using BDD.
