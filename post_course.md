@@ -6,6 +6,12 @@ Sadly, we've wrapped up our time together as a class, and thus your learning pro
 
 Your self-assessment is an invaluable tool. Review it on a regular basis and chip away at all the stuff you are even remotely unsure of. Provided you're honest with yourself, it will give you the best measuring stick of your understanding and progress.
 
+#### Keep Building
+
+* Build your own projects. There's no better way to learn.
+* Fork open source projects on GitHub and submit fixes to issues.
+* Make it a goal to open your terminal every day. We've learned an incredible about over the past 3 months, and most likely you're tired. But it is critical that you keep repping because you will forget what you've learned if you don't keep at it. So keep at it.
+
 #### SCRUM with each other at GA
 
 * Self-organize into groups and agree on a time to meet at GA or elsewhere.
@@ -17,11 +23,6 @@ Your self-assessment is an invaluable tool. Review it on a regular basis and chi
 #### Meetups
 
 Identify common areas of interest (gaming, education, healthcare, et cetera) among your classmates, and use Slack to alert them to meetups you plan on attending. Trust us, it's always easier to go with a group than alone.
-
-#### Keep Building
-* Build your own projects. There's no better way to learn.
-* Fork open source projects on GitHub and submit fixes to issues.
-* Make it a goal to open your terminal every day. We've learned an incredible about over the past 3 months, and most likely you're tired. But it is critical that you keep repping because you will forget what you've learned if you don't keep at it. So keep at it.
 
 #### Reading
 
