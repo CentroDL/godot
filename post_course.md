@@ -6,7 +6,7 @@ Sadly, we've wrapped up our time together as a class, and thus your learning pro
 
 Your self-assessment is an invaluable tool. Review it on a regular basis and chip away at all the stuff you are even remotely unsure of. Provided you're honest with yourself, it will give you the best measuring stick of your understanding and progress.
 
-#### Building
+#### WRITE CODE
 
 * Build out your old projects and start new ones. There's no better way to learn than to build.
 * Fork open source projects on GitHub and submit fixes to issues.
