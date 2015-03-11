@@ -76,6 +76,7 @@ If you want to email the entire class and the instructional team, please use:<br
 | **February 17-20** | Tuesday &ndash; Friday | (Likely) Group Project Sprint: **do not miss<br>as your team depends upon you!** |
 | **February 27** | Friday  | Full Day Lab |
 | **March 10**    | Tuesday | **Last day of class & graduation!** |
+| **March 13**    | Friday | Student Repo and HipChat close down |
 
 Note: in the weeks following your graduation, there will be a number of various job search preparation tutorials and hiring events, with dates TBD.
 
